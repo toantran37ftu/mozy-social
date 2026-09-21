@@ -50,6 +50,8 @@
     .detail-panel-body { padding: 20px; }
     .detail-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.3); z-index: 140; display: none; }
     .detail-backdrop.open { display: block; }
+    .date-input { padding: 6px 10px; border: 1px solid var(--gray-200); border-radius: 6px; font-size: 13px; background: #fff; }
+    .date-input:focus { outline: none; border-color: var(--primary); }
   </style>
 </head>
 <body>
@@ -62,7 +64,7 @@
     const params = new URLSearchParams(window.location.search);
     const detailType = params.get('type') || 'topic';
     const detailId = parseInt(params.get('id')) || 1;
-    const state = { channelTab: 'all', socialSub: 'all', sentiment: 'all', timeRange: '7d' };
+    const state = { channelTab: 'all', socialSub: 'all', sentiment: 'all', timeRange: '7d', customFrom: '', customTo: '' };
 
     function getDetail() {
       if (detailType === 'topic') return TOPICS.find(t => t.id === detailId);
@@ -201,7 +203,14 @@
       const mentionComment = socialTotal - mentionPost;
       const mentionTotal = mentionPress + mentionPost + mentionComment || 1;
 
-      const days = state.timeRange === '30d' ? 30 : 7;
+      let days;
+      if (state.timeRange === 'custom' && state.customFrom && state.customTo) {
+        const from = new Date(state.customFrom);
+        const to = new Date(state.customTo);
+        days = Math.max(1, Math.round((to - from) / (1000 * 60 * 60 * 24)) + 1);
+      } else {
+        days = state.timeRange === '30d' ? 30 : 7;
+      }
       const daily = buildDaily(days);
       const authorTrend = buildAuthorTrend(days);
       const engagementData = buildEngagement(days);
@@ -244,6 +253,12 @@
                 <span style="font-size:13px;font-weight:500;color:var(--gray-600);margin-right:8px;">Thời gian:</span>
                 <button class="seg-btn ${state.timeRange === '7d' ? 'active' : ''}" onclick="setTime('7d')">7 ngày</button>
                 <button class="seg-btn ${state.timeRange === '30d' ? 'active' : ''}" onclick="setTime('30d')">30 ngày</button>
+                <button class="seg-btn ${state.timeRange === 'custom' ? 'active' : ''}" onclick="setTime('custom')">Tuỳ chỉnh</button>
+                <div style="margin-left:8px;${state.timeRange === 'custom' ? '' : 'display:none;'}">
+                  <input type="date" class="date-input" value="${state.customFrom || '2026-09-10'}" onchange="state.customFrom=this.value;render();">
+                  <span style="margin:0 4px;color:var(--gray-400);">—</span>
+                  <input type="date" class="date-input" value="${state.customTo || '2026-09-17'}" onchange="state.customTo=this.value;render();">
+                </div>
               </div>
               <div style="display:flex;align-items:center;gap:0;">
                 <span style="font-size:13px;font-weight:500;color:var(--gray-600);margin-right:8px;">Sentiment:</span>
