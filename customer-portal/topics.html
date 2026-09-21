@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chủ đề & Từ khoá — Mozy</title>
+  <title>Tất cả chủ đề — Mozy</title>
   <link rel="stylesheet" href="shared.css">
 </head>
 <body>
@@ -29,7 +29,7 @@
       document.getElementById('app').innerHTML = `
         ${buildSidebar('topics')}
         <div class="main">
-          ${buildHeader('Chủ đề & Từ khoá')}
+          ${buildHeader('Tất cả chủ đề')}
           <div class="content fade-in">
             ${atLimit ? '<div class="alert alert-warning">&#9888; Bạn đã đạt giới hạn ' + CURRENT_CUSTOMER.plan.topicLimit + ' chủ đề theo gói hiện tại. Vui lòng liên hệ nâng gói hoặc xoá bớt chủ đề.</div>' : ''}
             <div class="card">

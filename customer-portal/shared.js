@@ -131,9 +131,12 @@ function buildSidebar(activePage) {
         <a href="dashboard.html" class="${activePage === 'dashboard' ? 'active' : ''}">
           <span class="nav-icon">&#128200;</span> Tổng quan
         </a>
-        <a href="topics.html" class="${activePage === 'topics' ? 'active' : ''}">
-          <span class="nav-icon">&#128196;</span> Chủ đề & Từ khoá
-        </a>
+        <div style="display:flex;align-items:center;justify-content:space-between;padding-right:12px;" class="${activePage === 'topics' ? 'active' : ''}">
+          <a href="topics.html" style="flex:1;display:flex;align-items:center;gap:10px;padding:10px 24px;color:inherit;font-size:14px;text-decoration:none;">
+            <span class="nav-icon">&#128196;</span> Tất cả chủ đề
+          </a>
+          <button onclick="event.preventDefault();event.stopPropagation();openCreateTopicFromSidebar()" title="Tạo chủ đề" style="width:24px;height:24px;border-radius:6px;border:1px solid var(--gray-600);background:transparent;color:var(--gray-400);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:16px;line-height:1;transition:all 0.15s;" onmouseover="this.style.background='rgba(255,255,255,0.1)';this.style.color='#fff';this.style.borderColor='var(--gray-400)'" onmouseout="this.style.background='transparent';this.style.color='var(--gray-400)';this.style.borderColor='var(--gray-600)'">+</button>
+        </div>
         ${TOPICS.map(t => `
         <a href="detail.html?type=topic&id=${t.id}" style="padding-left:44px;font-size:13px;" class="${activePage === 'topic-'+t.id ? 'active' : ''}">
           <span style="width:6px;height:6px;border-radius:50%;background:${t.status === 'active' ? 'var(--success)' : 'var(--gray-400)'};flex-shrink:0;"></span>
@@ -170,6 +173,114 @@ function buildHeader(title) {
         </div>
       </div>
     </header>`;
+}
+
+// ============ Sidebar Create Topic ============
+function openCreateTopicFromSidebar() {
+  if (document.getElementById('sidebarTopicModal')) {
+    openModal('sidebarTopicModal');
+    return;
+  }
+
+  const activeSources = SOURCES.filter(s => s.status === 'active');
+  const html = `
+    <div class="modal-overlay" id="sidebarTopicModal">
+      <div class="modal" style="max-width:600px;">
+        <div class="modal-header">
+          <h3>Tạo chủ đề mới</h3>
+          <button class="modal-close" onclick="closeModal('sidebarTopicModal')">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form id="sidebarTopicForm" onsubmit="event.preventDefault();submitSidebarTopic();">
+            <div class="form-group">
+              <label class="form-label">Tên chủ đề <span class="required">*</span></label>
+              <input type="text" class="form-input" id="sTName" required placeholder="VD: Chính sách Hậu Giang">
+              <div class="form-error" id="sTNameError"></div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Nhóm Keyword chính <span class="required">*</span></label>
+              <div class="form-hint" style="margin-bottom:6px;">Nhập từ rồi bấm Enter để thêm.</div>
+              <div class="tag-input-wrap" id="sidebarTagPrimary">
+                <input type="text" class="tag-input-field" placeholder="Nhập keyword chính...">
+              </div>
+              <div class="form-error" id="sTPrimaryError"></div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Nhóm Keyword phụ</label>
+              <div class="form-hint" style="margin-bottom:6px;">Tuỳ chọn. Nếu có, tin bài phải chứa thêm 1 từ trong nhóm này.</div>
+              <div class="tag-input-wrap" id="sidebarTagSecondary">
+                <input type="text" class="tag-input-field" placeholder="Nhập keyword phụ...">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Nhóm Keyword loại trừ</label>
+              <div class="form-hint" style="margin-bottom:6px;">Tuỳ chọn. Tin bài chứa từ này sẽ bị loại bỏ.</div>
+              <div class="tag-input-wrap negative" id="sidebarTagExclude">
+                <input type="text" class="tag-input-field" placeholder="Nhập keyword loại trừ...">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Nguồn áp dụng</label>
+              <div style="display:flex;flex-direction:column;gap:6px;">
+                <label style="display:flex;align-items:center;gap:8px;font-size:14px;cursor:pointer;">
+                  <input type="checkbox" id="sTAllSources" checked onchange="document.getElementById('sTSourceList').style.display=this.checked?'none':'block'"> <strong>Tất cả nguồn</strong>
+                </label>
+                <div id="sTSourceList" style="padding-left:24px;display:none;">
+                  ${activeSources.map(s => `
+                    <label style="display:flex;align-items:center;gap:8px;font-size:13px;cursor:pointer;padding:2px 0;">
+                      <input type="checkbox" class="s-source-cb" value="${s.id}"> ${getSourceTypeIcon(s.type)} ${s.name}
+                    </label>`).join('')}
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-outline" onclick="closeModal('sidebarTopicModal')">Hủy</button>
+          <button class="btn btn-primary" onclick="submitSidebarTopic()">Tạo</button>
+        </div>
+      </div>
+    </div>`;
+
+  document.body.insertAdjacentHTML('beforeend', html);
+  window._sidebarTagPrimary = createTagInput('sidebarTagPrimary', []);
+  window._sidebarTagSecondary = createTagInput('sidebarTagSecondary', []);
+  window._sidebarTagExclude = createTagInput('sidebarTagExclude', []);
+  openModal('sidebarTopicModal');
+}
+
+function submitSidebarTopic() {
+  const name = document.getElementById('sTName').value.trim();
+  const primary = window._sidebarTagPrimary.getTags();
+  const nameErr = document.getElementById('sTNameError');
+  const primaryErr = document.getElementById('sTPrimaryError');
+
+  if (!name) return;
+  if (primary.length === 0) { primaryErr.textContent = 'Cần ít nhất 1 keyword chính'; primaryErr.classList.add('visible'); return; }
+  primaryErr.classList.remove('visible');
+
+  const exists = TOPICS.some(t => t.name.toLowerCase() === name.toLowerCase());
+  if (exists) { nameErr.textContent = 'Tên chủ đề đã tồn tại'; nameErr.classList.add('visible'); return; }
+  nameErr.classList.remove('visible');
+
+  let sourceIds;
+  if (document.getElementById('sTAllSources').checked) {
+    sourceIds = SOURCES.filter(s => s.status === 'active').map(s => s.id);
+  } else {
+    sourceIds = [...document.querySelectorAll('.s-source-cb:checked')].map(cb => parseInt(cb.value));
+  }
+
+  TOPICS.push({
+    id: TOPICS.length + 100, name, primaryKeywords: primary,
+    secondaryKeywords: window._sidebarTagSecondary.getTags(),
+    excludeKeywords: window._sidebarTagExclude.getTags(),
+    sourceIds, status: 'active',
+    createdAt: new Date().toISOString().slice(0, 10), totalMentions: 0, monthMentions: 0
+  });
+
+  closeModal('sidebarTopicModal');
+  showToast('Tạo chủ đề "' + name + '" thành công');
+  if (typeof render === 'function') render();
 }
 
 // ============ Tag Input Component ============
