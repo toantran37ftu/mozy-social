@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nguồn theo dõi — Mozy</title>
+  <link rel="stylesheet" href="shared.css">
+</head>
+<body>
+  <div class="layout" id="app"></div>
+  <script src="shared.js"></script>
+  <script>
+    const state = { search: '', typeFilter: 'all', statusFilter: 'all' };
+
+    function getFiltered() {
+      let data = [...SOURCES];
+      if (state.search) {
+        const q = state.search.toLowerCase();
+        data = data.filter(s => s.name.toLowerCase().includes(q) || s.url.toLowerCase().includes(q));
+      }
+      if (state.typeFilter !== 'all') data = data.filter(s => s.type === state.typeFilter);
+      if (state.statusFilter !== 'all') data = data.filter(s => s.status === state.statusFilter);
+      return data;
+    }
+
+    function render() {
+      const filtered = getFiltered();
+      const sourceTypes = [...new Set(SOURCES.map(s => s.type))];
+      const atLimit = CURRENT_CUSTOMER.usage.sources >= CURRENT_CUSTOMER.plan.sourceLimit;
+
+      document.getElementById('app').innerHTML = `
+        ${buildSidebar('sources')}
+        <div class="main">
+          ${buildHeader('Nguồn theo dõi')}
+          <div class="content fade-in">
+            ${atLimit ? '<div class="alert alert-warning">&#9888; Bạn đã đạt giới hạn ' + CURRENT_CUSTOMER.plan.sourceLimit + ' nguồn theo gói hiện tại. Vui lòng liên hệ nâng gói hoặc xoá bớt nguồn không cần thiết.</div>' : ''}
+            <div class="card">
+              <div class="card-header">
+                <div class="toolbar" style="flex:1;">
+                  <div class="search-box">
+                    <span class="search-icon">&#128269;</span>
+                    <input type="text" id="searchInput" placeholder="Tìm kiếm tên, URL..." value="${state.search}">
+                  </div>
+                  <select class="filter-select" id="typeFilter">
+                    <option value="all">Tất cả loại</option>
+                    ${sourceTypes.map(t => `<option value="${t}" ${state.typeFilter === t ? 'selected' : ''}>${t}</option>`).join('')}
+                  </select>
+                  <select class="filter-select" id="statusFilter">
+                    <option value="all">Tất cả trạng thái</option>
+                    <option value="active" ${state.statusFilter === 'active' ? 'selected' : ''}>Đang chạy</option>
+                    <option value="error" ${state.statusFilter === 'error' ? 'selected' : ''}>Lỗi</option>
+                    <option value="pending" ${state.statusFilter === 'pending' ? 'selected' : ''}>Chờ xác thực</option>
+                  </select>
+                </div>
+                <button class="btn btn-primary" onclick="openAddSource()" ${atLimit ? 'disabled style="opacity:0.5;cursor:not-allowed;"' : ''}>+ Thêm nguồn</button>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Tên nguồn / URL</th>
+                      <th>Loại</th>
+                      <th>Trạng thái</th>
+                      <th>Chủ đề gán</th>
+                      <th>Ngày thêm</th>
+                      <th>Thao tác</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${filtered.map(s => `
+                      <tr style="cursor:default;">
+                        <td>
+                          <strong>${s.name}</strong>
+                          <div style="font-size:12px;color:var(--gray-500);word-break:break-all;">${s.url}</div>
+                        </td>
+                        <td><span class="badge badge-neutral">${getSourceTypeIcon(s.type)} ${s.type}</span></td>
+                        <td>${getStatusBadge(s.status)}${s.errorReason ? `<div style="font-size:11px;color:var(--danger);margin-top:2px;">${s.errorReason}</div>` : ''}</td>
+                        <td>
+                          <div style="display:flex;flex-wrap:wrap;gap:3px;">
+                            ${s.topicIds.map(tid => { const t = TOPICS.find(x => x.id === tid); return t ? `<span class="badge badge-info" style="font-size:11px;">${t.name}</span>` : ''; }).join('')}
+                            ${s.topicIds.length === 0 ? '<span style="color:var(--gray-400);font-size:12px;">—</span>' : ''}
+                          </div>
+                        </td>
+                        <td style="white-space:nowrap;color:var(--gray-500);">${formatDate(s.addedAt)}</td>
+                        <td>
+                          <div class="btn-group">
+                            <button class="btn btn-outline btn-sm" onclick="openEditSource(${s.id})">Sửa</button>
+                            ${s.status === 'error' ? `<button class="btn btn-outline btn-sm" onclick="retrySource(${s.id})" style="color:var(--warning);">Thử lại</button>` : ''}
+                            <button class="btn btn-sm" style="color:var(--danger);border:1px solid var(--danger);background:#fff;" onclick="deleteSource(${s.id})">Xóa</button>
+                          </div>
+                        </td>
+                      </tr>
+                    `).join('')}
+                    ${filtered.length === 0 ? '<tr><td colspan="6"><div class="empty-state"><div class="empty-icon">&#128279;</div><p>Chưa có nguồn nào. Bấm "Thêm nguồn" để bắt đầu!</p></div></td></tr>' : ''}
+                  </tbody>
+                </table>
+              </div>
+              <div class="pagination">
+                <span>${filtered.length} nguồn &middot; Đã dùng ${CURRENT_CUSTOMER.usage.sources}/${CURRENT_CUSTOMER.plan.sourceLimit}</span>
+                <div class="progress-bar" style="width:120px;height:6px;">
+                  <div class="progress-fill ${usageColor(usagePercent(CURRENT_CUSTOMER.usage.sources, CURRENT_CUSTOMER.plan.sourceLimit))}" style="width:${usagePercent(CURRENT_CUSTOMER.usage.sources, CURRENT_CUSTOMER.plan.sourceLimit)}%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add/Edit Modal -->
+        <div class="modal-overlay" id="sourceModal">
+          <div class="modal">
+            <div class="modal-header">
+              <h3 id="sourceModalTitle">Thêm nguồn mới</h3>
+              <button class="modal-close" onclick="closeModal('sourceModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+              <form id="sourceForm">
+                <div class="form-group">
+                  <label class="form-label">URL nguồn <span class="required">*</span></label>
+                  <input type="url" class="form-input" id="sUrl" required placeholder="https://example.com" value="">
+                  <div class="form-hint">Nhập URL báo, fanpage, kênh YouTube, TikTok...</div>
+                  <div class="form-error" id="sUrlError"></div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Loại nguồn <span class="required">*</span></label>
+                  <select class="form-select" id="sType" required>
+                    <option value="">Chọn loại...</option>
+                    <option value="Báo chí">Báo chí</option>
+                    <option value="Facebook Fanpage">Facebook Fanpage</option>
+                    <option value="Facebook Group">Facebook Group</option>
+                    <option value="TikTok">TikTok</option>
+                    <option value="YouTube">YouTube</option>
+                    <option value="Zalo OA">Zalo OA</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Tên hiển thị</label>
+                  <input type="text" class="form-input" id="sName" placeholder="Tự động lấy từ URL">
+                  <div class="form-hint">Để trống sẽ tự lấy tên từ URL</div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-outline" onclick="closeModal('sourceModal')">Hủy</button>
+              <button class="btn btn-primary" onclick="submitSource()">Thêm nguồn</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Delete Confirm Modal -->
+        <div class="modal-overlay" id="deleteModal">
+          <div class="modal" style="max-width:420px;">
+            <div class="modal-header">
+              <h3>Xác nhận xóa nguồn</h3>
+              <button class="modal-close" onclick="closeModal('deleteModal')">&times;</button>
+            </div>
+            <div class="modal-body" id="deleteBody"></div>
+            <div class="modal-footer">
+              <button class="btn btn-outline" onclick="closeModal('deleteModal')">Hủy</button>
+              <button class="btn btn-danger" onclick="confirmDelete()">Xóa</button>
+            </div>
+          </div>
+        </div>`;
+
+      document.getElementById('searchInput').addEventListener('input', e => { state.search = e.target.value; render(); });
+      document.getElementById('typeFilter').addEventListener('change', e => { state.typeFilter = e.target.value; render(); });
+      document.getElementById('statusFilter').addEventListener('change', e => { state.statusFilter = e.target.value; render(); });
+
+      document.getElementById('sUrl').addEventListener('input', function() {
+        if (!document.getElementById('sName').value || document.getElementById('sName').dataset.auto === 'true') {
+          try { const u = new URL(this.value); document.getElementById('sName').value = u.hostname.replace('www.', ''); document.getElementById('sName').dataset.auto = 'true'; } catch {}
+        }
+      });
+    }
+
+    let editingSourceId = null;
+    function openAddSource() {
+      editingSourceId = null;
+      document.getElementById('sourceModalTitle').textContent = 'Thêm nguồn mới';
+      document.getElementById('sUrl').value = '';
+      document.getElementById('sType').value = '';
+      document.getElementById('sName').value = '';
+      document.getElementById('sUrlError').classList.remove('visible');
+      openModal('sourceModal');
+    }
+
+    function openEditSource(id) {
+      const s = SOURCES.find(x => x.id === id);
+      if (!s) return;
+      editingSourceId = id;
+      document.getElementById('sourceModalTitle').textContent = 'Chỉnh sửa nguồn';
+      document.getElementById('sUrl').value = s.url;
+      document.getElementById('sType').value = s.type;
+      document.getElementById('sName').value = s.name;
+      document.getElementById('sUrlError').classList.remove('visible');
+      openModal('sourceModal');
+    }
+
+    function submitSource() {
+      const url = document.getElementById('sUrl').value.trim();
+      const type = document.getElementById('sType').value;
+      let name = document.getElementById('sName').value.trim();
+      const urlErr = document.getElementById('sUrlError');
+
+      if (!url || !type) return;
+
+      // Validate URL
+      try { new URL(url); } catch { urlErr.textContent = 'URL không hợp lệ'; urlErr.classList.add('visible'); return; }
+      urlErr.classList.remove('visible');
+
+      if (!name) { try { name = new URL(url).hostname.replace('www.', ''); } catch { name = url; } }
+
+      // Check duplicate
+      if (!editingSourceId) {
+        const exists = SOURCES.some(s => s.url.toLowerCase() === url.toLowerCase());
+        if (exists) { urlErr.textContent = 'URL này đã tồn tại trong danh sách nguồn'; urlErr.classList.add('visible'); return; }
+      }
+
+      if (editingSourceId) {
+        const s = SOURCES.find(x => x.id === editingSourceId);
+        if (s) { s.name = name; s.url = url; s.type = type; }
+        showToast('Cập nhật nguồn thành công');
+      } else {
+        SOURCES.push({
+          id: SOURCES.length + 100, name, url, type,
+          status: 'pending', addedAt: new Date().toISOString().slice(0, 10),
+          topicIds: [], keywordIds: []
+        });
+        showToast('Thêm nguồn thành công! Đang xác thực...');
+        // Simulate status change
+        setTimeout(() => {
+          const s = SOURCES[SOURCES.length - 1];
+          if (s) s.status = 'active';
+        }, 2000);
+      }
+
+      closeModal('sourceModal');
+      render();
+    }
+
+    let deletingSourceId = null;
+    function deleteSource(id) {
+      const s = SOURCES.find(x => x.id === id);
+      if (!s) return;
+      deletingSourceId = id;
+      const hasTopics = s.topicIds.length > 0;
+      document.getElementById('deleteBody').innerHTML = `
+        <p>Bạn có chắc muốn xóa nguồn <strong>${s.name}</strong>?</p>
+        ${hasTopics ? '<div class="alert alert-warning" style="margin-top:12px;">Nguồn này đang được gán cho ' + s.topicIds.length + ' chủ đề. Sau khi xóa, nguồn sẽ không còn trong danh sách gán nguồn cho các chủ đề.</div>' : ''}
+        <p style="font-size:13px;color:var(--gray-500);margin-top:8px;">Dữ liệu lịch sử đã thu thập từ nguồn này vẫn được giữ nguyên.</p>`;
+      openModal('deleteModal');
+    }
+
+    function confirmDelete() {
+      if (deletingSourceId) {
+        const idx = SOURCES.findIndex(s => s.id === deletingSourceId);
+        if (idx >= 0) SOURCES.splice(idx, 1);
+        showToast('Đã xóa nguồn');
+        closeModal('deleteModal');
+        render();
+      }
+    }
+
+    function retrySource(id) {
+      const s = SOURCES.find(x => x.id === id);
+      if (s) { s.status = 'pending'; }
+      showToast('Đang thử lại...', 'info');
+      setTimeout(() => {
+        if (s) s.status = Math.random() > 0.3 ? 'active' : 'error';
+        render();
+      }, 1500);
+      render();
+    }
+
+    render();
+  </script>
+</body>
+</html>

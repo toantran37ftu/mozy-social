@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duyệt yêu cầu Nguồn — Mozy Admin</title>
+  <link rel="stylesheet" href="shared.css">
+  <style>
+    .existing-badge {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 3px 10px; background: var(--warning-bg); color: #92400E;
+      border-radius: 9999px; font-size: 11px; font-weight: 600;
+      margin-top: 4px;
+    }
+    .tech-ok { color: var(--success); font-weight: 600; }
+    .tech-err { color: var(--danger); font-weight: 600; }
+    .reject-reason-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+    .reject-reason-list label {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 14px; cursor: pointer; padding: 4px 0;
+    }
+    .detail-panel { position: fixed; top: 0; right: -560px; width: 560px; height: 100vh; background: #fff; box-shadow: -4px 0 24px rgba(0,0,0,0.12); z-index: 150; transition: right 0.3s ease; overflow-y: auto; border-left: 1px solid var(--gray-200); }
+    .detail-panel.open { right: 0; }
+    .detail-panel-header { padding: 16px 20px; border-bottom: 1px solid var(--gray-200); display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; background: #fff; z-index: 1; }
+    .detail-panel-body { padding: 20px; }
+    .detail-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.3); z-index: 140; display: none; cursor: pointer; }
+    .detail-backdrop.open { display: block; }
+  </style>
+</head>
+<body>
+  <div class="layout" id="app"></div>
+  <div class="detail-backdrop" id="detailBackdrop" onclick="closeDetailPanel()"></div>
+  <div class="detail-panel" id="detailPanel"></div>
+
+  <script src="shared.js"></script>
+  <script>
+    const state = { search: '', statusFilter: 'pending', typeFilter: 'all', customerFilter: 'all', selected: new Set() };
+
+    function getFiltered() {
+      let data = [...SOURCE_REQUESTS];
+      if (state.search) {
+        const q = state.search.toLowerCase();
+        data = data.filter(r => r.name.toLowerCase().includes(q) || r.url.toLowerCase().includes(q) || getCustomerName(r.customerId).toLowerCase().includes(q));
+      }
+      if (state.statusFilter !== 'all') data = data.filter(r => r.status === state.statusFilter);
+      if (state.typeFilter !== 'all') data = data.filter(r => r.type === state.typeFilter);
+      if (state.customerFilter !== 'all') data = data.filter(r => r.customerId === parseInt(state.customerFilter));
+      data.sort((a, b) => new Date(a.requestedAt) - new Date(b.requestedAt));
+      return data;
+    }
+
+    function render() {
+      const filtered = getFiltered();
+      const pendingAll = SOURCE_REQUESTS.filter(r => r.status === 'pending').length;
+      const approvedAll = SOURCE_REQUESTS.filter(r => r.status === 'approved').length;
+      const rejectedAll = SOURCE_REQUESTS.filter(r => r.status === 'rejected').length;
+      const hasSelection = state.selected.size > 0;
+      const isPending = state.statusFilter === 'pending';
+
+      document.getElementById('app').innerHTML = `
+        ${buildSidebar('approvals')}
+        <div class="main">
+          ${buildHeader('Duyệt yêu cầu Nguồn mới')}
+          <div class="content fade-in">
+            <!-- Summary -->
+            <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:20px;">
+              <div class="stat-card" style="border-left:3px solid var(--warning);cursor:pointer;" onclick="setStatusFilter('pending')">
+                <div class="stat-value" style="color:var(--warning);">${pendingAll}</div>
+                <div class="stat-label">Chờ duyệt</div>
+              </div>
+              <div class="stat-card" style="border-left:3px solid var(--success);cursor:pointer;" onclick="setStatusFilter('approved')">
+                <div class="stat-value" style="color:var(--success);">${approvedAll}</div>
+                <div class="stat-label">Đã duyệt</div>
+              </div>
+              <div class="stat-card" style="border-left:3px solid var(--danger);cursor:pointer;" onclick="setStatusFilter('rejected')">
+                <div class="stat-value" style="color:var(--danger);">${rejectedAll}</div>
+                <div class="stat-label">Bị từ chối</div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <div class="toolbar" style="flex:1;">
+                  <div class="search-box">
+                    <span class="search-icon">&#128269;</span>
+                    <input type="text" id="searchInput" placeholder="Tìm KH, tên nguồn, URL..." value="${state.search}">
+                  </div>
+                  <select class="filter-select" id="statusFilter">
+                    <option value="pending" ${state.statusFilter === 'pending' ? 'selected' : ''}>Chờ duyệt</option>
+                    <option value="all" ${state.statusFilter === 'all' ? 'selected' : ''}>Tất cả</option>
+                    <option value="approved" ${state.statusFilter === 'approved' ? 'selected' : ''}>Đã duyệt</option>
+                    <option value="rejected" ${state.statusFilter === 'rejected' ? 'selected' : ''}>Bị từ chối</option>
+                  </select>
+                  <select class="filter-select" id="typeFilter">
+                    <option value="all">Tất cả loại</option>
+                    <option value="Báo chí" ${state.typeFilter === 'Báo chí' ? 'selected' : ''}>Báo chí</option>
+                    <option value="Facebook Fanpage" ${state.typeFilter === 'Facebook Fanpage' ? 'selected' : ''}>Facebook Fanpage</option>
+                    <option value="Facebook Group" ${state.typeFilter === 'Facebook Group' ? 'selected' : ''}>Facebook Group</option>
+                    <option value="TikTok" ${state.typeFilter === 'TikTok' ? 'selected' : ''}>TikTok</option>
+                    <option value="YouTube" ${state.typeFilter === 'YouTube' ? 'selected' : ''}>YouTube</option>
+                  </select>
+                  <select class="filter-select" id="customerFilter">
+                    <option value="all">Tất cả KH</option>
+                    ${CUSTOMERS.map(c => `<option value="${c.id}" ${state.customerFilter == c.id ? 'selected' : ''}>${c.org}</option>`).join('')}
+                  </select>
+                </div>
+                ${isPending && hasSelection ? `<button class="btn btn-primary" onclick="bulkApprove()">Duyệt ${state.selected.size} yêu cầu</button>` : ''}
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      ${isPending ? '<th style="width:40px;"><input type="checkbox" id="selectAll" onchange="toggleSelectAll(this.checked)"></th>' : ''}
+                      <th>Khách hàng</th>
+                      <th>Nguồn / URL</th>
+                      <th>Loại</th>
+                      <th>Validate KT</th>
+                      <th>Thời điểm gửi</th>
+                      <th>Trạng thái</th>
+                      ${!isPending ? '<th>Thao tác</th>' : ''}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${filtered.map(r => {
+                      const cust = CUSTOMERS.find(c => c.id === r.customerId);
+                      const statusMap = { pending: ['Chờ duyệt', 'badge-warning'], approved: ['Đã duyệt', 'badge-success'], rejected: ['Bị từ chối', 'badge-danger'] };
+                      const [statusLabel, statusCls] = statusMap[r.status] || ['—', 'badge-neutral'];
+                      return `
+                        <tr class="${isPending ? 'clickable' : ''}" onclick="${isPending ? `openDetail(${r.id})` : ''}">
+                          ${isPending ? `<td onclick="event.stopPropagation();"><input type="checkbox" class="row-cb" data-id="${r.id}" ${state.selected.has(r.id) ? 'checked' : ''} onchange="toggleSelect(${r.id}, this.checked)"></td>` : ''}
+                          <td>
+                            <strong>${cust ? cust.org : '—'}</strong>
+                            ${r.note && r.note.includes('đã tồn tại') ? `<div class="existing-badge">&#128279; ${r.note}</div>` : ''}
+                          </td>
+                          <td>
+                            <strong>${r.name}</strong>
+                            <div style="font-size:12px;color:var(--gray-500);word-break:break-all;">${r.url}</div>
+                          </td>
+                          <td><span class="badge badge-neutral">${r.type}</span></td>
+                          <td>${r.techValidation === 'valid' ? '<span class="tech-ok">&#10003; Hợp lệ</span>' : '<span class="tech-err">&#10007; Lỗi</span>'}</td>
+                          <td style="white-space:nowrap;color:var(--gray-500);">${r.requestedAt}</td>
+                          <td><span class="badge ${statusCls}">${statusLabel}</span></td>
+                          ${!isPending ? `<td>${r.status === 'rejected' ? `<span style="font-size:12px;color:var(--gray-500);">${r.rejectReason || '—'}</span>` : ''}</td>` : ''}
+                        </tr>`;
+                    }).join('')}
+                    ${filtered.length === 0 ? `<tr><td colspan="${isPending ? 8 : 7}"><div class="empty-state"><div class="empty-icon">&#9989;</div><p>Không có yêu cầu nào${state.statusFilter === 'pending' ? ' đang chờ duyệt' : ''}</p></div></td></tr>` : ''}
+                  </tbody>
+                </table>
+              </div>
+              <div class="pagination">
+                <span>${filtered.length} yêu cầu${hasSelection ? ' · Đã chọn ' + state.selected.size : ''}</span>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reject Modal -->
+        <div class="modal-overlay" id="rejectModal">
+          <div class="modal" style="max-width:480px;">
+            <div class="modal-header">
+              <h3>Từ chối yêu cầu Nguồn</h3>
+              <button class="modal-close" onclick="closeModal('rejectModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p style="margin-bottom:16px;font-size:14px;">Bạn đang từ chối yêu cầu thêm nguồn <strong id="rejectSourceName"></strong> của <strong id="rejectCustomerName"></strong>.</p>
+              <div class="form-group">
+                <label class="form-label">Lý do từ chối <span class="required">*</span></label>
+                <div class="reject-reason-list">
+                  ${REJECT_REASONS.map((reason, i) => `
+                    <label><input type="radio" name="rejectReason" value="${reason}" ${i === 0 ? 'checked' : ''}> ${reason}</label>
+                  `).join('')}
+                </div>
+                <div id="customReasonWrap" style="display:none;">
+                  <input type="text" class="form-input" id="customReason" placeholder="Nhập lý do...">
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-outline" onclick="closeModal('rejectModal')">Hủy</button>
+              <button class="btn btn-danger" onclick="confirmReject()">Từ chối</button>
+            </div>
+          </div>
+        </div>`;
+
+      document.getElementById('searchInput').addEventListener('input', e => { state.search = e.target.value; render(); });
+      document.getElementById('statusFilter').addEventListener('change', e => { state.statusFilter = e.target.value; state.selected.clear(); render(); });
+      document.getElementById('typeFilter').addEventListener('change', e => { state.typeFilter = e.target.value; render(); });
+      document.getElementById('customerFilter').addEventListener('change', e => { state.customerFilter = e.target.value; render(); });
+
+      // Show custom reason field when "Khác" is selected
+      document.querySelectorAll('input[name="rejectReason"]').forEach(radio => {
+        radio.addEventListener('change', function() {
+          document.getElementById('customReasonWrap').style.display = this.value === 'Khác' ? '' : 'none';
+        });
+      });
+    }
+
+    function setStatusFilter(s) { state.statusFilter = s; state.selected.clear(); render(); }
+
+    function toggleSelect(id, checked) {
+      if (checked) state.selected.add(id); else state.selected.delete(id);
+      render();
+    }
+    function toggleSelectAll(checked) {
+      const filtered = getFiltered().filter(r => r.status === 'pending');
+      state.selected.clear();
+      if (checked) filtered.forEach(r => state.selected.add(r.id));
+      render();
+    }
+
+    function openDetail(id) {
+      const r = SOURCE_REQUESTS.find(x => x.id === id);
+      if (!r) return;
+      const cust = CUSTOMERS.find(c => c.id === r.customerId);
+      const existingSource = SOURCES.find(s => s.url === r.url);
+      const existingFollowers = existingSource ? existingSource.followers.length : 0;
+
+      document.getElementById('detailPanel').innerHTML = `
+        <div class="detail-panel-header">
+          <h3 style="font-size:16px;font-weight:600;">Chi tiết yêu cầu</h3>
+          <button class="modal-close" onclick="closeDetailPanel()">&times;</button>
+        </div>
+        <div class="detail-panel-body">
+          <div class="info-grid" style="margin-bottom:20px;">
+            <div class="info-label">Khách hàng</div><div class="info-value"><strong>${cust ? cust.org : '—'}</strong> ${cust ? `<span class="badge badge-neutral" style="margin-left:4px;">${getPlan(cust.planId).name}</span>` : ''}</div>
+            <div class="info-label">Nguồn yêu cầu</div><div class="info-value"><strong>${r.name}</strong><div style="font-size:12px;color:var(--gray-500);word-break:break-all;">${r.url}</div></div>
+            <div class="info-label">Loại nguồn</div><div class="info-value">${r.type}</div>
+            <div class="info-label">Validate KT</div><div class="info-value">${r.techValidation === 'valid' ? '<span class="tech-ok">&#10003; Hợp lệ</span>' : '<span class="tech-err">&#10007; ' + (r.note || 'Lỗi') + '</span>'}</div>
+            <div class="info-label">Thời điểm gửi</div><div class="info-value">${r.requestedAt}</div>
+          </div>
+          ${existingFollowers > 0 ? `
+          <div class="alert alert-warning" style="margin-bottom:16px;">
+            &#128279; <strong>Nguồn đã tồn tại trên hệ thống</strong> — đang được ${existingFollowers} KH khác theo dõi. Duyệt sẽ chỉ thêm KH này vào danh sách follow, không tạo job crawl mới.
+          </div>` : ''}
+          ${r.status === 'pending' ? `
+          <div style="display:flex;gap:12px;padding-top:16px;border-top:1px solid var(--gray-200);">
+            <button class="btn btn-success" style="flex:1;" onclick="approveRequest(${r.id})">&#9989; Duyệt yêu cầu</button>
+            <button class="btn btn-danger" style="flex:1;" onclick="openReject(${r.id})">&#10060; Từ chối</button>
+          </div>` : `
+          <div style="padding-top:16px;border-top:1px solid var(--gray-200);">
+            <span class="badge ${r.status === 'approved' ? 'badge-success' : 'badge-danger'}">${r.status === 'approved' ? 'Đã duyệt' : 'Bị từ chối'}</span>
+            ${r.status === 'approved' ? `<span style="font-size:13px;color:var(--gray-500);margin-left:8px;">${r.approvedAt || ''}</span>` : ''}
+            ${r.status === 'rejected' ? `<div style="margin-top:8px;font-size:13px;color:var(--danger);">Lý do: ${r.rejectReason || '—'}</div>` : ''}
+          </div>`}
+        </div>`;
+      document.getElementById('detailPanel').classList.add('open');
+      document.getElementById('detailBackdrop').classList.add('open');
+    }
+
+    function closeDetailPanel() {
+      document.getElementById('detailPanel').classList.remove('open');
+      document.getElementById('detailBackdrop').classList.remove('open');
+    }
+
+    function approveRequest(id) {
+      const r = SOURCE_REQUESTS.find(x => x.id === id);
+      if (!r) return;
+      r.status = 'approved';
+      r.approvedAt = new Date().toLocaleString('vi-VN');
+      showToast('Đã duyệt yêu cầu "' + r.name + '" cho ' + getCustomerName(r.customerId));
+      state.selected.delete(id);
+      closeDetailPanel();
+      render();
+    }
+
+    let rejectingId = null;
+    function openReject(id) {
+      const r = SOURCE_REQUESTS.find(x => x.id === id);
+      if (!r) return;
+      rejectingId = id;
+      document.getElementById('rejectSourceName').textContent = r.name;
+      document.getElementById('rejectCustomerName').textContent = getCustomerName(r.customerId);
+      document.getElementById('customReasonWrap').style.display = 'none';
+      openModal('rejectModal');
+    }
+
+    function confirmReject() {
+      if (!rejectingId) return;
+      const r = SOURCE_REQUESTS.find(x => x.id === rejectingId);
+      if (!r) return;
+      const selectedReason = document.querySelector('input[name="rejectReason"]:checked');
+      let reason = selectedReason ? selectedReason.value : '';
+      if (reason === 'Khác') reason = document.getElementById('customReason').value.trim() || 'Khác';
+      r.status = 'rejected';
+      r.rejectReason = reason;
+      r.rejectedAt = new Date().toLocaleString('vi-VN');
+      showToast('Đã từ chối yêu cầu "' + r.name + '"', 'info');
+      state.selected.delete(rejectingId);
+      rejectingId = null;
+      closeModal('rejectModal');
+      closeDetailPanel();
+      render();
+    }
+
+    function bulkApprove() {
+      const count = state.selected.size;
+      if (count === 0) return;
+      if (!confirm(`Duyệt ${count} yêu cầu đã chọn?`)) return;
+      const now = new Date().toLocaleString('vi-VN');
+      state.selected.forEach(id => {
+        const r = SOURCE_REQUESTS.find(x => x.id === id);
+        if (r && r.status === 'pending') {
+          r.status = 'approved';
+          r.approvedAt = now;
+        }
+      });
+      showToast(`Đã duyệt ${count} yêu cầu`);
+      state.selected.clear();
+      render();
+    }
+
+    render();
+  </script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gói Subscription — Mozy Admin</title>
+  <link rel="stylesheet" href="shared.css">
+</head>
+<body>
+  <div class="layout" id="app"></div>
+
+  <script src="shared.js"></script>
+  <script>
+    let editingPlan = null;
+
+    function render() {
+      const app = document.getElementById('app');
+      app.innerHTML = `
+        ${buildSidebar('subscriptions')}
+        <div class="main">
+          ${buildHeader('Quản lý Gói Subscription')}
+          <div class="content fade-in">
+            <div class="card">
+              <div class="card-header">
+                <h2>Tất cả gói dịch vụ (${PLANS.length})</h2>
+                <button class="btn btn-primary" onclick="openCreate()">+ Tạo gói mới</button>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Tên gói</th>
+                      <th>Giới hạn crawl/tháng</th>
+                      <th>Keyword</th>
+                      <th>Chủ đề</th>
+                      <th>Nguồn</th>
+                      <th>Giá</th>
+                      <th>Số KH</th>
+                      <th>Thao tác</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${PLANS.map(p => `
+                      <tr style="cursor:default;">
+                        <td><strong>${p.name}</strong></td>
+                        <td>${formatNumber(p.crawlLimit)}</td>
+                        <td>${formatNumber(p.keywordLimit)}</td>
+                        <td>${formatNumber(p.topicLimit)}</td>
+                        <td>${formatNumber(p.sourceLimit)}</td>
+                        <td>${formatPrice(p.price)}</td>
+                        <td><span class="badge badge-info">${p.customerCount} KH</span></td>
+                        <td>
+                          <div class="btn-group">
+                            <button class="btn btn-outline btn-sm" onclick="openEdit(${p.id})">Sửa</button>
+                            <button class="btn btn-sm btn-outline" style="color:var(--danger);border-color:var(--danger);${p.customerCount > 0 ? 'opacity:0.4;cursor:not-allowed;' : ''}" onclick="deletePlan(${p.id})" ${p.customerCount > 0 ? 'disabled' : ''}>Xóa</button>
+                          </div>
+                        </td>
+                      </tr>
+                    `).join('')}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div style="margin-top:20px;">
+              <div class="card">
+                <div class="card-header"><h2>Cảnh báo vượt hạn mức (vượt 90%)</h2></div>
+                <div class="card-body">
+                  <div style="display:flex;flex-direction:column;gap:10px;">
+                    ${CUSTOMERS.filter(c => {
+                      const p = getPlan(c.planId);
+                      if (!p) return false;
+                      return usagePercent(c.usage.crawl, p.crawlLimit) > 90
+                        || usagePercent(c.usage.keywords, p.keywordLimit) > 90
+                        || usagePercent(c.usage.topics, p.topicLimit) > 90
+                        || usagePercent(c.usage.sources, p.sourceLimit) > 90;
+                    }).map(c => {
+                      const p = getPlan(c.planId);
+                      const flags = [];
+                      const cPct = usagePercent(c.usage.crawl, p.crawlLimit);
+                      const kPct = usagePercent(c.usage.keywords, p.keywordLimit);
+                      const tPct = usagePercent(c.usage.topics, p.topicLimit);
+                      const sPct = usagePercent(c.usage.sources, p.sourceLimit);
+                      if (cPct > 90) flags.push('Crawl: ' + cPct + '%');
+                      if (kPct > 90) flags.push('Keyword: ' + kPct + '%');
+                      if (tPct > 90) flags.push('Chủ đề: ' + tPct + '%');
+                      if (sPct > 90) flags.push('Nguồn: ' + sPct + '%');
+                      return `
+                        <div class="alert alert-warning" style="margin:0;">
+                          <span class="badge badge-danger badge-overlimit" style="margin-right:4px;">&#9888;</span>
+                          <a href="customer-detail.html?id=${c.id}" style="font-weight:600;color:var(--gray-800);text-decoration:none;">${c.org}</a>
+                          — ${flags.join(', ')}
+                          <a href="customer-detail.html?id=${c.id}" style="margin-left:auto;font-size:13px;">Xem chi tiết &rarr;</a>
+                        </div>`;
+                    }).join('')}
+                    ${CUSTOMERS.filter(c => {
+                      const p = getPlan(c.planId);
+                      if (!p) return false;
+                      return usagePercent(c.usage.crawl, p.crawlLimit) > 90
+                        || usagePercent(c.usage.keywords, p.keywordLimit) > 90
+                        || usagePercent(c.usage.topics, p.topicLimit) > 90
+                        || usagePercent(c.usage.sources, p.sourceLimit) > 90;
+                    }).length === 0 ? '<div style="text-align:center;color:var(--gray-500);padding:20px;">Không có KH nào vượt ngưỡng</div>' : ''}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Create/Edit Modal -->
+        <div class="modal-overlay" id="planModal">
+          <div class="modal">
+            <div class="modal-header">
+              <h3 id="modalTitle">Tạo gói mới</h3>
+              <button class="modal-close" onclick="closeModal('planModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+              <form id="planForm">
+                <div class="form-group">
+                  <label class="form-label">Tên gói <span class="required">*</span></label>
+                  <input type="text" class="form-input" id="pName" required placeholder="VD: Premium">
+                  <div class="form-error" id="nameError"></div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label">Giới hạn crawl/tháng <span class="required">*</span></label>
+                    <input type="number" class="form-input" id="pCrawl" required min="1" placeholder="50000">
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label">Giới hạn Keyword <span class="required">*</span></label>
+                    <input type="number" class="form-input" id="pKeyword" required min="1" placeholder="100">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label">Giới hạn Chủ đề <span class="required">*</span></label>
+                    <input type="number" class="form-input" id="pTopic" required min="1" placeholder="50">
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label">Giới hạn Nguồn <span class="required">*</span></label>
+                    <input type="number" class="form-input" id="pSource" required min="1" placeholder="30">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Giá tham chiếu (VNĐ/tháng)</label>
+                  <input type="number" class="form-input" id="pPrice" min="0" placeholder="0 = Miễn phí">
+                  <div class="form-hint">Để trống hoặc 0 = Miễn phí</div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-outline" onclick="closeModal('planModal')">Hủy</button>
+              <button class="btn btn-primary" onclick="submitPlan()">Lưu</button>
+            </div>
+          </div>
+        </div>`;
+
+      document.getElementById('planForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        submitPlan();
+      });
+    }
+
+    function openCreate() {
+      editingPlan = null;
+      document.getElementById('modalTitle').textContent = 'Tạo gói mới';
+      document.getElementById('pName').value = '';
+      document.getElementById('pName').disabled = false;
+      document.getElementById('pCrawl').value = '';
+      document.getElementById('pKeyword').value = '';
+      document.getElementById('pTopic').value = '';
+      document.getElementById('pSource').value = '';
+      document.getElementById('pPrice').value = '';
+      document.getElementById('nameError').classList.remove('visible');
+      openModal('planModal');
+    }
+
+    function openEdit(id) {
+      editingPlan = PLANS.find(p => p.id === id);
+      if (!editingPlan) return;
+      document.getElementById('modalTitle').textContent = 'Chỉnh sửa gói ' + editingPlan.name;
+      document.getElementById('pName').value = editingPlan.name;
+      document.getElementById('pName').disabled = true;
+      document.getElementById('pCrawl').value = editingPlan.crawlLimit;
+      document.getElementById('pKeyword').value = editingPlan.keywordLimit;
+      document.getElementById('pTopic').value = editingPlan.topicLimit;
+      document.getElementById('pSource').value = editingPlan.sourceLimit;
+      document.getElementById('pPrice').value = editingPlan.price || '';
+      document.getElementById('nameError').classList.remove('visible');
+      openModal('planModal');
+    }
+
+    function submitPlan() {
+      const name = document.getElementById('pName').value.trim();
+      const crawlLimit = parseInt(document.getElementById('pCrawl').value);
+      const keywordLimit = parseInt(document.getElementById('pKeyword').value);
+      const topicLimit = parseInt(document.getElementById('pTopic').value);
+      const sourceLimit = parseInt(document.getElementById('pSource').value);
+      const price = parseInt(document.getElementById('pPrice').value) || 0;
+      const nameErr = document.getElementById('nameError');
+
+      if (!name || !crawlLimit || !keywordLimit || !topicLimit || !sourceLimit) return;
+
+      if (!editingPlan) {
+        const exists = PLANS.some(p => p.name.toLowerCase() === name.toLowerCase());
+        if (exists) {
+          nameErr.textContent = 'Tên gói đã tồn tại';
+          nameErr.classList.add('visible');
+          return;
+        }
+        PLANS.push({ id: PLANS.length + 100, name, crawlLimit, keywordLimit, topicLimit, sourceLimit, price, customerCount: 0 });
+        showToast('Tạo gói "' + name + '" thành công');
+      } else {
+        editingPlan.crawlLimit = crawlLimit;
+        editingPlan.keywordLimit = keywordLimit;
+        editingPlan.topicLimit = topicLimit;
+        editingPlan.sourceLimit = sourceLimit;
+        editingPlan.price = price;
+        showToast('Cập nhật gói "' + name + '" thành công');
+      }
+
+      closeModal('planModal');
+      render();
+    }
+
+    function deletePlan(id) {
+      const plan = PLANS.find(p => p.id === id);
+      if (!plan) return;
+      if (plan.customerCount > 0) {
+        showToast('Không thể xóa gói đang có KH sử dụng. Vui lòng chuyển KH sang gói khác trước.', 'error');
+        return;
+      }
+      if (confirm('Bạn có chắc muốn xóa gói "' + plan.name + '"?')) {
+        const idx = PLANS.indexOf(plan);
+        PLANS.splice(idx, 1);
+        showToast('Đã xóa gói "' + plan.name + '"');
+        render();
+      }
+    }
+
+    render();
+  </script>
+</body>
+</html>

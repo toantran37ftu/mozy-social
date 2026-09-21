@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập — Mozy Admin</title>
+  <link rel="stylesheet" href="shared.css">
+</head>
+<body>
+  <div class="login-page">
+    <div class="login-card">
+      <div class="login-brand">
+        <div class="logo">M</div>
+      </div>
+      <h1>Mozy Admin</h1>
+      <p class="login-subtitle">Hệ thống quản trị nội bộ</p>
+      <form id="loginForm">
+        <div class="form-group">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-input" id="email" placeholder="admin@mozy.vn" value="admin@mozy.vn" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Mật khẩu</label>
+          <input type="password" class="form-input" id="password" placeholder="Nhập mật khẩu" value="••••••••" required>
+        </div>
+        <div class="form-error" id="loginError">Email hoặc mật khẩu không chính xác</div>
+        <div style="margin-top: 24px;">
+          <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; padding: 10px 16px;">Đăng nhập</button>
+        </div>
+      </form>
+      <p style="text-align: center; margin-top: 20px; font-size: 13px; color: var(--gray-400);">
+        © 2026 Mozy Social — Phiên bản MVP
+      </p>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+      const errorEl = document.getElementById('loginError');
+
+      if (!email || !password) {
+        errorEl.textContent = 'Vui lòng nhập đầy đủ thông tin';
+        errorEl.classList.add('visible');
+        return;
+      }
+
+      // Mock login
+      errorEl.classList.remove('visible');
+      window.location.href = 'customers.html';
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+
+# PRD documents
+PRD*.txt
+
+# Command Code local config
+.commandcode/
+
+# Empty/untitled project
+untitled-project/

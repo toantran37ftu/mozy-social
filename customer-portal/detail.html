@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi tiết — Mozy</title>
+  <link rel="stylesheet" href="shared.css">
+  <style>
+    .filter-bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 20px; padding: 12px 16px; background: #fff; border-radius: var(--radius); border: 1px solid var(--gray-200); }
+    .seg-btn { padding: 6px 14px; border: 1px solid var(--gray-200); background: #fff; font-size: 13px; color: var(--gray-600); cursor: pointer; transition: all 0.15s; white-space: nowrap; }
+    .seg-btn:first-child { border-radius: 6px 0 0 6px; }
+    .seg-btn:last-child { border-radius: 0 6px 6px 0; }
+    .seg-btn:not(:first-child) { border-left: none; }
+    .seg-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .seg-btn:hover:not(.active) { background: var(--gray-50); }
+    .sub-chip { padding: 4px 10px; border: 1px solid var(--gray-200); border-radius: 9999px; font-size: 12px; cursor: pointer; background: #fff; color: var(--gray-600); transition: all 0.15s; }
+    .sub-chip.active { background: var(--primary-bg); color: var(--primary); border-color: var(--primary); }
+    .bar-chart { position: relative; height: 220px; display: flex; align-items: flex-end; gap: 0; padding: 0 4px; }
+    .bar-col { flex: 1; display: flex; flex-direction: column; align-items: center; position: relative; height: 100%; justify-content: flex-end; min-width: 16px; }
+    .bar-stack { width: 100%; max-width: 40px; display: flex; flex-direction: column-reverse; gap: 1px; }
+    .bar-seg { border-radius: 2px; transition: height 0.4s ease; }
+    .bar-label { position: absolute; bottom: -24px; left: 50%; transform: translateX(-50%); font-size: 10px; color: var(--gray-500); white-space: nowrap; }
+    .bar-tooltip { position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); background: var(--gray-800); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 11px; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity 0.15s; margin-bottom: 4px; }
+    .bar-col:hover .bar-tooltip { opacity: 1; }
+    .chart-legend { display: flex; gap: 16px; justify-content: center; margin-top: 8px; flex-wrap: wrap; }
+    .chart-legend .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--gray-600); }
+    .chart-legend .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+    .svg-chart-wrap { position: relative; width: 100%; }
+    .svg-chart-wrap svg { display: block; width: 100%; height: auto; }
+    .pie-chart-wrap { display: flex; align-items: center; gap: 24px; justify-content: center; }
+    .pie-svg { width: 140px; height: 140px; }
+    .pie-labels { display: flex; flex-direction: column; gap: 8px; }
+    .pie-label { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+    .pie-label-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+    .breakdown-section { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-bottom: 24px; }
+    .breakdown-card { background: #fff; border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 16px 20px; }
+    .breakdown-card h3 { font-size: 13px; font-weight: 600; color: var(--gray-600); margin-bottom: 12px; }
+    .breakdown-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+    .breakdown-bar .bar-name { font-size: 13px; color: var(--gray-700); width: 90px; flex-shrink: 0; }
+    .breakdown-bar .bar-track { flex: 1; height: 20px; background: var(--gray-100); border-radius: 4px; overflow: hidden; }
+    .breakdown-bar .bar-fill { height: 100%; border-radius: 4px; transition: width 0.4s ease; }
+    .breakdown-bar .bar-val { font-size: 12px; font-weight: 600; color: var(--gray-700); min-width: 48px; text-align: right; }
+    .mention-widget { display: flex; gap: 0; border-radius: 8px; overflow: hidden; height: 36px; margin-bottom: 10px; }
+    .mention-seg { display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 600; color: #fff; transition: width 0.4s ease; }
+    .mention-row { display: flex; align-items: center; gap: 8px; font-size: 13px; margin-bottom: 4px; }
+    .mention-dot { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+    .detail-panel { position: fixed; top: 0; right: -600px; width: 600px; height: 100vh; background: #fff; box-shadow: -4px 0 20px rgba(0,0,0,0.1); z-index: 150; transition: right 0.3s ease; overflow-y: auto; border-left: 1px solid var(--gray-200); }
+    .detail-panel.open { right: 0; }
+    .detail-panel-header { padding: 16px 20px; border-bottom: 1px solid var(--gray-200); display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; background: #fff; z-index: 1; }
+    .detail-panel-body { padding: 20px; }
+    .detail-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.3); z-index: 140; display: none; }
+    .detail-backdrop.open { display: block; }
+  </style>
+</head>
+<body>
+  <div class="layout" id="app"></div>
+  <div class="detail-backdrop" id="articleBackdrop" onclick="closeArticle()"></div>
+  <div class="detail-panel" id="articlePanel"></div>
+
+  <script src="shared.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const detailType = params.get('type') || 'topic';
+    const detailId = parseInt(params.get('id')) || 1;
+    const state = { channelTab: 'all', socialSub: 'all', sentiment: 'all', timeRange: '7d' };
+
+    function getDetail() {
+      if (detailType === 'topic') return TOPICS.find(t => t.id === detailId);
+      return KEYWORDS.find(k => k.id === detailId);
+    }
+
+    function getFilteredFeed() {
+      const item = getDetail(); if (!item) return [];
+      let data = [...FEED];
+      if (detailType === 'topic') data = data.filter(f => f.topicIds.includes(detailId));
+      else data = data.filter(f => f.keywordIds.includes(detailId));
+      if (state.channelTab === 'press') data = data.filter(f => f.sourceType === 'Báo chí');
+      if (state.channelTab === 'social') { data = data.filter(f => f.sourceType !== 'Báo chí'); if (state.socialSub !== 'all') data = data.filter(f => f.sourceType === state.socialSub); }
+      if (state.sentiment !== 'all') data = data.filter(f => f.sentiment === state.sentiment);
+      return data;
+    }
+
+    function getDetailFeedNoChannel() {
+      const item = getDetail(); if (!item) return [];
+      let data = [...FEED];
+      if (detailType === 'topic') data = data.filter(f => f.topicIds.includes(detailId));
+      else data = data.filter(f => f.keywordIds.includes(detailId));
+      if (state.sentiment !== 'all') data = data.filter(f => f.sentiment === state.sentiment);
+      return data;
+    }
+
+    function buildDaily(days) {
+      const data = [];
+      for (let i = days - 1; i >= 0; i--) {
+        const d = new Date(); d.setDate(d.getDate() - i);
+        const p = Math.floor(Math.random() * 5) + 1;
+        const n = Math.floor(Math.random() * 7) + 1;
+        const ng = Math.floor(Math.random() * 3) + 1;
+        data.push({ label: d.toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit' }), positive: p, neutral: n, negative: ng, total: p + n + ng });
+      }
+      return data;
+    }
+
+    function buildAuthorTrend(days) {
+      const data = [];
+      for (let i = days - 1; i >= 0; i--) {
+        const d = new Date(); d.setDate(d.getDate() - i);
+        data.push({ label: d.toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit' }), authors: Math.floor(Math.random() * 8) + 2 });
+      }
+      return data;
+    }
+
+    function buildEngagement(days) {
+      const data = [];
+      for (let i = days - 1; i >= 0; i--) {
+        const d = new Date(); d.setDate(d.getDate() - i);
+        data.push({ label: d.toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit' }), likes: Math.floor(Math.random()*300)+30, shares: Math.floor(Math.random()*100)+10 });
+      }
+      return data;
+    }
+
+    function svgLine(data, series) {
+      const W = 800, H = 220, mL = 50, mR = 15, mT = 10, mB = 35;
+      const cw = W - mL - mR, ch = H - mT - mB;
+      const maxVal = Math.max(...data.map(d => Math.max(...series.map(s => d[s.key]))), 1);
+      let svg = '';
+      for (let i = 0; i <= 4; i++) {
+        const y = mT + (ch / 4) * i;
+        svg += `<line x1="${mL}" y1="${y}" x2="${W - mR}" y2="${y}" stroke="#E5E7EB" stroke-width="1"/>`;
+        svg += `<text x="${mL - 8}" y="${y + 4}" text-anchor="end" font-size="11" fill="#9CA3AF">${Math.round(maxVal - (maxVal / 4) * i)}</text>`;
+      }
+      series.forEach(s => {
+        const pts = data.map((d, i) => `${mL + (i / (data.length - 1 || 1)) * cw},${mT + ch - (d[s.key] / maxVal) * ch}`);
+        svg += `<polyline points="${pts.join(' ')}" fill="none" stroke="${s.color}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>`;
+        data.forEach((d, i) => { const x = mL + (i / (data.length - 1 || 1)) * cw; const y = mT + ch - (d[s.key] / maxVal) * ch; svg += `<circle cx="${x}" cy="${y}" r="4" fill="${s.color}" stroke="#fff" stroke-width="2"/>`; });
+      });
+      const step = data.length > 15 ? Math.ceil(data.length / 8) : data.length > 7 ? 2 : 1;
+      data.forEach((d, i) => { if (i % step === 0 || i === data.length - 1) { const x = mL + (i / (data.length - 1 || 1)) * cw; svg += `<text x="${x}" y="${H - 5}" text-anchor="middle" font-size="11" fill="#9CA3AF">${d.label}</text>`; } });
+      return `<div class="svg-chart-wrap"><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet">${svg}</svg></div>
+        <div class="chart-legend">${series.map(s => `<div class="legend-item"><div class="legend-dot" style="background:${s.color};"></div>${s.label}</div>`).join('')}</div>`;
+    }
+
+    function svgBarLine(data, barKey, lineSeries) {
+      const W = 800, H = 240, mL = 50, mR = 15, mT = 10, mB = 35;
+      const cw = W - mL - mR, ch = H - mT - mB;
+      const barMax = Math.max(...data.map(d => d[barKey]), 1);
+      const lineMax = Math.max(...data.map(d => Math.max(...lineSeries.map(s => d[s.key]))), 1);
+      const n = data.length;
+      const barW = Math.min(40, (cw / n) * 0.6);
+      let svg = '';
+      for (let i = 0; i <= 4; i++) {
+        const y = mT + (ch / 4) * i;
+        svg += `<line x1="${mL}" y1="${y}" x2="${W - mR}" y2="${y}" stroke="#E5E7EB" stroke-width="1"/>`;
+        svg += `<text x="${mL - 8}" y="${y + 4}" text-anchor="end" font-size="11" fill="#9CA3AF">${Math.round(barMax - (barMax / 4) * i)}</text>`;
+      }
+      data.forEach((d, i) => {
+        const cx = mL + (i + 0.5) * (cw / n);
+        const bh = (d[barKey] / barMax) * ch;
+        svg += `<rect x="${cx - barW / 2}" y="${mT + ch - bh}" width="${barW}" height="${bh}" fill="var(--primary)" rx="3" opacity="0.7"/>`;
+        svg += `<text x="${cx}" y="${H - 5}" text-anchor="middle" font-size="10" fill="#9CA3AF">${d.label}</text>`;
+      });
+      lineSeries.forEach(s => {
+        const pts = data.map((d, i) => { const cx = mL + (i + 0.5) * (cw / n); const y = mT + ch - (d[s.key] / lineMax) * ch; return `${cx},${y}`; });
+        svg += `<polyline points="${pts.join(' ')}" fill="none" stroke="${s.color}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>`;
+        data.forEach((d, i) => { const cx = mL + (i + 0.5) * (cw / n); const y = mT + ch - (d[s.key] / lineMax) * ch; svg += `<circle cx="${cx}" cy="${y}" r="4" fill="${s.color}" stroke="#fff" stroke-width="2"/>`; });
+      });
+      for (let i = 0; i <= 4; i++) {
+        const y = mT + (ch / 4) * i;
+        svg += `<text x="${W - mR + 8}" y="${y + 4}" text-anchor="start" font-size="11" fill="#6366F1">${Math.round(lineMax - (lineMax / 4) * i)}</text>`;
+      }
+      return `<div class="svg-chart-wrap"><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet">${svg}</svg></div>
+        <div class="chart-legend">
+          <div class="legend-item"><div class="legend-dot" style="background:var(--primary);"></div>Số mention (trục trái)</div>
+          ${lineSeries.map(s => `<div class="legend-item"><div class="legend-dot" style="background:${s.color};"></div>${s.label} (trục phải)</div>`).join('')}
+        </div>`;
+    }
+
+    function render() {
+      const item = getDetail();
+      if (!item) { document.getElementById('app').innerHTML = `${buildSidebar('dashboard')}<div class="main">${buildHeader('Không tìm thấy')}<div class="content"><div class="empty-state"><p>Không tìm thấy</p><a href="dashboard.html" class="btn btn-primary" style="margin-top:12px;">Về Dashboard</a></div></div></div>`; return; }
+
+      const filtered = getFilteredFeed();
+      const total = filtered.length;
+      const pos = filtered.filter(f => f.sentiment === 'positive').length;
+      const neu = filtered.filter(f => f.sentiment === 'neutral').length;
+      const neg = filtered.filter(f => f.sentiment === 'negative').length;
+
+      // Breakdown (no channel filter)
+      const fullFeed = getDetailFeedNoChannel();
+      const pressCount = fullFeed.filter(f => f.sourceType === 'Báo chí').length;
+      const socialFeed = fullFeed.filter(f => f.sourceType !== 'Báo chí');
+      const socialTotal = socialFeed.length;
+      const fbCount = socialFeed.filter(f => f.sourceType === 'Facebook').length;
+      const ttCount = socialFeed.filter(f => f.sourceType === 'TikTok').length;
+      const ytCount = socialFeed.filter(f => f.sourceType === 'YouTube').length;
+      const zaloCount = socialFeed.filter(f => f.sourceType === 'Zalo').length;
+      const socialMax = Math.max(fbCount, ttCount, ytCount, zaloCount, 1);
+
+      const mentionPress = pressCount;
+      const mentionPost = Math.round(socialTotal * 0.75);
+      const mentionComment = socialTotal - mentionPost;
+      const mentionTotal = mentionPress + mentionPost + mentionComment || 1;
+
+      const days = state.timeRange === '30d' ? 30 : 7;
+      const daily = buildDaily(days);
+      const authorTrend = buildAuthorTrend(days);
+      const engagementData = buildEngagement(days);
+      const showEngagement = state.channelTab === 'social' || (state.channelTab === 'all' && state.socialSub !== 'all');
+      const maxDayTotal = Math.max(...daily.map(d => d.total), 1);
+
+      const sourceCounts = {};
+      filtered.forEach(f => { sourceCounts[f.source] = (sourceCounts[f.source] || 0) + 1; });
+      const topSources = Object.entries(sourceCounts).sort((a, b) => b[1] - a[1]).slice(0, 5);
+      const isTopic = detailType === 'topic';
+
+      document.getElementById('app').innerHTML = `
+        ${buildSidebar(isTopic ? 'topics' : 'topics')}
+        <div class="main">
+          ${buildHeader(item.name)}
+          <div class="content fade-in">
+            <div style="margin-bottom:16px;display:flex;align-items:center;justify-content:space-between;">
+              <a href="topics.html" style="font-size:14px;color:var(--gray-500);">&larr; Quay lại danh sách</a>
+              <div class="btn-group">${getStatusBadge(item.status)}<a href="topics.html" class="btn btn-outline btn-sm">Chỉnh sửa</a></div>
+            </div>
+
+            ${isTopic ? `<div class="card" style="margin-bottom:20px;"><div class="card-body"><div class="info-grid">
+              <div class="info-label">Keyword chính</div><div class="info-value">${item.primaryKeywords.map(k => `<span class="badge badge-info">${k}</span>`).join(' ')}</div>
+              <div class="info-label">Keyword phụ</div><div class="info-value">${item.secondaryKeywords.length > 0 ? item.secondaryKeywords.map(k => `<span class="badge badge-neutral">${k}</span>`).join(' ') : '<span style="color:var(--gray-400);">Không có</span>'}</div>
+              <div class="info-label">Keyword loại trừ</div><div class="info-value">${item.excludeKeywords.length > 0 ? item.excludeKeywords.map(k => `<span class="badge badge-danger">${k}</span>`).join(' ') : '<span style="color:var(--gray-400);">Không có</span>'}</div>
+            </div></div></div>` : ''}
+
+            <!-- Filter Bar -->
+            <div class="filter-bar">
+              <div style="display:flex;align-items:center;gap:0;">
+                <span style="font-size:13px;font-weight:500;color:var(--gray-600);margin-right:8px;">Kênh:</span>
+                <button class="seg-btn ${state.channelTab === 'all' ? 'active' : ''}" onclick="setChannel('all')">Tất cả</button>
+                <button class="seg-btn ${state.channelTab === 'press' ? 'active' : ''}" onclick="setChannel('press')">Báo chí</button>
+                <button class="seg-btn ${state.channelTab === 'social' ? 'active' : ''}" onclick="setChannel('social')">Mạng xã hội</button>
+                <div style="display:flex;gap:6px;margin-left:8px;${state.channelTab === 'social' ? '' : 'display:none !important;'}">
+                  ${['all', 'Facebook', 'TikTok', 'YouTube', 'Zalo'].map(s => `<span class="sub-chip ${state.socialSub === s ? 'active' : ''}" onclick="setSubFilter('${s}')">${s === 'all' ? 'Tất cả' : s}</span>`).join('')}
+                </div>
+              </div>
+              <div style="display:flex;align-items:center;gap:0;">
+                <span style="font-size:13px;font-weight:500;color:var(--gray-600);margin-right:8px;">Thời gian:</span>
+                <button class="seg-btn ${state.timeRange === '7d' ? 'active' : ''}" onclick="setTime('7d')">7 ngày</button>
+                <button class="seg-btn ${state.timeRange === '30d' ? 'active' : ''}" onclick="setTime('30d')">30 ngày</button>
+              </div>
+              <div style="display:flex;align-items:center;gap:0;">
+                <span style="font-size:13px;font-weight:500;color:var(--gray-600);margin-right:8px;">Sentiment:</span>
+                <button class="seg-btn ${state.sentiment === 'all' ? 'active' : ''}" onclick="setSentiment('all')">Tất cả</button>
+                <button class="seg-btn" onclick="setSentiment('positive')" style="${state.sentiment === 'positive' ? 'background:var(--positive);color:#fff;border-color:var(--positive);' : ''}">Tích cực</button>
+                <button class="seg-btn" onclick="setSentiment('neutral')" style="${state.sentiment === 'neutral' ? 'background:var(--neutral-sent);color:#fff;border-color:var(--neutral-sent);' : ''}">Trung lập</button>
+                <button class="seg-btn" onclick="setSentiment('negative')" style="${state.sentiment === 'negative' ? 'background:var(--negative);color:#fff;border-color:var(--negative);' : ''}">Tiêu cực</button>
+              </div>
+            </div>
+
+            <!-- KPI Cards -->
+            <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:24px;">
+              <div class="stat-card" style="border-left:3px solid var(--primary);"><div class="stat-value">${formatNumber(total)}</div><div class="stat-label">Số tin đề cập</div></div>
+              <div class="stat-card" style="border-left:3px solid var(--positive);"><div class="stat-value" style="color:var(--positive);">${formatNumber(pos)}</div><div class="stat-label">Số tin tích cực</div></div>
+              <div class="stat-card" style="border-left:3px solid var(--neutral-sent);"><div class="stat-value" style="color:var(--neutral-sent);">${formatNumber(neu)}</div><div class="stat-label">Số tin trung lập</div></div>
+              <div class="stat-card" style="border-left:3px solid var(--negative);"><div class="stat-value" style="color:var(--negative);">${formatNumber(neg)}</div><div class="stat-label">Số tin tiêu cực</div></div>
+            </div>
+
+            <!-- Breakdown + Nơi mention -->
+            <div class="breakdown-section">
+              <div class="breakdown-card">
+                <h3>&#128240; Bài theo Báo chí</h3>
+                <div style="font-size:32px;font-weight:700;color:var(--gray-900);margin-bottom:4px;">${formatNumber(pressCount)}</div>
+                <div style="font-size:12px;color:var(--gray-500);">bài từ nguồn báo chí/website</div>
+              </div>
+              <div class="breakdown-card">
+                <h3>&#127760; Bài trên Mạng xã hội</h3>
+                <div style="font-size:32px;font-weight:700;color:var(--gray-900);margin-bottom:12px;">${formatNumber(socialTotal)}</div>
+                ${['Facebook', 'TikTok', 'YouTube', 'Zalo'].map((ch, i) => {
+                  const count = [fbCount, ttCount, ytCount, zaloCount][i];
+                  const colors = ['#3B82F6', '#000', '#EF4444', '#2563EB'];
+                  return `<div class="breakdown-bar"><span class="bar-name">${ch}</span><div class="bar-track"><div class="bar-fill" style="width:${Math.round(count / socialMax * 100)}%;background:${colors[i]};"></div></div><span class="bar-val">${count}</span></div>`;
+                }).join('')}
+              </div>
+              <div class="breakdown-card">
+                <h3>&#128205; Nơi mention</h3>
+                <div class="mention-widget">
+                  <div class="mention-seg" style="width:${Math.round(mentionPress / mentionTotal * 100)}%;background:var(--primary);">${Math.round(mentionPress / mentionTotal * 100)}%</div>
+                  <div class="mention-seg" style="width:${Math.round(mentionPost / mentionTotal * 100)}%;background:var(--positive);">${Math.round(mentionPost / mentionTotal * 100)}%</div>
+                  <div class="mention-seg" style="width:${Math.max(2, Math.round(mentionComment / mentionTotal * 100))}%;background:#F59E0B;">${Math.round(mentionComment / mentionTotal * 100)}%</div>
+                </div>
+                <div class="mention-row"><div class="mention-dot" style="background:var(--primary);"></div>Báo chí: <strong>${mentionPress}</strong> (${Math.round(mentionPress / mentionTotal * 100)}%)</div>
+                <div class="mention-row"><div class="mention-dot" style="background:var(--positive);"></div>Bài đăng MXH: <strong>${mentionPost}</strong> (${Math.round(mentionPost / mentionTotal * 100)}%)</div>
+                <div class="mention-row"><div class="mention-dot" style="background:#F59E0B;"></div>Bình luận MXH: <strong>${mentionComment}</strong> (${Math.round(mentionComment / mentionTotal * 100)}%)</div>
+              </div>
+            </div>
+
+            <!-- Combined chart: Bars (mention) + Line (người đề cập) -->
+            <div class="card" style="margin-bottom:20px;">
+              <div class="card-header"><h2>Số tin mention & Số người đề cập theo ngày</h2></div>
+              <div class="card-body">
+                ${svgBarLine(daily.map((d, i) => ({ ...d, authors: authorTrend[i].authors })), 'total', [{ key: 'authors', color: '#6366F1', label: 'Số người đề cập' }])}
+              </div>
+            </div>
+
+            <!-- Line chart: 3 sentiment lines -->
+            <div class="card" style="margin-bottom:20px;">
+              <div class="card-header"><h2>Xu hướng sắc thái theo ngày</h2></div>
+              <div class="card-body">
+                ${svgLine(daily, [
+                  { key: 'positive', color: 'var(--positive)', label: 'Tích cực' },
+                  { key: 'neutral', color: 'var(--neutral-sent)', label: 'Trung lập' },
+                  { key: 'negative', color: 'var(--negative)', label: 'Tiêu cực' },
+                ])}
+              </div>
+            </div>
+
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px;">
+              <!-- Pie -->
+              <div class="card">
+                <div class="card-header"><h2>Sắc thái nội dung</h2></div>
+                <div class="card-body">
+                  <div class="pie-chart-wrap">
+                    <svg class="pie-svg" viewBox="0 0 42 42">
+                      <circle cx="21" cy="21" r="15.915" fill="transparent" stroke="var(--neutral-sent)" stroke-width="5" stroke-dasharray="${total > 0 ? Math.round(neu/total*100) : 33} ${total > 0 ? 100 - Math.round(neu/total*100) : 67}" stroke-dashoffset="25"/>
+                      <circle cx="21" cy="21" r="15.915" fill="transparent" stroke="var(--negative)" stroke-width="5" stroke-dasharray="${total > 0 ? Math.round(neg/total*100) : 33} ${total > 0 ? 100 - Math.round(neg/total*100) : 67}" stroke-dashoffset="${total > 0 ? 25 - Math.round(neu/total*100) : -8}"/>
+                      <circle cx="21" cy="21" r="15.915" fill="transparent" stroke="var(--positive)" stroke-width="5" stroke-dasharray="${total > 0 ? Math.round(pos/total*100) : 33} ${total > 0 ? 100 - Math.round(pos/total*100) : 67}" stroke-dashoffset="${total > 0 ? 25 - Math.round(neu/total*100) - Math.round(neg/total*100) : -42}"/>
+                      <text x="21" y="20" text-anchor="middle" font-size="5" font-weight="700" fill="var(--gray-800)">${formatNumber(total)}</text>
+                      <text x="21" y="24.5" text-anchor="middle" font-size="2.5" fill="var(--gray-500)">tổng tin</text>
+                    </svg>
+                    <div class="pie-labels">
+                      <div class="pie-label"><div class="pie-label-dot" style="background:var(--positive);"></div>Tích cực: ${pos} (${total > 0 ? Math.round(pos/total*100) : 0}%)</div>
+                      <div class="pie-label"><div class="pie-label-dot" style="background:var(--neutral-sent);"></div>Trung lập: ${neu} (${total > 0 ? Math.round(neu/total*100) : 0}%)</div>
+                      <div class="pie-label"><div class="pie-label-dot" style="background:var(--negative);"></div>Tiêu cực: ${neg} (${total > 0 ? Math.round(neg/total*100) : 0}%)</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Engagement (kept on detail page) -->
+              <div class="card">
+                <div class="card-header"><h2>Độ lan tỏa theo ngày</h2></div>
+                <div class="card-body">
+                  ${showEngagement ? svgLine(engagementData, [{ key: 'likes', color: '#F97316', label: 'Like/Reaction' }, { key: 'shares', color: '#8B5CF6', label: 'Share' }]) : '<div class="empty-state" style="padding:32px;"><div class="empty-icon">&#128240;</div><p>Chỉ hiển thị trên nguồn Mạng xã hội</p></div>'}
+                </div>
+              </div>
+            </div>
+
+            <!-- Top Sources -->
+            <div class="card" style="margin-bottom:20px;">
+              <div class="card-header"><h2>Nguồn đăng tải nổi bật</h2></div>
+              <div class="card-body">
+                ${topSources.length === 0 ? '<div class="empty-state"><p>Không có dữ liệu</p></div>' : `<table style="font-size:13px;width:100%;"><tbody>${topSources.map(([name, count], i) => `<tr><td style="padding:6px 8px;width:32px;text-align:center;"><strong style="color:${i < 3 ? 'var(--primary)' : 'var(--gray-500)'};">${i+1}</strong></td><td style="padding:6px 8px;font-weight:500;">${name}</td><td style="padding:6px 8px;text-align:right;color:var(--gray-500);">${count} tin</td></tr>`).join('')}</tbody></table>`}
+              </div>
+            </div>
+
+            <!-- Feed -->
+            <div class="card">
+              <div class="card-header"><h2>Danh sách tin bài (${filtered.length})</h2></div>
+              <div class="card-body">
+                ${filtered.length === 0 ? '<div class="empty-state"><div class="empty-icon">&#128240;</div><p>Không có tin khớp filter</p></div>' : ''}
+                ${filtered.map(f => `<div class="feed-item" onclick="openArticle(${f.id})"><div class="feed-meta"><span>${getSourceTypeIcon(f.sourceType)} ${f.source}</span><span>&middot;</span><span>${f.date}</span><span>&middot;</span>${getSentimentBadge(f.sentiment)}</div><div class="feed-title">${f.title}</div><div class="feed-excerpt">${f.excerpt}</div></div>`).join('')}
+              </div>
+            </div>
+          </div>
+        </div>`;
+    }
+
+    function setChannel(ch) { state.channelTab = ch; render(); }
+    function setSubFilter(s) { state.socialSub = s; render(); }
+    function setTime(t) { state.timeRange = t; render(); }
+    function setSentiment(s) { state.sentiment = s; render(); }
+
+    function openArticle(id) {
+      const f = FEED.find(x => x.id === id);
+      if (!f) return;
+      const panel = document.getElementById('articlePanel');
+      const backdrop = document.getElementById('articleBackdrop');
+      panel.innerHTML = `
+        <div class="detail-panel-header"><h3 style="font-size:16px;font-weight:600;">Chi tiết tin bài</h3><button class="modal-close" onclick="closeArticle()">&times;</button></div>
+        <div class="detail-panel-body">
+          <div class="feed-meta" style="margin-bottom:8px;"><span>${getSourceTypeIcon(f.sourceType)} ${f.source}</span><span>&middot;</span><span>${f.date}</span></div>
+          <div style="margin-bottom:12px;">${getSentimentBadge(f.sentiment)}</div>
+          <h2 style="font-size:18px;font-weight:700;margin-bottom:16px;line-height:1.4;">${f.title}</h2>
+          <div style="font-size:14px;color:var(--gray-600);line-height:1.8;margin-bottom:20px;">${f.excerpt}</div>
+          ${f.topicIds.length > 0 ? `<div style="margin-bottom:12px;"><span style="font-size:12px;color:var(--gray-500);">Chủ đề:</span><div style="margin-top:4px;display:flex;flex-wrap:wrap;gap:4px;">${f.topicIds.map(tid => { const t = TOPICS.find(x => x.id === tid); return t ? `<a href="detail.html?type=topic&id=${tid}" class="badge badge-info" style="text-decoration:none;">${t.name}</a>` : ''; }).join('')}</div></div>` : ''}
+          <div style="border-top:1px solid var(--gray-200);padding-top:16px;"><a href="#" class="btn btn-primary btn-sm">Tới bài viết gốc &rarr;</a></div>
+        </div>`;
+      panel.classList.add('open');
+      backdrop.classList.add('open');
+    }
+
+    function closeArticle() {
+      document.getElementById('articlePanel').classList.remove('open');
+      document.getElementById('articleBackdrop').classList.remove('open');
+    }
+
+    render();
+  </script>
+</body>
+</html>

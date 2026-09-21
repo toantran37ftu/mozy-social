@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chủ đề & Từ khoá — Mozy</title>
+  <link rel="stylesheet" href="shared.css">
+</head>
+<body>
+  <div class="layout" id="app"></div>
+  <script src="shared.js"></script>
+  <script>
+    const state = { search: '', statusFilter: 'all' };
+
+    function getFiltered() {
+      let data = [...TOPICS];
+      if (state.search) {
+        const q = state.search.toLowerCase();
+        data = data.filter(t => t.name.toLowerCase().includes(q));
+      }
+      if (state.statusFilter !== 'all') data = data.filter(t => t.status === state.statusFilter);
+      return data;
+    }
+
+    function render() {
+      const filtered = getFiltered();
+      const atLimit = CURRENT_CUSTOMER.usage.topics >= CURRENT_CUSTOMER.plan.topicLimit;
+
+      document.getElementById('app').innerHTML = `
+        ${buildSidebar('topics')}
+        <div class="main">
+          ${buildHeader('Chủ đề & Từ khoá')}
+          <div class="content fade-in">
+            ${atLimit ? '<div class="alert alert-warning">&#9888; Bạn đã đạt giới hạn ' + CURRENT_CUSTOMER.plan.topicLimit + ' chủ đề theo gói hiện tại. Vui lòng liên hệ nâng gói hoặc xoá bớt chủ đề.</div>' : ''}
+            <div class="card">
+              <div class="card-header">
+                <div class="toolbar" style="flex:1;">
+                  <div class="search-box">
+                    <span class="search-icon">&#128269;</span>
+                    <input type="text" id="searchInput" placeholder="Tìm kiếm chủ đề..." value="${state.search}">
+                  </div>
+                  <select class="filter-select" id="statusFilter">
+                    <option value="all">Tất cả trạng thái</option>
+                    <option value="active" ${state.statusFilter === 'active' ? 'selected' : ''}>Đang chạy</option>
+                    <option value="paused" ${state.statusFilter === 'paused' ? 'selected' : ''}>Tạm dừng</option>
+                  </select>
+                </div>
+                <button class="btn btn-primary" onclick="openCreateTopic()" ${atLimit ? 'disabled style="opacity:0.5;cursor:not-allowed;"' : ''}>+ Tạo chủ đề</button>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Tên chủ đề</th>
+                      <th>Trạng thái</th>
+                      <th>Keyword chính</th>
+                      <th>Keyword phụ</th>
+                      <th>Loại trừ</th>
+                      <th>Số tin (tháng)</th>
+                      <th>Thao tác</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${filtered.map(t => `
+                      <tr style="cursor:default;">
+                        <td>
+                          <a href="detail.html?type=topic&id=${t.id}" style="font-weight:600;text-decoration:none;">${t.name}</a>
+                        </td>
+                        <td>${getStatusBadge(t.status)}</td>
+                        <td>
+                          <div style="display:flex;flex-wrap:wrap;gap:3px;">
+                            ${t.primaryKeywords.slice(0, 3).map(k => `<span class="badge badge-info" style="font-size:11px;">${k}</span>`).join('')}
+                            ${t.primaryKeywords.length > 3 ? `<span class="badge badge-neutral" style="font-size:11px;">+${t.primaryKeywords.length - 3}</span>` : ''}
+                          </div>
+                        </td>
+                        <td>
+                          <div style="display:flex;flex-wrap:wrap;gap:3px;">
+                            ${t.secondaryKeywords.length === 0 ? '<span style="color:var(--gray-400);font-size:12px;">—</span>' : ''}
+                            ${t.secondaryKeywords.slice(0, 2).map(k => `<span class="badge badge-neutral" style="font-size:11px;">${k}</span>`).join('')}
+                            ${t.secondaryKeywords.length > 2 ? `<span class="badge badge-neutral" style="font-size:11px;">+${t.secondaryKeywords.length - 2}</span>` : ''}
+                          </div>
+                        </td>
+                        <td>
+                          <div style="display:flex;flex-wrap:wrap;gap:3px;">
+                            ${t.excludeKeywords.length === 0 ? '<span style="color:var(--gray-400);font-size:12px;">—</span>' : ''}
+                            ${t.excludeKeywords.slice(0, 2).map(k => `<span class="badge badge-danger" style="font-size:11px;">${k}</span>`).join('')}
+                            ${t.excludeKeywords.length > 2 ? `<span class="badge badge-neutral" style="font-size:11px;">+${t.excludeKeywords.length - 2}</span>` : ''}
+                          </div>
+                        </td>
+                        <td>${formatNumber(t.monthMentions)}</td>
+                        <td>
+                          <div class="btn-group">
+                            <button class="btn btn-outline btn-sm" onclick="openEditTopic(${t.id})">Sửa</button>
+                            <button class="btn btn-sm" style="color:${t.status === 'active' ? 'var(--warning)' : 'var(--success)'};border:1px solid ${t.status === 'active' ? 'var(--warning)' : 'var(--success)'};background:#fff;" onclick="toggleTopic(${t.id})">${t.status === 'active' ? 'Tạm dừng' : 'Kích hoạt'}</button>
+                            <button class="btn btn-sm" style="color:var(--danger);border:1px solid var(--danger);background:#fff;" onclick="deleteTopic(${t.id})">Xóa</button>
+                          </div>
+                        </td>
+                      </tr>
+                    `).join('')}
+                    ${filtered.length === 0 ? '<tr><td colspan="7"><div class="empty-state"><div class="empty-icon">&#128196;</div><p>Chưa có chủ đề nào</p></div></td></tr>' : ''}
+                  </tbody>
+                </table>
+              </div>
+              <div class="pagination">
+                <span>${filtered.length} chủ đề &middot; Đã dùng ${CURRENT_CUSTOMER.usage.topics}/${CURRENT_CUSTOMER.plan.topicLimit}</span>
+                <div class="progress-bar" style="width:120px;height:6px;">
+                  <div class="progress-fill ${usageColor(usagePercent(CURRENT_CUSTOMER.usage.topics, CURRENT_CUSTOMER.plan.topicLimit))}" style="width:${usagePercent(CURRENT_CUSTOMER.usage.topics, CURRENT_CUSTOMER.plan.topicLimit)}%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Create/Edit Topic Modal -->
+        <div class="modal-overlay" id="topicModal">
+          <div class="modal" style="max-width:680px;">
+            <div class="modal-header">
+              <h3 id="topicModalTitle">Tạo chủ đề mới</h3>
+              <button class="modal-close" onclick="closeModal('topicModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+              <form id="topicForm">
+                <div class="form-group">
+                  <label class="form-label">Tên chủ đề <span class="required">*</span></label>
+                  <input type="text" class="form-input" id="tName" required placeholder="VD: Chính sách Hậu Giang">
+                  <div class="form-error" id="tNameError"></div>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Nhóm Keyword chính <span class="required">*</span></label>
+                  <div class="form-hint" style="margin-bottom:6px;">Nhập từ rồi bấm Enter để thêm. Các từ có quan hệ HOẶC (chỉ cần khớp 1 từ).</div>
+                  <div class="tag-input-wrap" id="tagPrimary">
+                    <input type="text" class="tag-input-field" placeholder="Nhập keyword chính...">
+                  </div>
+                  <div class="form-error" id="tPrimaryError"></div>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Nhóm Keyword phụ</label>
+                  <div class="form-hint" style="margin-bottom:6px;">Tuỳ chọn. Nếu có, tin bài phải chứa thêm 1 từ trong nhóm này (quan hệ VÀ).</div>
+                  <div class="tag-input-wrap" id="tagSecondary">
+                    <input type="text" class="tag-input-field" placeholder="Nhập keyword phụ...">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Nhóm Keyword loại trừ</label>
+                  <div class="form-hint" style="margin-bottom:6px;">Tuỳ chọn. Tin bài chứa bất kỳ từ nào trong nhóm này sẽ bị loại bỏ hoàn toàn.</div>
+                  <div class="tag-input-wrap negative" id="tagExclude">
+                    <input type="text" class="tag-input-field" placeholder="Nhập keyword loại trừ...">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Nguồn áp dụng</label>
+                  <div style="font-size:13px;color:var(--gray-500);margin-bottom:8px;">Chọn nguồn mà chủ đề này sẽ quét. Mặc định: tất cả nguồn.</div>
+                  <div style="display:flex;flex-direction:column;gap:6px;">
+                    <label style="display:flex;align-items:center;gap:8px;font-size:14px;cursor:pointer;">
+                      <input type="checkbox" id="tAllSources" checked onchange="toggleTopicAllSources()"> <strong>Tất cả nguồn</strong>
+                    </label>
+                    <div id="tSourceList" style="padding-left:24px;display:none;">
+                      ${SOURCES.filter(s => s.status === 'active').map(s => `
+                        <label style="display:flex;align-items:center;gap:8px;font-size:13px;cursor:pointer;padding:2px 0;">
+                          <input type="checkbox" class="t-source-cb" value="${s.id}"> ${getSourceTypeIcon(s.type)} ${s.name}
+                        </label>
+                      `).join('')}
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Filter Preview -->
+                <div class="form-group">
+                  <label class="form-label">Xem trước quy tắc lọc</label>
+                  <div class="filter-preview" id="filterPreview">
+                    <span style="color:var(--gray-400);font-style:italic;">Nhập keyword chính để xem trước...</span>
+                  </div>
+                </div>
+
+                <!-- Cross-validation warning -->
+                <div class="alert alert-warning" id="crossWarning" style="display:none;margin-top:-8px;">
+                  &#9888; Một số từ xuất hiện ở cả nhóm chính/phụ và nhóm loại trừ. Từ trong nhóm loại trừ sẽ luôn thắng.
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-outline" onclick="closeModal('topicModal')">Hủy</button>
+              <button class="btn btn-primary" onclick="submitTopic()">Lưu</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Delete Confirm Modal -->
+        <div class="modal-overlay" id="deleteTopicModal">
+          <div class="modal" style="max-width:420px;">
+            <div class="modal-header">
+              <h3>Xác nhận xóa</h3>
+              <button class="modal-close" onclick="closeModal('deleteTopicModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>Bạn có chắc muốn xóa chủ đề này?</p>
+              <p style="font-size:13px;color:var(--gray-500);margin-top:8px;">Dữ liệu lịch sử đã thu thập vẫn được giữ nguyên.</p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-outline" onclick="closeModal('deleteTopicModal')">Hủy</button>
+              <button class="btn btn-danger" onclick="confirmDeleteTopic()">Xóa</button>
+            </div>
+          </div>
+        </div>`;
+
+      document.getElementById('searchInput').addEventListener('input', e => { state.search = e.target.value; render(); });
+      document.getElementById('statusFilter').addEventListener('change', e => { state.statusFilter = e.target.value; render(); });
+      document.getElementById('topicForm').addEventListener('submit', e => { e.preventDefault(); submitTopic(); });
+
+      // Init tag inputs
+      tagPrimary = createTagInput('tagPrimary', []);
+      tagSecondary = createTagInput('tagSecondary', []);
+      tagExclude = createTagInput('tagExclude', []);
+
+      // Update preview on any tag change
+      ['tagPrimary', 'tagSecondary', 'tagExclude'].forEach(id => {
+        document.getElementById(id).addEventListener('click', updatePreview);
+        document.getElementById(id).addEventListener('input', () => setTimeout(updatePreview, 50));
+      });
+    }
+
+    let tagPrimary, tagSecondary, tagExclude;
+
+    function updatePreview() {
+      const primary = tagPrimary.getTags();
+      const secondary = tagSecondary.getTags();
+      const exclude = tagExclude.getTags();
+      const preview = document.getElementById('filterPreview');
+      if (!preview) return;
+
+      if (primary.length === 0) {
+        preview.innerHTML = '<span style="color:var(--gray-400);font-style:italic;">Nhập keyword chính để xem trước...</span>';
+        return;
+      }
+
+      let html = '<span class="filter-label">Tin bài sẽ được thu thập nếu chứa 1 trong:</span> ';
+      html += primary.map(k => `<span class="filter-keyword">[${k}]</span>`).join(' ');
+
+      if (secondary.length > 0) {
+        html += ' <span class="filter-label">VÀ đồng thời chứa 1 trong:</span> ';
+        html += secondary.map(k => `<span class="filter-keyword">[${k}]</span>`).join(' ');
+      }
+
+      if (exclude.length > 0) {
+        html += ' <span class="filter-label">— và sẽ bị loại bỏ nếu chứa bất kỳ từ nào trong:</span> ';
+        html += exclude.map(k => `<span class="filter-exclude">[${k}]</span>`).join(' ');
+      }
+
+      preview.innerHTML = html;
+
+      // Cross-validation
+      const cross = primary.filter(k => exclude.includes(k)).concat(secondary.filter(k => exclude.includes(k)));
+      const crossWarn = document.getElementById('crossWarning');
+      if (crossWarn) crossWarn.style.display = cross.length > 0 ? '' : 'none';
+    }
+
+    function toggleTopicAllSources() {
+      const all = document.getElementById('tAllSources').checked;
+      document.getElementById('tSourceList').style.display = all ? 'none' : 'block';
+      if (all) document.querySelectorAll('.t-source-cb').forEach(cb => cb.checked = false);
+    }
+
+    let editingTopicId = null;
+    function openCreateTopic() {
+      editingTopicId = null;
+      document.getElementById('topicModalTitle').textContent = 'Tạo chủ đề mới';
+      document.getElementById('tName').value = '';
+      document.getElementById('tAllSources').checked = true;
+      document.getElementById('tSourceList').style.display = 'none';
+      document.getElementById('tNameError').classList.remove('visible');
+      document.getElementById('tPrimaryError').classList.remove('visible');
+      document.getElementById('crossWarning').style.display = 'none';
+      openModal('topicModal');
+    }
+
+    function openEditTopic(id) {
+      const t = TOPICS.find(x => x.id === id);
+      if (!t) return;
+      editingTopicId = id;
+      document.getElementById('topicModalTitle').textContent = 'Chỉnh sửa chủ đề';
+      document.getElementById('tName').value = t.name;
+      document.getElementById('tNameError').classList.remove('visible');
+      document.getElementById('tPrimaryError').classList.remove('visible');
+      document.getElementById('crossWarning').style.display = 'none';
+      openModal('topicModal');
+
+      setTimeout(() => {
+        if (tagPrimary) tagPrimary.setTags(t.primaryKeywords);
+        if (tagSecondary) tagSecondary.setTags(t.secondaryKeywords);
+        if (tagExclude) tagExclude.setTags(t.excludeKeywords);
+
+        const activeSources = SOURCES.filter(s => s.status === 'active').length;
+        document.getElementById('tAllSources').checked = t.sourceIds.length >= activeSources;
+        document.getElementById('tSourceList').style.display = document.getElementById('tAllSources').checked ? 'none' : 'block';
+        document.querySelectorAll('.t-source-cb').forEach(cb => { cb.checked = t.sourceIds.includes(parseInt(cb.value)); });
+        updatePreview();
+      }, 100);
+    }
+
+    function submitTopic() {
+      const name = document.getElementById('tName').value.trim();
+      const primary = tagPrimary.getTags();
+      const secondary = tagSecondary.getTags();
+      const exclude = tagExclude.getTags();
+      const nameErr = document.getElementById('tNameError');
+      const primaryErr = document.getElementById('tPrimaryError');
+
+      if (!name) return;
+      if (primary.length === 0) { primaryErr.textContent = 'Cần ít nhất 1 keyword chính'; primaryErr.classList.add('visible'); return; }
+      primaryErr.classList.remove('visible');
+
+      // Check duplicate name
+      const exists = TOPICS.some(t => t.name.toLowerCase() === name.toLowerCase() && t.id !== editingTopicId);
+      if (exists) { nameErr.textContent = 'Tên chủ đề đã tồn tại'; nameErr.classList.add('visible'); return; }
+      nameErr.classList.remove('visible');
+
+      let sourceIds;
+      if (document.getElementById('tAllSources').checked) {
+        sourceIds = SOURCES.filter(s => s.status === 'active').map(s => s.id);
+      } else {
+        sourceIds = [...document.querySelectorAll('.t-source-cb:checked')].map(cb => parseInt(cb.value));
+      }
+
+      if (editingTopicId) {
+        const t = TOPICS.find(x => x.id === editingTopicId);
+        if (t) { t.name = name; t.primaryKeywords = primary; t.secondaryKeywords = secondary; t.excludeKeywords = exclude; t.sourceIds = sourceIds; }
+        showToast('Cập nhật chủ đề thành công');
+      } else {
+        TOPICS.push({
+          id: TOPICS.length + 100, name, primaryKeywords: primary, secondaryKeywords: secondary,
+          excludeKeywords: exclude, sourceIds, status: 'active',
+          createdAt: new Date().toISOString().slice(0, 10), totalMentions: 0, monthMentions: 0
+        });
+        showToast('Tạo chủ đề "' + name + '" thành công');
+      }
+      closeModal('topicModal');
+      render();
+    }
+
+    function toggleTopic(id) {
+      const t = TOPICS.find(x => x.id === id);
+      if (t) { t.status = t.status === 'active' ? 'paused' : 'active'; showToast(t.status === 'active' ? 'Đã kích hoạt lại' : 'Đã tạm dừng'); render(); }
+    }
+
+    let deletingTopicId = null;
+    function deleteTopic(id) { deletingTopicId = id; openModal('deleteTopicModal'); }
+    function confirmDeleteTopic() {
+      if (deletingTopicId) {
+        const idx = TOPICS.findIndex(t => t.id === deletingTopicId);
+        if (idx >= 0) TOPICS.splice(idx, 1);
+        showToast('Đã xóa chủ đề');
+        closeModal('deleteTopicModal');
+        render();
+      }
+    }
+
+    render();
+  </script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi tiết Khách hàng — Mozy Admin</title>
+  <link rel="stylesheet" href="shared.css">
+</head>
+<body>
+  <div class="layout" id="app"></div>
+
+  <script src="shared.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const customerId = params.get('id');
+    const isNew = !customerId;
+    let mode = isNew ? 'create' : 'view'; // view | edit | create
+
+    function getCustomer() {
+      if (!customerId) return null;
+      return CUSTOMERS.find(c => c.id === parseInt(customerId));
+    }
+
+    function render() {
+      const customer = getCustomer();
+      const plan = customer ? getPlan(customer.planId) : null;
+
+      let html = `
+        ${buildSidebar('customers')}
+        <div class="main">
+          ${buildHeader(isNew ? 'Thêm Khách hàng mới' : (mode === 'edit' ? 'Chỉnh sửa Khách hàng' : customer.org))}
+          <div class="content fade-in">
+            <div style="margin-bottom:16px;">
+              <a href="customers.html" style="font-size:14px;color:var(--gray-500);">&larr; Quay lại danh sách</a>
+            </div>
+            ${customer && customer.status === 'inactive' ? '<div class="alert alert-danger">&#9888; Tài khoản này đang bị khóa (Inactive). KH không thể đăng nhập Customer Portal.</div>' : ''}
+            <div style="display:grid; grid-template-columns: 2fr 1fr; gap: 20px;">
+              <div>
+                <div class="card" style="margin-bottom:20px;">
+                  <div class="card-header">
+                    <h2>${isNew ? 'Thông tin Khách hàng' : (mode === 'edit' ? 'Chỉnh sửa thông tin' : 'Thông tin liên hệ')}</h2>
+                    ${!isNew && mode === 'view' ? '<button class="btn btn-outline btn-sm" onclick="enterEdit()">Chỉnh sửa</button>' : ''}
+                  </div>
+                  <div class="card-body">
+                    ${mode === 'create' || mode === 'edit' ? renderForm(customer) : renderInfo(customer)}
+                  </div>
+                </div>
+                ${!isNew ? renderUsage(customer, plan) : ''}
+              </div>
+              <div>
+                ${!isNew ? renderActions(customer) : ''}
+              </div>
+            </div>
+          </div>
+        </div>`;
+
+      document.getElementById('app').innerHTML = html;
+      bindEvents(customer);
+    }
+
+    function renderInfo(c) {
+      const plan = getPlan(c.planId);
+      return `
+        <div class="info-grid">
+          <div class="info-label">Tên tổ chức</div><div class="info-value"><strong>${c.org}</strong></div>
+          <div class="info-label">Email đăng nhập</div><div class="info-value">${c.email} <span class="badge badge-neutral" style="margin-left:4px;font-size:10px;opacity:0.6;">Không thể sửa</span></div>
+          <div class="info-label">Số điện thoại</div><div class="info-value">${c.phone || '—'}</div>
+          <div class="info-label">Gói subscription</div><div class="info-value"><span class="badge badge-info">${plan ? plan.name : '—'}</span></div>
+          <div class="info-label">Trạng thái</div><div class="info-value"><span class="badge ${c.status === 'active' ? 'badge-success' : 'badge-danger'}">${c.status === 'active' ? 'Active' : 'Inactive'}</span></div>
+          <div class="info-label">Ngày tạo</div><div class="info-value">${formatDate(c.createdAt)}</div>
+          <div class="info-label">Ghi chú nội bộ</div><div class="info-value">${c.note || '<span style="color:var(--gray-400)">Không có</span>'}</div>
+        </div>`;
+    }
+
+    function renderForm(c) {
+      const isEdit = mode === 'edit';
+      const v = c || {};
+      return `
+        <form id="customerForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Tên tổ chức <span class="required">*</span></label>
+              <input type="text" class="form-input" id="fOrg" value="${v.org || ''}" required placeholder="Nhập tên tổ chức">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email đăng nhập <span class="required">*</span></label>
+              <input type="email" class="form-input" id="fEmail" value="${v.email || ''}" ${isEdit ? 'disabled style="background:var(--gray-100)"' : ''} required placeholder="email@domain.vn">
+              ${isEdit ? '<div class="form-hint">Email không thể thay đổi trực tiếp ở MVP</div>' : ''}
+              <div class="form-error" id="emailError"></div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Số điện thoại</label>
+              <input type="tel" class="form-input" id="fPhone" value="${v.phone || ''}" placeholder="0xxx xxx xxx">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Gói subscription <span class="required">*</span></label>
+              <select class="form-select" id="fPlan" required>
+                <option value="">Chọn gói...</option>
+                ${PLANS.map(p => `<option value="${p.id}" ${v.planId === p.id ? 'selected' : ''}>${p.name}</option>`).join('')}
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Ghi chú nội bộ</label>
+            <textarea class="form-textarea" id="fNote" placeholder="Ghi chú cho nội bộ...">${v.note || ''}</textarea>
+          </div>
+          <div class="form-actions">
+            ${isNew ? `<a href="customers.html" class="btn btn-outline">Hủy</a>` : `<button type="button" class="btn btn-outline" onclick="mode='view';render();">Hủy</button>`}
+            <button type="submit" class="btn btn-primary">${isNew ? 'Tạo Khách hàng' : 'Lưu thay đổi'}</button>
+          </div>
+        </form>`;
+    }
+
+    function renderUsage(c, plan) {
+      if (!plan) return '';
+      const cPct = usagePercent(c.usage.crawl, plan.crawlLimit);
+      const kPct = usagePercent(c.usage.keywords, plan.keywordLimit);
+      const tPct = usagePercent(c.usage.topics, plan.topicLimit);
+      const sPct = usagePercent(c.usage.sources, plan.sourceLimit);
+
+      return `
+        <div class="card">
+          <div class="card-header"><h2>Sử dụng tháng hiện tại</h2></div>
+          <div class="card-body">
+            <div class="section-title">Tin crawl: ${formatNumber(c.usage.crawl)} / ${formatNumber(plan.crawlLimit)}</div>
+            <div class="progress-bar" style="margin-bottom:20px; height:12px;">
+              <div class="progress-fill ${usageColor(cPct)}" style="width:${cPct}%;"></div>
+            </div>
+            <div class="stats-grid">
+              <div class="stat-card">
+                <div class="stat-value" style="${kPct > 90 ? 'color:var(--danger)' : ''}">${c.usage.keywords}/${plan.keywordLimit}</div>
+                <div class="stat-label">Keyword</div>
+                <div class="progress-bar" style="margin-top:8px;height:4px;">
+                  <div class="progress-fill ${usageColor(kPct)}" style="width:${kPct}%;"></div>
+                </div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value" style="${tPct > 90 ? 'color:var(--danger)' : ''}">${c.usage.topics}/${plan.topicLimit}</div>
+                <div class="stat-label">Chủ đề</div>
+                <div class="progress-bar" style="margin-top:8px;height:4px;">
+                  <div class="progress-fill ${usageColor(tPct)}" style="width:${tPct}%;"></div>
+                </div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value" style="${sPct > 90 ? 'color:var(--danger)' : ''}">${c.usage.sources}/${plan.sourceLimit}</div>
+                <div class="stat-label">Nguồn</div>
+                <div class="progress-bar" style="margin-top:8px;height:4px;">
+                  <div class="progress-fill ${usageColor(sPct)}" style="width:${sPct}%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>`;
+    }
+
+    function renderActions(c) {
+      return `
+        <div class="card" style="margin-bottom:20px;">
+          <div class="card-header"><h2>Thao tác</h2></div>
+          <div class="card-body" style="display:flex;flex-direction:column;gap:8px;">
+            ${c.status === 'active'
+              ? `<button class="btn btn-danger" onclick="toggleStatus(${c.id}, 'inactive')">&#128274; Khóa tài khoản</button>
+                 <div style="font-size:12px;color:var(--gray-500);">KH không thể đăng nhập, dừng thu thập dữ liệu</div>`
+              : `<button class="btn btn-success" onclick="toggleStatus(${c.id}, 'active')">&#128275; Mở khóa tài khoản</button>
+                 <div style="font-size:12px;color:var(--gray-500);">Khôi phục quyền truy cập và thu thập dữ liệu</div>`
+            }
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><h2>Lịch sử thay đổi gói</h2></div>
+          <div class="card-body">
+            <div style="font-size:13px; color:var(--gray-500);">
+              <div style="padding:8px 0;border-bottom:1px solid var(--gray-100);">
+                <div style="color:var(--gray-800);font-weight:500;">${formatDate(c.createdAt)}</div>
+                <div>Gán gói <span class="badge badge-info">${getPlan(c.planId).name}</span></div>
+              </div>
+              ${c.id === 1 ? `
+              <div style="padding:8px 0;border-bottom:1px solid var(--gray-100);">
+                <div style="color:var(--gray-800);font-weight:500;">15/06/2026</div>
+                <div>Đổi từ <span class="badge badge-info">Basic</span> sang <span class="badge badge-info">Professional</span></div>
+              </div>` : ''}
+              ${c.id === 3 ? `
+              <div style="padding:8px 0;border-bottom:1px solid var(--gray-100);">
+                <div style="color:var(--gray-800);font-weight:500;">01/03/2026</div>
+                <div>Đổi từ <span class="badge badge-info">Professional</span> sang <span class="badge badge-info">Enterprise</span></div>
+              </div>` : ''}
+            </div>
+          </div>
+        </div>`;
+    }
+
+    function enterEdit() { mode = 'edit'; render(); }
+    function cancelEdit() { mode = 'view'; render(); }
+
+    function toggleStatus(id, newStatus) {
+      const action = newStatus === 'inactive' ? 'khóa' : 'mở khóa';
+      if (confirm(`Bạn có chắc chắn muốn ${action} tài khoản này?`)) {
+        const c = CUSTOMERS.find(c => c.id === id);
+        if (c) c.status = newStatus;
+        showToast(`Đã ${action} tài khoản thành công`);
+        render();
+      }
+    }
+
+    function bindEvents(customer) {
+      const form = document.getElementById('customerForm');
+      if (!form) return;
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const org = document.getElementById('fOrg').value.trim();
+        const email = document.getElementById('fEmail').value.trim();
+        const phone = document.getElementById('fPhone').value.trim();
+        const planId = parseInt(document.getElementById('fPlan').value);
+        const note = document.getElementById('fNote').value.trim();
+        const emailErr = document.getElementById('emailError');
+
+        // Validation
+        if (!org || !email || !planId) return;
+
+        // Check unique email (create only)
+        if (isNew) {
+          const exists = CUSTOMERS.some(c => c.email.toLowerCase() === email.toLowerCase());
+          if (exists) {
+            emailErr.textContent = 'Email đã được sử dụng';
+            emailErr.classList.add('visible');
+            document.getElementById('fEmail').classList.add('error');
+            return;
+          }
+        }
+
+        if (emailErr) emailErr.classList.remove('visible');
+
+        if (isNew) {
+          const newC = {
+            id: CUSTOMERS.length + 1,
+            org, email, phone, planId,
+            status: 'active',
+            createdAt: new Date().toISOString().slice(0, 10),
+            note,
+            usage: { crawl: 0, keywords: 0, topics: 0, sources: 0 }
+          };
+          CUSTOMERS.push(newC);
+          showToast('Tạo Khách hàng thành công! Mật khẩu tạm đã được gửi qua email.');
+          setTimeout(() => { window.location.href = 'customer-detail.html?id=' + newC.id; }, 1500);
+        } else {
+          const c = CUSTOMERS.find(c => c.id === parseInt(customerId));
+          if (c) {
+            c.org = org;
+            c.phone = phone;
+            c.planId = planId;
+            c.note = note;
+            showToast('Cập nhật thông tin thành công');
+            mode = 'view';
+            render();
+          }
+        }
+      });
+    }
+
+    render();
+  </script>
+</body>
+</html>
