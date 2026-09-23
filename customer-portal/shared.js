@@ -184,7 +184,6 @@ function openCreateTopicFromSidebar() {
     return;
   }
 
-  const activeSources = SOURCES.filter(s => s.status === 'active');
   const html = `
     <div class="modal-overlay" id="sidebarTopicModal">
       <div class="modal" style="max-width:600px;">
@@ -221,20 +220,6 @@ function openCreateTopicFromSidebar() {
                 <input type="text" class="tag-input-field" placeholder="Nhập keyword loại trừ...">
               </div>
             </div>
-            <div class="form-group">
-              <label class="form-label">Nguồn áp dụng</label>
-              <div style="display:flex;flex-direction:column;gap:6px;">
-                <label style="display:flex;align-items:center;gap:8px;font-size:14px;cursor:pointer;">
-                  <input type="checkbox" id="sTAllSources" checked onchange="document.getElementById('sTSourceList').style.display=this.checked?'none':'block'"> <strong>Tất cả nguồn</strong>
-                </label>
-                <div id="sTSourceList" style="padding-left:24px;display:none;">
-                  ${activeSources.map(s => `
-                    <label style="display:flex;align-items:center;gap:8px;font-size:13px;cursor:pointer;padding:2px 0;">
-                      <input type="checkbox" class="s-source-cb" value="${s.id}"> ${getSourceTypeIcon(s.type)} ${s.name}
-                    </label>`).join('')}
-                </div>
-              </div>
-            </div>
           </form>
         </div>
         <div class="modal-footer">
@@ -265,12 +250,8 @@ function submitSidebarTopic() {
   if (exists) { nameErr.textContent = 'Tên chủ đề đã tồn tại'; nameErr.classList.add('visible'); return; }
   nameErr.classList.remove('visible');
 
-  let sourceIds;
-  if (document.getElementById('sTAllSources').checked) {
-    sourceIds = SOURCES.filter(s => s.status === 'active').map(s => s.id);
-  } else {
-    sourceIds = [...document.querySelectorAll('.s-source-cb:checked')].map(cb => parseInt(cb.value));
-  }
+  // Always use all active sources
+  const sourceIds = SOURCES.filter(s => s.status === 'active').map(s => s.id);
 
   TOPICS.push({
     id: TOPICS.length + 100, name, primaryKeywords: primary,

@@ -151,23 +151,6 @@
                   </div>
                 </div>
 
-                <div class="form-group">
-                  <label class="form-label">Nguồn áp dụng</label>
-                  <div style="font-size:13px;color:var(--gray-500);margin-bottom:8px;">Chọn nguồn mà chủ đề này sẽ quét. Mặc định: tất cả nguồn.</div>
-                  <div style="display:flex;flex-direction:column;gap:6px;">
-                    <label style="display:flex;align-items:center;gap:8px;font-size:14px;cursor:pointer;">
-                      <input type="checkbox" id="tAllSources" checked onchange="toggleTopicAllSources()"> <strong>Tất cả nguồn</strong>
-                    </label>
-                    <div id="tSourceList" style="padding-left:24px;display:none;">
-                      ${SOURCES.filter(s => s.status === 'active').map(s => `
-                        <label style="display:flex;align-items:center;gap:8px;font-size:13px;cursor:pointer;padding:2px 0;">
-                          <input type="checkbox" class="t-source-cb" value="${s.id}"> ${getSourceTypeIcon(s.type)} ${s.name}
-                        </label>
-                      `).join('')}
-                    </div>
-                  </div>
-                </div>
-
                 <!-- Filter Preview -->
                 <div class="form-group">
                   <label class="form-label">Xem trước quy tắc lọc</label>
@@ -258,19 +241,11 @@
       if (crossWarn) crossWarn.style.display = cross.length > 0 ? '' : 'none';
     }
 
-    function toggleTopicAllSources() {
-      const all = document.getElementById('tAllSources').checked;
-      document.getElementById('tSourceList').style.display = all ? 'none' : 'block';
-      if (all) document.querySelectorAll('.t-source-cb').forEach(cb => cb.checked = false);
-    }
-
     let editingTopicId = null;
     function openCreateTopic() {
       editingTopicId = null;
       document.getElementById('topicModalTitle').textContent = 'Tạo chủ đề mới';
       document.getElementById('tName').value = '';
-      document.getElementById('tAllSources').checked = true;
-      document.getElementById('tSourceList').style.display = 'none';
       document.getElementById('tNameError').classList.remove('visible');
       document.getElementById('tPrimaryError').classList.remove('visible');
       document.getElementById('crossWarning').style.display = 'none';
@@ -292,11 +267,6 @@
         if (tagPrimary) tagPrimary.setTags(t.primaryKeywords);
         if (tagSecondary) tagSecondary.setTags(t.secondaryKeywords);
         if (tagExclude) tagExclude.setTags(t.excludeKeywords);
-
-        const activeSources = SOURCES.filter(s => s.status === 'active').length;
-        document.getElementById('tAllSources').checked = t.sourceIds.length >= activeSources;
-        document.getElementById('tSourceList').style.display = document.getElementById('tAllSources').checked ? 'none' : 'block';
-        document.querySelectorAll('.t-source-cb').forEach(cb => { cb.checked = t.sourceIds.includes(parseInt(cb.value)); });
         updatePreview();
       }, 100);
     }
@@ -318,12 +288,8 @@
       if (exists) { nameErr.textContent = 'Tên chủ đề đã tồn tại'; nameErr.classList.add('visible'); return; }
       nameErr.classList.remove('visible');
 
-      let sourceIds;
-      if (document.getElementById('tAllSources').checked) {
-        sourceIds = SOURCES.filter(s => s.status === 'active').map(s => s.id);
-      } else {
-        sourceIds = [...document.querySelectorAll('.t-source-cb:checked')].map(cb => parseInt(cb.value));
-      }
+      // Always use all active sources
+      const sourceIds = SOURCES.filter(s => s.status === 'active').map(s => s.id);
 
       if (editingTopicId) {
         const t = TOPICS.find(x => x.id === editingTopicId);
