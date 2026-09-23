@@ -22,6 +22,8 @@ const SOURCES = [
   { id: 10, name: 'Fanpage UBND Tỉnh', url: 'https://facebook.com/ubndhaugiang', type: 'Facebook Fanpage', status: 'pending', addedAt: '2026-06-15', topicIds: [], keywordIds: [] },
   { id: 11, name: 'Báo Lao Động', url: 'https://laodong.vn', type: 'Báo chí', status: 'active', addedAt: '2026-06-20', topicIds: [4], keywordIds: [] },
   { id: 12, name: 'YouTube Hậu Giang Today', url: 'https://youtube.com/@haugiangtoday', type: 'YouTube', status: 'active', addedAt: '2026-07-01', topicIds: [3], keywordIds: [5] },
+  { id: 13, name: 'Báo Pháp Luật', url: 'https://plo.vn', type: 'Báo chí', status: 'rejected', addedAt: '2026-08-01', topicIds: [], keywordIds: [], rejectReason: 'Nguồn spam/không phù hợp' },
+  { id: 14, name: 'Fanpage Du lịch HG', url: 'https://facebook.com/dulichhaugiang', type: 'Facebook Fanpage', status: 'paused', addedAt: '2026-05-20', topicIds: [], keywordIds: [] },
 ];
 
 const KEYWORDS = [
@@ -92,7 +94,7 @@ function getSourceTypeIcon(type) {
 }
 function getSourceTypeBadge(type) { return `<span class="source-type-icon">${getSourceTypeIcon(type)}</span>${type}`; }
 function getStatusBadge(status) {
-  const map = { active: ['Đang chạy', 'badge-success'], error: ['Lỗi', 'badge-danger'], pending: ['Chờ xác thực', 'badge-warning'], paused: ['Tạm dừng', 'badge-neutral'] };
+  const map = { active: ['Đang chạy', 'badge-success'], error: ['Lỗi', 'badge-danger'], pending: ['Chờ duyệt', 'badge-warning'], rejected: ['Bị từ chối', 'badge-danger'], paused: ['Tạm ngưng bởi hệ thống', 'badge-neutral'] };
   const [label, cls] = map[status] || ['Không rõ', 'badge-neutral'];
   return `<span class="badge ${cls}">${label}</span>`;
 }

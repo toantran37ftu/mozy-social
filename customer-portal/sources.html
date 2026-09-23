@@ -5,6 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nguồn theo dõi — Mozy</title>
   <link rel="stylesheet" href="shared.css">
+  <style>
+    .reject-reason-cell {
+      font-size: 12px;
+      color: var(--danger);
+      margin-top: 4px;
+      padding: 4px 8px;
+      background: var(--danger-bg);
+      border-radius: 4px;
+      display: inline-block;
+    }
+    .status-dot.paused { background: var(--gray-400); }
+  </style>
 </head>
 <body>
   <div class="layout" id="app"></div>
@@ -23,17 +35,21 @@
       return data;
     }
 
+    function countActiveOrPending() {
+      return SOURCES.filter(s => s.status === 'active' || s.status === 'pending').length;
+    }
+
     function render() {
       const filtered = getFiltered();
       const sourceTypes = [...new Set(SOURCES.map(s => s.type))];
-      const atLimit = CURRENT_CUSTOMER.usage.sources >= CURRENT_CUSTOMER.plan.sourceLimit;
+      const atLimit = countActiveOrPending() >= CURRENT_CUSTOMER.plan.sourceLimit;
 
       document.getElementById('app').innerHTML = `
         ${buildSidebar('sources')}
         <div class="main">
           ${buildHeader('Nguồn theo dõi')}
           <div class="content fade-in">
-            ${atLimit ? '<div class="alert alert-warning">&#9888; Bạn đã đạt giới hạn ' + CURRENT_CUSTOMER.plan.sourceLimit + ' nguồn theo gói hiện tại. Vui lòng liên hệ nâng gói hoặc xoá bớt nguồn không cần thiết.</div>' : ''}
+            ${atLimit ? '<div class="alert alert-warning">&#9888; Bạn đã đạt giới hạn ' + CURRENT_CUSTOMER.plan.sourceLimit + ' nguồn theo gói hiện tại. Vui lòng liên hệ nâng gói hoặc chờ Admin xử lý bớt các đề xuất đang chờ duyệt.</div>' : ''}
             <div class="card">
               <div class="card-header">
                 <div class="toolbar" style="flex:1;">
@@ -49,10 +65,12 @@
                     <option value="all">Tất cả trạng thái</option>
                     <option value="active" ${state.statusFilter === 'active' ? 'selected' : ''}>Đang chạy</option>
                     <option value="error" ${state.statusFilter === 'error' ? 'selected' : ''}>Lỗi</option>
-                    <option value="pending" ${state.statusFilter === 'pending' ? 'selected' : ''}>Chờ xác thực</option>
+                    <option value="pending" ${state.statusFilter === 'pending' ? 'selected' : ''}>Chờ duyệt</option>
+                    <option value="rejected" ${state.statusFilter === 'rejected' ? 'selected' : ''}>Bị từ chối</option>
+                    <option value="paused" ${state.statusFilter === 'paused' ? 'selected' : ''}>Tạm ngưng bởi hệ thống</option>
                   </select>
                 </div>
-                <button class="btn btn-primary" onclick="openAddSource()" ${atLimit ? 'disabled style="opacity:0.5;cursor:not-allowed;"' : ''}>+ Thêm nguồn</button>
+                <button class="btn btn-primary" onclick="openProposeSource()" ${atLimit ? 'disabled style="opacity:0.5;cursor:not-allowed;"' : ''}>+ Đề xuất nguồn</button>
               </div>
               <div class="table-wrap">
                 <table>
@@ -63,7 +81,7 @@
                       <th>Trạng thái</th>
                       <th>Chủ đề gán</th>
                       <th>Ngày thêm</th>
-                      <th>Thao tác</th>
+                      <th style="width:100px;"></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -72,6 +90,7 @@
                         <td>
                           <strong>${s.name}</strong>
                           <div style="font-size:12px;color:var(--gray-500);word-break:break-all;">${s.url}</div>
+                          ${s.status === 'rejected' && s.rejectReason ? `<div class="reject-reason-cell">Lý do từ chối: ${s.rejectReason}</div>` : ''}
                         </td>
                         <td><span class="badge badge-neutral">${getSourceTypeIcon(s.type)} ${s.type}</span></td>
                         <td>${getStatusBadge(s.status)}${s.errorReason ? `<div style="font-size:11px;color:var(--danger);margin-top:2px;">${s.errorReason}</div>` : ''}</td>
@@ -82,38 +101,32 @@
                           </div>
                         </td>
                         <td style="white-space:nowrap;color:var(--gray-500);">${formatDate(s.addedAt)}</td>
-                        <td>
-                          <div class="btn-group">
-                            <button class="btn btn-outline btn-sm" onclick="openEditSource(${s.id})">Sửa</button>
-                            ${s.status === 'error' ? `<button class="btn btn-outline btn-sm" onclick="retrySource(${s.id})" style="color:var(--warning);">Thử lại</button>` : ''}
-                            <button class="btn btn-sm" style="color:var(--danger);border:1px solid var(--danger);background:#fff;" onclick="deleteSource(${s.id})">Xóa</button>
-                          </div>
-                        </td>
+                        <td>${s.status === 'rejected' ? `<button class="btn btn-outline btn-sm" onclick="openResend(${s.id})">Gửi lại</button>` : ''}</td>
                       </tr>
                     `).join('')}
-                    ${filtered.length === 0 ? '<tr><td colspan="6"><div class="empty-state"><div class="empty-icon">&#128279;</div><p>Chưa có nguồn nào. Bấm "Thêm nguồn" để bắt đầu!</p></div></td></tr>' : ''}
+                    ${filtered.length === 0 ? '<tr><td colspan="6"><div class="empty-state"><div class="empty-icon">&#128279;</div><p>Chưa có nguồn nào. Bấm "Đề xuất nguồn" để bắt đầu!</p></div></td></tr>' : ''}
                   </tbody>
                 </table>
               </div>
               <div class="pagination">
-                <span>${filtered.length} nguồn &middot; Đã dùng ${CURRENT_CUSTOMER.usage.sources}/${CURRENT_CUSTOMER.plan.sourceLimit}</span>
+                <span>${filtered.length} nguồn &middot; Đã dùng ${countActiveOrPending()}/${CURRENT_CUSTOMER.plan.sourceLimit} (Đang chạy + Chờ duyệt)</span>
                 <div class="progress-bar" style="width:120px;height:6px;">
-                  <div class="progress-fill ${usageColor(usagePercent(CURRENT_CUSTOMER.usage.sources, CURRENT_CUSTOMER.plan.sourceLimit))}" style="width:${usagePercent(CURRENT_CUSTOMER.usage.sources, CURRENT_CUSTOMER.plan.sourceLimit)}%;"></div>
+                  <div class="progress-fill ${usageColor(usagePercent(countActiveOrPending(), CURRENT_CUSTOMER.plan.sourceLimit))}" style="width:${usagePercent(countActiveOrPending(), CURRENT_CUSTOMER.plan.sourceLimit)}%;"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Add/Edit Modal -->
-        <div class="modal-overlay" id="sourceModal">
+        <!-- Propose Source Modal -->
+        <div class="modal-overlay" id="proposeModal">
           <div class="modal">
             <div class="modal-header">
-              <h3 id="sourceModalTitle">Thêm nguồn mới</h3>
-              <button class="modal-close" onclick="closeModal('sourceModal')">&times;</button>
+              <h3>Đề xuất nguồn mới</h3>
+              <button class="modal-close" onclick="closeModal('proposeModal')">&times;</button>
             </div>
             <div class="modal-body">
-              <form id="sourceForm">
+              <form id="proposeForm">
                 <div class="form-group">
                   <label class="form-label">URL nguồn <span class="required">*</span></label>
                   <input type="url" class="form-input" id="sUrl" required placeholder="https://example.com" value="">
@@ -135,28 +148,31 @@
                 <div class="form-group">
                   <label class="form-label">Tên hiển thị</label>
                   <input type="text" class="form-input" id="sName" placeholder="Tự động lấy từ URL">
-                  <div class="form-hint">Để trống sẽ tự lấy tên từ URL</div>
+                  <div class="form-hint">Chỉ là gợi ý tên, Admin có thể đặt lại khi duyệt</div>
                 </div>
               </form>
+              <div class="alert alert-info" style="margin-top:12px;margin-bottom:0;">
+                &#9432; Đề xuất sẽ được gửi đến Admin để duyệt. Nguồn sẽ bắt đầu thu thập sau khi được phê duyệt.
+              </div>
             </div>
             <div class="modal-footer">
-              <button class="btn btn-outline" onclick="closeModal('sourceModal')">Hủy</button>
-              <button class="btn btn-primary" onclick="submitSource()">Thêm nguồn</button>
+              <button class="btn btn-outline" onclick="closeModal('proposeModal')">Hủy</button>
+              <button class="btn btn-primary" onclick="submitProposal()">Gửi đề xuất</button>
             </div>
           </div>
         </div>
 
-        <!-- Delete Confirm Modal -->
-        <div class="modal-overlay" id="deleteModal">
+        <!-- Resend Proposal Modal -->
+        <div class="modal-overlay" id="resendModal">
           <div class="modal" style="max-width:420px;">
             <div class="modal-header">
-              <h3>Xác nhận xóa nguồn</h3>
-              <button class="modal-close" onclick="closeModal('deleteModal')">&times;</button>
+              <h3>Gửi lại đề xuất</h3>
+              <button class="modal-close" onclick="closeModal('resendModal')">&times;</button>
             </div>
-            <div class="modal-body" id="deleteBody"></div>
+            <div class="modal-body" id="resendBody"></div>
             <div class="modal-footer">
-              <button class="btn btn-outline" onclick="closeModal('deleteModal')">Hủy</button>
-              <button class="btn btn-danger" onclick="confirmDelete()">Xóa</button>
+              <button class="btn btn-outline" onclick="closeModal('resendModal')">Hủy</button>
+              <button class="btn btn-primary" onclick="confirmResend()">Gửi lại</button>
             </div>
           </div>
         </div>`;
@@ -172,102 +188,58 @@
       });
     }
 
-    let editingSourceId = null;
-    function openAddSource() {
-      editingSourceId = null;
-      document.getElementById('sourceModalTitle').textContent = 'Thêm nguồn mới';
+    function openProposeSource() {
       document.getElementById('sUrl').value = '';
       document.getElementById('sType').value = '';
       document.getElementById('sName').value = '';
       document.getElementById('sUrlError').classList.remove('visible');
-      openModal('sourceModal');
+      openModal('proposeModal');
     }
 
-    function openEditSource(id) {
-      const s = SOURCES.find(x => x.id === id);
-      if (!s) return;
-      editingSourceId = id;
-      document.getElementById('sourceModalTitle').textContent = 'Chỉnh sửa nguồn';
-      document.getElementById('sUrl').value = s.url;
-      document.getElementById('sType').value = s.type;
-      document.getElementById('sName').value = s.name;
-      document.getElementById('sUrlError').classList.remove('visible');
-      openModal('sourceModal');
-    }
-
-    function submitSource() {
+    function submitProposal() {
       const url = document.getElementById('sUrl').value.trim();
       const type = document.getElementById('sType').value;
       let name = document.getElementById('sName').value.trim();
       const urlErr = document.getElementById('sUrlError');
 
       if (!url || !type) return;
-
-      // Validate URL
       try { new URL(url); } catch { urlErr.textContent = 'URL không hợp lệ'; urlErr.classList.add('visible'); return; }
       urlErr.classList.remove('visible');
-
       if (!name) { try { name = new URL(url).hostname.replace('www.', ''); } catch { name = url; } }
 
-      // Check duplicate
-      if (!editingSourceId) {
-        const exists = SOURCES.some(s => s.url.toLowerCase() === url.toLowerCase());
-        if (exists) { urlErr.textContent = 'URL này đã tồn tại trong danh sách nguồn'; urlErr.classList.add('visible'); return; }
-      }
+      const exists = SOURCES.some(s => s.url.toLowerCase() === url.toLowerCase());
+      if (exists) { urlErr.textContent = 'URL này đã tồn tại trong danh sách của bạn'; urlErr.classList.add('visible'); return; }
 
-      if (editingSourceId) {
-        const s = SOURCES.find(x => x.id === editingSourceId);
-        if (s) { s.name = name; s.url = url; s.type = type; }
-        showToast('Cập nhật nguồn thành công');
-      } else {
-        SOURCES.push({
-          id: SOURCES.length + 100, name, url, type,
-          status: 'pending', addedAt: new Date().toISOString().slice(0, 10),
-          topicIds: [], keywordIds: []
-        });
-        showToast('Thêm nguồn thành công! Đang xác thực...');
-        // Simulate status change
-        setTimeout(() => {
-          const s = SOURCES[SOURCES.length - 1];
-          if (s) s.status = 'active';
-        }, 2000);
-      }
-
-      closeModal('sourceModal');
+      SOURCES.push({
+        id: Date.now(), name, url, type,
+        status: 'pending', addedAt: new Date().toISOString().slice(0, 10),
+        topicIds: [], keywordIds: []
+      });
+      showToast('Đã gửi đề xuất "' + name + '" — đang chờ Admin duyệt');
+      closeModal('proposeModal');
       render();
     }
 
-    let deletingSourceId = null;
-    function deleteSource(id) {
+    // --- Resend rejected proposal ---
+    let resendSourceId = null;
+    function openResend(id) {
       const s = SOURCES.find(x => x.id === id);
+      if (!s || s.status !== 'rejected') return;
+      resendSourceId = id;
+      document.getElementById('resendBody').innerHTML = `
+        <p>Gửi lại đề xuất cho nguồn <strong>${s.name}</strong>?</p>
+        <p style="font-size:13px;color:var(--gray-500);margin-top:8px;">Sẽ tạo 1 đề xuất mới (không sửa đề xuất cũ). Lịch sử lần bị từ chối trước vẫn được giữ.</p>
+        ${s.rejectReason ? `<div class="alert alert-danger" style="margin-top:12px;margin-bottom:0;">Lý do bị từ chối lần trước: ${s.rejectReason}</div>` : ''}`;
+      openModal('resendModal');
+    }
+
+    function confirmResend() {
+      const s = SOURCES.find(x => x.id === resendSourceId);
       if (!s) return;
-      deletingSourceId = id;
-      const hasTopics = s.topicIds.length > 0;
-      document.getElementById('deleteBody').innerHTML = `
-        <p>Bạn có chắc muốn xóa nguồn <strong>${s.name}</strong>?</p>
-        ${hasTopics ? '<div class="alert alert-warning" style="margin-top:12px;">Nguồn này đang được gán cho ' + s.topicIds.length + ' chủ đề. Sau khi xóa, nguồn sẽ không còn trong danh sách gán nguồn cho các chủ đề.</div>' : ''}
-        <p style="font-size:13px;color:var(--gray-500);margin-top:8px;">Dữ liệu lịch sử đã thu thập từ nguồn này vẫn được giữ nguyên.</p>`;
-      openModal('deleteModal');
-    }
-
-    function confirmDelete() {
-      if (deletingSourceId) {
-        const idx = SOURCES.findIndex(s => s.id === deletingSourceId);
-        if (idx >= 0) SOURCES.splice(idx, 1);
-        showToast('Đã xóa nguồn');
-        closeModal('deleteModal');
-        render();
-      }
-    }
-
-    function retrySource(id) {
-      const s = SOURCES.find(x => x.id === id);
-      if (s) { s.status = 'pending'; }
-      showToast('Đang thử lại...', 'info');
-      setTimeout(() => {
-        if (s) s.status = Math.random() > 0.3 ? 'active' : 'error';
-        render();
-      }, 1500);
+      s.status = 'pending';
+      s.rejectReason = undefined;
+      showToast('Đã gửi lại đề xuất "' + s.name + '" — đang chờ Admin duyệt');
+      closeModal('resendModal');
       render();
     }
 

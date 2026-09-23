@@ -32,26 +32,26 @@ const CUSTOMERS = [
 ];
 
 const SOURCES = [
-  { id: 1, name: 'Báo VnExpress', url: 'https://vnexpress.net', type: 'Báo chí', status: 'active', followers: [1, 3, 5, 7, 8, 10, 11, 12, 15, 17, 19], addedAt: '2026-01-05' },
-  { id: 2, name: 'Báo Tuổi Trẻ', url: 'https://tuoitre.vn', type: 'Báo chí', status: 'active', followers: [1, 2, 3, 6, 8, 10, 14, 19, 21], addedAt: '2026-01-05' },
-  { id: 3, name: 'Báo Thanh Niên', url: 'https://thanhnien.vn', type: 'Báo chí', status: 'active', followers: [1, 3, 8, 10, 11, 19, 22], addedAt: '2026-01-10' },
-  { id: 4, name: 'Fanpage Chính phủ', url: 'https://facebook.com/chinhphu.vn', type: 'Facebook Fanpage', status: 'active', followers: [3, 10, 11, 12, 19], addedAt: '2026-01-15' },
-  { id: 5, name: 'YouTube VTV News', url: 'https://youtube.com/@VTVNews', type: 'YouTube', status: 'active', followers: [3, 8, 10, 19, 22], addedAt: '2026-01-20' },
-  { id: 6, name: 'Báo Dân Trí', url: 'https://dantri.com.vn', type: 'Báo chí', status: 'active', followers: [1, 2, 5, 7, 14, 15, 17, 21], addedAt: '2026-02-01' },
-  { id: 7, name: 'Fanpage Sở TT&TT Hậu Giang', url: 'https://facebook.com/sottt.haugiang', type: 'Facebook Fanpage', status: 'active', followers: [1], addedAt: '2026-03-15' },
-  { id: 8, name: 'Báo VietnamNet', url: 'https://vietnamnet.vn', type: 'Báo chí', status: 'error', followers: [1, 3, 10, 11, 12, 19], addedAt: '2026-01-10' },
-  { id: 9, name: 'TikTok @vietnamnews', url: 'https://tiktok.com/@vietnamnews', type: 'TikTok', status: 'active', followers: [10, 19], addedAt: '2026-03-01' },
-  { id: 10, name: 'Báo Lao Động', url: 'https://laodong.vn', type: 'Báo chí', status: 'active', followers: [1, 2, 5, 8, 14, 15, 21, 22], addedAt: '2026-02-15' },
-  { id: 11, name: 'Fanpage Bộ TT&TT', url: 'https://facebook.com/bộthôngtinvàtruyenthông', type: 'Facebook Fanpage', status: 'active', followers: [3, 11, 12, 19], addedAt: '2026-01-10' },
-  { id: 12, name: 'YouTube FPT Play', url: 'https://youtube.com/@FPTPlay', type: 'YouTube', status: 'active', followers: [8, 10, 19], addedAt: '2026-04-01' },
-  { id: 13, name: 'Báo Tuổi Trẻ CN', url: 'https://tuoitre.vn/cong-nghe.htm', type: 'Báo chí', status: 'active', followers: [1, 3, 10, 15, 17], addedAt: '2026-02-20' },
-  { id: 14, name: 'Facebook Group Chính sách số', url: 'https://facebook.com/groups/chinhsachso', type: 'Facebook Group', status: 'active', followers: [3, 11, 12], addedAt: '2026-03-10' },
-  { id: 15, name: 'Báo VOV', url: 'https://vov.vn', type: 'Báo chí', status: 'error', followers: [1, 2, 5, 7, 8, 14, 15, 17, 21], addedAt: '2026-01-20' },
-  { id: 16, name: 'YouTube VTC Now', url: 'https://youtube.com/@VTCNow', type: 'YouTube', status: 'active', followers: [3, 10, 19], addedAt: '2026-05-01' },
-  { id: 17, name: 'Báo Infonet', url: 'https://infonet.vn', type: 'Báo chí', status: 'pending', followers: [1, 11], addedAt: '2026-06-15' },
-  { id: 18, name: 'TikTok @thanhnien', url: 'https://tiktok.com/@thanhnien_official', type: 'TikTok', status: 'active', followers: [10, 19, 22], addedAt: '2026-04-10' },
-  { id: 19, name: 'Fanpage Sở TT&TT Đà Nẵng', url: 'https://facebook.com/sottt.danang', type: 'Facebook Fanpage', status: 'active', followers: [4, 8], addedAt: '2026-02-20' },
-  { id: 20, name: 'YouTube扬子晚报', url: 'https://youtube.com/@Yangtse', type: 'YouTube', status: 'error', followers: [], addedAt: '2026-05-10' },
+  { id: 1, name: 'Báo VnExpress', url: 'https://vnexpress.net', type: 'Báo chí', status: 'active', followers: [1, 3, 5, 7, 8, 10, 11, 12, 15, 17, 19], addedAt: '2026-01-05', origin: 'approved' },
+  { id: 2, name: 'Báo Tuổi Trẻ', url: 'https://tuoitre.vn', type: 'Báo chí', status: 'active', followers: [1, 2, 3, 6, 8, 10, 14, 19, 21], addedAt: '2026-01-05', origin: 'approved' },
+  { id: 3, name: 'Báo Thanh Niên', url: 'https://thanhnien.vn', type: 'Báo chí', status: 'active', followers: [1, 3, 8, 10, 11, 19, 22], addedAt: '2026-01-10', origin: 'approved' },
+  { id: 4, name: 'Fanpage Chính phủ', url: 'https://facebook.com/chinhphu.vn', type: 'Facebook Fanpage', status: 'active', followers: [3, 10, 11, 12, 19], addedAt: '2026-01-15', origin: 'approved' },
+  { id: 5, name: 'YouTube VTV News', url: 'https://youtube.com/@VTVNews', type: 'YouTube', status: 'active', followers: [3, 8, 10, 19, 22], addedAt: '2026-01-20', origin: 'admin' },
+  { id: 6, name: 'Báo Dân Trí', url: 'https://dantri.com.vn', type: 'Báo chí', status: 'active', followers: [1, 2, 5, 7, 14, 15, 17, 21], addedAt: '2026-02-01', origin: 'approved' },
+  { id: 7, name: 'Fanpage Sở TT&TT Hậu Giang', url: 'https://facebook.com/sottt.haugiang', type: 'Facebook Fanpage', status: 'active', followers: [1], addedAt: '2026-03-15', origin: 'admin' },
+  { id: 8, name: 'Báo VietnamNet', url: 'https://vietnamnet.vn', type: 'Báo chí', status: 'error', followers: [1, 3, 10, 11, 12, 19], addedAt: '2026-01-10', origin: 'approved' },
+  { id: 9, name: 'TikTok @vietnamnews', url: 'https://tiktok.com/@vietnamnews', type: 'TikTok', status: 'active', followers: [10, 19], addedAt: '2026-03-01', origin: 'approved' },
+  { id: 10, name: 'Báo Lao Động', url: 'https://laodong.vn', type: 'Báo chí', status: 'active', followers: [1, 2, 5, 8, 14, 15, 21, 22], addedAt: '2026-02-15', origin: 'approved' },
+  { id: 11, name: 'Fanpage Bộ TT&TT', url: 'https://facebook.com/bộthôngtinvàtruyenthông', type: 'Facebook Fanpage', status: 'active', followers: [3, 11, 12, 19], addedAt: '2026-01-10', origin: 'approved' },
+  { id: 12, name: 'YouTube FPT Play', url: 'https://youtube.com/@FPTPlay', type: 'YouTube', status: 'active', followers: [8, 10, 19], addedAt: '2026-04-01', origin: 'admin' },
+  { id: 13, name: 'Báo Tuổi Trẻ CN', url: 'https://tuoitre.vn/cong-nghe.htm', type: 'Báo chí', status: 'active', followers: [1, 3, 10, 15, 17], addedAt: '2026-02-20', origin: 'approved' },
+  { id: 14, name: 'Facebook Group Chính sách số', url: 'https://facebook.com/groups/chinhsachso', type: 'Facebook Group', status: 'active', followers: [3, 11, 12], addedAt: '2026-03-10', origin: 'approved' },
+  { id: 15, name: 'Báo VOV', url: 'https://vov.vn', type: 'Báo chí', status: 'error', followers: [1, 2, 5, 7, 8, 14, 15, 17, 21], addedAt: '2026-01-20', origin: 'approved' },
+  { id: 16, name: 'YouTube VTC Now', url: 'https://youtube.com/@VTCNow', type: 'YouTube', status: 'active', followers: [3, 10, 19], addedAt: '2026-05-01', origin: 'admin' },
+  { id: 17, name: 'Báo Infonet', url: 'https://infonet.vn', type: 'Báo chí', status: 'paused', followers: [1, 11], addedAt: '2026-06-15', origin: 'approved' },
+  { id: 18, name: 'TikTok @thanhnien', url: 'https://tiktok.com/@thanhnien_official', type: 'TikTok', status: 'active', followers: [10, 19, 22], addedAt: '2026-04-10', origin: 'approved' },
+  { id: 19, name: 'Fanpage Sở TT&TT Đà Nẵng', url: 'https://facebook.com/sottt.danang', type: 'Facebook Fanpage', status: 'active', followers: [4, 8], addedAt: '2026-02-20', origin: 'admin' },
+  { id: 20, name: 'YouTube扬子晚报', url: 'https://youtube.com/@Yangtse', type: 'YouTube', status: 'error', followers: [], addedAt: '2026-05-10', origin: 'admin' },
 ];
 
 // Source Approval Requests
@@ -141,12 +141,12 @@ function buildSidebar(activePage) {
           <span class="nav-icon">&#128196;</span> Gói dịch vụ
         </a>
         <a href="approvals.html" class="${activePage === 'approvals' ? 'active' : ''}">
-          <span class="nav-icon">&#9989;</span> Duyệt yêu cầu Nguồn
+          <span class="nav-icon">&#9989;</span> Duyệt đề xuất Nguồn
           ${pendingCount > 0 ? `<span class="sidebar-badge">${pendingCount}</span>` : ''}
         </a>
         <div class="nav-section">Giám sát</div>
         <a href="sources.html" class="${activePage === 'sources' ? 'active' : ''}">
-          <span class="nav-icon">&#128279;</span> Nguồn theo dõi
+          <span class="nav-icon">&#128279;</span> Quản lý Nguồn
         </a>
       </nav>
       <div class="sidebar-footer">

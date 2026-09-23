@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Duyệt yêu cầu Nguồn — Mozy Admin</title>
+  <title>Duyệt đề xuất Nguồn — Mozy Admin</title>
   <link rel="stylesheet" href="shared.css">
   <style>
     .existing-badge {
@@ -60,7 +60,7 @@
       document.getElementById('app').innerHTML = `
         ${buildSidebar('approvals')}
         <div class="main">
-          ${buildHeader('Duyệt yêu cầu Nguồn mới')}
+          ${buildHeader('Duyệt đề xuất Nguồn mới')}
           <div class="content fade-in">
             <!-- Summary -->
             <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:20px;">
@@ -104,7 +104,7 @@
                     ${CUSTOMERS.map(c => `<option value="${c.id}" ${state.customerFilter == c.id ? 'selected' : ''}>${c.org}</option>`).join('')}
                   </select>
                 </div>
-                ${isPending && hasSelection ? `<button class="btn btn-primary" onclick="bulkApprove()">Duyệt ${state.selected.size} yêu cầu</button>` : ''}
+                ${isPending && hasSelection ? `<button class="btn btn-primary" onclick="bulkApprove()">Duyệt ${state.selected.size} đề xuất</button>` : ''}
               </div>
               <div class="table-wrap">
                 <table>
@@ -143,12 +143,12 @@
                           ${!isPending ? `<td>${r.status === 'rejected' ? `<span style="font-size:12px;color:var(--gray-500);">${r.rejectReason || '—'}</span>` : ''}</td>` : ''}
                         </tr>`;
                     }).join('')}
-                    ${filtered.length === 0 ? `<tr><td colspan="${isPending ? 8 : 7}"><div class="empty-state"><div class="empty-icon">&#9989;</div><p>Không có yêu cầu nào${state.statusFilter === 'pending' ? ' đang chờ duyệt' : ''}</p></div></td></tr>` : ''}
+                    ${filtered.length === 0 ? `<tr><td colspan="${isPending ? 8 : 7}"><div class="empty-state"><div class="empty-icon">&#9989;</div><p>Không có đề xuất nào${state.statusFilter === 'pending' ? ' đang chờ duyệt' : ''}</p></div></td></tr>` : ''}
                   </tbody>
                 </table>
               </div>
               <div class="pagination">
-                <span>${filtered.length} yêu cầu${hasSelection ? ' · Đã chọn ' + state.selected.size : ''}</span>
+                <span>${filtered.length} đề xuất${hasSelection ? ' · Đã chọn ' + state.selected.size : ''}</span>
                 <div></div>
               </div>
             </div>
@@ -159,11 +159,11 @@
         <div class="modal-overlay" id="rejectModal">
           <div class="modal" style="max-width:480px;">
             <div class="modal-header">
-              <h3>Từ chối yêu cầu Nguồn</h3>
+              <h3>Từ chối đề xuất Nguồn</h3>
               <button class="modal-close" onclick="closeModal('rejectModal')">&times;</button>
             </div>
             <div class="modal-body">
-              <p style="margin-bottom:16px;font-size:14px;">Bạn đang từ chối yêu cầu thêm nguồn <strong id="rejectSourceName"></strong> của <strong id="rejectCustomerName"></strong>.</p>
+              <p style="margin-bottom:16px;font-size:14px;">Bạn đang từ chối đề xuất thêm nguồn <strong id="rejectSourceName"></strong> của <strong id="rejectCustomerName"></strong>.</p>
               <div class="form-group">
                 <label class="form-label">Lý do từ chối <span class="required">*</span></label>
                 <div class="reject-reason-list">
@@ -218,13 +218,13 @@
 
       document.getElementById('detailPanel').innerHTML = `
         <div class="detail-panel-header">
-          <h3 style="font-size:16px;font-weight:600;">Chi tiết yêu cầu</h3>
+          <h3 style="font-size:16px;font-weight:600;">Chi tiết đề xuất</h3>
           <button class="modal-close" onclick="closeDetailPanel()">&times;</button>
         </div>
         <div class="detail-panel-body">
           <div class="info-grid" style="margin-bottom:20px;">
-            <div class="info-label">Khách hàng</div><div class="info-value"><strong>${cust ? cust.org : '—'}</strong> ${cust ? `<span class="badge badge-neutral" style="margin-left:4px;">${getPlan(cust.planId).name}</span>` : ''}</div>
-            <div class="info-label">Nguồn yêu cầu</div><div class="info-value"><strong>${r.name}</strong><div style="font-size:12px;color:var(--gray-500);word-break:break-all;">${r.url}</div></div>
+            <div class="info-label">Khách hàng đề xuất</div><div class="info-value"><strong>${cust ? cust.org : '—'}</strong> ${cust ? `<span class="badge badge-neutral" style="margin-left:4px;">${getPlan(cust.planId).name}</span>` : ''}</div>
+            <div class="info-label">Nguồn đề xuất</div><div class="info-value"><strong>${r.name}</strong><div style="font-size:12px;color:var(--gray-500);word-break:break-all;">${r.url}</div></div>
             <div class="info-label">Loại nguồn</div><div class="info-value">${r.type}</div>
             <div class="info-label">Validate KT</div><div class="info-value">${r.techValidation === 'valid' ? '<span class="tech-ok">&#10003; Hợp lệ</span>' : '<span class="tech-err">&#10007; ' + (r.note || 'Lỗi') + '</span>'}</div>
             <div class="info-label">Thời điểm gửi</div><div class="info-value">${r.requestedAt}</div>
@@ -235,7 +235,7 @@
           </div>` : ''}
           ${r.status === 'pending' ? `
           <div style="display:flex;gap:12px;padding-top:16px;border-top:1px solid var(--gray-200);">
-            <button class="btn btn-success" style="flex:1;" onclick="approveRequest(${r.id})">&#9989; Duyệt yêu cầu</button>
+            <button class="btn btn-success" style="flex:1;" onclick="approveRequest(${r.id})">&#9989; Duyệt đề xuất</button>
             <button class="btn btn-danger" style="flex:1;" onclick="openReject(${r.id})">&#10060; Từ chối</button>
           </div>` : `
           <div style="padding-top:16px;border-top:1px solid var(--gray-200);">
@@ -258,7 +258,7 @@
       if (!r) return;
       r.status = 'approved';
       r.approvedAt = new Date().toLocaleString('vi-VN');
-      showToast('Đã duyệt yêu cầu "' + r.name + '" cho ' + getCustomerName(r.customerId));
+      showToast('Đã duyệt đề xuất "' + r.name + '" cho ' + getCustomerName(r.customerId));
       state.selected.delete(id);
       closeDetailPanel();
       render();
@@ -285,7 +285,7 @@
       r.status = 'rejected';
       r.rejectReason = reason;
       r.rejectedAt = new Date().toLocaleString('vi-VN');
-      showToast('Đã từ chối yêu cầu "' + r.name + '"', 'info');
+      showToast('Đã từ chối đề xuất "' + r.name + '"', 'info');
       state.selected.delete(rejectingId);
       rejectingId = null;
       closeModal('rejectModal');
@@ -296,7 +296,7 @@
     function bulkApprove() {
       const count = state.selected.size;
       if (count === 0) return;
-      if (!confirm(`Duyệt ${count} yêu cầu đã chọn?`)) return;
+      if (!confirm(`Duyệt ${count} đề xuất đã chọn?`)) return;
       const now = new Date().toLocaleString('vi-VN');
       state.selected.forEach(id => {
         const r = SOURCE_REQUESTS.find(x => x.id === id);
@@ -305,7 +305,7 @@
           r.approvedAt = now;
         }
       });
-      showToast(`Đã duyệt ${count} yêu cầu`);
+      showToast(`Đã duyệt ${count} đề xuất`);
       state.selected.clear();
       render();
     }

@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Danh sách Nguồn — Mozy Admin</title>
+  <title>Quản lý Nguồn — Mozy Admin</title>
   <link rel="stylesheet" href="shared.css">
   <style>
     .source-url { color: var(--gray-500); font-size: 12px; word-break: break-all; }
-    .follower-count { font-weight: 700; color: var(--primary); }
-    .follower-meta { font-size: 12px; color: var(--gray-500); }
+    .origin-admin { color: var(--primary); font-weight: 600; }
+    .origin-approved { color: var(--success); font-weight: 600; }
+    .action-btns { display: flex; gap: 6px; }
+    .status-dot.paused { background: var(--warning); }
   </style>
 </head>
 <body>
   <div class="layout" id="app"></div>
-  <div class="detail-backdrop" id="detailBackdrop" onclick="closeDetail()"></div>
-  <div class="detail-panel" id="detailPanel"></div>
 
   <script src="shared.js"></script>
   <script>
@@ -22,15 +22,13 @@
       search: '',
       typeFilter: 'all',
       statusFilter: 'all',
-      customerFilter: 'all',
-      sortField: 'followers',
-      sortDir: 'desc',
+      originFilter: 'all',
       page: 1,
       perPage: 10,
     };
 
     const SOURCE_TYPES = ['Báo chí', 'Facebook Fanpage', 'Facebook Group', 'TikTok', 'YouTube'];
-    const STATUS_MAP = { active: 'Đang chạy', error: 'Lỗi', pending: 'Chờ xác thực' };
+    const STATUS_MAP = { active: 'Đang chạy', error: 'Lỗi', paused: 'Tạm ngưng bởi hệ thống' };
 
     function getFiltered() {
       let data = [...SOURCES];
@@ -38,37 +36,10 @@
         const q = state.search.toLowerCase();
         data = data.filter(s => s.name.toLowerCase().includes(q) || s.url.toLowerCase().includes(q));
       }
-      if (state.typeFilter !== 'all') {
-        data = data.filter(s => s.type === state.typeFilter);
-      }
-      if (state.statusFilter !== 'all') {
-        data = data.filter(s => s.status === state.statusFilter);
-      }
-      if (state.customerFilter !== 'all') {
-        const cid = parseInt(state.customerFilter);
-        data = data.filter(s => s.followers.includes(cid));
-      }
-      data.sort((a, b) => {
-        let va, vb;
-        if (state.sortField === 'followers') { va = a.followers.length; vb = b.followers.length; }
-        else if (state.sortField === 'name') { va = a.name.toLowerCase(); vb = b.name.toLowerCase(); }
-        else { va = a[state.sortField]; vb = b[state.sortField]; }
-        if (va < vb) return state.sortDir === 'asc' ? -1 : 1;
-        if (va > vb) return state.sortDir === 'asc' ? 1 : -1;
-        return 0;
-      });
+      if (state.typeFilter !== 'all') data = data.filter(s => s.type === state.typeFilter);
+      if (state.statusFilter !== 'all') data = data.filter(s => s.status === state.statusFilter);
+      if (state.originFilter !== 'all') data = data.filter(s => s.origin === state.originFilter);
       return data;
-    }
-
-    function renderFollowerChips(source) {
-      const names = source.followers.slice(0, 2).map(id => getCustomerName(id)).filter(Boolean);
-      const extra = source.followers.length - names.length;
-      if (names.length === 0) return '<span style="color:var(--gray-400);font-size:12px;">Không có KH</span>';
-      let html = '<div class="follow-list">';
-      names.forEach(n => { html += `<span class="follow-chip">${n}</span>`; });
-      if (extra > 0) html += `<span class="follow-more" onclick="event.stopPropagation();openDetail(${source.id})">+${extra}</span>`;
-      html += '</div>';
-      return html;
     }
 
     function render() {
@@ -80,13 +51,8 @@
       app.innerHTML = `
         ${buildSidebar('sources')}
         <div class="main">
-          ${buildHeader('Danh sách Nguồn (toàn hệ thống)')}
+          ${buildHeader('Quản lý Nguồn')}
           <div class="content fade-in">
-            <div style="margin-bottom:16px;">
-              <div class="alert alert-info" style="margin:0;">
-                &#128161; Đây là chế độ xem tổng hợp. Admin không thêm/sửa/xóa nguồn tại đây. Nguồn do KH tự thêm ở Customer Portal.
-              </div>
-            </div>
             <div class="card">
               <div class="card-header">
                 <div class="toolbar" style="flex:1;">
@@ -102,50 +68,59 @@
                     <option value="all" ${state.statusFilter === 'all' ? 'selected' : ''}>Tất cả trạng thái</option>
                     <option value="active" ${state.statusFilter === 'active' ? 'selected' : ''}>Đang chạy</option>
                     <option value="error" ${state.statusFilter === 'error' ? 'selected' : ''}>Lỗi</option>
-                    <option value="pending" ${state.statusFilter === 'pending' ? 'selected' : ''}>Chờ xác thực</option>
+                    <option value="paused" ${state.statusFilter === 'paused' ? 'selected' : ''}>Tạm ngưng</option>
                   </select>
-                  <select class="filter-select" id="customerFilter">
-                    <option value="all" ${state.customerFilter === 'all' ? 'selected' : ''}>Tất cả KH</option>
-                    ${CUSTOMERS.map(c => `<option value="${c.id}" ${state.customerFilter == c.id ? 'selected' : ''}>${c.org}</option>`).join('')}
+                  <select class="filter-select" id="originFilter">
+                    <option value="all" ${state.originFilter === 'all' ? 'selected' : ''}>Tất cả nguồn gốc</option>
+                    <option value="admin" ${state.originFilter === 'admin' ? 'selected' : ''}>Admin tự thêm</option>
+                    <option value="approved" ${state.originFilter === 'approved' ? 'selected' : ''}>Duyệt từ đề xuất KH</option>
                   </select>
                 </div>
+                <button class="btn btn-primary" onclick="openAddSource()">+ Thêm nguồn</button>
               </div>
               <div class="table-wrap">
                 <table>
                   <thead>
                     <tr>
-                      <th class="sortable" onclick="toggleSort('name')">Nguồn / URL <span class="sort-arrow">${sortIcon('name')}</span></th>
+                      <th>Tên nguồn</th>
+                      <th>URL</th>
                       <th>Loại nguồn</th>
                       <th>Trạng thái</th>
-                      <th class="sortable" onclick="toggleSort('followers')">KH đang follow <span class="sort-arrow">${sortIcon('followers')}</span></th>
-                      <th>Ngày thêm đầu tiên</th>
+                      <th>Nguồn gốc</th>
+                      <th>Ngày tạo</th>
+                      <th style="width:140px;">Thao tác</th>
                     </tr>
                   </thead>
                   <tbody>
                     ${pageData.map(s => `
-                      <tr class="clickable" onclick="openDetail(${s.id})">
-                        <td>
-                          <strong>${s.name}</strong>
-                          <div class="source-url">${s.url}</div>
-                        </td>
+                      <tr>
+                        <td><strong>${s.name}</strong></td>
+                        <td><div class="source-url">${s.url}</div></td>
                         <td><span class="badge badge-neutral">${s.type}</span></td>
                         <td>
                           <span class="status-dot ${s.status}"></span>
                           ${STATUS_MAP[s.status] || s.status}
                         </td>
                         <td>
-                          <span class="follower-count">${s.followers.length}</span> KH
-                          ${renderFollowerChips(s)}
+                          ${s.origin === 'admin'
+                            ? '<span class="origin-admin">Admin tự thêm</span>'
+                            : '<span class="origin-approved">Duyệt từ đề xuất KH</span>'}
                         </td>
                         <td style="white-space:nowrap;color:var(--gray-500);">${formatDate(s.addedAt)}</td>
+                        <td>
+                          <div class="action-btns">
+                            <button class="btn btn-outline btn-sm" onclick="openEditSource(${s.id})">Sửa</button>
+                            <button class="btn btn-sm" style="color:var(--danger);border:1px solid var(--danger);background:#fff;" onclick="openActionModal(${s.id})">Xoá / Tạm ngưng</button>
+                          </div>
+                        </td>
                       </tr>
                     `).join('')}
-                    ${pageData.length === 0 ? '<tr><td colspan="5"><div class="empty-state"><div class="empty-icon">&#128269;</div><p>Không tìm thấy nguồn nào</p></div></td></tr>' : ''}
+                    ${pageData.length === 0 ? '<tr><td colspan="7"><div class="empty-state"><div class="empty-icon">&#128269;</div><p>Không tìm thấy nguồn nào</p></div></td></tr>' : ''}
                   </tbody>
                 </table>
               </div>
               <div class="pagination">
-                <span>Hiển thị ${(state.page-1)*state.perPage+1}–${Math.min(state.page*state.perPage, filtered.length)} trong ${filtered.length} kết quả</span>
+                <span>Hiển thị ${filtered.length === 0 ? 0 : (state.page-1)*state.perPage+1}–${Math.min(state.page*state.perPage, filtered.length)} trong ${filtered.length} kết quả</span>
                 <div class="page-btns">
                   <button class="page-btn" onclick="goPage(${state.page - 1})" ${state.page <= 1 ? 'disabled' : ''}>&#8249; Trước</button>
                   ${Array.from({length: Math.min(totalPages, 5)}, (_, i) => {
@@ -161,23 +136,72 @@
               </div>
             </div>
           </div>
+        </div>
+
+        <!-- Add/Edit Source Modal -->
+        <div class="modal-overlay" id="sourceModal">
+          <div class="modal">
+            <div class="modal-header">
+              <h3 id="sourceModalTitle">Thêm nguồn mới</h3>
+              <button class="modal-close" onclick="closeModal('sourceModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+              <form id="sourceForm">
+                <div class="form-group">
+                  <label class="form-label">URL <span class="required">*</span></label>
+                  <input type="url" class="form-input" id="sUrl" required placeholder="https://example.com" value="">
+                  <div class="form-hint">Hệ thống sẽ validate URL và thử crawl</div>
+                  <div class="form-error" id="sUrlError"></div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Loại nguồn <span class="required">*</span></label>
+                  <select class="form-select" id="sType" required>
+                    <option value="">Chọn loại...</option>
+                    ${SOURCE_TYPES.map(t => `<option value="${t}">${t}</option>`).join('')}
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Tên hiển thị</label>
+                  <input type="text" class="form-input" id="sName" placeholder="Tự động lấy từ URL">
+                  <div class="form-hint">Để trống sẽ tự lấy tên từ URL</div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-outline" onclick="closeModal('sourceModal')">Hủy</button>
+              <button class="btn btn-primary" id="sourceSubmitBtn" onclick="submitSource()">Thêm nguồn</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Modal (Delete / Pause) -->
+        <div class="modal-overlay" id="actionModal">
+          <div class="modal" style="max-width:480px;">
+            <div class="modal-header">
+              <h3 id="actionModalTitle">Xoá / Tạm ngưng nguồn</h3>
+              <button class="modal-close" onclick="closeModal('actionModal')">&times;</button>
+            </div>
+            <div class="modal-body" id="actionBody"></div>
+            <div class="modal-footer">
+              <button class="btn btn-outline" onclick="closeModal('actionModal')">Hủy</button>
+              <button class="btn btn-danger" id="confirmPauseBtn" onclick="confirmPause()" style="display:none;">Tạm ngưng</button>
+              <button class="btn btn-danger" id="confirmDeleteBtn" onclick="confirmDelete()" style="display:none;background:var(--gray-700);">Xoá hẳn</button>
+            </div>
+          </div>
         </div>`;
 
       document.getElementById('searchInput').addEventListener('input', e => { state.search = e.target.value; state.page = 1; render(); });
       document.getElementById('typeFilter').addEventListener('change', e => { state.typeFilter = e.target.value; state.page = 1; render(); });
       document.getElementById('statusFilter').addEventListener('change', e => { state.statusFilter = e.target.value; state.page = 1; render(); });
-      document.getElementById('customerFilter').addEventListener('change', e => { state.customerFilter = e.target.value; state.page = 1; render(); });
+      document.getElementById('originFilter').addEventListener('change', e => { state.originFilter = e.target.value; state.page = 1; render(); });
+
+      document.getElementById('sUrl').addEventListener('input', function() {
+        if (!document.getElementById('sName').value || document.getElementById('sName').dataset.auto === 'true') {
+          try { const u = new URL(this.value); document.getElementById('sName').value = u.hostname.replace('www.', ''); document.getElementById('sName').dataset.auto = 'true'; } catch {}
+        }
+      });
     }
 
-    function toggleSort(field) {
-      if (state.sortField === field) state.sortDir = state.sortDir === 'asc' ? 'desc' : 'asc';
-      else { state.sortField = field; state.sortDir = 'desc'; }
-      render();
-    }
-    function sortIcon(field) {
-      if (state.sortField !== field) return '';
-      return state.sortDir === 'asc' ? '&#9650;' : '&#9660;';
-    }
     function goPage(p) {
       const filtered = getFiltered();
       const totalPages = Math.ceil(filtered.length / state.perPage);
@@ -186,64 +210,125 @@
       render();
     }
 
-    function openDetail(sourceId) {
-      const source = SOURCES.find(s => s.id === sourceId);
-      if (!source) return;
-
-      const MOCK_KEYWORDS = {
-        1: { 1: ['Chính sách CNTT', 'Kỹ thuật số'], 3: ['Chuyển đổi số', 'CNTT'], 10: ['Báo chí'] },
-        2: { 1: ['Chính sách TT&TT'], 10: ['Thanh thiếu niên'] },
-        3: { 3: ['Quốc tế', 'Kinh tế'], 19: ['Đô thị'] },
-      };
-
-      const panel = document.getElementById('detailPanel');
-      const backdrop = document.getElementById('detailBackdrop');
-
-      let followersHtml = source.followers.map(cid => {
-        const c = CUSTOMERS.find(cc => cc.id === cid);
-        if (!c) return '';
-        const keywords = MOCK_KEYWORDS[source.id]?.[cid] || ['Keyword mẫu'];
-        return `
-          <div class="follower-item">
-            <div style="flex:1;">
-              <div class="follower-name">
-                <a href="customer-detail.html?id=${cid}" style="text-decoration:none;">${c.org}</a>
-              </div>
-              <div class="follower-meta">Keyword/Chủ đề đang gán nguồn này:</div>
-              <div class="tag-list">
-                ${keywords.map(k => `<span class="tag">${k}</span>`).join('')}
-              </div>
-            </div>
-            <span class="badge ${c.status === 'active' ? 'badge-success' : 'badge-danger'}" style="font-size:10px;">${c.status}</span>
-          </div>`;
-      }).join('');
-
-      panel.innerHTML = `
-        <div class="detail-panel-header">
-          <div>
-            <h3 style="font-size:16px;font-weight:600;">${source.name}</h3>
-            <div style="font-size:13px;color:var(--gray-500);word-break:break-all;">${source.url}</div>
-          </div>
-          <button class="modal-close" onclick="closeDetail()">&times;</button>
-        </div>
-        <div class="detail-panel-body">
-          <div class="info-grid" style="margin-bottom:20px;">
-            <div class="info-label">Loại nguồn</div><div class="info-value"><span class="badge badge-neutral">${source.type}</span></div>
-            <div class="info-label">Trạng thái</div><div class="info-value"><span class="status-dot ${source.status}"></span>${STATUS_MAP[source.status]}</div>
-            <div class="info-label">KH đang follow</div><div class="info-value"><strong>${source.followers.length}</strong> khách hàng</div>
-            <div class="info-label">Ngày thêm đầu tiên</div><div class="info-value">${formatDate(source.addedAt)}</div>
-          </div>
-          <div style="margin-bottom:12px;font-weight:600;font-size:14px;color:var(--gray-700);">Danh sách KH đang follow</div>
-          ${source.followers.length === 0 ? '<div style="text-align:center;color:var(--gray-400);padding:20px;">Nguồn này không có KH nào follow</div>' : followersHtml}
-        </div>`;
-
-      panel.classList.add('open');
-      backdrop.classList.add('open');
+    // --- Add Source ---
+    let editingSourceId = null;
+    function openAddSource() {
+      editingSourceId = null;
+      document.getElementById('sourceModalTitle').textContent = 'Thêm nguồn mới';
+      document.getElementById('sUrl').value = '';
+      document.getElementById('sUrl').disabled = false;
+      document.getElementById('sType').value = '';
+      document.getElementById('sName').value = '';
+      document.getElementById('sUrlError').classList.remove('visible');
+      document.getElementById('sourceSubmitBtn').textContent = 'Thêm nguồn';
+      openModal('sourceModal');
     }
 
-    function closeDetail() {
-      document.getElementById('detailPanel').classList.remove('open');
-      document.getElementById('detailBackdrop').classList.remove('open');
+    // --- Edit Source ---
+    function openEditSource(id) {
+      const s = SOURCES.find(x => x.id === id);
+      if (!s) return;
+      editingSourceId = id;
+      document.getElementById('sourceModalTitle').textContent = 'Sửa nguồn';
+      document.getElementById('sUrl').value = s.url;
+      document.getElementById('sUrl').disabled = true;
+      document.getElementById('sType').value = s.type;
+      document.getElementById('sName').value = s.name;
+      document.getElementById('sUrlError').classList.remove('visible');
+      document.getElementById('sourceSubmitBtn').textContent = 'Lưu thay đổi';
+      openModal('sourceModal');
+    }
+
+    function submitSource() {
+      const url = document.getElementById('sUrl').value.trim();
+      const type = document.getElementById('sType').value;
+      let name = document.getElementById('sName').value.trim();
+      const urlErr = document.getElementById('sUrlError');
+
+      if (!url || !type) return;
+      try { new URL(url); } catch { urlErr.textContent = 'URL không hợp lệ'; urlErr.classList.add('visible'); return; }
+      urlErr.classList.remove('visible');
+      if (!name) { try { name = new URL(url).hostname.replace('www.', ''); } catch { name = url; } }
+
+      if (!editingSourceId) {
+        const exists = SOURCES.some(s => s.url.toLowerCase() === url.toLowerCase());
+        if (exists) { urlErr.textContent = 'URL này đã tồn tại trong danh mục'; urlErr.classList.add('visible'); return; }
+        SOURCES.push({
+          id: Date.now(), name, url, type,
+          status: 'active', addedAt: new Date().toISOString().slice(0, 10),
+          origin: 'admin', followers: []
+        });
+        showToast('Đã thêm nguồn "' + name + '"');
+      } else {
+        const s = SOURCES.find(x => x.id === editingSourceId);
+        if (s) { s.name = name; s.type = type; }
+        showToast('Đã cập nhật nguồn "' + name + '"');
+      }
+
+      closeModal('sourceModal');
+      render();
+    }
+
+    // --- Delete / Pause ---
+    let actionSourceId = null;
+    function openActionModal(id) {
+      const s = SOURCES.find(x => x.id === id);
+      if (!s) return;
+      actionSourceId = id;
+      const followerCount = s.followers ? s.followers.length : 0;
+      const isPaused = s.status === 'paused';
+
+      document.getElementById('actionModalTitle').textContent = isPaused ? 'Mở lại / Xoá nguồn' : 'Xoá / Tạm ngưng nguồn';
+      document.getElementById('actionBody').innerHTML = `
+        <p style="margin-bottom:12px;">Bạn đang thao tác trên nguồn <strong>${s.name}</strong></p>
+        ${followerCount > 0 ? `<div class="alert alert-warning" style="margin-bottom:16px;">&#9888; Nguồn này đang được <strong>${followerCount} khách hàng</strong> theo dõi. Việc xoá/tạm ngưng sẽ ảnh hưởng đến tất cả KH này.</div>` : ''}
+        ${isPaused ? `
+          <p style="font-size:14px;color:var(--gray-600);margin-bottom:8px;">Nguồn đang tạm ngưng. Chọn hành động:</p>
+          <button class="btn btn-success btn-sm" onclick="confirmResume()" style="margin-right:8px;">Mở lại</button>
+        ` : `
+          <p style="font-size:14px;color:var(--gray-600);margin-bottom:8px;">Chọn hành động:</p>
+        `}
+        <div style="display:flex;gap:12px;margin-top:12px;">
+          ${!isPaused ? `<div style="flex:1;padding:12px;border:1px solid var(--gray-200);border-radius:8px;cursor:pointer;" onclick="document.getElementById('confirmPauseBtn').style.display='';document.getElementById('confirmDeleteBtn').style.display='none';">
+            <div style="font-weight:600;color:var(--warning);margin-bottom:4px;">Tạm ngưng</div>
+            <div style="font-size:12px;color:var(--gray-500);">Trạng thái chuyển "Tạm ngưng bởi hệ thống". Dữ liệu giữ nguyên.</div>
+          </div>` : ''}
+          <div style="flex:1;padding:12px;border:1px solid var(--gray-200);border-radius:8px;cursor:pointer;" onclick="document.getElementById('confirmDeleteBtn').style.display='';document.getElementById('confirmPauseBtn').style.display='none';">
+            <div style="font-weight:600;color:var(--danger);margin-bottom:4px;">Xoá hẳn</div>
+            <div style="font-size:12px;color:var(--gray-500);">Nguồn biến mất khỏi danh mục + khỏi list mọi KH.</div>
+          </div>
+        </div>`;
+      document.getElementById('confirmPauseBtn').style.display = 'none';
+      document.getElementById('confirmDeleteBtn').style.display = 'none';
+      openModal('actionModal');
+    }
+
+    function confirmPause() {
+      const s = SOURCES.find(x => x.id === actionSourceId);
+      if (!s) return;
+      s.status = s.status === 'paused' ? 'active' : 'paused';
+      showToast(s.status === 'paused' ? 'Đã tạm ngưng nguồn "' + s.name + '"' : 'Đã mở lại nguồn "' + s.name + '"');
+      closeModal('actionModal');
+      render();
+    }
+
+    function confirmResume() {
+      const s = SOURCES.find(x => x.id === actionSourceId);
+      if (!s) return;
+      s.status = 'active';
+      showToast('Đã mở lại nguồn "' + s.name + '"');
+      closeModal('actionModal');
+      render();
+    }
+
+    function confirmDelete() {
+      const s = SOURCES.find(x => x.id === actionSourceId);
+      if (!s) return;
+      const idx = SOURCES.findIndex(x => x.id === actionSourceId);
+      if (idx >= 0) SOURCES.splice(idx, 1);
+      showToast('Đã xoá nguồn "' + s.name + '"');
+      closeModal('actionModal');
+      render();
     }
 
     render();
