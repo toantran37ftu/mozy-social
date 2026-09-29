@@ -72,11 +72,26 @@
       return KEYWORDS.find(k => k.id === detailId);
     }
 
+    function parseFeedDate(d) { return new Date(d.replace(/(\d{2})\/(\d{2})\/(\d{4})/, '$3-$2-$1').replace(' ', 'T')); }
+
+    function filterByTime(data) {
+      const now = new Date('2026-09-30T00:00:00');
+      if (state.timeRange === 'custom' && state.customFrom && state.customTo) {
+        const from = new Date(state.customFrom + 'T00:00:00');
+        const to = new Date(state.customTo + 'T23:59:59');
+        return data.filter(f => { const d = parseFeedDate(f.date); return d >= from && d <= to; });
+      }
+      const days = state.timeRange === '30d' ? 30 : 7;
+      const cutoff = new Date(now); cutoff.setDate(cutoff.getDate() - days);
+      return data.filter(f => parseFeedDate(f.date) >= cutoff);
+    }
+
     function getFilteredFeed() {
       const item = getDetail(); if (!item) return [];
       let data = [...FEED];
       if (detailType === 'topic') data = data.filter(f => f.topicIds.includes(detailId));
       else data = data.filter(f => f.keywordIds.includes(detailId));
+      data = filterByTime(data);
       if (state.channelTab === 'press') data = data.filter(f => f.sourceType === 'Báo chí');
       if (state.channelTab === 'social') { data = data.filter(f => f.sourceType !== 'Báo chí'); if (state.socialSub !== 'all') { const sub = state.socialSub; data = data.filter(f => sub === 'Facebook' ? (f.sourceType === 'Facebook' || f.sourceType === 'Facebook Fanpage' || f.sourceType === 'Facebook Group') : f.sourceType === sub); } }
       if (state.sentiment !== 'all') data = data.filter(f => f.sentiment === state.sentiment);
@@ -88,6 +103,7 @@
       let data = [...FEED];
       if (detailType === 'topic') data = data.filter(f => f.topicIds.includes(detailId));
       else data = data.filter(f => f.keywordIds.includes(detailId));
+      data = filterByTime(data);
       if (state.sentiment !== 'all') data = data.filter(f => f.sentiment === state.sentiment);
       return data;
     }
@@ -201,10 +217,11 @@
       const socialFeed = fullFeed.filter(f => f.sourceType !== 'Báo chí');
       const socialTotal = socialFeed.length;
       const fbCount = socialFeed.filter(f => f.sourceType === 'Facebook' || f.sourceType === 'Facebook Fanpage' || f.sourceType === 'Facebook Group').length;
+      const threadsCount = socialFeed.filter(f => f.sourceType === 'Threads').length;
       const ttCount = socialFeed.filter(f => f.sourceType === 'TikTok').length;
       const ytCount = socialFeed.filter(f => f.sourceType === 'YouTube').length;
       const zaloCount = socialFeed.filter(f => f.sourceType === 'Zalo').length;
-      const socialMax = Math.max(fbCount, ttCount, ytCount, zaloCount, 1);
+      const socialMax = Math.max(fbCount, threadsCount, ttCount, ytCount, zaloCount, 1);
 
       const mentionPress = pressCount;
       const mentionPost = Math.round(socialTotal * 0.75);
@@ -254,7 +271,7 @@
                 <button class="seg-btn ${state.channelTab === 'press' ? 'active' : ''}" onclick="setChannel('press')">Báo chí</button>
                 <button class="seg-btn ${state.channelTab === 'social' ? 'active' : ''}" onclick="setChannel('social')">Mạng xã hội</button>
                 <div style="display:flex;gap:6px;margin-left:8px;${state.channelTab === 'social' ? '' : 'display:none !important;'}">
-                  ${['all', 'Facebook', 'TikTok', 'YouTube', 'Zalo'].map(s => `<span class="sub-chip ${state.socialSub === s ? 'active' : ''}" onclick="setSubFilter('${s}')">${s === 'all' ? 'Tất cả' : s}</span>`).join('')}
+                  ${['all', 'Facebook', 'Threads', 'TikTok', 'YouTube', 'Zalo'].map(s => `<span class="sub-chip ${state.socialSub === s ? 'active' : ''}" onclick="setSubFilter('${s}')">${s === 'all' ? 'Tất cả' : s}</span>`).join('')}
                 </div>
               </div>
               <div style="display:flex;align-items:center;gap:0;">
@@ -295,9 +312,9 @@
               <div class="breakdown-card">
                 <h3>&#127760; Bài trên Mạng xã hội</h3>
                 <div style="font-size:32px;font-weight:700;color:var(--gray-900);margin-bottom:12px;">${formatNumber(socialTotal)}</div>
-                ${['Facebook', 'TikTok', 'YouTube', 'Zalo'].map((ch, i) => {
-                  const count = [fbCount, ttCount, ytCount, zaloCount][i];
-                  const colors = ['#3B82F6', '#000', '#EF4444', '#2563EB'];
+                ${['Facebook', 'Threads', 'TikTok', 'YouTube', 'Zalo'].map((ch, i) => {
+                  const count = [fbCount, threadsCount, ttCount, ytCount, zaloCount][i];
+                  const colors = ['#3B82F6', '#000', '#000', '#EF4444', '#2563EB'];
                   return `<div class="breakdown-bar"><span class="bar-name">${ch}</span><div class="bar-track"><div class="bar-fill" style="width:${Math.round(count / socialMax * 100)}%;background:${colors[i]};"></div></div><span class="bar-val">${count}</span></div>`;
                 }).join('')}
               </div>
@@ -368,7 +385,7 @@
             <div class="card" style="margin-bottom:20px;">
               <div class="card-header"><h2>Nguồn đăng tải nổi bật</h2></div>
               <div class="card-body">
-                ${topSources.length === 0 ? '<div class="empty-state"><p>Không có dữ liệu</p></div>' : `<table style="font-size:13px;width:100%;"><tbody>${topSources.map(([name, count], i) => `<tr><td style="padding:6px 8px;width:32px;text-align:center;"><strong style="color:${i < 3 ? 'var(--primary)' : 'var(--gray-500)'};">${i+1}</strong></td><td style="padding:6px 8px;font-weight:500;">${name}</td><td style="padding:6px 8px;text-align:right;color:var(--gray-500);">${count} tin</td></tr>`).join('')}</tbody></table>`}
+                ${topSources.length === 0 ? '<div class="empty-state"><p>Không có dữ liệu</p></div>' : `<table style="font-size:13px;width:100%;"><tbody>${topSources.map(([name, count], i) => { const src = filtered.find(f => f.source === name); const icon = src ? getSourceTypeIcon(src.sourceType) : ''; return `<tr><td style="padding:6px 8px;width:32px;text-align:center;"><strong style="color:${i < 3 ? 'var(--primary)' : 'var(--gray-500)'};">${i+1}</strong></td><td style="padding:6px 8px;font-weight:500;">${icon} ${name}</td><td style="padding:6px 8px;text-align:right;color:var(--gray-500);">${count} tin</td></tr>`; }).join('')}</tbody></table>`}
               </div>
             </div>
 
@@ -402,7 +419,7 @@
           <h2 style="font-size:18px;font-weight:700;margin-bottom:16px;line-height:1.4;">${f.title}</h2>
           <div style="font-size:14px;color:var(--gray-600);line-height:1.8;margin-bottom:20px;">${f.excerpt}</div>
           ${f.topicIds.length > 0 ? `<div style="margin-bottom:12px;"><span style="font-size:12px;color:var(--gray-500);">Chủ đề:</span><div style="margin-top:4px;display:flex;flex-wrap:wrap;gap:4px;">${f.topicIds.map(tid => { const t = TOPICS.find(x => x.id === tid); return t ? `<a href="detail.html?type=topic&id=${tid}" class="badge badge-info" style="text-decoration:none;">${t.name}</a>` : ''; }).join('')}</div></div>` : ''}
-          <div style="border-top:1px solid var(--gray-200);padding-top:16px;"><a href="#" class="btn btn-primary btn-sm">Tới bài viết gốc &rarr;</a></div>
+          <div style="border-top:1px solid var(--gray-200);padding-top:16px;"><a href="${f.url || '#'}" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Tới bài viết gốc &rarr;</a></div>
         </div>`;
       panel.classList.add('open');
       backdrop.classList.add('open');
