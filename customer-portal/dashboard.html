@@ -57,6 +57,7 @@
 </head>
 <body>
   <div class="layout" id="app"></div>
+  <script src="data_namlong.js"></script>
   <script src="shared.js"></script>
   <script>
     const state = { channelTab: 'all', socialSub: 'all', timeRange: '7d', sentiment: 'all', customFrom: '', customTo: '' };
@@ -64,7 +65,7 @@
     function getFilteredFeed() {
       let data = [...FEED];
       if (state.channelTab === 'press') data = data.filter(f => f.sourceType === 'Báo chí');
-      if (state.channelTab === 'social') { data = data.filter(f => f.sourceType !== 'Báo chí'); if (state.socialSub !== 'all') data = data.filter(f => f.sourceType === state.socialSub); }
+      if (state.channelTab === 'social') { data = data.filter(f => f.sourceType !== 'Báo chí'); if (state.socialSub !== 'all') { const sub = state.socialSub; data = data.filter(f => sub === 'Facebook' ? (f.sourceType === 'Facebook' || f.sourceType === 'Facebook Fanpage' || f.sourceType === 'Facebook Group') : f.sourceType === sub); } }
       if (state.sentiment !== 'all') data = data.filter(f => f.sentiment === state.sentiment);
       return data;
     }
@@ -76,13 +77,18 @@
       return data;
     }
 
+    // Seeded random for consistent chart data
+    let _seed = 42;
+    function seededRand() { _seed = (_seed * 16807 + 0) % 2147483647; return (_seed & 0x7fffffff) / 0x7fffffff; }
+
     function buildDaily(days) {
       const data = [];
+      _seed = 42;
       for (let i = days - 1; i >= 0; i--) {
         const d = new Date(); d.setDate(d.getDate() - i);
-        const p = Math.floor(Math.random() * 6) + 1;
-        const n = Math.floor(Math.random() * 9) + 2;
-        const ng = Math.floor(Math.random() * 3) + 1;
+        const p = Math.floor(seededRand() * 8) + 5;
+        const n = Math.floor(seededRand() * 5) + 2;
+        const ng = Math.floor(seededRand() * 3) + 1;
         data.push({ label: d.toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit' }), positive: p, neutral: n, negative: ng, total: p + n + ng });
       }
       return data;
@@ -90,9 +96,10 @@
 
     function buildAuthorTrend(days) {
       const data = [];
+      _seed = 137;
       for (let i = days - 1; i >= 0; i--) {
         const d = new Date(); d.setDate(d.getDate() - i);
-        data.push({ label: d.toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit' }), authors: Math.floor(Math.random() * 10) + 3 });
+        data.push({ label: d.toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit' }), authors: Math.floor(seededRand() * 15) + 5 });
       }
       return data;
     }
@@ -170,7 +177,7 @@
       const pressCount = fullFeed.filter(f => f.sourceType === 'Báo chí').length;
       const socialFeed = fullFeed.filter(f => f.sourceType !== 'Báo chí');
       const socialTotal = socialFeed.length;
-      const fbCount = socialFeed.filter(f => f.sourceType === 'Facebook').length;
+      const fbCount = socialFeed.filter(f => f.sourceType === 'Facebook' || f.sourceType === 'Facebook Fanpage' || f.sourceType === 'Facebook Group').length;
       const ttCount = socialFeed.filter(f => f.sourceType === 'TikTok').length;
       const ytCount = socialFeed.filter(f => f.sourceType === 'YouTube').length;
       const zaloCount = socialFeed.filter(f => f.sourceType === 'Zalo').length;

@@ -2,11 +2,11 @@
 
 const CURRENT_CUSTOMER = {
   id: 1,
-  org: 'Sở TT&TT Hậu Giang',
-  email: 'hgiang@sottt.haugiang.gov.vn',
+  org: 'Tập đoàn Nam Long',
+  email: 'monitoring@namlonggroup.com',
   planId: 3,
   plan: { name: 'Professional', crawlLimit: 50000, keywordLimit: 100, topicLimit: 50, sourceLimit: 30, price: 1500000 },
-  usage: { crawl: 38200, keywords: 78, topics: 42, sources: 25 }
+  usage: { crawl: 24680, keywords: 45, topics: 12, sources: 18 }
 };
 
 const SOURCES = [
@@ -70,6 +70,15 @@ const TOPICS = [
     sourceIds: [1, 3, 5, 11],
     totalMentions: 890, monthMentions: 0,
   },
+  {
+    id: 5, name: 'Chủ đề: Nam Long',
+    status: 'active', createdAt: '2026-09-15',
+    primaryKeywords: ['công ty cổ phần đầu tư nam long'],
+    secondaryKeywords: ['nam long group', 'bất động sản nam long', 'chủ tịch nguyễn xuân quang', 'dự án bất động sản', 'waterpoint', 'izumi city', 'mizuki park', 'nam long đại phước', 'elyse island'],
+    excludeKeywords: ['tuyển dụng', 'tuyển sinh'],
+    sourceIds: [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114],
+    totalMentions: 1847, monthMentions: 1847,
+  },
 ];
 
 const FEED = [
@@ -87,9 +96,13 @@ const FEED = [
   { id: 12, title: 'Rao vặt: Bán đất nền KDCM Hậu Giang giá rẻ', source: 'Fanpage Sở TT&TT HG', sourceType: 'Facebook', date: '2026-09-06 08:00', sentiment: 'neutral', topicIds: [], keywordIds: [], excerpt: 'Bán đất nền khu dân cư mới <mark>Hậu Giang</mark>, giá từ 800tr/nền, thổ cư 100%, sẵn sàng ra sổ...' },
 ];
 
+// Merge Nam Long data (loaded from data_namlong.js)
+if (typeof NAMLONG_SOURCES !== 'undefined') { SOURCES.push(...NAMLONG_SOURCES); }
+if (typeof NAMLONG_FEED !== 'undefined') { FEED.push(...NAMLONG_FEED); }
+
 // ============ Helpers ============
 function getSourceTypeIcon(type) {
-  const map = { 'Báo chí': '📰', 'Facebook Fanpage': '📘', 'Facebook Group': '👥', 'TikTok': '🎵', 'YouTube': '▶️', 'Zalo OA': '💬', 'Facebook': '📘' };
+  const map = { 'Báo chí': '📰', 'Facebook Fanpage': '📘', 'Facebook Group': '👥', 'TikTok': '🎵', 'YouTube': '▶️', 'Zalo OA': '💬', 'Facebook': '📘', 'Threads': '🧵' };
   return map[type] || '🌐';
 }
 function getSourceTypeBadge(type) { return `<span class="source-type-icon">${getSourceTypeIcon(type)}</span>${type}`; }
