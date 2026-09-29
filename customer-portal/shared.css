@@ -346,7 +346,8 @@ tbody tr { cursor: pointer; transition: background 0.1s; }
 .feed-excerpt mark { background: #FEF08A; color: var(--gray-900); padding: 0 2px; border-radius: 2px; }
 
 /* Source icon */
-.source-type-icon { font-size: 16px; margin-right: 4px; }
+.source-type-icon { font-size: 16px; margin-right: 4px; display: inline-flex; align-items: center; vertical-align: middle; }
+.source-type-icon svg { width: 16px; height: 16px; }
 
 /* Login */
 .login-page {
