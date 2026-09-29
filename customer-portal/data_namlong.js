@@ -1,5 +1,5 @@
 // ============ Nam Long Topic Data ============
-// Filter logic: primary "công ty cổ phần đầu tư nam long" AND secondary contains one of:
+// Filter logic: primary "nam long" AND secondary contains one of:
 // "nam long group", "bất động sản nam long", "chủ tịch nguyễn xuân quang",
 // "dự án bất động sản", "waterpoint", "izumi city", "mizuki park", "nam long đại phước", "elyse island"
 

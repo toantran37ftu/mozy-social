@@ -73,7 +73,7 @@ const TOPICS = [
   {
     id: 5, name: 'Chủ đề: Nam Long',
     status: 'active', createdAt: '2026-09-15',
-    primaryKeywords: ['công ty cổ phần đầu tư nam long'],
+    primaryKeywords: ['nam long'],
     secondaryKeywords: ['nam long group', 'bất động sản nam long', 'chủ tịch nguyễn xuân quang', 'dự án bất động sản', 'waterpoint', 'izumi city', 'mizuki park', 'nam long đại phước', 'elyse island'],
     excludeKeywords: ['tuyển dụng', 'tuyển sinh'],
     sourceIds: [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114],
