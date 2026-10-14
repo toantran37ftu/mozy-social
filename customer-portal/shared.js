@@ -79,6 +79,15 @@ const TOPICS = [
     sourceIds: [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114],
     totalMentions: 1847, monthMentions: 1847,
   },
+  {
+    id: 6, name: 'Chủ đề: HDBANK',
+    status: 'active', createdAt: '2026-10-01',
+    primaryKeywords: ['HDBank', 'HD Bank', 'HĐBank', 'Ngân hàng TMCP Phát triển Thành phố Hồ Chí Minh', 'Ngân hàng TMCP Phát triển TP.HCM', 'Ngân hàng Phát triển TP.HCM', 'Ngân hàng Phát triển TPHCM', 'HDB', 'Vikki Bank', 'Vikki', 'HD SAISON', 'HDSaison', 'DongA Bank', 'Đông Á Bank', 'Kim Byoung Ho', 'Phạm Quốc Thanh', 'Nguyễn Thị Phương Thảo'],
+    secondaryKeywords: ['cổ phiếu', 'ngân hàng', 'chứng khoán', 'HOSE', 'cổ đông', 'cổ tức', 'ngân hàng số', 'app', 'tài khoản', 'HDBank', 'Vikki', 'chuyển giao'],
+    excludeKeywords: ['vay nhanh', 'giải ngân trong ngày', 'hỗ trợ vay', 'vay không thế chấp', 'nợ xấu vẫn vay', 'không cần chứng minh thu nhập', 'duyệt hồ sơ', 'đáo hạn thẻ', 'rút tiền thẻ', 'mở thẻ miễn phí', 'làm thẻ nhanh', 'inbox', 'ib', 'zalo', 'sđt', 'hotline', 'nhắn tin ngay', 'để lại số', 'mã giới thiệu', 'nhập mã', 'ref', 'link đăng ký', 'nhận ngay', 'kiếm tiền online', 'CTV', 'bán tài khoản', 'mua tài khoản', 'thuê tài khoản', 'HDB flat', 'BTO', 'Singapore', 'Housing Development Board', 'tuyển dụng', 'ứng tuyển'],
+    sourceIds: [],
+    totalMentions: 0, monthMentions: 0,
+  },
 ];
 
 const FEED = [
@@ -99,6 +108,15 @@ const FEED = [
 // Merge Nam Long data (loaded from data_namlong.js)
 if (typeof NAMLONG_SOURCES !== 'undefined') { SOURCES.push(...NAMLONG_SOURCES); }
 if (typeof NAMLONG_FEED !== 'undefined') { FEED.push(...NAMLONG_FEED); }
+
+// Merge HDBANK data (loaded from data_hdbank.js)
+if (typeof HDBANK_SOURCES !== 'undefined') { SOURCES.push(...HDBANK_SOURCES); }
+if (typeof HDBANK_FEED !== 'undefined') {
+  FEED.push(...HDBANK_FEED);
+  const hd = TOPICS.find(t => t.id === 6);
+  hd.sourceIds = HDBANK_SOURCES.map(x => x.id);
+  hd.totalMentions = hd.monthMentions = HDBANK_FEED.length;
+}
 
 // ============ Helpers ============
 function getSourceTypeIcon(type) {
