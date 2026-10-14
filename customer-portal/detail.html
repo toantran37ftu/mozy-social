@@ -66,7 +66,8 @@
     const params = new URLSearchParams(window.location.search);
     const detailType = params.get('type') || 'topic';
     const detailId = parseInt(params.get('id')) || 1;
-    const state = { channelTab: 'all', socialSub: 'all', sentiment: 'all', timeRange: '7d', customFrom: '', customTo: '' };
+    const NOW = new Date('2026-10-15T00:00:00'); // mốc "hôm nay" của dữ liệu mẫu
+    const state = { channelTab: 'all', socialSub: 'all', sentiment: 'all', timeRange: 'custom', customFrom: '2026-10-01', customTo: '2026-10-14' };
 
     function getDetail() {
       if (detailType === 'topic') return TOPICS.find(t => t.id === detailId);
@@ -76,7 +77,7 @@
     function parseFeedDate(d) { return new Date(d.replace(/(\d{2})\/(\d{2})\/(\d{4})/, '$3-$2-$1').replace(' ', 'T')); }
 
     function filterByTime(data) {
-      const now = new Date('2026-09-30T00:00:00');
+      const now = NOW;
       if (state.timeRange === 'custom' && state.customFrom && state.customTo) {
         const from = new Date(state.customFrom + 'T00:00:00');
         const to = new Date(state.customTo + 'T23:59:59');
@@ -109,41 +110,26 @@
       return data;
     }
 
-    // Seeded random for consistent chart data
-    let _seed = 42;
-    function seededRand() { _seed = (_seed * 16807 + 0) % 2147483647; return (_seed & 0x7fffffff) / 0x7fffffff; }
-
-    function buildDaily(days) {
-      const data = [];
-      _seed = 42;
-      for (let i = days - 1; i >= 0; i--) {
-        const d = new Date(); d.setDate(d.getDate() - i);
-        const p = Math.floor(seededRand() * 8) + 5;
-        const n = Math.floor(seededRand() * 5) + 2;
-        const ng = Math.floor(seededRand() * 3) + 1;
-        data.push({ label: d.toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit' }), positive: p, neutral: n, negative: ng, total: p + n + ng });
-      }
-      return data;
+    // Biểu đồ theo ngày: tính từ dữ liệu thật trong khoảng thời gian đang chọn
+    function rangeDays() {
+      let from, to;
+      if (state.timeRange === 'custom' && state.customFrom && state.customTo) { from = new Date(state.customFrom + 'T00:00:00'); to = new Date(state.customTo + 'T00:00:00'); }
+      else { const n = state.timeRange === '30d' ? 30 : 7; to = new Date(NOW); to.setDate(to.getDate() - 1); from = new Date(to); from.setDate(from.getDate() - n + 1); }
+      const out = []; for (let d = new Date(from); d <= to; d.setDate(d.getDate() + 1)) out.push(new Date(d)); return out;
     }
+    const dayKey = d => d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+    const dayLabel = d => d.toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit' });
+    function byDay(feed) { return rangeDays().map(d => ({ d, items: feed.filter(f => f.date.slice(0, 10) === dayKey(d)) })); }
 
-    function buildAuthorTrend(days) {
-      const data = [];
-      _seed = 137;
-      for (let i = days - 1; i >= 0; i--) {
-        const d = new Date(); d.setDate(d.getDate() - i);
-        data.push({ label: d.toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit' }), authors: Math.floor(seededRand() * 15) + 5 });
-      }
-      return data;
+    function buildDaily(feed) {
+      return byDay(feed).map(({ d, items }) => {
+        const c = s => items.filter(f => f.sentiment === s).length;
+        return { label: dayLabel(d), positive: c('positive'), neutral: c('neutral'), negative: c('negative'), total: items.length };
+      });
     }
-
-    function buildEngagement(days) {
-      const data = [];
-      _seed = 256;
-      for (let i = days - 1; i >= 0; i--) {
-        const d = new Date(); d.setDate(d.getDate() - i);
-        data.push({ label: d.toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit' }), likes: Math.floor(seededRand()*800)+100, shares: Math.floor(seededRand()*50)+5 });
-      }
-      return data;
+    function buildAuthorTrend(feed) { return byDay(feed).map(({ d, items }) => ({ label: dayLabel(d), authors: new Set(items.map(f => f.source)).size })); }
+    function buildEngagement(feed) {
+      return byDay(feed).map(({ d, items }) => ({ label: dayLabel(d), likes: items.reduce((a, f) => a + (f.engagement ? f.engagement.reactions : 0), 0), shares: items.reduce((a, f) => a + (f.engagement ? f.engagement.shares : 0), 0) }));
     }
 
     function svgLine(data, series) {
@@ -229,17 +215,9 @@
       const mentionComment = socialTotal - mentionPost;
       const mentionTotal = mentionPress + mentionPost + mentionComment || 1;
 
-      let days;
-      if (state.timeRange === 'custom' && state.customFrom && state.customTo) {
-        const from = new Date(state.customFrom);
-        const to = new Date(state.customTo);
-        days = Math.max(1, Math.round((to - from) / (1000 * 60 * 60 * 24)) + 1);
-      } else {
-        days = state.timeRange === '30d' ? 30 : 7;
-      }
-      const daily = buildDaily(days);
-      const authorTrend = buildAuthorTrend(days);
-      const engagementData = buildEngagement(days);
+      const daily = buildDaily(filtered);
+      const authorTrend = buildAuthorTrend(filtered);
+      const engagementData = buildEngagement(filtered);
       const showEngagement = state.channelTab === 'social' || (state.channelTab === 'all' && state.socialSub !== 'all');
       const maxDayTotal = Math.max(...daily.map(d => d.total), 1);
 
@@ -281,9 +259,9 @@
                 <button class="seg-btn ${state.timeRange === '30d' ? 'active' : ''}" onclick="setTime('30d')">30 ngày</button>
                 <button class="seg-btn ${state.timeRange === 'custom' ? 'active' : ''}" onclick="setTime('custom')">Tuỳ chỉnh</button>
                 <div style="margin-left:8px;${state.timeRange === 'custom' ? '' : 'display:none;'}">
-                  <input type="date" class="date-input" value="${state.customFrom || '2026-09-10'}" onchange="state.customFrom=this.value;render();">
+                  <input type="date" class="date-input" value="${state.customFrom || '2026-10-01'}" onchange="state.customFrom=this.value;render();">
                   <span style="margin:0 4px;color:var(--gray-400);">—</span>
-                  <input type="date" class="date-input" value="${state.customTo || '2026-09-17'}" onchange="state.customTo=this.value;render();">
+                  <input type="date" class="date-input" value="${state.customTo || '2026-10-14'}" onchange="state.customTo=this.value;render();">
                 </div>
               </div>
               <div style="display:flex;align-items:center;gap:0;">
