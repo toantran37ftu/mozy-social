@@ -114,7 +114,7 @@ const HDBANK_SOURCES = [
   },
   {
     id: 310,
-    name: "Facebook Group tiết kiệm / thẻ tín dụng (280 bài)",
+    name: "Facebook Group tiết kiệm / thẻ tín dụng (278 bài)",
     url: "https://facebook.com/groups/guitietkiemnganhang",
     type: "Facebook Group",
     status: "active",
@@ -363,24 +363,6 @@ const HDBANK_FEED = [
  },
  {
   id: 408,
-  title: "VAY MUA BĐS PHÚ LONG – ƯU ĐÃI HẤP DẪN Vikki Bank mang đến giải pháp vay mua bất động sản với...",
-  source: "My Duyen",
-  sourceType: "Facebook Group",
-  date: "2026-10-14 16:33",
-  sentiment: "positive",
-  topicIds: [
-   6
-  ],
-  url: "https://www.facebook.com/groups/727585181550926/posts/1904219287220837/",
-  excerpt: "🏡 VAY MUA BĐS PHÚ LONG – ƯU ĐÃI HẤP DẪN <mark>Vikki Bank</mark> mang đến giải pháp vay mua bất động sản với những ưu đãi đáng chú ý: ✨ Vay đến 100% giá trị BĐS ✨ Thời hạn vay tối đa 50 năm ✨ Ân hạn vốn tối đa 36 tháng ✨ Lãi suất ưu đãi theo từng kỳ hạn &amp; dự án ☎ Mỹ Duyên – 0366 162 936 📍 454 Nguyễn Văn Tạo, Xã Hiệp Phước, TP.HCM <mark>VikkiBank</mark> VayMuaNha BatDongSan PhuLong",
-  engagement: {
-   reactions: 1,
-   shares: 0,
-   comments: 1
-  }
- },
- {
-  id: 409,
   title: "ĐIỂM CHẠM CHO MỌI THẾ HỆ Ngân hàng Số Vikki hướng tới một trải nghiệm tài chính mà mọi thành...",
   source: "Hồng Hạnh",
   sourceType: "Facebook Group",
@@ -398,7 +380,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 410,
+  id: 409,
   title: "Chiến lược mở rộng tín dụng SME của HDBank sẽ mang lại tác động ra sao đến biên lợi nhuận của...",
   source: "Titanlabs - Stock AI Agent",
   sourceType: "Facebook",
@@ -416,7 +398,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 411,
+  id: 410,
   title: "Làn sóng tăng vốn ngân hàng sắp chạm mốc kỷ lục với hơn 7,3 tỷ cổ phiếu chuẩn bị được tung ra...",
   source: "Titanlabs - Stock AI Agent",
   sourceType: "Facebook",
@@ -434,7 +416,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 412,
+  id: 411,
   title: "Kết phiên 14/10/2026, VN-Index bốc hơi -14.55 điểm (-0.85%), lùi về mốc 1.704.87 điểm với thanh...",
   source: "Nhật Ký Bảng Điện - Dữ Liệu & Nhịp Đập Chứng Khoán",
   sourceType: "Facebook",
@@ -452,7 +434,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 413,
+  id: 412,
   title: "Trong phiên giao dịch ngày 14/10, cổ phiếu HDB của Ngân hàng TMCP Phát triển TP.HCM (HDBank) ghi...",
   source: "VNReport",
   sourceType: "Facebook",
@@ -470,7 +452,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 414,
+  id: 413,
   title: "TÍCH KIỆM VIKKI - TRÚNG BÓNG VÀNG KÝ: GỌI TÊN NHỮNG CHỦ NHÂN MAY MẮN! 🏆 Bạn vừa muốn gia tăng...",
   source: "Khánh Thuỷ",
   sourceType: "Facebook",
@@ -488,7 +470,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 415,
+  id: 414,
   title: "Mình có 3 khoản vay Vpbank 119tr, đóng 6th S Easy 16tr, chưa góp kì nào Hdbank 50tr, góp 3 th...",
   source: "LivelyCranberry5133",
   sourceType: "Facebook Group",
@@ -506,7 +488,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 416,
+  id: 415,
   title: "E đang vay bên HD saison 39treiu trả 2ky giờ lên HD saison đc khoản nào nữa không ạ",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -524,7 +506,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 417,
+  id: 416,
   title: "Ông trời tạo ra địa chấn, còn HDB là điểm nhấn. 🌋 Chiều nay cả thị trường rung lắc, người thì...",
   source: "Nguyễn Hai Anh",
   sourceType: "Facebook Group",
@@ -542,7 +524,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 418,
+  id: 417,
   title: "ĐÓN THÁNG 10 SÀNH ĐIỆU – SĂN IPHONE DUO GIÁ YÊU CÙNG VIKKI! 💖 Tháng 10 rực rỡ, lên đời công...",
   source: "Chung VT",
   sourceType: "Facebook",
@@ -560,7 +542,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 419,
+  id: 418,
   title: "I love HDBank HDBank HappyDigitalBank ILoveHDBank",
   source: "Bối Bối",
   sourceType: "Facebook",
@@ -578,7 +560,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 420,
+  id: 419,
   title: "TUYỆT TÁC HOÀNG KIM – TÔN VINH THÁNG TÀI SẮC ✨ 💜 Chào mừng Ngày Phụ nữ Việt Nam 20/10, Vikki...",
   source: "Tran Hong Hanh",
   sourceType: "Facebook",
@@ -596,7 +578,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 421,
+  id: 420,
   title: "Chào mừng Ngày Phụ nữ Việt Nam 20/10, Vikki Digital Bank hợp tác cùng Puregold.sg mang đến...",
   source: "Phạm Huy Hoàng",
   sourceType: "Facebook",
@@ -614,7 +596,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 422,
+  id: 421,
   title: "GỬI TIẾT KIỆM VIKKI – RINH QUÀ NHƯ Ý! 💜 💰 Vừa tích lũy tài chính an tâm, vừa có cơ hội nhận...",
   source: "Thái Hữu Nhựt",
   sourceType: "Facebook",
@@ -632,7 +614,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 423,
+  id: 422,
   title: "TIẾT KIỆM VIKKI – TÍCH LŨY HÔM NAY, VỮNG VÀNG NGÀY MAI 💰 Mỗi ngày một chút tích lũy, tương lai...",
   source: "Huỳnh Thiên Vikki",
   sourceType: "Facebook",
@@ -650,7 +632,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 424,
+  id: 423,
   title: "Ông Kim Byoungho, Chủ tịch HĐQT HDBank được nhận Cúp Thánh Gióng 2026 và trong Top 10 lãnh đạo...",
   source: "TechTimes.vn",
   sourceType: "Facebook",
@@ -668,7 +650,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 425,
+  id: 424,
   title: "HDB vừa chạm đỉnh sau chia cổ tức, hôm nay lại có người đăng ký bán 922.823 cổ phiếu... Đọc lướt...",
   source: "Alphasensei.io",
   sourceType: "Facebook Group",
@@ -686,7 +668,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 426,
+  id: 425,
   title: "VIKKI DIGITAL BANK – GỬI TIẾT KIỆM, NHẬN QUÀ HẤP DẪN! 🎁 ✨ Cơ hội nhận quà thiết thực dành cho...",
   source: "Vu Danh Phuc",
   sourceType: "Facebook",
@@ -704,7 +686,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 427,
+  id: 426,
   title: "HÀNH TRÌNH TIỆN LỢI VỚI NGÂN HÀNG SỐ VIKKI! 💜🏔 Vikki Digital Bank luôn sẵn sàng đồng hành cùng...",
   source: "Yến Nguyễn Hải",
   sourceType: "Facebook",
@@ -722,7 +704,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 428,
+  id: 427,
   title: "Lương về tay, Quý khách cùng thử ngay cách \"chia túi\" hiệu quả: 🛍️ Túi 1 - Chi tiêu: Ăn uống,...",
   source: "Huỳnh Thu Tâm",
   sourceType: "Facebook",
@@ -740,7 +722,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 429,
+  id: 428,
   title: "Đến Vikki Bank giao dịch rồi trong lúc chờ đợi đến lượt giao dịch mọi người có thấy màn hình...",
   source: "Nguyễn Thu",
   sourceType: "Facebook",
@@ -758,7 +740,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 430,
+  id: 429,
   title: "Giờ giải lao là lúc chị em mình “xôm tụ” hết nấc, tranh thủ lưu lại vài khoảnh khắc vui vẻ bên...",
   source: "Nguyễn Thị Thu Thảo",
   sourceType: "Facebook",
@@ -776,7 +758,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 431,
+  id: 430,
   title: "LÃI VÀNG TRAO TAY, GỬI NGAY THÊM LỜI Lương về tay, Quý khách cùng thử ngay cách \"chia túi\" hiệu...",
   source: "Kiều Tiên",
   sourceType: "Facebook",
@@ -794,7 +776,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 432,
+  id: 431,
   title: "VINHOMES SAIGON PARK – SIÊU ĐÔ THỊ 1.080HA Bạn đang tìm kiếm cơ hội sở hữu bất động sản tại đại...",
   source: "Lệ Nhiên",
   sourceType: "Facebook Group",
@@ -812,7 +794,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 433,
+  id: 432,
   title: "LÃI VÀNG TRAO TAY, GỬI NGAY THÊM LỜI Lương về tay, Quý khách cùng thử ngay cách \"chia túi\" hiệu...",
   source: "Mieu Tran",
   sourceType: "Facebook",
@@ -830,7 +812,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 434,
+  id: 433,
   title: "CHÚC MỪNG KỲ QUAY SỐ TUẦN 14 - TIẾT KIỆM VIKKI TRÚNG BÓNG VÀNG KÝ THÀNH CÔNG TỐT ĐẸP⚽️✨ Kỳ quay...",
   source: "Ngân Ngân",
   sourceType: "Facebook",
@@ -848,7 +830,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 435,
+  id: 434,
   title: "GẶP NHAU GIỜ VÀNG–Tập 14 Xóm nhà Tấm ✨ Gặp nhau giờ vàng tập 14 lên sóng với tiểu phẩm giải trí...",
   source: "Ba Son",
   sourceType: "Facebook",
@@ -866,7 +848,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 436,
+  id: 435,
   title: "CÔNG NHÂN VIKKI – KHÔNG NGẠI ĐƯỜNG XA, CHỈ NGẠI KHÁCH CHƯA GỌI! 🛵💨 📅 Không kể thứ 2, thứ 3...",
   source: "Jun",
   sourceType: "Facebook",
@@ -884,7 +866,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 437,
+  id: 436,
   title: "THÁNG 10 TƯƠI ĐẸP – DÀNH TẶNG PHÁI ĐẸP MỘT KHOẢN TIẾT KIỆM XINH XẮN 💕 Tháng 10 – tháng của yêu...",
   source: "Tran Duyen",
   sourceType: "Facebook",
@@ -902,7 +884,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 438,
+  id: 437,
   title: "GHÉ VIKKI BANK NGAY – ĐỂ CHẠM TRI THỨC, THÊM NIỀM VUI! 📚☕️ - Đến Vikki Bank không chỉ để giao...",
   source: "Hùng Thái",
   sourceType: "Facebook",
@@ -920,7 +902,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 439,
+  id: 438,
   title: "Nhân ngày doanh nhân Việt Nam 13/10 Vikki chúc quý khách hàng luôn tràn cảm hứng, vững bước tiên...",
   source: "Ngân Ngân",
   sourceType: "Facebook",
@@ -938,7 +920,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 440,
+  id: 439,
   title: "TÍCH LŨY AN TÂM – ĐÓN QUÀ XỨNG Ý CÙNG VIKKI Một kế hoạch tiết kiệm thông minh không chỉ giúp...",
   source: "Lâm Thuỳ Trang",
   sourceType: "Facebook",
@@ -956,7 +938,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 441,
+  id: 440,
   title: "VIKKI DIGITAL BANK – CHẠM NHANH, GIAO DỊCH MƯỢT, TẬN HƯỞNG TRỌN NIỀM VUI! 💖 ✨ Thanh toán,...",
   source: "Nguyễn Thị Phương",
   sourceType: "Facebook",
@@ -974,7 +956,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 442,
+  id: 441,
   title: "Thị trường phiên sáng 14/10/2026: Tiếp diễn nhịp điều chỉnh với độ rộng kém tích cực và thanh...",
   source: "FiinTrade Happy Investing",
   sourceType: "Facebook",
@@ -992,25 +974,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 443,
-  title: "LS 💜9️⃣,6️⃣💜 TỪ 500TR ☘️☘️LS💜9️⃣,4️⃣💜 TỪ 200TR 💚💚EM HUYỀN VIKKI BANK HỖ TRỢ TOÀN QUỐC...",
-  source: "Huyen Nguyen",
-  sourceType: "Facebook Group",
-  date: "2026-10-14 11:38",
-  sentiment: "positive",
-  topicIds: [
-   6
-  ],
-  url: "https://www.facebook.com/groups/208353395459101/posts/1112922641668834/",
-  excerpt: "☘️☘️LS 💜9️⃣,6️⃣💜 TỪ 500TR ☘️☘️LS💜9️⃣,4️⃣💜 TỪ 200TR 💚💚EM HUYỀN <mark>VIKKI BANK</mark> HỖ TRỢ TOÀN QUỐC 👉0973322728👍 ls tốt nhất thị trường ạ",
-  engagement: {
-   reactions: 1,
-   shares: 0,
-   comments: 0
-  }
- },
- {
-  id: 444,
+  id: 442,
   title: "Mình có 500 đến 1T muốn gửi HD Bank. LS 6-12 tháng hiện tại bao nhiêu vậy các bác? Có kèm điều...",
   source: "UpbeatCherry5508",
   sourceType: "Facebook Group",
@@ -1028,7 +992,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 445,
+  id: 443,
   title: "ỦA ALOOO 📢 VIKKI LẠI CHUẨN BỊ CÓ GÌ MỚI NÈ! 📚 ☕️ Vikkafe đã chill, nay Vikki Read lên sóng! 📖...",
   source: "Mạnh Mạnh Trần",
   sourceType: "Facebook",
@@ -1046,7 +1010,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 446,
+  id: 444,
   title: "VIKKI DIGITAL BANK – NƠI TÀI CHÍNH GẶP GỠ PHONG CÁCH SỐNG! ☕✨ Bạn nghĩ ngân hàng chỉ dành cho...",
   source: "Vo Phuong Minh",
   sourceType: "Facebook",
@@ -1064,7 +1028,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 447,
+  id: 445,
   title: "THÁNG 10 – PHỤ NỮ YÊU THƯƠNG, TÀI CHÍNH VỮNG VÀNG CÙNG VIKKI BANK 💖 Phụ nữ hiện đại không chỉ...",
   source: "Ánh Thu",
   sourceType: "Facebook",
@@ -1082,7 +1046,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 448,
+  id: 446,
   title: "KHI CÔNG NGHỆ ĐỒNG HÀNH CÙNG \"XÓM NHÀ TẤM\" SĂN BÓNG VÀNG! 🤖 Buổi phát sóng trực tiếp của Vikki...",
   source: "Kelvin Trần",
   sourceType: "Facebook",
@@ -1100,7 +1064,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 449,
+  id: 447,
   title: "VIKKI BANK – LAN TỎA NIỀM VUI, KẾT NỐI YÊU THƯƠNG! 💜 Một ngày thật ý nghĩa với những khoảnh...",
   source: "Thanh Thom",
   sourceType: "Facebook",
@@ -1118,7 +1082,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 450,
+  id: 448,
   title: "BÁO CÁO THỊ TRƯỜNG – Tuần 42/2026 (12-16/10/2026) “VN-Index: Dòng tiền phân hóa, áp lực điều...",
   source: "HD Securities",
   sourceType: "Facebook",
@@ -1136,7 +1100,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 451,
+  id: 449,
   title: "TEAM VIKKI – ĐỒNG LÒNG GẮN KẾT, CÙNG NHAU TỎA SÁNG! 🧡💙 🥰 Đi làm có đồng đội kề vai sát cánh,...",
   source: "Võ Thanh",
   sourceType: "Facebook",
@@ -1154,7 +1118,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 452,
+  id: 450,
   title: "Các khách hàng yêu quý của Vikki đợt này đã được nhận Vàng ký rinh về nhà chưa ạ? Chúc mừng các...",
   source: "Ly Tr",
   sourceType: "Facebook",
@@ -1172,7 +1136,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 453,
+  id: 451,
   title: "Hơn cả dịch vụ tài chính - Vikki đồng hành cùng Quý khách hàng trong mọi khoảnh khắc! Điểm hẹn...",
   source: "Nguyễn Đăng Khoa",
   sourceType: "Facebook",
@@ -1190,7 +1154,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 454,
+  id: 452,
   title: "VIKKI BANK – HỢP TÁC GIỚI THIỆU KHÁCH HÀNG VAY MUA BẤT ĐỘNG SẢN Vikki Bank hiện triển khai cho...",
   source: "Đức Huy",
   sourceType: "Facebook",
@@ -1208,7 +1172,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 455,
+  id: 453,
   title: "Cấp vốn 9tr thành công cho bé khách cũ 2k3 🫶 E vẫn hỗ trợ vaay tiêu dùng cho khách nhé lh e...",
   source: "Phạm Thuỷ",
   sourceType: "Facebook",
@@ -1226,7 +1190,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 456,
+  id: 454,
   title: "Khu vực Bến Cát - Bình Dương anh chị nhắn em hỗ trợ liền nha ✅Không mất phí ✅Hs duyệt nhanh...",
   source: "Hoàng Yến",
   sourceType: "Facebook Group",
@@ -1244,7 +1208,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 457,
+  id: 455,
   title: "500tr cần gửi TK ngay hôm nay. Vikki đang chào lsuat 9.16 nhận lãi kép. Lì xì thêm 200k Còn ngân...",
   source: "FascinatingLion1734",
   sourceType: "Facebook Group",
@@ -1262,7 +1226,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 458,
+  id: 456,
   title: "9.5-9.6 liên hệ em bên vikki bank 0795871129 Bích",
   source: "@hcibw_w",
   sourceType: "Threads",
@@ -1280,7 +1244,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 459,
+  id: 457,
   title: "ĐẾN VIKKI KHÔNG CHỈ GIAO DỊCH, MÀ CÒN CÓ THÊM NIỀM VUI! 📚☕️ Từng có Vikkafe để khách hàng nhâm...",
   source: "Nguyen Tram",
   sourceType: "Facebook",
@@ -1298,7 +1262,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 460,
+  id: 458,
   title: "VIC] - TIN NHANH Quỹ SSI-SCA vừa THOÁI TOÀN BỘ 11% tỷ trọng cổ phiếu VIC trong danh mục. Tỷ lệ...",
   source: "Trading for living",
   sourceType: "Facebook",
@@ -1316,7 +1280,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 461,
+  id: 459,
   title: "VIKKAFE – THÊM MỘT ĐIỂM HẸN, THÊM NHIỀU TRẢI NGHIỆM HAY! Không chỉ là nơi thưởng thức cà phê,...",
   source: "Bông Như",
   sourceType: "Facebook",
@@ -1334,7 +1298,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 462,
+  id: 460,
   title: "TIÊN PHONG – TỪ MỘT CÁI BẮT TAY ĐẾN HÀNG TRIỆU ĐIỂM CHẠM MỖI NGÀY! Vikki Digital Bank tự hào...",
   source: "Nguyễn Thu Hà",
   sourceType: "Facebook",
@@ -1352,7 +1316,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 463,
+  id: 461,
   title: "Mình gửi 250tr 12 tháng tại Hà Đông (chỉ gửi tại Hà Đông ạ). Mình xin lãi suất của HD bank, SHB,...",
   source: "Hoàng Hà",
   sourceType: "Facebook Group",
@@ -1370,7 +1334,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 464,
+  id: 462,
   title: "CHÚC MỪNG NGÀY DOANH NHÂN VIỆT NAM 13/10 💜 Ngân hàng Số Vikki kính chúc Quý Khách hàng luôn bản...",
   source: "Hà Duy Vikkibank",
   sourceType: "Facebook",
@@ -1388,7 +1352,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 465,
+  id: 463,
   title: "Xem thêm chi tiết tại: https://www.hdsaison.com.vn/vn/vay-sinh-vien Tiếp vốn trao quyền 🎓 Sinh...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -1406,7 +1370,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 466,
+  id: 464,
   title: "Với những lúc cần thêm nguồn tài chính cho việc học hay sinh hoạt, gói vay Sinh viên HD SAISON...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -1424,7 +1388,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 467,
+  id: 465,
   title: "Báo cáo phân tích nhanh xu hướng dòng tiền các nhóm ngành và danh sách cổ phiếu dẫn dắt cập nhật...",
   source: "Gom Tin News",
   sourceType: "Facebook Group",
@@ -1442,7 +1406,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 468,
+  id: 466,
   title: "ĐIỂM TIN NGÀY 13/10/2026 1. Bộ công thương đề xuất cơ chế linh hoạt nguồn tiền cho quỹ bình ổn...",
   source: "New Ninh",
   sourceType: "Facebook",
@@ -1460,7 +1424,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 469,
+  id: 467,
   title: "Ngân hàng Vikki Bank đang triển khai cho vay BĐS là căn hộ chung cư (đã có sổ hồng) tại TP.HCM....",
   source: "Nguyễn Thuận",
   sourceType: "Facebook Group",
@@ -1478,7 +1442,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 470,
+  id: 468,
   title: "CHẠM ĐAM MÊ - BẬT CHIẾN THẮNG! ⚽️🏆 Ú oàaaa! Tin vui chấn động ngày hôm nay xin được gọi tên một...",
   source: "Kim Soa",
   sourceType: "Facebook",
@@ -1496,7 +1460,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 471,
+  id: 469,
   title: "NGÀY MỚI HỨNG KHỞI – TRẢI NGHIỆM TÀI CHÍNH TOÀN DIỆN CÙNG VIKKI DIGITAL BANK! 🔥 💪 Bạn đã sẵn...",
   source: "Thien Than Bong Bong",
   sourceType: "Facebook",
@@ -1514,7 +1478,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 472,
+  id: 470,
   title: "THỊ TRƯỜNG 14/10 TRƯỚC ĐÁO HẠN PHÁI SINH VN-Index giảm phiên thứ 5 liên tiếp, đóng cửa quanh...",
   source: "Cổ Phiếu Trước Sóng",
   sourceType: "Facebook Group",
@@ -1532,7 +1496,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 473,
+  id: 471,
   title: "Tháng 9 hoàn thành nhiệm vụ 🎯 Cảm ơn quý khách hàng, đồng đội và những nỗ lực mỗi ngày. Tháng...",
   source: "Mạnh Linh",
   sourceType: "Facebook",
@@ -1550,7 +1514,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 474,
+  id: 472,
   title: "HDB - Ngân hàng TMCP Phát triển Thành phố Hồ Chí Minh cophieu chungkhoan",
   source: "Son Nguyen",
   sourceType: "Facebook",
@@ -1568,7 +1532,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 475,
+  id: 473,
   title: "NHẬN ĐỊNH THỊ TRƯỜNG NGÀY 14/10/2026: THỊ TRƯỜNG VẪN “THIẾU CẦU” Dear anh chị Thị trường phiên...",
   source: "Hệ thống đầu tư Atagetz",
   sourceType: "Facebook Group",
@@ -1586,7 +1550,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 476,
+  id: 474,
   title: "ĐIỀU TẠO NÊN MỘT TRẢI NGHIỆM GIAO DỊCH ĐÁNG NHỚ Đó có thể là một không gian hiện đại, một quy...",
   source: "Hoa Nt",
   sourceType: "Facebook",
@@ -1604,7 +1568,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 477,
+  id: 475,
   title: "Nhận định trước phiên 14/10/2026 -------------------------------------- Thị trường tiếp tục thử...",
   source: "Đầu Tư Chứng Khoán",
   sourceType: "Facebook",
@@ -1622,7 +1586,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 478,
+  id: 476,
   title: "Xin chúc mừng những khách hàng đã được gọi tên trúng vàng trong phiên livestream phần quay số...",
   source: "Thiên Kim Vo",
   sourceType: "Facebook",
@@ -1640,7 +1604,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 479,
+  id: 477,
   title: "Đón chào tháng 10 đầy up những yêu thương cùng VikkiNhanh tay tải app Vikki gửi tk trúng bóng...",
   source: "Temo Vikki",
   sourceType: "Facebook",
@@ -1658,7 +1622,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 480,
+  id: 478,
   title: "TRỘM VÍA KHÁCH HÀNG ĐÔNG ĐÚC, MỞ THẺ KÉP VIKKIGO+ CỰC MÊ! 😎💳 Trộm vía lượt khách đăng ký và...",
   source: "Minh Nhân Vikki",
   sourceType: "Facebook",
@@ -1676,7 +1640,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 481,
+  id: 479,
   title: "PHÁI ĐẸP TỰ TIN – LÀM CHỦ TƯƠNG LAI CÙNG VIKKI! 💪✨ 🌸Chị em mình vừa giỏi kinh doanh, vừa khéo...",
   source: "Hanh Pham",
   sourceType: "Facebook",
@@ -1694,7 +1658,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 482,
+  id: 480,
   title: "Lên sóng giờ vàng tài chính vững vàng cùng vikki bank. Những giải vàng theo ngày, tuần, tháng...",
   source: "NH Sky",
   sourceType: "Facebook",
@@ -1712,7 +1676,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 483,
+  id: 481,
   title: "CHÚC MỪNG NGÀY DOANH NHÂN VIỆT NAM 13/10 – CÙNG VIKKI KIẾN TẠO TƯƠNG LAI THỊNH VƯỢNG! 🚀💜 Nhân...",
   source: "Huy Minh",
   sourceType: "Facebook",
@@ -1730,7 +1694,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 484,
+  id: 482,
   title: "VIKKI BANK – ĐIỂM HẸN TÀI CHÍNH, NƠI CÔNG NGHỆ GẶP GỠ SỰ TẬN TÂM! ✨ Một không gian giao dịch...",
   source: "Nguyen Cao",
   sourceType: "Facebook",
@@ -1748,7 +1712,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 485,
+  id: 483,
   title: "DÒNG TIỀN ĐANG PHÂN HÓA MẠNH – NHÓM MIDCAP CÓ ĐANG THU HÚT SỰ CHÚ Ý? Phiên 13/10, dữ liệu dòng...",
   source: "Minh Lý Invest - Đầu tư theo chỉ báo dòng tiền",
   sourceType: "Facebook",
@@ -1766,7 +1730,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 486,
+  id: 484,
   title: "VN-Index chỉ giảm 0,09%. Nghe như không có gì. Nhưng bên trong, 198 mã đỏ chọi lại 89 mã xanh....",
   source: "FechTin - Tự do tài chính",
   sourceType: "Facebook",
@@ -1784,7 +1748,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 487,
+  id: 485,
   title: "Nhân ngày Doanh nhân Việt Nam 13/10, trân trọng gửi tới Ban Lãnh đạo HDBank những lời chúc mừng...",
   source: "Phạm Thị Liên",
   sourceType: "Facebook",
@@ -1802,7 +1766,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 488,
+  id: 486,
   title: "THỊ TRƯỜNG NGÀY 14/10/2026 Kết thúc phiên giao dịch ngày 13/10, VN-Index đóng cửa tại...",
   source: "Chứng khoán F88",
   sourceType: "Facebook Group",
@@ -1820,7 +1784,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 489,
+  id: 487,
   title: "Để có được kết quả cho hôm sau, chúng tôi phải kiên trì mở lối bắt đầu từ hôm nay -Team nhà...",
   source: "Hùng Thái",
   sourceType: "Facebook",
@@ -1838,7 +1802,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 490,
+  id: 488,
   title: "Cổ phiếu của tỷ phú Nguyễn Thị Phương Thảo lập đỉnh lịch sử, vốn hóa vượt Sacombank, ACB và LPBank",
   source: "CafeF",
   sourceType: "Báo chí",
@@ -1851,7 +1815,7 @@ const HDBANK_FEED = [
   excerpt: "Cổ phiếu của tỷ phú <mark>Nguyễn Thị Phương Thảo</mark> lập đỉnh lịch sử, vốn hóa vượt Sacombank, ACB và LPBank Cổ phiếu <mark>HDB</mark> tiếp tục giao dịch tại vùng giá cao nhất lịch sử sau điều chỉnh, đưa vốn hóa <mark>HDBank</mark> vượt 150.000 tỷ đồng, đứng thứ 3 trong nhóm ngân hàng tư nhân niêm yết. Trong phiên giao dịch ngày 14/10, cổ phiếu <mark>HDB</mark> của <mark>Ngân hàng TMCP Phát triển TP.HCM</mark>..."
  },
  {
-  id: 491,
+  id: 489,
   title: "ƯU ĐÃI VAY VỐN DÀNH CHO CÔNG NHÂN POUYUEN 💸 Vay tối đa: 200 triệu đồng 📅 Thời hạn: 24 tháng 📉...",
   source: "Thảo Ngân",
   sourceType: "Facebook Group",
@@ -1869,7 +1833,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 492,
+  id: 490,
   title: "TUẦN 14 GỌI TÊN NHỮNG CHỦ NHÂN MAY MẮN CỦA VÀNG! 💛🎉 🍀 Niềm vui nhân đôi, tài lộc thêm đầy khi...",
   source: "Khanh Ha Bui",
   sourceType: "Facebook",
@@ -1887,7 +1851,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 493,
+  id: 491,
   title: "ĐÓN THÁNG 10 SÀNH ĐIỆU - SĂN iPHONE DUO GIÁ YÊU CÙNG VIKKI DIGITAL BANK! 🌸 Tháng 10 rực rỡ đã...",
   source: "Khánh Thuỷ",
   sourceType: "Facebook",
@@ -1905,7 +1869,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 494,
+  id: 492,
   title: "Cổ phiếu đáng chú ý ngày 14/10: HDB, KBC, TCB",
   source: "Mickey Finance",
   sourceType: "Facebook Group",
@@ -1923,7 +1887,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 495,
+  id: 493,
   title: "ĐẦU NGÀY RỰC RỠ – GHÉ VIKKI, NẠP NGAY NĂNG LƯỢNG! 💙🧡 🎉 Sáng thức dậy, việc đầu tiên là nạp...",
   source: "Đinh Đỗ Đài Đoan",
   sourceType: "Facebook",
@@ -1941,7 +1905,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 496,
+  id: 494,
   title: "VIKKI BANK BẾN TRE – LAN TỎA GIÁ TRỊ SỐ, KẾT NỐI TƯƠNG LAI! 🇻🇳✨ 🎉 Hòa chung không khí sôi nổi...",
   source: "Nguyễn Thị Thanh Tuyền",
   sourceType: "Facebook",
@@ -1959,7 +1923,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 497,
+  id: 495,
   title: "HD saison hỗ trợ khoản v.@.y 💵Khách hàng mới từ 21t 💵Khách cũ từng góp HD từ 18t 👉 CCCD: 12...",
   source: "Nhật Linh",
   sourceType: "Facebook Group",
@@ -1977,7 +1941,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 498,
+  id: 496,
   title: "NGÂN HÀNG VIKKI ( NH ĐÔNG Á CŨ) 🌟 VAY HƯU TRÍ – VUN ĐẮP CUỘC SỐNG TUỔI VÀNG 🌸 Tăng hạn mức vay...",
   source: "Anna Đặng Lam Thỉ",
   sourceType: "Facebook Group",
@@ -1995,7 +1959,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 499,
+  id: 497,
   title: "Từ khoản đầu tư lớn nhất chiếm gần 11% danh mục, cổ phiếu VIC bất ngờ \"bốc hơi\" hoàn toàn khỏi...",
   source: "Titanlabs - Stock AI Agent",
   sourceType: "Facebook",
@@ -2013,7 +1977,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 500,
+  id: 498,
   title: "Lãi suất ngân hàng hôm nay 14/10/2026: Lãi suất liên ngân hàng giảm kỳ hạn ngắn",
   source: "VietNamNet",
   sourceType: "Báo chí",
@@ -2026,7 +1990,7 @@ const HDBANK_FEED = [
   excerpt: "Lãi suất ngân hàng hôm nay, 14/10/2026, trong tuần từ 5-9/10, lãi suất bình quân trên thị trường liên ngân hàng bằng VND giảm mạnh ở các kỳ hạn qua đêm và 1 tuần, trong khi lãi suất kỳ hạn 6 tháng tăng."
  },
  {
-  id: 501,
+  id: 499,
   title: "I love HDbank HDBank",
   source: "YThông Nguyễn",
   sourceType: "Facebook",
@@ -2044,7 +2008,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 502,
+  id: 500,
   title: "HDBank đứng thứ 2, sau Bank Central Asia của Indonesia về hiệu quả hoạt động trong Top 50 ngân...",
   source: "VNfocus",
   sourceType: "Facebook",
@@ -2062,7 +2026,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 503,
+  id: 501,
   title: "Ls tiết kiệm tại HDBank: 50tr - 6th 8.7 500tr - 6th 8.8 1 tỷ - 6th 9 2 tỷ - 6th 9.3 Lh...",
   source: "@phngah_166",
   sourceType: "Threads",
@@ -2080,7 +2044,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 504,
+  id: 502,
   title: "Nhân Ngày Doanh nhân Việt Nam 13/10, Thảo xin gửi lời chúc tốt đẹp nhất đến Quý Anh/Chị doanh...",
   source: "Thu Thảo Vikki",
   sourceType: "Facebook",
@@ -2098,7 +2062,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 505,
+  id: 503,
   title: "500 gởi vikki bank 9,5 á còn 100 thì tầm 9,2",
   source: "@hamai_1111",
   sourceType: "Threads",
@@ -2116,7 +2080,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 506,
+  id: 504,
   title: "Hãy khám phá, trãi nghiệm Vikki Bank - Ngân hàng Số nhé!",
   source: "Trần Hữu Thời",
   sourceType: "Facebook Group",
@@ -2134,7 +2098,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 507,
+  id: 505,
   title: "Như bên Shb hoặc Vikki bank, khi mình ra giao dịch hoặc gửi tk, nó có cái camera chụp ảnh ở quầy...",
   source: "@ayami_9206",
   sourceType: "Threads",
@@ -2152,7 +2116,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 508,
+  id: 506,
   title: "A guột bị bắt gặp xách 50 đồng vào Bank hàng xóm trong khi hôm qua nâng chén tiêu sầu a dạo này...",
   source: "Linh Tiêu",
   sourceType: "Facebook",
@@ -2170,7 +2134,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 509,
+  id: 507,
   title: "Mọi thứ chứ như kịch bản dựng sẵn. Nhân ngày Doanh nhân Việt Nam, tập thể HDBank Vĩnh Linh được...",
   source: "Vu Ke",
   sourceType: "Facebook",
@@ -2188,7 +2152,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 510,
+  id: 508,
   title: "VNINDEX hôm nay tiếp tục giảm nhẹ, cổ phiếu thì đa phần vẫn cưa chân bàn và đang dò đáy, thanh...",
   source: "Tuấn Đạt Chứng Khoán",
   sourceType: "Facebook Group",
@@ -2206,7 +2170,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 511,
+  id: 509,
   title: "VIKKI BANK SỞ GIAO DỊCH – TỰ HÀO HỘI NHẬP, VƯƠN TẦM QUỐC TẾ 🇻🇳🌏 Nhân Ngày Doanh nhân Việt Nam...",
   source: "Thanh Huê",
   sourceType: "Facebook",
@@ -2224,7 +2188,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 512,
+  id: 510,
   title: "VN-INDEX GIẢM PHIÊN THỨ 5 LIÊN TIẾP: TRỤ ĐỠ ĐIỂM, NHIỀU CỔ PHIẾU VẪN CHỊU ÁP LỰC Phiên 13/10,...",
   source: "TechProfit",
   sourceType: "Facebook Group",
@@ -2242,7 +2206,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 513,
+  id: 511,
   title: "VIKKI DIGITAL BANK – KHÔNG NGỪNG HỌC HỎI, KHÔNG NGỪNG PHÁT TRIỂN! ✨ 📚 Tại Vikki, mỗi ngày là...",
   source: "Tran Quan",
   sourceType: "Facebook",
@@ -2260,7 +2224,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 514,
+  id: 512,
   title: "LỄ KỶ NIỆM 70 NĂM NGÀY TRUYỀN THỐNG HỘI LIÊN HIỆP THANH NIÊN VIỆT NAM 15/10/1956 - 15/10/2026 Có...",
   source: "Đạo diễn Hoàng Công Cường",
   sourceType: "Facebook",
@@ -2278,7 +2242,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 515,
+  id: 513,
   title: "Radar chứng khoán phiên 13/10: Nhóm Vingroup nâng đỡ, thị trường phân hóa ☉ VN-Index đóng cửa...",
   source: "Đầu tư cùng Ewealth",
   sourceType: "Facebook",
@@ -2296,7 +2260,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 516,
+  id: 514,
   title: "BỘ BA \"SIÊU CỔ PHIẾU\" NGÂN HÀNG: BẤT CHẤP ĐI NGƯỢC VỚI THỊ TRƯỜNG CHUNG ĐỂ BỨT PHÁ! Giữa lúc thị...",
   source: "Đăng Quang - Đầu Tư & Bứt Phá Tài Chính",
   sourceType: "Facebook Group",
@@ -2314,7 +2278,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 517,
+  id: 515,
   title: "Dự án ma của 1 banker : 🙂🙂 - Tháng nào cũng 100% kpi - Sáng cafe chill chill, tối lượn đường...",
   source: "Nguyễn Thu Hà",
   sourceType: "Facebook",
@@ -2332,7 +2296,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 518,
+  id: 516,
   title: "EmBo Vikki Bank xin chào cả nhà ạ🌷✨",
   source: "@_huienn._",
   sourceType: "Threads",
@@ -2350,7 +2314,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 519,
+  id: 517,
   title: "Lãi suất tiết kiệm online tại HDBank đang rất tốt luôn mọi người ơiii. -6T từ 8,8% đến 9,2% -12T...",
   source: "@vthinnn_",
   sourceType: "Threads",
@@ -2368,7 +2332,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 520,
+  id: 518,
   title: "THỊ TRƯỜNG 13.10.2026 🌍 TIN TỨC NỔI BẬT 🔸 Giá dầu Brent giao ngay lập đỉnh mới, biểu hiện của...",
   source: "Vietcombank Securities - VCBS",
   sourceType: "Facebook",
@@ -2386,7 +2350,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 521,
+  id: 519,
   title: "HDB, TCB, VPB: Ngân hàng nào lãi khủng nhất quý 3/2026? So sánh dự phóng từ 3 công ty chứng...",
   source: "Đoàn Smart Trend",
   sourceType: "Facebook",
@@ -2404,7 +2368,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 522,
+  id: 520,
   title: "HDB, TCB, VPB: Ngân hàng nào lãi khủng nhất quý 3/2026? So sánh dự phóng từ 3 công ty chứng...",
   source: "Phạm Văn Đoàn",
   sourceType: "Facebook",
@@ -2422,7 +2386,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 523,
+  id: 521,
   title: "TOP CỔ PHIẾU MẠNH & TỔNG KẾT THỊ TRƯỜNG NGÀY 13/10/2026 🚀 VN-INDEX GIẰNG CO ĐÃM CHÂN TẠI MỐC...",
   source: "Novus Wealth",
   sourceType: "Facebook Group",
@@ -2440,7 +2404,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 524,
+  id: 522,
   title: "CHÀO MỪNG NGÀY DOANH NHÂN VIỆT NAM 13/10 ✨ Cùng Vikki Digital Bank khám phá hành trình hơn ba...",
   source: "Ut Pham",
   sourceType: "Facebook",
@@ -2458,7 +2422,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 525,
+  id: 523,
   title: "CÙNG VIKKI: BẬT NHỊP SỐNG MỚI – MỞ TƯƠNG LAI BỨT PHÁ! 🔥 Đã đến lúc nâng tầm trải nghiệm sống...",
   source: "FLOWER HEART",
   sourceType: "Facebook",
@@ -2476,7 +2440,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 526,
+  id: 524,
   title: "HDBank Chairman Honored Among Vietnam's Top Entrepreneurs",
   source: "Gnews Bd",
   sourceType: "Facebook",
@@ -2494,7 +2458,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 527,
+  id: 525,
   title: "NỖI LÒNG CÔ HÀNH CHÍNH – NGHỀ GÌ CŨNG BIẾT, VIỆC GÌ CŨNG LÀM! 💙🧡 Ở ngân hàng, người ta gọi là...",
   source: "Đinh Đỗ Đài Đoan",
   sourceType: "Facebook",
@@ -2512,7 +2476,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 528,
+  id: 526,
   title: "SAU MSB ĐẾN HDB VƯỢT ĐỈNH DO THỊ TRƯỜNG XẤU ?| Phân tích chứng khoán",
   source: "Tấn Lộc Capital",
   sourceType: "YouTube",
@@ -2530,7 +2494,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 529,
+  id: 527,
   title: "TOP CỔ PHIẾU SỨC MẠNH GIÁ – 13/10/2026 VN-Index giảm nhẹ 1,56 điểm (-0,09%) xuống 1.719,42 điểm,...",
   source: "Chứng Khoán Mirae Asset Việt Nam",
   sourceType: "Facebook",
@@ -2548,7 +2512,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 530,
+  id: 528,
   title: "VIKKI DIGITAL BANK – KHÔNG NGỪNG HỌC HỎI, KHÔNG NGỪNG PHÁT TRIỂN! ✨ Vikki luôn chú trọng đào...",
   source: "Tran Quan",
   sourceType: "Facebook",
@@ -2566,7 +2530,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 531,
+  id: 529,
   title: "CHÚC MỪNG CHỊ KHÁCH HÀNG MAY MẮN TRÚNG 2 CHỈ VÀNG! 💛🎉 Niềm vui của khách hàng cũng là niềm vui...",
   source: "Hà Phạm",
   sourceType: "Facebook",
@@ -2584,7 +2548,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 532,
+  id: 530,
   title: "VN-Index giảm phiên thứ 5 liên tiếp, cổ phiếu ngân hàng TCB, HDB và VPB vẫn đứng vững trước áp...",
   source: "Người Quan Sát Chứng khoán",
   sourceType: "Facebook",
@@ -2602,7 +2566,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 533,
+  id: 531,
   title: "Giá euro xuống dưới 30.000 đồng",
   source: "VnExpress",
   sourceType: "Báo chí",
@@ -2615,7 +2579,7 @@ const HDBANK_FEED = [
   excerpt: "Một số ngân hàng tư nhân như <mark>HDBank</mark>, Techcombank, Eximbank..."
  },
  {
-  id: 534,
+  id: 532,
   title: "CHÚC MỪNG NGÀY DOANH NHÂN VIỆT NAM 13/10! 💼 Mỗi hành trình thành công đều được viết nên từ bản...",
   source: "Ngân Trần",
   sourceType: "Facebook",
@@ -2633,7 +2597,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 535,
+  id: 533,
   title: "Động lực chính giúp cổ phiếu HDB (HDBank) tăng mạnh và chính thức bứt phá vượt đỉnh lịch sử...",
   source: "@vutuantrader",
   sourceType: "Threads",
@@ -2651,7 +2615,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 536,
+  id: 534,
   title: "1. Game tăng vốn và chia cổ tức lớn • Chia thưởng 30%: HDBank vừa chốt danh sách cổ đông vào...",
   source: "@vutuantrader",
   sourceType: "Threads",
@@ -2669,7 +2633,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 537,
+  id: 535,
   title: "2. Nền tảng kinh doanh tăng trưởng mạnh • Lợi nhuận vượt trội: Lợi nhuận trước thuế 6 tháng đầu...",
   source: "@vutuantrader",
   sourceType: "Threads",
@@ -2687,7 +2651,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 538,
+  id: 536,
   title: "VN-INDEX GIỮ MỐC 1.720 NHỜ VIC, VHM: THỊ TRƯỜNG ĐANG TẠO ĐÁY HAY CHỈ SỐ ĐANG CHE GIẤU RỦI RO?...",
   source: "Nguyễn Việt Trung",
   sourceType: "Facebook",
@@ -2705,7 +2669,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 539,
+  id: 537,
   title: "100 DOANH NHÂN TIÊU BIỂU ĐƯỢC VINH DANH, CÓ 7 LÃNH ĐẠO NGÀNH NGÂN HÀNG VCCI tổ chức lễ tôn vinh...",
   source: "@giaimabanker2025",
   sourceType: "Threads",
@@ -2723,7 +2687,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 540,
+  id: 538,
   title: "ĐIỂM TIN THỊ TRƯỜNG | NGÀY 13.10 VNINDEX GIẰNG CO QUANH VÙNG HỖ TRỢ 1.700 - 1.720 ĐIỂM 📌 Các...",
   source: "Chứng khoán Vikki - VikkibankS",
   sourceType: "Facebook",
@@ -2741,7 +2705,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 541,
+  id: 539,
   title: "HD SAISON – ƯU ĐÃI ĐẶC QUYỀN DÀNH CHO ĐỐI TÁC 🎁 DUY NHẤT TRONG THÁNG! Nhằm tri ân Quý Đối tác...",
   source: "@lyn_99officiall",
   sourceType: "Threads",
@@ -2759,7 +2723,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 542,
+  id: 540,
   title: "Căn hộ ESSENSIA SKY – PHÚ LONG: 74m², 2 phòng ngủ, 2 WC, bàn giao hoàn thiện cơ bản, mặt tiền...",
   source: "Lê Lý Hải Đăng",
   sourceType: "Facebook Group",
@@ -2777,7 +2741,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 543,
+  id: 541,
   title: "HDB, TCB, VPB: Ngân hàng nào lãi khủng nhất quý 3/2026? So sánh dự phóng từ 3 công ty chứng khoán",
   source: "Đoàn Smart Trend",
   sourceType: "YouTube",
@@ -2795,7 +2759,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 544,
+  id: 542,
   title: "VIKKI ĐỒNG HÀNH CÙNG DOANH NHÂN VIỆT – KIẾN TẠO TƯƠNG LAI THỊNH VƯỢNG! Nhân Ngày Doanh nhân Việt...",
   source: "Hồng Hạnh",
   sourceType: "Facebook Group",
@@ -2813,7 +2777,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 545,
+  id: 543,
   title: "IPAD GEN 11 128GB openbox mới kích hoạt Chưa sạc lần nào, số lần sạc 0 lần. Bh đến 4/10/2027 ....",
   source: "@lovephone.byly",
   sourceType: "Threads",
@@ -2831,7 +2795,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 546,
+  id: 544,
   title: "Cùng mang danh cổ phiếu vua, nhưng kẻ thì kín cổng cao tường, người lại rộng cửa kén rể: kịch...",
   source: "Vũ Ngọc Linh Stock",
   sourceType: "Facebook",
@@ -2849,7 +2813,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 547,
+  id: 545,
   title: "VINH DANH NHỮNG NGƯỜI KIẾN TẠO GIÁ TRỊ – 13/10 🎉 Mỗi bước tiến của doanh nghiệp là kết tinh từ...",
   source: "Huong Vikki",
   sourceType: "Facebook",
@@ -2867,7 +2831,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 548,
+  id: 546,
   title: "Có những món quà bắt đầu từ việc nhìn thấy mẹ vất vả.🤗 Mua sắm thông minh cùng HD SAISON:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -2885,7 +2849,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 549,
+  id: 547,
   title: "VIKKI LŨY BÁN BÍCH – CHÍNH THỨC LÊN SÓNG, SẴN SÀNG BỨT PHÁ! 🎉 Một điểm chạm mới, thêm ngàn kết...",
   source: "Châu Mint",
   sourceType: "Facebook",
@@ -2903,7 +2867,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 550,
+  id: 548,
   title: "CỔ PHIẾU NỔI BẬT TRONG NGÀY 13/10/2026 | TÂM ĐIỂM BIẾN ĐỘNG & CẢNH BÁO RỦI RO 🔥 📌 TOP 3 CỔ...",
   source: "Chứng Trường",
   sourceType: "Facebook",
@@ -2921,7 +2885,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 551,
+  id: 549,
   title: "Anh/Chị đang có khách cần vay ngân hàng, gửi em Vikki hỗ trợ kiểm tra phương án vay để mình chủ...",
   source: "Đào Ngọc Thúy",
   sourceType: "Facebook Group",
@@ -2939,7 +2903,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 552,
+  id: 550,
   title: "HDB sẽ còn tăng tiếp 🚀 Danh mục bạn đã có cổ phiếu này chưa?",
   source: "Trương Kính Nam",
   sourceType: "Facebook",
@@ -2957,7 +2921,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 553,
+  id: 551,
   title: "Lãi suất đồng đô đang ở vùng cao nhất hơn 20 năm. Vậy mà các ngân hàng Việt vẫn xếp hàng vay...",
   source: "Trang Quỳnh ",
   sourceType: "Facebook",
@@ -2975,7 +2939,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 554,
+  id: 552,
   title: "CHÚC MỪNG NGÀY DOANH NHÂN VIỆT NAM 13/10 ✨ Mỗi doanh nhân là một hành trình của bản lĩnh, khát...",
   source: "Quang Trường",
   sourceType: "Facebook",
@@ -2993,7 +2957,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 555,
+  id: 553,
   title: "Đóng máy Xóm Nhà Tấm - Ngân hàng số VIKKI! Cảm ơn cả ekip, đặc biệt là các đàn anh đã tận tình...",
   source: "Nguyễn Hạo Nhiên",
   sourceType: "Facebook",
@@ -3011,7 +2975,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 556,
+  id: 554,
   title: "Tháng 10 này, định mệnh bảo mấy bà phải giàu rồi, tranh thủ gửi tiết kiệm từ 01/10 đến 31/10 để...",
   source: "@hkootee",
   sourceType: "Threads",
@@ -3029,7 +2993,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 557,
+  id: 555,
   title: "CHÚC MỪNG NGÀY DOANH NHÂN VIỆT NAM 13/10 Nhân Ngày Doanh nhân Việt Nam, Ngân hàng Số Vikki kính...",
   source: "Ngân hàng Số Vikki",
   sourceType: "Facebook Fanpage",
@@ -3047,7 +3011,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 558,
+  id: 556,
   title: "ESSENSIA SKY – PHÚ LONG: Căn hộ 74m², 2PN – 2WC, bàn giao hoàn thiện cơ bản, mặt tiền Nguyễn Hữu...",
   source: "Lê Lý Hải Đăng",
   sourceType: "Facebook Group",
@@ -3065,7 +3029,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 559,
+  id: 557,
   title: "Êh, thử HDBank i bà, trời ơi ta nói ưu đãi như cái sớ v đó",
   source: "@themcomthempho",
   sourceType: "Threads",
@@ -3083,7 +3047,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 560,
+  id: 558,
   title: "Tuyệt vời ạ🫶🏼",
   source: "Vy Nguyen",
   sourceType: "Facebook",
@@ -3101,7 +3065,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 561,
+  id: 559,
   title: "VIKKI LŨY BÁN BÍCH – ĐIỂM HẸN TÀI CHÍNH MỚI, SẴN SÀNG ĐÓN BẠN! 🎉 Một hành trình mới chính thức...",
   source: "Châu Mint",
   sourceType: "Facebook",
@@ -3119,7 +3083,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 562,
+  id: 560,
   title: "VIKKI PGD POUYUEN LÊN SÓNG – VIKKI TRAO VÀNG, NIỀM VUI LAN TỎA! 🏆 ✨ PGD PouYuen livestream chúc...",
   source: "Ut Pham",
   sourceType: "Facebook",
@@ -3137,7 +3101,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 563,
+  id: 561,
   title: "VIKKI PGD POUYUEN LÊN SÓNG – CHÚC MỪNG KHÁCH HÀNG RƯỚC VÀNG CÙNG VIKKI! 🏆✨ 💛 Trúng vàng là...",
   source: "Phuong Thao",
   sourceType: "Facebook",
@@ -3155,7 +3119,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 564,
+  id: 562,
   title: "VIKKI BANK TÂY NINH – KẾT NỐI DOANH NHÂN, LAN TỎA GIÁ TRỊ 🤝 🇻🇳 Nhân dịp kỷ niệm Ngày Doanh...",
   source: "Oanh Dương",
   sourceType: "Facebook",
@@ -3173,7 +3137,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 565,
+  id: 563,
   title: "PGD POUYUEN LIVESTREAM CHÚC MỪNG KHÁCH HÀNG TRÚNG VÀNG CÙNG VIKKI! 💛 ✨ Niềm vui nhân đôi – May...",
   source: "Liên Mạc",
   sourceType: "Facebook",
@@ -3191,7 +3155,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 566,
+  id: 564,
   title: "Cả nhà ơi, Gặp nhau Giờ VÀNG đã lên sóng rồi! Ghé Xóm Nhà Tấm gặp Cô Tấm Vikki và Cô Lượm, cùng...",
   source: "Bảo Vikki",
   sourceType: "Facebook",
@@ -3209,7 +3173,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 567,
+  id: 565,
   title: "NỮ CƯỜNG LÀM CHỦ - TÀI CHÍNH VỮNG VÀNG Tháng Phái đẹp này, Cô Tấm Vikki cùng Cô Lượm sẽ gặp gỡ...",
   source: "Thanh Pham Duy",
   sourceType: "Facebook",
@@ -3227,7 +3191,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 568,
+  id: 566,
   title: "cake zalopay hd saison",
   source: "@iembit67",
   sourceType: "Threads",
@@ -3245,7 +3209,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 569,
+  id: 567,
   title: "100 DOANH NHÂN TIÊU BIỂU ĐƯỢC VINH DANH, CÓ 7 LÃNH ĐẠO NGÀNH NGÂN HÀNG VCCI tổ chức lễ tôn vinh...",
   source: "Giải Mã Băng Cơ",
   sourceType: "Facebook",
@@ -3263,7 +3227,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 570,
+  id: 568,
   title: "Từ gần bốn thập kỷ kinh nghiệm trên nhiều thị trường tài chính quốc tế đến vai trò Chủ tịch Hội...",
   source: "Luong Pham",
   sourceType: "Facebook",
@@ -3281,7 +3245,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 571,
+  id: 569,
   title: "Giữa lúc VN-Index chịu áp lực điều chỉnh diện rộng, mã cổ phiếu nào vừa ngược dòng xác lập đỉnh...",
   source: "Titanlabs - Stock AI Agent",
   sourceType: "Facebook",
@@ -3299,7 +3263,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 572,
+  id: 570,
   title: "Soi danh mục cá mặp tháng 9 Hầu hết đều tăng tỷ trọng nhóm bank (tập trung vào HDB, TCB, VPB,...",
   source: "Nhà đầu tư tập sự",
   sourceType: "Facebook Group",
@@ -3317,7 +3281,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 573,
+  id: 571,
   title: "Vừa tích lũy sinh lời, vừa có cơ hội rinh vàng giá trị cùng Vikki Digital Bank! Vikki...",
   source: "Thoa.vikki",
   sourceType: "Facebook",
@@ -3335,7 +3299,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 574,
+  id: 572,
   title: "Tiền vô tiền vô anh chị ơi! ⚡️Chỉ còn hơn 2 tuần nữa là kết thúc chương trình \" Tiết Kiệm Vikki,...",
   source: "Quynh Chi",
   sourceType: "Facebook",
@@ -3353,7 +3317,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 575,
+  id: 573,
   title: "Mỗi ngày tôi chọn một niềm vui, chọn tới chọn lui lại hết một ngày! Buổi chia sẻ thông tin về dự...",
   source: "Le Hoang",
   sourceType: "Facebook",
@@ -3371,7 +3335,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 576,
+  id: 574,
   title: "Bà là 1 người vợ có tâm có tâm tôi tin với sự dẫn dắt của bà thì HDBank (HDB) và Vietjet ( VJC)...",
   source: "Trương Kính Nam",
   sourceType: "Facebook",
@@ -3389,7 +3353,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 577,
+  id: 575,
   title: "ĐỘC QUYỀN SHOPEE: THẺ HDBANK TRẢ GÓP 0 LÃI - 0 PHÍ, GIẢM ĐẾN 2 TRIỆU ĐỒNG!​ Chi tiết chương...",
   source: "HDBank",
   sourceType: "Facebook Fanpage",
@@ -3407,7 +3371,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 578,
+  id: 576,
   title: "Gửi Bank lãi căng nhất 9%/năm. Chi bằng cũng nhận số lãi đó chỉ cần mất hơn hơn 1 tháng với cổ...",
   source: "Tuấn Ninh",
   sourceType: "Facebook",
@@ -3425,7 +3389,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 579,
+  id: 577,
   title: "Вьетнамский банк Nam A Bank вошел в топ-10 банков Юго-Восточной Азии по финансовым показателям....",
   source: "@nashvietnam",
   sourceType: "Threads",
@@ -3443,7 +3407,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 580,
+  id: 578,
   title: "Vẫn có mã cổ phiếu vượt đỉnh dù thị trường lình xình ae ạ wyti chungkhoan cophieu vnindex viral...",
   source: "Cộng Đồng Cá Mập Chứng Khoán - WYTI",
   sourceType: "Facebook",
@@ -3461,7 +3425,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 581,
+  id: 579,
   title: "LÊN SÓNG GIỜ VÀNG – TÀI CHÍNH VỮNG VÀNG Cả nhà ơi, Gặp nhau Giờ VÀNG đã lên sóng rồi! Ghé Xóm...",
   source: "Ngân hàng Số Vikki",
   sourceType: "Facebook Fanpage",
@@ -3479,7 +3443,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 582,
+  id: 580,
   title: "Chủ tịch HDBank Kim Byoungho nhận cúp Thánh Gióng 2026, ghi dấu trong Top 10 Doanh nhân Việt Nam...",
   source: "Lan Trần Thị Tuyết",
   sourceType: "Facebook",
@@ -3497,7 +3461,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 583,
+  id: 581,
   title: "Nghịch lý lạ đời: CTG – VCB – MBB: lợi nhuận lớn, chất lượng tài sản tốt. Nhưng hiện tại giá cổ...",
   source: "Ng Thanh Hương",
   sourceType: "Facebook",
@@ -3515,7 +3479,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 584,
+  id: 582,
   title: "HDB - VPB THAY PHIÊN VƯỢT ĐỈNH HDB và VPB đang trở thành hai cổ phiếu nổi bật của nhóm ngân hàng...",
   source: "Nguyễn Văn Nghĩa",
   sourceType: "Facebook Group",
@@ -3533,7 +3497,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 585,
+  id: 583,
   title: "Anh không biết em à Anh chỉ biết lãi suất vikki bank Thái Nguyên lên tới 9,x% Siêu ưu đãi tận...",
   source: "@duy.tute",
   sourceType: "Threads",
@@ -3551,7 +3515,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 586,
+  id: 584,
   title: "1 cổ phiếu ngân hàng 🏦 tăng mạnh , âm thầm lên lại đỉnh lịch sử 💜 ChungKhoanSSI...",
   source: "Phương Nhã Huỳnh",
   sourceType: "Facebook",
@@ -3569,7 +3533,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 587,
+  id: 585,
   title: "Hôm nay ngày 13/10/2026 cổ phiếu HDB chính thức tăng vượt đỉnh xác lập mức giá mới, chúc mừng...",
   source: "Trương Kính Nam",
   sourceType: "Facebook",
@@ -3587,7 +3551,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 588,
+  id: 586,
   title: "CHÚC MỪNG NGÀY DOANH NHÂN VIỆT NAM 13/10 🎉 🌷 Nhân ngày Doanh nhân Việt Nam 13/10, Ngân hàng...",
   source: "Nhim Xu Nhim",
   sourceType: "Facebook",
@@ -3605,7 +3569,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 589,
+  id: 587,
   title: "GIỜ VÀNG ĐÃ HẸN – XÓM NHÀ TẤM CHỜ CHỊ EM! 💪 11:30 trưa nay, cùng gặp Cô Tấm Vikki và Cô Lượm...",
   source: "Hồng Hạnh",
   sourceType: "Facebook Group",
@@ -3623,7 +3587,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 590,
+  id: 588,
   title: "I Love Madam I ❤️ HDBank",
   source: "Vân Nhi Phan Trần",
   sourceType: "Facebook",
@@ -3641,7 +3605,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 591,
+  id: 589,
   title: "VIKKIBANK LÊ VĂN LƯƠNG NGÂN HÀNG TIẾT KIỆM TỐT 🔥🔥🔥 TIẾT KIỆM VIkKI TRÚNG VÀNG KÝ Anh/ chị nào...",
   source: "Nhung Lê",
   sourceType: "Facebook Group",
@@ -3659,7 +3623,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 592,
+  id: 590,
   title: "Top trái phiếu giao dịch nhiều nhất quý III",
   source: "Báo Xây dựng",
   sourceType: "Báo chí",
@@ -3672,7 +3636,7 @@ const HDBANK_FEED = [
   excerpt: "Ở nhóm ngân hàng, giá trị giao dịch trái phiếu của <mark>Ngân hàng TMCP Phát triển TP.HCM</mark> (<mark>HDBank</mark>) đạt 32.492 tỷ đồng trong quý, lũy kế từ đầu năm đạt 140.789 tỷ đồng."
  },
  {
-  id: 593,
+  id: 591,
   title: "VPB - HDB - TCB vẫn đang là 3 cổ phiếu khỏe trong nhóm Bank và cả thị trường chung - Với VPB,...",
   source: "Chứng Khoán Efinkey",
   sourceType: "Facebook",
@@ -3690,7 +3654,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 594,
+  id: 592,
   title: "Quá từ hào HDBank 🎉🎉🎉🎉🎉🎉",
   source: "Pham Van",
   sourceType: "Facebook",
@@ -3708,7 +3672,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 595,
+  id: 593,
   title: "HDB Cổ phiếu Ngân hàng hot nhất lúc này",
   source: "Thành Quách",
   sourceType: "Facebook Group",
@@ -3726,7 +3690,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 596,
+  id: 594,
   title: "Từ những ngày đầu thị trường vốn còn sơ khai, Anh hùng Lao động - Tiến sĩ Nguyễn Thị Phương Thảo...",
   source: "HDBank",
   sourceType: "Facebook Fanpage",
@@ -3744,7 +3708,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 597,
+  id: 595,
   title: "TIN DOANH NGHIỆP : - OCB: Tất toán sớm 3 lô trái phiếu tổng trị giá 2.600 tỷ đồng - KBC: Kinh...",
   source: "@nhathoang.409",
   sourceType: "Threads",
@@ -3762,7 +3726,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 598,
+  id: 596,
   title: "CÙNG HDBANK CHÀO MỪNG NGÀY DOANH NHÂN VIỆT NAM 13/10 💼🚀 Mỗi bước tiến của doanh nghiệp đều bắt...",
   source: "Nghia Pham",
   sourceType: "Facebook",
@@ -3780,7 +3744,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 599,
+  id: 597,
   title: "cần vay ngân hàng 40tr hiện tại đang dư nợ khoản 30tr tại ngân hàng HD bank lịch sử tín dụng trả...",
   source: "Virgon Astra",
   sourceType: "Facebook Group",
@@ -3798,7 +3762,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 600,
+  id: 598,
   title: "Mở thẻ TIẾT KIỆM dễ dàng chỉ với vài chạm trên app Vikki. 💛 Cơ hội nhận quà 1 CHỈ VÀNG mỗi...",
   source: "Nguyễn Hằng Nga",
   sourceType: "Facebook",
@@ -3816,7 +3780,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 601,
+  id: 599,
   title: "Mở đầu ngày mới thật suôn sẻ nhé ☕💜 VIKKI – ĐIỂM HẸN TÀI CHÍNH, CHẠM CẢM HỨNG MỖI NGÀY! Không...",
   source: "Phạm Lê Trúc Tiên",
   sourceType: "Facebook",
@@ -3834,7 +3798,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 602,
+  id: 600,
   title: "ESSENSIA SKY – PHÚ LONG: Căn hộ 74m² (2PN, 2WC), bàn giao hoàn thiện cơ bản, nằm ngay mặt tiền...",
   source: "Lê Lý Hải Đăng",
   sourceType: "Facebook Group",
@@ -3852,7 +3816,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 603,
+  id: 601,
   title: "Trai Vikki lên sóng, tiện ích ngân hàng số giới thiệu liền tay! 😎📱 Đi Vikkafé không chỉ có cà...",
   source: "Huẩn Trần",
   sourceType: "Facebook",
@@ -3870,7 +3834,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 604,
+  id: 602,
   title: "CHÚC MỪNG NGÀY DOANH NHÂN VIỆT NAM 13/10 🎉 VikkiBank Hưng Yên trân trọng gửi tới Quý Khách...",
   source: "@phuong.nguyenthilan.399",
   sourceType: "Threads",
@@ -3888,7 +3852,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 605,
+  id: 603,
   title: "Anh Chị mua nhà, điều gì quan trọng nhất ạ? Chọn đúng đáy thị trường hay chọn đúng nơi mình...",
   source: "Quỳnh Sala",
   sourceType: "Facebook",
@@ -3906,7 +3870,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 606,
+  id: 604,
   title: "BÍ QUYẾT BỨC PHÁ LÃI SUẤT TIẾT KIỆM DÀNH CHO KHOẢN TIỀN TỪ 200TR - 500TR! 💵🔥 Nhiều người vẫn...",
   source: "Hoa Vikki",
   sourceType: "Facebook Group",
@@ -3924,7 +3888,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 607,
+  id: 605,
   title: "AN YÊN GIỮA RỪNG XANH VÀ BIỂN CẢ TẠI GREEN BAY PHÚ QUỐC RESORT & SPA​ Rời xa nhịp sống thường...",
   source: "HDBank Priority",
   sourceType: "Facebook Fanpage",
@@ -3942,7 +3906,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 608,
+  id: 606,
   title: "ALO ALO, CUỐI NĂM HDBANK CÓ GÌ💰❤️ Cuối năm là lúc nhiều cô chú, anh chị cần thêm nguồn vốn để...",
   source: "Mỹ Linh",
   sourceType: "Facebook Group",
@@ -3960,7 +3924,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 609,
+  id: 607,
   title: "Vikkibank siêu thị tài chính với nhiều trải nghiệm mới lạ, Từ Vikki Bank, đến VikKafe, và bây...",
   source: "Hương Nguyễn",
   sourceType: "Facebook",
@@ -3978,7 +3942,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 610,
+  id: 608,
   title: "VN-Index giảm liên tiếp 5 phiên",
   source: "VnExpress",
   sourceType: "Báo chí",
@@ -3991,7 +3955,7 @@ const HDBANK_FEED = [
   excerpt: "<mark>HDB</mark> dẫn đầu thanh khoản với 777 tỷ đồng, sau đó đến TCB, VIC và MSN."
  },
  {
-  id: 611,
+  id: 609,
   title: "Sinh viên thời nay kiểu: Học online, mua giáo trình online, đặt đồ ăn online, mua sắm đồ...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -4009,7 +3973,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 612,
+  id: 610,
   title: "Thẻ 0 phí - Sinh viên 0 lo cùng HD SAISON:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -4027,7 +3991,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 613,
+  id: 611,
   title: "Lâu nay e không đăng bài chứ e vẫn giải ngân hàng ngày cho khách nhé mn. Lâu ngoi lên lại chứ sợ...",
   source: "@otter.6652976",
   sourceType: "Threads",
@@ -4045,7 +4009,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 614,
+  id: 612,
   title: "Ở Gò Vấp mình có 1ty2 gửi 6 tháng Sacombank, BIDV, HDbank được 9.5 không ạ",
   source: "DelightfulBison8277",
   sourceType: "Facebook Group",
@@ -4063,7 +4027,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 615,
+  id: 613,
   title: "Công nghệ giúp mỗi giao dịch thuận tiện hơn, sự tận tâm khiến mỗi lần ghé Vikki thêm gần gũi. ✨...",
   source: "Nguyễn Vinh",
   sourceType: "Facebook",
@@ -4081,7 +4045,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 616,
+  id: 614,
   title: "Cổ phiếu vốn hóa lớn giúp VN-Index “thoát hiểm”",
   source: "VnEconomy",
   sourceType: "Báo chí",
@@ -4094,7 +4058,7 @@ const HDBANK_FEED = [
   excerpt: "<mark>HDB</mark> tăng 2,21%, TCB tăng 1,07%, VIC tăng 1,37%, PNJ tăng 5,79%, TPB tăng 1,74%, DXG tăng 1,01%, HHP tăng 2,55%, KBC tăng 1,38%, TLG tăng 1,46% và MZG tăng 1,69% là những cổ phiếu duy nhất khớp lệnh trên 10 tỷ đồng."
  },
  {
-  id: 617,
+  id: 615,
   title: "VIKKI POUYUEN ĐỒNG HÀNH CÙNG CÔNG ĐOÀN POUYUEN – LAN TỎA NIỀM TỰ HÀO 30 NĂM PHÁT TRIỂN! 💙💜 ✨...",
   source: "Trần Công",
   sourceType: "Facebook",
@@ -4112,7 +4076,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 618,
+  id: 616,
   title: "6 tháng cuối kỳ Vikki đang 9.5% lận ó😍. Rút hết chứng khoán mà gửi ngân hàng coi bộ thơm và đỡ...",
   source: "Phượng-Mẹ Hân Hí",
   sourceType: "Facebook",
@@ -4130,7 +4094,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 619,
+  id: 617,
   title: "Điểm danh các Ngân Hàng có kế hoạch phát hành cổ phiếu Riêng lẻ",
   source: "Chứng Khoán Mỗi Ngày - Red Investment",
   sourceType: "Facebook Group",
@@ -4148,7 +4112,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 620,
+  id: 618,
   title: "Tôi từng nghĩ ngân hàng chỉ có những con số. Cho đến khi tôi nhận ra, phía sau công việc là...",
   source: "Thu Thuỷy",
   sourceType: "Facebook",
@@ -4166,7 +4130,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 621,
+  id: 619,
   title: "Theo dự báo lợi nhuận quý III/2026, có sự phân hóa mạnh mẽ giữa các ngân hàng. Nhóm HDBank, MB…...",
   source: "Nông Thôn Việt",
   sourceType: "Facebook",
@@ -4184,7 +4148,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 622,
+  id: 620,
   title: "ESSENSIA SKY – PHÚ LONG: Căn hộ 74m², 2PN - 2WC, bàn giao hoàn thiện cơ bản, mặt tiền đường...",
   source: "Lê Lý Hải Đăng",
   sourceType: "Facebook Group",
@@ -4202,7 +4166,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 623,
+  id: 621,
   title: "b>HDBank chắp cánh doanh nghiệp Việt vươn tầm thế giới!</b> 🎯 Ngày 10/10 vừa qua, HDBank đã có...",
   source: "Hóng",
   sourceType: "Facebook",
@@ -4220,7 +4184,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 624,
+  id: 622,
   title: "Mua 100 Triệu Cổ Phiếu Ngân Hàng Từ 2019: Giờ Thành Bao Nhiêu? 📊 Thí nghiệm thú vị với 5 mã...",
   source: "AI Dễ Hiểu",
   sourceType: "Facebook",
@@ -4238,7 +4202,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 625,
+  id: 623,
   title: "DÒNG TIỀN ĐANG CHỌN CỔ PHIẾU NÀO SAU PHIÊN 12/10? Cùng một thị trường nhưng dòng tiền đang phân...",
   source: "Minh Lý Invest - Đầu tư theo chỉ báo dòng tiền",
   sourceType: "Facebook",
@@ -4256,7 +4220,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 626,
+  id: 624,
   title: "Giờ nhận thưởng 30tr lớn quá làm gì nhỉ?! Chắc gửi tiết kiệm Vikki. :)) Sự nỗ lực, cố gắng và...",
   source: "Sumi Pham",
   sourceType: "Facebook",
@@ -4274,7 +4238,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 627,
+  id: 625,
   title: "Vikki Digital Bank luôn tiên phong mang trải nghiệm tài chính đến gần bạn hơn! 🏆 Cảm ơn bạn đã...",
   source: "Minh Hằng Lê Thị",
   sourceType: "Facebook",
@@ -4292,7 +4256,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 628,
+  id: 626,
   title: "Chúc mừng HDBank tiếp tục giữ vị trí số 1 ngành Tài chính - Ngân hàng - Chứng khoán, Khối Doanh...",
   source: "Thiện Nguyễn",
   sourceType: "Facebook",
@@ -4310,7 +4274,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 629,
+  id: 627,
   title: "Danh mục Cashflow ngày 13/10/2026: giữ 6 mã, 40% tiền mặt, chưa mở thêm vị thế mới Sang phiên...",
   source: "Đầu Tư Cổ Phiếu",
   sourceType: "Facebook",
@@ -4328,7 +4292,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 630,
+  id: 628,
   title: "Anh hùng lao động Nguyễn Thị Phương Thảo: Đừng đánh mất lý tưởng ban đầu",
   source: "CafeF",
   sourceType: "Báo chí",
@@ -4341,7 +4305,7 @@ const HDBANK_FEED = [
   excerpt: "Anh hùng lao động <mark>Nguyễn Thị Phương Thảo</mark>: Đừng đánh mất lý tưởng ban đầu Điều gì đã tạo nên một <mark>Nguyễn Thị Phương Thảo</mark> vừa là tỷ phú tự thân, vừa là Anh hùng lao động? <mark>Nguyễn Thị Phương Thảo</mark> đã đi qua hơn ba thập kỷ kinh doanh với nhiều quyết định táo bạo, mạnh mẽ nhưng cũng hết sức nhân văn."
  },
  {
-  id: 631,
+  id: 629,
   title: "Ước mơ lớn, suy nghĩ lớn, nhưng phải bắt đầu bằng những giá trị thật!",
   source: "Báo Nhân Dân",
   sourceType: "Báo chí",
@@ -4354,7 +4318,7 @@ const HDBANK_FEED = [
   excerpt: "Bằng chuyến bay khai mở này, Nhà sáng lập hãng Vietjet - Anh hùng Lao động, Giáo sư, Tiến sĩ <mark>Nguyễn Thị Phương Thảo</mark> đã làm nên điều chưa từng có: Đưa Việt Nam trở thành một trong số ít quốc gia có hãng hàng không tư nhân hoạt động toàn cầu. Tiến sĩ <mark>Nguyễn Thị Phương Thảo</mark>: Xin cảm ơn Báo Nhân Dân đã cho tôi cơ hội được chia sẻ trong một dịp đặc biệt là..."
  },
  {
-  id: 632,
+  id: 630,
   title: "Lãi suất ngân hàng hôm nay 13/10/2026: Gửi 100 triệu nhận về bao nhiêu tiền lãi?",
   source: "VietNamNet",
   sourceType: "Báo chí",
@@ -4367,7 +4331,7 @@ const HDBANK_FEED = [
   excerpt: "Lãi suất ngân hàng hôm nay, 13/10/2026, gửi 100 triệu đồng, sau 6 tháng nhận về 4 triệu đồng tiền lãi với mức lãi suất huy động 8%/năm. Tuy nhiên, số tiền nhận về lên đến hàng trăm triệu đồng nếu áp dụng lãi suất kép."
  },
  {
-  id: 633,
+  id: 631,
   title: "GÓC NHÌN CHUYÊN GIA MÔ PHỎNG: CAN SLIM Model (Tăng trưởng + đà giá) Sau khi giảm tỷ trọng vào...",
   source: "Titanlabs - Stock AI Agent",
   sourceType: "Facebook",
@@ -4385,7 +4349,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 634,
+  id: 632,
   title: "Mình nhận dk thông báo này trên app HD bank, m.n cho hỏi h mình dky mở thẻ có dk duyệt luôn ko...",
   source: "CapablePassionfruit6329",
   sourceType: "Facebook Group",
@@ -4403,7 +4367,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 635,
+  id: 633,
   title: "Em đang dùng thẻ tín dụng vpbank hạn mức 60 triệu và có khoản vay cty tài chính 26 triệu,muốn mở...",
   source: "Jerry_83869988",
   sourceType: "Facebook Group",
@@ -4421,7 +4385,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 636,
+  id: 634,
   title: "Lãi suất huy động đang chạm ngưỡng 7,9%/năm, liệu dòng tiền có bắt đầu rời khỏi các kênh đầu tư...",
   source: "Titanlabs - Stock AI Agent",
   sourceType: "Facebook",
@@ -4439,7 +4403,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 637,
+  id: 635,
   title: "Khi có tiền nhàn tỗi hãy nghĩ đến Vikki mn nhé. Lãi suất quá ổn áp",
   source: "Tuyền Nguyễn",
   sourceType: "Facebook",
@@ -4457,7 +4421,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 638,
+  id: 636,
   title: "MỜI THAM GIA KHẢO SÁT PHỤC VỤ NGHIÊN CỨU KHOA HỌC Kính chào Anh/Chị! Hiện tại, chúng em đang...",
   source: "Bùi Ngọc Phương Nhi",
   sourceType: "Facebook Group",
@@ -4475,7 +4439,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 639,
+  id: 637,
   title: "Ngày 12/10/26 tại trụ sở Đảng uỷ Phường Ninh Thạnh, Vikkibank Chi nhánh Tây Ninh kết hợp cùng...",
   source: "Thuan Truong",
   sourceType: "Facebook",
@@ -4493,7 +4457,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 640,
+  id: 638,
   title: "VN-INDEX NGÀY 12/10 VỀ SÁT HỖ TRỢ 1.720 ĐIỂM – CƠ HỘI HỒI PHỤC ĐANG ĐẾN? 🔻 VN-Index chịu áp lực...",
   source: "Nguyễn Ngọc Sơn",
   sourceType: "Facebook",
@@ -4511,7 +4475,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 641,
+  id: 639,
   title: "VIKKI BANK – ĐIỂM HẸN NGÂN HÀNG SỐ, KẾT NỐI TIỆN ÍCH MỌI NƠI! 🌟💙 🏦 Giữa nhịp sống hiện đại và...",
   source: "Tr Tính",
   sourceType: "Facebook",
@@ -4529,7 +4493,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 642,
+  id: 640,
   title: "VPB - HDB - TCB - MBB 4 cổ phiếu Ngân hàng có nền giá tích lũy 4 năm nên có danh mục quý 4.",
   source: "Xuân TĐ - CKF88",
   sourceType: "Facebook Group",
@@ -4547,7 +4511,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 643,
+  id: 641,
   title: "Em đang tham khảo gửi tiết kiệm ngân hàng HD bank và LP bank, các bác tư vấn giúp em với ạ Bên...",
   source: "CleverTurtle3352",
   sourceType: "Facebook Group",
@@ -4565,7 +4529,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 644,
+  id: 642,
   title: "HDbank gửi tkiem lãi suất đang ưu đãi tốt bn ạ? các bác hà nội báo cụ thể em gửi",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -4583,7 +4547,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 645,
+  id: 643,
   title: "ANH HÙNG LAO ĐỘNG NGUYỄN THỊ PHƯƠNG THẢO LÀ NGƯỜI PHỤ NỮ GIÀU NHẤT VIỆT NAM Theo bảng xếp hạng...",
   source: "Bao LC",
   sourceType: "Facebook",
@@ -4601,7 +4565,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 646,
+  id: 644,
   title: "Đôi bạn mới đc có 25 năm. Ngày xưa cùng chiến hào _ Ngày nay là đối tác của nhau. Chúc Ngân Hàng...",
   source: "Lưới Thép Minh Luân",
   sourceType: "Facebook",
@@ -4619,7 +4583,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 647,
+  id: 645,
   title: "Hành động với CỔ PHIẾU VPB, TCB, HDB - Nên Mua hay Bán I Nhận định thị trường I Chứng khoán hôm nay",
   source: "Quang CMT - Theo Dấu Dòng Tiền",
   sourceType: "YouTube",
@@ -4637,7 +4601,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 648,
+  id: 646,
   title: "VIKKI BANK – SÁNG RỰC MỘT NIỀM TIN 💙 ✨ Diện mạo mới – Năng lượng mới – Sẵn sàng phục vụ! 🏦...",
   source: "@snake_cat89",
   sourceType: "Threads",
@@ -4655,7 +4619,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 649,
+  id: 647,
   title: "CHÚC MỪNG NGÀY DOANH NHÂN VIỆT NAM 13.10.2026 HDBank Hoà Bình trân trọng gửi lời chúc đến Quý...",
   source: "Đặng Hoàng Thuyết",
   sourceType: "Facebook",
@@ -4673,7 +4637,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 650,
+  id: 648,
   title: "VIKKI YÊU HỌC SINH – LAN TỎA NĂNG LƯỢNG SỐ TẠI THPT LÊ DUẨN! 🎓✨ Tuổi trẻ hết mình, trải nghiệm...",
   source: "Nguyen Tram",
   sourceType: "Facebook",
@@ -4691,7 +4655,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 651,
+  id: 649,
   title: "Đảng ủy phường Lào Cai: Công bố Quyết định thành lập Chi bộ Ngân hàng HDBank và các quyết định...",
   source: "TỎA SÁNG BIÊN CƯƠNG",
   sourceType: "Facebook",
@@ -4709,7 +4673,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 652,
+  id: 650,
   title: "Nhóm ngân hàng xuất hiện nhiều sắc xanh với VPB +2,5%, ACB +1,5%, HDB +0,9%, TCB +0,8%, MBB...",
   source: "Đầu Tư Cổ Phiếu",
   sourceType: "Facebook",
@@ -4727,7 +4691,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 653,
+  id: 651,
   title: "Điểm danh các ngân hàng có kế hoạch phát hành cổ phiếu riêng lẻ: VPBank, HDBank, MB,...",
   source: "Nguyễn Khắc Vương",
   sourceType: "Facebook Group",
@@ -4745,7 +4709,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 654,
+  id: 652,
   title: "Chúc mừng HDBank Từ Liêm tròn 15 tuổi . Chúc Anh Chị em Từ Liêm luôn Thành công , Đoàn kết và...",
   source: "Mon Kute",
   sourceType: "Facebook",
@@ -4763,7 +4727,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 655,
+  id: 653,
   title: "Điểm danh các ngân hàng có kế hoạch phát hành cổ phiếu riêng lẻ: VPBank, HDBank, MB,...",
   source: "Thích Chứng Trần ",
   sourceType: "Facebook",
@@ -4781,7 +4745,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 656,
+  id: 654,
   title: "Khi chọn nơi gửi gắm khoản tiền tích lũy, mỗi con số đều mang một kỳ vọng riêng. Việc cân bằng...",
   source: "Duy Truong",
   sourceType: "Facebook Group",
@@ -4799,7 +4763,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 657,
+  id: 655,
   title: "TOP CỔ PHIẾU SỨC MẠNH GIÁ – 12/10/2026 VN-Index giảm 14,11 điểm (-0,81%) xuống 1.720,98 điểm,...",
   source: "Chứng Khoán Mirae Asset Việt Nam",
   sourceType: "Facebook",
@@ -4817,7 +4781,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 658,
+  id: 656,
   title: "Happy Birthday Anh Lộc 🎉🎉🎉🎉 HDBank CN Bình Dương chúc Anh tuổi mới nhiều niềm vui, sức khỏe...",
   source: "HDBank Bình Dương",
   sourceType: "Facebook Fanpage",
@@ -4835,7 +4799,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 659,
+  id: 657,
   title: "5 LÃNH ĐẠO NGÂN HÀNG ĐƯỢC VINH DANH TẠI CÚP THÁNH GIÓNG 2026 Lãnh đạo Vietcombank, BIDV, HDBank,...",
   source: "Chuyện Nhà Băng 2.0",
   sourceType: "Facebook",
@@ -4853,7 +4817,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 660,
+  id: 658,
   title: "Tổng hợp phiên giao dịch đầu tuần 12/10/2026] Thị trường tiếp tục phân hóa -thanh khoản ở mức...",
   source: "Nguyễn Khắc Vương",
   sourceType: "Facebook",
@@ -4871,7 +4835,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 661,
+  id: 659,
   title: "ĐI ĐÂU CŨNG CÓ THỂ TẬN HƯỞNG Một chuyến đi. Một bữa tối. Một món quà dành cho người mình yêu...",
   source: "Minh Thảo",
   sourceType: "Facebook",
@@ -4889,7 +4853,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 662,
+  id: 660,
   title: "VN-INDEX THỦNG 1.730 ĐIỂM, RƠI VỀ 1.720: THỊ TRƯỜNG ĐANG TẠO ĐÁY HAY CHUẨN BỊ CHO MỘT NHỊP GIẢM...",
   source: "Nguyễn Việt Trung",
   sourceType: "Facebook",
@@ -4907,7 +4871,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 663,
+  id: 661,
   title: "ĐIỂM TIN THỊ TRƯỜNG | NGÀY 12.10 THANH KHOẢN HẠ NHIỆT- VNINDEX TIẾP TỤC GIẢM 📌 Các diễn biến...",
   source: "Chứng khoán Vikki - VikkibankS",
   sourceType: "Facebook",
@@ -4925,7 +4889,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 664,
+  id: 662,
   title: "Ngày 12/10/2026, tại Trung tâm Hội nghị Quốc gia, Hà Nội, Chủ tịch HĐQT HDBank Kim Byoungho được...",
   source: "Phạm Công Huân",
   sourceType: "Facebook",
@@ -4943,7 +4907,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 665,
+  id: 663,
   title: "Dành riêng cho sinh viên, giáo viên, phụ huynh: https://credit4tomorrow.hdsaison.com.vn Cùng HD...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -4961,7 +4925,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 666,
+  id: 664,
   title: "Họp Team HD SAISON 🫶🫶🫶 Làm nhiệt tình👉Chơi hết mình🥰 Em Yến hỗ trợ góp T.I.E.N mặt - Xe máy...",
   source: "Hải Yến",
   sourceType: "Facebook",
@@ -4979,7 +4943,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 667,
+  id: 665,
   title: "CHÀO TUẦN MỚI – KHỞI ĐỘNG NĂNG LƯỢNG, SẴN SÀNG BỨT PHÁ! 🚀✨ Diện mạo mới, năng lượng mới, mục...",
   source: "Lich Nguyen",
   sourceType: "Facebook",
@@ -4997,7 +4961,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 668,
+  id: 666,
   title: "(không có nội dung)",
   source: "Cao Thuy Vy",
   sourceType: "Facebook",
@@ -5015,7 +4979,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 669,
+  id: 667,
   title: "ĐÓN THÁNG 10 SÀNH ĐIỆU – SĂN iPHONE DUO GIÁ YÊU CÙNG VIKKI! 💖🌸 Tháng 10 rực rỡ, ưu đãi hết cỡ...",
   source: "Thoa.vikki",
   sourceType: "Facebook",
@@ -5033,7 +4997,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 670,
+  id: 668,
   title: "Ủa Vikki Bank lãi cao vậy mà sao ế dữ. Liên hệ em đi mà🥹 0384842474 ( em Khôi Vikki )",
   source: "@davidtietkiem",
   sourceType: "Threads",
@@ -5051,7 +5015,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 671,
+  id: 669,
   title: "Không cần tìm đâu xa, cần tìm hiểu khoản vay thì cứ nhắn em 💌 💙 HD SAISON – Giải pháp tài...",
   source: "Mây Mây",
   sourceType: "Facebook Group",
@@ -5069,7 +5033,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 672,
+  id: 670,
   title: "ANH/CHỊ ĐANG TÌM KIẾM KÊNH TIẾT KIỆM HẤP DẪN? 🏦 Vikki Bank mang đến các giải pháp tiền gửi với...",
   source: "Su Bin",
   sourceType: "Facebook Group",
@@ -5087,7 +5051,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 673,
+  id: 671,
   title: "HDBANK NGHỆ AN – HỌC HỎI ĐỂ ĐỒNG HÀNH TỐT HƠN CÙNG KHÁCH HÀNG Ngày 11/10/2026 tại Hà Nội, đội...",
   source: "HDBank Nghệ An",
   sourceType: "Facebook Fanpage",
@@ -5105,7 +5069,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 674,
+  id: 672,
   title: "Tối 5/10, tại Nhà hát Hồ Gươm, Bộ Công an phối hợp với Trung ương Hội Liên hiệp Phụ nữ Việt Nam...",
   source: "Tam Kiss",
   sourceType: "Facebook",
@@ -5123,7 +5087,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 675,
+  id: 673,
   title: "BẢN TIN NHẬN ĐỊNH THỊ TRƯỜNG PHIÊN GIAO DỊCH 12/10/2026 Hệ thống Phân tích Dòng tiền Siêu Cổ...",
   source: "Chứng Trường",
   sourceType: "Facebook",
@@ -5141,7 +5105,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 676,
+  id: 674,
   title: "CHỦ TỊCH HDBANK KIM BYOUNGHO VÀO TOP 10 DOANH NHÂN VIỆT NAM TIÊU BIỂU 2026 Tối 12/10, ông Kim...",
   source: "Có Gì News",
   sourceType: "Facebook",
@@ -5159,7 +5123,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 677,
+  id: 675,
   title: "Đà Nẵng Lên kệ em: 𝐈𝐩𝐚𝐝 𝐏𝐫𝐨 𝟏𝟏𝐢𝐧𝐜𝐡 𝐂𝐡𝐢𝐩 𝐌𝟏-𝟏𝟐𝟖𝐆𝐁 𝐋𝐢𝐤𝐞𝐍𝐞𝐰 - Pin:...",
   source: "@tamle.1512",
   sourceType: "Threads",
@@ -5177,7 +5141,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 678,
+  id: 676,
   title: "Vikki vừa tiện vừa an tâm chuẩn Ngân hàng Tiết kiệm Tốt nhất! Xin vía cả xóm gom trọn giải...",
   source: "Ngân Ngân",
   sourceType: "Facebook",
@@ -5195,7 +5159,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 679,
+  id: 677,
   title: "Lạ lẫm, phá cách là Vikki Bank. 🩷Mô hình độc đáo, kết hợp ngân hàng kỹ thuật số hiện đại và...",
   source: "Trinh Nta",
   sourceType: "Facebook",
@@ -5213,7 +5177,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 680,
+  id: 678,
   title: "Mỗi ngày tôi chọn một niềm vui, chọn tới chọn lui lại hết một ngày! Chia sẻ thông tin về dự án...",
   source: "@hau.halengoc",
   sourceType: "Threads",
@@ -5231,7 +5195,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 681,
+  id: 679,
   title: "HDBank trân trọng gửi lời chúc đến Quý Doanh Nhân Việt Nam - Những người luôn dám nghĩ lớn, bền...",
   source: "Ome Ly",
   sourceType: "Facebook",
@@ -5249,7 +5213,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 682,
+  id: 680,
   title: "VAY MUA CĂN HỘ BCONS NEWSKY – GIẢI PHÁP TÀI CHÍNH LINH HOẠT Sở hữu căn hộ dễ dàng cùng HDBank...",
   source: "Mạch Quốc Phú",
   sourceType: "Facebook Group",
@@ -5267,7 +5231,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 683,
+  id: 681,
   title: "NHỊP HỒI CHƯA ĐỦ SỨC ĐỔI CHIỀU VN-Index hồi phục trong hai phiên đầu tuần qua nhưng không giữ...",
   source: "Chứng khoán DSC",
   sourceType: "Facebook",
@@ -5285,7 +5249,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 684,
+  id: 682,
   title: "ANH/CHỊ ĐANG TÌM KIẾM KÊNH TIẾT KIỆM HẤP DẪN? 🏦 Vikki Bank mang đến các giải pháp tiền gửi với...",
   source: "Su Bin",
   sourceType: "Facebook Group",
@@ -5303,7 +5267,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 685,
+  id: 683,
   title: "Trời mưa Đà Nẵng ☔️ Người ta sợ ướt tóc, còn em sợ tiền nằm im không chịu làm việc 😭💸 Thôi thì...",
   source: "@gnart_yuht_242",
   sourceType: "Threads",
@@ -5321,7 +5285,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 686,
+  id: 684,
   title: "Chủ tịch HDBank Kim Byoungho nhận cúp Thánh Gióng 2026, ghi dấu trong Top 10 Doanh nhân Việt Nam...",
   source: "HDBank",
   sourceType: "Facebook Fanpage",
@@ -5339,7 +5303,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 687,
+  id: 685,
   title: "HDBANK ĐỒNG HÀNH TRÊN CON ĐƯỜNG TRI THỨC​ 🎓 Mỗi học kỳ là một cột mốc mới với những khoản chi...",
   source: "L a i",
   sourceType: "Facebook",
@@ -5357,7 +5321,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 688,
+  id: 686,
   title: "MBB VỀ 12 THÌ TCB VỀ BAO NHIÊU MỚI TẠO ĐÁY ? ----------------- Phần đa các cổ phiếu nhóm Ngân...",
   source: "MSC Capital",
   sourceType: "Facebook Group",
@@ -5375,7 +5339,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 689,
+  id: 687,
   title: "Hdsaison Tnex ạ.",
   source: "@wolf.8026292",
   sourceType: "Threads",
@@ -5393,7 +5357,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 690,
+  id: 688,
   title: "TIỀN VÔ SỐ, LỜI VÔ TÚI – GỬI TIẾT KIỆM CÙNG VIKKI! 💰✨ Muốn tiền nhàn rỗi sinh lời, tương lai...",
   source: "Mít Lùi",
   sourceType: "Facebook",
@@ -5411,7 +5375,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 691,
+  id: 689,
   title: "Không gian giao dịch hiện đại, thân thiện thêm Vikkafe để khách hàng thoải mái bật sáng ý tưởng,...",
   source: "Hương Thu",
   sourceType: "Facebook",
@@ -5429,7 +5393,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 692,
+  id: 690,
   title: "Với tinh thần nhiệt huyết, đoàn kết và quyết tâm, tập thể cán bộ nhân viên Vikkibank Thái Nguyên...",
   source: "@duy.tute",
   sourceType: "Threads",
@@ -5447,7 +5411,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 693,
+  id: 691,
   title: "VAY TIỀN NHANH - GIẢI QUYẾT ÂU LO ✅ 🔹 Vay 15 triệu: CCCD gắn chip 🔹 Vay 25 triệu: CCCD + Bằng...",
   source: "Yến Nhi",
   sourceType: "Facebook Group",
@@ -5465,7 +5429,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 694,
+  id: 692,
   title: "3 Cổ phiếu Bank đáng mua nhất vẫn là VPB HDB TCB Link video từ ngày 23.08.2026 mình để bên dưới...",
   source: "Chứng Khoán Mỗi Ngày - Red Investment",
   sourceType: "Facebook Group",
@@ -5483,7 +5447,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 695,
+  id: 693,
   title: "English below] 🏓 Chúc mừng Ngày Doanh nhân Việt Nam 13/10! Ngày 10/10 vừa qua, CEO YUKI TRUONG...",
   source: "AVI Logistics Corporation",
   sourceType: "Facebook",
@@ -5501,7 +5465,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 696,
+  id: 694,
   title: "VPB sau phiên test ngày 5/10 thì đã bứt nền vào pha tăng giá ngắn hạn, Trong giai đoạn hiện tại,...",
   source: "Minh Hoàn Vsa",
   sourceType: "Facebook Group",
@@ -5519,7 +5483,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 697,
+  id: 695,
   title: "Thị trường phiên sáng 12/10/2026: Bank-Chứng-Thép hồi nhẹ, Nhóm Vin đè chỉ số VNINDEX tiếp tục...",
   source: "FiinTrade Happy Investing",
   sourceType: "Facebook",
@@ -5537,7 +5501,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 698,
+  id: 696,
   title: "CHẠM NHỊP SỐ - CHỐT QUÀ ĐỈNH MÙA 2: Phiên 7 - Tích lũy trúng vàng, săn quà tặng Nàng 10.10 –...",
   source: "Nguyen Thanh Hieu",
   sourceType: "Facebook",
@@ -5555,7 +5519,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 699,
+  id: 697,
   title: "SÓNG BANK CUỐI NĂM – VPB, HDB ĐANG DẪN SÓNG?!! Nếu phải tìm những cái tên đáng chú ý trong cuộc...",
   source: "VH Tam",
   sourceType: "Facebook Group",
@@ -5573,7 +5537,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 700,
+  id: 698,
   title: "blog VNindex Có những biến chuyển lớn đang âm thầm xảy ra trong VN Index Cùng 1 vùng chỉ số 17xx...",
   source: "Anh Kiếng Đen",
   sourceType: "Facebook",
@@ -5591,7 +5555,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 701,
+  id: 699,
   title: "CHẠM NHỊP SỐ - CHỐT QUÀ ĐỈNH MÙA 2: Phiên 7 - Tích lũy trúng vàng, săn quà tặng Nàng 10.10 –...",
   source: "Trần Quang Vinh",
   sourceType: "Facebook",
@@ -5609,7 +5573,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 702,
+  id: 700,
   title: "HDB đang chạy, ROE hơn 25% mà P/B vẫn chưa tới 1,4x, liệu có hấp dẫn? Tín dụng 6 tháng đầu năm...",
   source: "@quang.w.tm",
   sourceType: "Threads",
@@ -5627,7 +5591,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 703,
+  id: 701,
   title: "CẦN VỐN? HDBANK HỐ NAI SẴN SÀNG ĐỒNG HÀNH! 🌟 Lãi suất từ 𝟎,𝟖%/𝐭𝐡á𝐧𝐠, cố định 06 tháng. 🌟...",
   source: "Lê Sỹ",
   sourceType: "Facebook",
@@ -5645,7 +5609,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 704,
+  id: 702,
   title: "NGUYỄN THỊ PHƯƠNG THẢO – BẢN LĨNH NỮ DOANH NHÂN VIỆT NAM VƯƠN TẦM QUỐC TẾ 🇻🇳 ✨ Từ khát vọng...",
   source: "Phạm Tứ",
   sourceType: "Facebook",
@@ -5663,7 +5627,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 705,
+  id: 703,
   title: "Chứng khoán ngày 12/10: VN-Index mất hơn 14 điểm, áp lực bán gia tăng tại nhóm bất động sản",
   source: "Báo Nhân Dân",
   sourceType: "Báo chí",
@@ -5676,7 +5640,7 @@ const HDBANK_FEED = [
   excerpt: "Phiên này, các mã đóng góp tích cực cho chỉ số VN-Index tăng 4,48 điểm gồm: HPG, VPB, SHB, TCB, ACB, VNM, HVN, <mark>HDB</mark>, MBB, CTG. Nhóm cổ phiếu chứng khoán phiên này nghiêng về sắc xanh có mức tăng 0,22%, chủ yếu từ các mã TCX, VCK, SSI, VPX, HCM, VIX, ORS, ABW, DSC, VUA, VDS, AGR… Chiều ngược lại, các mã giảm gồm VCI, VND, MBS, DSE, FTS, BSI, CTS, TVS, BMS,..."
  },
  {
-  id: 706,
+  id: 704,
   title: "Gập hai nguồn tiền - Chạm trọn tiện ích 😎 Điện thoại gập đôi đã xịn, thẻ “gập” hai nguồn tiền...",
   source: "Ngân hàng Số Vikki",
   sourceType: "Facebook Fanpage",
@@ -5694,7 +5658,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 707,
+  id: 705,
   title: "CHÚC MỪNG KHÁNH THÀNH VIKKI BANK - PGD BÌNH LONG Một cột mốc mới, một hành trình mới, mở ra...",
   source: "Dao Thi Phuong Nhi",
   sourceType: "Facebook",
@@ -5712,7 +5676,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 708,
+  id: 706,
   title: "GỬI TIẾT KIỆM HDBANK – SINH LỜI AN TOÀN, LÃI SUẤT HẤP DẪN 💰 ✨ Lãi suất ưu đãi theo từng kỳ...",
   source: "Minh Hiếu",
   sourceType: "Facebook Group",
@@ -5730,7 +5694,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 709,
+  id: 707,
   title: "Các bạn yêu quý trên kênh Trương Kính Nam thân mến HDB, VPB, SHB,… là những cổ phiếu sẽ tăng",
   source: "Trương Kính Nam",
   sourceType: "Facebook",
@@ -5748,7 +5712,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 710,
+  id: 708,
   title: "Vốn vững vàng - Mở rộng tương lai cùng bà con Hải Hậu! ​HDBank PGD Hải Hậu hỗ trợ cho vay vốn...",
   source: "Nguyễn Huy Hoàng",
   sourceType: "Facebook",
@@ -5766,7 +5730,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 711,
+  id: 709,
   title: "Quá giỏi luôn em ơi. Cho chị ké nha hihi Từ 50tr-500tr gửi 6th lãi suất 8,8% Ngân Hàng HDBank...",
   source: "@t.bonnn11",
   sourceType: "Threads",
@@ -5784,7 +5748,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 712,
+  id: 710,
   title: "MUỐN MUA NHÀ NHƯNG CHƯA ĐỦ TÀI CHÍNH? Đừng vội bỏ lỡ căn nhà mình yêu thích chỉ vì chưa chuẩn bị...",
   source: "Quỳnh Sala",
   sourceType: "Facebook",
@@ -5802,7 +5766,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 713,
+  id: 711,
   title: "KHỞI ĐẦU TUẦN MỚI TRÀN NĂNG LƯỢNG CÙNG VIKKI DIGITAL BANK! 🌟 Thứ Hai đầu tuần tại quầy giao...",
   source: "Hải Minh Home",
   sourceType: "Facebook",
@@ -5820,7 +5784,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 714,
+  id: 712,
   title: "Trả góp phụ tùng - Ô tô, xe đạp và xe đạp điện– Đăng ký liền tay tại các điểm giới thiệu dịch vụ...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -5838,7 +5802,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 715,
+  id: 713,
   title: "Muốn biết chiếc xe đã theo mình bao lâu, cứ ngó mấy món phụ tùng là rõ. Có món đã thay đôi ba...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -5856,7 +5820,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 716,
+  id: 714,
   title: "HDbank có sang ngang thẻ tín dụng online không mn ơi, cảm ơn ạ",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -5874,7 +5838,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 717,
+  id: 715,
   title: "Vikki Digital Bank - Nơi trải nghiệm ngân hàng số chưa bao giờ dễ dàng đến thế! ✨ ​Tạm biệt...",
   source: "Nguyễn Tuấn Vinh",
   sourceType: "Facebook",
@@ -5892,7 +5856,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 718,
+  id: 716,
   title: "WATCHLIST THEO DÕI TUẦN 12–16/10/2026: Danh sách cổ phiếu đáng chú ý, ưu tiên mã có nền giá tốt,...",
   source: "Cổ Phiếu Trước Sóng",
   sourceType: "Facebook Group",
@@ -5910,7 +5874,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 719,
+  id: 717,
   title: "PHỐ HOA TRAVEL – TRÂN TRỌNG NIỀM TIN, VẸN TRÒN TRẢI NGHIỆM 🌟 💐 Phố Hoa Travel chân thành cảm...",
   source: "Minh Socola",
   sourceType: "Facebook",
@@ -5928,7 +5892,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 720,
+  id: 718,
   title: "ĐÓN SÓNG BÁO CÁO QUÝ III, CHỌN ĐÚNG NGÀNH! 1. Nhận định thị trường VN-Index vẫn chịu áp lực sau...",
   source: "Tự Nhân Sơn",
   sourceType: "Facebook Group",
@@ -5946,7 +5910,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 721,
+  id: 719,
   title: "NHẬN ĐỊNH THỊ TRƯỜNG TUẦN 12-16/10/2026: DÒNG TIỀN LỚN ĐANG NHẬP CUỘC - CƠ HỘI CHO NHÀ ĐẦU TƯ...",
   source: "Hệ thống đầu tư Atagetz",
   sourceType: "Facebook Group",
@@ -5964,7 +5928,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 722,
+  id: 720,
   title: "Cổ phiếu trụ ép VN-Index về mốc 1720 điểm, dòng tiền đứng ngoài",
   source: "VnEconomy",
   sourceType: "Báo chí",
@@ -5977,7 +5941,7 @@ const HDBANK_FEED = [
   excerpt: "Phía mua ròng duy nhất HPG +129,2 tỷ và <mark>HDB</mark> +31 tỷ là đáng kể."
  },
  {
-  id: 723,
+  id: 721,
   title: "Dự kiến BCTC Quý 3/2026, tăng trưởng lợi nhuận ngành ngân hàng vẫn tích cực, động lực chính đến...",
   source: "Chiến Chứng",
   sourceType: "Facebook Group",
@@ -5995,7 +5959,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 724,
+  id: 722,
   title: "Xin chào cả nhà buổi sáng! Nhận định thị trường ngày 12-16/10/2026: Phiên 09/10 giảm -3.88 điểm...",
   source: "Bình Nguyễn",
   sourceType: "Facebook Group",
@@ -6013,7 +5977,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 725,
+  id: 723,
   title: "CÔNG NGHỆ THAY ĐỔI CÁCH GIAO DỊCH – TẬN TÂM TẠO NÊN GIÁ TRỊ 💜 Công nghệ có thể giúp mọi giao...",
   source: "Phương Thúy",
   sourceType: "Facebook",
@@ -6031,7 +5995,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 726,
+  id: 724,
   title: "GHÉ VIKKAFÉ HÒA KHÁNH – NHÂM NHI CÀ PHÊ, KẾT NỐI TÀI CHÍNH! Một ly cà phê ngon, cùng khám phá...",
   source: "Nguyễn Nga",
   sourceType: "Facebook",
@@ -6049,7 +6013,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 727,
+  id: 725,
   title: "Muôn vàn kiến thức tài chính. Một chút câu chuyện đời thường. Một chút hài hước, gần gũi. Và...",
   source: "Hùng Thái",
   sourceType: "Facebook",
@@ -6067,7 +6031,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 728,
+  id: 726,
   title: "ĐIỂM TIN TÀI CHÍNH TUẦN 12/10/2026 THỊ TRƯỜNG THẾ GIỚI Đợt vừa rồi thì Mỹ cân nhắc xuất khẩu dầu...",
   source: "Dang Quoc Huy",
   sourceType: "Facebook Group",
@@ -6085,7 +6049,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 729,
+  id: 727,
   title: "AI MUỐN XÂY KÊNH NHƯNG CHƯA BIẾT BẮT ĐẦU TỪ ĐÂU? LƯU NGAY BÀI NÀY NHA! ✨ Mới xây kênh đã mong...",
   source: "Nguyet Bui",
   sourceType: "Facebook",
@@ -6103,7 +6067,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 730,
+  id: 728,
   title: "Lãi suất ngân hàng hôm nay 12/10/2026: Kỳ hạn dài có biến động mới",
   source: "VietNamNet",
   sourceType: "Báo chí",
@@ -6116,7 +6080,7 @@ const HDBANK_FEED = [
   excerpt: "Lãi suất ngân hàng hôm nay 12/10/2026, ngân hàng cập nhật lãi suất huy động kỳ hạn 15-18 tháng với mức tăng 0,7-0,8 điểm phần trăm so với biểu lãi suất trước đó."
  },
  {
-  id: 731,
+  id: 729,
   title: "NGÂN HÀNG SỐ VIKKI – PHÒNG GIAO DỊCH HỒNG DÂN BẮT ĐẦU HOẠT ĐỘNG! ✨ ​🎉 Chính thức đón tiếp quý...",
   source: "Nguyen Nhan",
   sourceType: "Facebook",
@@ -6134,7 +6098,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 732,
+  id: 730,
   title: "Đến với Vikki, khách hàng không chỉ được phục vụ các nhu cầu tài chính mà còn có thể tận hưởng...",
   source: "Ngân Trần",
   sourceType: "Facebook",
@@ -6152,7 +6116,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 733,
+  id: 731,
   title: "VIKKI DIGITAL BANK VINH DỰ NHẬN GIẢI THƯỞNG NGÂN HÀNG VIỆT NAM TIÊU BIỂU 2026 💜 Một dấu mốc...",
   source: "To Thang",
   sourceType: "Facebook",
@@ -6170,7 +6134,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 734,
+  id: 732,
   title: "THỊ TRƯỜNG TUẦN 12 - 16/10/2026 ━━━ 1. TÀI CHÍNH QUỐC TẾ ━━━ CHỈ SỐ & TỶ GIÁ: - Dow Jones:...",
   source: "Đào Trường Giang",
   sourceType: "Facebook Group",
@@ -6188,7 +6152,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 735,
+  id: 733,
   title: "HDBANK THÔNG BÁO ƯU ĐÃI VAY MUA NHÀ Ở XÃ HỘI Nhằm hỗ trợ người trẻ an cư lạc nghiệp, HDBank...",
   source: "Linh Đỗ",
   sourceType: "Facebook Group",
@@ -6206,7 +6170,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 736,
+  id: 734,
   title: "Đề nghị năm sau BTC có thêm giải “Tắm Sớm” để cho những VĐV như em đc an ủi phần nào 😌 Dù sao...",
   source: "Kiều Trang",
   sourceType: "Facebook",
@@ -6224,7 +6188,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 737,
+  id: 735,
   title: "ACE CẦN DÒNG PRO GIÁ TẦM TRUNG – E CÓ SẴN NHA 🔥 📱 14 PRO GOLD 128GB 🇻🇳 ✨ Ngoại hình đẹp 99%...",
   source: "@tieu_nhu68",
   sourceType: "Threads",
@@ -6242,7 +6206,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 738,
+  id: 736,
   title: "CHUYỆN NGHỀ BANKER: KHI CẢ THẾ GIỚI ĐÃ NGỦ, BANKER VẪN ĐANG… TÌM SỐ! 😂💜 Người ta 10 giờ tối:...",
   source: "Cá Cảnh",
   sourceType: "Facebook",
@@ -6260,7 +6224,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 739,
+  id: 737,
   title: "VAY TIÊU DÙNG THẾ CHẤP – HẠN MỨC ĐẾN 100% 💰 - CÙNG VIKKI BANK Đang cần nguồn vốn để sửa nhà,...",
   source: "Thanh Xuân",
   sourceType: "Facebook",
@@ -6278,7 +6242,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 740,
+  id: 738,
   title: "Xe buýt Vikki chuyến này không cần vé, chỉ cần mở thẻ! 🚌💜 Biết đâu lên xe bình thường, xuống...",
   source: "Mỹ Tuyết",
   sourceType: "Facebook",
@@ -6296,7 +6260,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 741,
+  id: 739,
   title: "Tập thể Vikki Digital Bank nhà em xin hân hạnh chào đón quý khách đến trải nghiệm và sử dụng tất...",
   source: "Ly Tr",
   sourceType: "Facebook",
@@ -6314,7 +6278,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 742,
+  id: 740,
   title: "Dì Tám nhiều chuyện xíu mà hóng được tin chấn động: Mở thẻ VikkiGO có cơ hội trúng 200 triệu...",
   source: "Nguyen Tram",
   sourceType: "Facebook",
@@ -6332,7 +6296,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 743,
+  id: 741,
   title: "VIKKI DIGITAL BANK – LẤY TRẢI NGHIỆM KHÁCH HÀNG LÀM ĐỘNG LỰC PHÁT TRIỂN! Một dịch vụ tốt không...",
   source: "Que Anh",
   sourceType: "Facebook",
@@ -6350,7 +6314,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 744,
+  id: 742,
   title: "Đi đánh pickleball cho vui, ai ngờ vui quá thành nhà vô địch 🏆🤣🥇 Cảm ơn BLĐ HDBank Hà Tĩnh đã...",
   source: "Ngọc Lê",
   sourceType: "Facebook",
@@ -6368,7 +6332,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 745,
+  id: 743,
   title: "MỖI GIAO DỊCH LÀ MỘT HÀNH TRÌNH ĐƯỢC ĐỒNG HÀNH Từ lúc bước vào điểm giao dịch cho đến khi hoàn...",
   source: "Bảo Ngọc",
   sourceType: "Facebook",
@@ -6386,7 +6350,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 746,
+  id: 744,
   title: "VỪA GỬI TIẾT KIỆM – VỪA RINH QUÀ XINH TẠI VIKKI DIGITAL BANK! 💙 Tiền đẻ ra tiền lại còn được...",
   source: "Khánh Thuỷ",
   sourceType: "Facebook",
@@ -6404,7 +6368,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 747,
+  id: 745,
   title: "NGÂN HÀNG SỐ VIKKI – PGD LONG HOA TỔ CHỨC HỘI THẢO NÔNG THÔN 🌾 Sáng ngày 11/10/2026, Ngân hàng...",
   source: "Duy Khánh",
   sourceType: "Facebook",
@@ -6422,7 +6386,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 748,
+  id: 746,
   title: "DẪN ĐẦU ĐIỂM CHẠM – ĐIỂM HẸN KẾT NỐI! Vikki Digital Bank 📊 Theo YouNet Media Index (YMI) tháng...",
   source: "Thiềm Văn Phi",
   sourceType: "Facebook",
@@ -6440,7 +6404,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 749,
+  id: 747,
   title: "LÃI SUẤT VAY MUA NHÀ THÁNG 10/2026 Đừng chỉ nhìn lãi suất ưu đãi! Một số mức lãi suất tham khảo:...",
   source: "Lê Thành Phát",
   sourceType: "Facebook",
@@ -6458,7 +6422,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 750,
+  id: 748,
   title: "Vikki Digital Bank có gì mà các ngân hàng số khác không có? ☕ Vikki Có Vikkafe nè – không chỉ...",
   source: "Nguyen Thi Tú Anh",
   sourceType: "Facebook",
@@ -6476,7 +6440,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 751,
+  id: 749,
   title: "VIKKI DIGITAL BANK – MỖI ĐIỂM CHẠM, MỘT TRẢI NGHIỆM ĐÁNG NHỚ! 💙✨ Nhìn một góc nhỏ thôi cũng đủ...",
   source: "Triều Lê",
   sourceType: "Facebook",
@@ -6494,7 +6458,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 752,
+  id: 750,
   title: "Đà Nẵng 🔥 Best seller nhà TínPhát. E lại cập nhật lô mới ạ 💻𝐌𝐚𝐜𝐁𝐨𝐨𝐤 𝐏𝐫𝐨 𝟏𝟒𝐢𝐧𝐜𝐡...",
   source: "@tamle.1512",
   sourceType: "Threads",
@@ -6512,7 +6476,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 753,
+  id: 751,
   title: "VIKKI DIGITAL BANK ĐỒNG HÀNH CÙNG NGÀY CHUYỂN ĐỔI SỐ QUỐC GIA 2026 💙 📱 Hưởng ứng Ngày Chuyển...",
   source: "Ngân Ngân",
   sourceType: "Facebook",
@@ -6530,7 +6494,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 754,
+  id: 752,
   title: "Bế mạc ngày hội giao lưu văn hóa- thể thao các ngân hàng trên địa bàn khu vực Móng Cái lần thứ...",
   source: "Phường Móng Cái 1",
   sourceType: "Facebook",
@@ -6548,7 +6512,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 755,
+  id: 753,
   title: "Vikki đạt giải Ngân hàng Số Tiết kiệm Tốt nhất 2026, khẳng định nỗ lực đổi mới, lấy khách hàng...",
   source: "Dung Kim",
   sourceType: "Facebook",
@@ -6566,7 +6530,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 756,
+  id: 754,
   title: "PHÂN TÍCH CƠ BẢN : HDB - TRUNG TÂM HỆ SINH THÁI SOVICO | LIỆU RẰNG CÓ ĐÁNG ĐẦU TƯ ?",
   source: "HD INVESTMENT -  ECONOMIC CYCLE",
   sourceType: "YouTube",
@@ -6584,7 +6548,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 757,
+  id: 755,
   title: "VIKKI DIGITAL BANK – KẾT NỐI CÔNG NGHỆ, LAN TỎA GIÁ TRỊ! Công nghệ không chỉ thay đổi cách chúng...",
   source: "Que Anh",
   sourceType: "Facebook",
@@ -6602,7 +6566,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 758,
+  id: 756,
   title: "4 CỔ PHIẾU ĐÁNG CHÚ Ý TRONG NHỊP NÀY – ACE THAM KHẢO Thị trường luôn có sự luân chuyển dòng...",
   source: "Thế Hậu",
   sourceType: "Facebook Group",
@@ -6620,7 +6584,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 759,
+  id: 757,
   title: "Chạy từ Việt Nam qua Thái Lan để xem Trạm Công Dân Số của Vikki Bank và MasterCard 🫣 Lú luôn...",
   source: "Hoàng Nam",
   sourceType: "Facebook",
@@ -6638,7 +6602,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 760,
+  id: 758,
   title: "VIKKI READ – CHẠM TRI THỨC, MỞ LỐI TƯƠNG LAI 📚✨ Không chỉ là ngân hàng số, Vikki còn lan tỏa...",
   source: "Tham Phan Thi",
   sourceType: "Facebook",
@@ -6656,7 +6620,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 761,
+  id: 759,
   title: "Lãi suất thì đang “nóng” 🔥 Còn Vikkafe thì đã sẵn sàng đón khách ghé thưởng thức và trải nghiệm...",
   source: "Bichtram Hong",
   sourceType: "Facebook",
@@ -6674,7 +6638,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 762,
+  id: 760,
   title: "MÀU NATURAL HIẾM – ACE ĐANG SĂN THÌ CHỐT NHANH NHA 😍 📱 16 PROMAX NATURAL 256GB 🇻🇳 ✨ Máy...",
   source: "@tieu_nhu68",
   sourceType: "Threads",
@@ -6692,7 +6656,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 763,
+  id: 761,
   title: "Gần 7 tỷ USD vốn ngoại sắp vào ngân hàng, cổ đông cũ chưa chắc có lời. Theo ghi nhận trên thị...",
   source: "Chứng khoán Vương Soros",
   sourceType: "Facebook",
@@ -6710,7 +6674,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 764,
+  id: 762,
   title: "Bốn lợi thế dành cho khách cũ HD SAISON donhdsaisonhdsaison",
   source: "Đặng Thị Dơn",
   sourceType: "Facebook",
@@ -6728,7 +6692,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 765,
+  id: 763,
   title: "Ngày cuối tuần hiệu quả của Vikki Bank Hoà Khánh. Tiền tuyến thì đi chinh chiến tham dự Ngày hội...",
   source: "Sumi Pham",
   sourceType: "Facebook",
@@ -6746,7 +6710,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 766,
+  id: 764,
   title: "Bạn đang cần vốn để mở rộng sản xuất, kinh doanh hay đầu tư vào lĩnh vực nông nghiệp? HDBank Đăk...",
   source: "Minh Vân",
   sourceType: "Facebook Group",
@@ -6764,7 +6728,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 767,
+  id: 765,
   title: "DANH SÁCH CỔ PHIẾU TUẦN SAU VÀO SÓNG TĂNG MẠNH: 1) Ngân hàng: VPB, HDB, TCB 2) Bán lẻ: MSN, MWG...",
   source: "Lương Trần",
   sourceType: "Facebook",
@@ -6782,7 +6746,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 768,
+  id: 766,
   title: "VIKKI BANK BẾN TRE – ĐỒNG HÀNH CÙNG NGÀY CHUYỂN ĐỔI SỐ QUỐC GIA 10/10/2026 🇻🇳 Hưởng ứng Ngày...",
   source: "La Uyển Vân",
   sourceType: "Facebook",
@@ -6800,7 +6764,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 769,
+  id: 767,
   title: "Rời chiếc bàn làm việc và màn hình số, các banker Vikki Bank Bắc Ninh ngoài đời lại cùng nhau...",
   source: "Hải Minh Home",
   sourceType: "Facebook",
@@ -6818,7 +6782,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 770,
+  id: 768,
   title: "VIKKI BANK – KHÔNG CHỈ LÀ NGÂN HÀNG, MÀ LÀ NGƯỜI BẠN ĐỒNG HÀNH! ✨ Một chạm mở ra ngàn tiện ích,...",
   source: "Trần Phương Thảo",
   sourceType: "Facebook",
@@ -6836,7 +6800,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 771,
+  id: 769,
   title: "ĐẶC QUYỀN PHÁI ĐẸP THÁNG 10​ GỬI TIỀN AN TÂM, NHẬN QUÀ TINH TẾ ​🌸🌹 💝 Ở HDBank, tháng của \"một...",
   source: "Đào Thu Hà",
   sourceType: "Facebook",
@@ -6854,7 +6818,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 772,
+  id: 770,
   title: "KHOẢNG CÁCH CÓ THỂ XA — SỰ QUAN TÂM LUÔN THẬT GẦN! 💜 Một khoản học phí gửi cho con, một sự hỗ...",
   source: "Nguyễn Trung Châu",
   sourceType: "Facebook",
@@ -6872,7 +6836,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 773,
+  id: 771,
   title: "Hai ngân hàng vừa vượt 100.000 tỷ vốn điều lệ. Nhưng có bao nhiêu đồng tiền mới thực sự chảy vào...",
   source: "Phú Ninh",
   sourceType: "Facebook Group",
@@ -6890,7 +6854,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 774,
+  id: 772,
   title: "Đến Vikki Bank hôm nay, ngoài những trải nghiệm tài chính hiện đại, khách hàng còn có thêm một...",
   source: "Ha Do",
   sourceType: "Facebook",
@@ -6908,7 +6872,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 775,
+  id: 773,
   title: "Kết nối định danh số – An tâm tận hưởng tiện ích tại Trạm Công Dân Số! 📲✨ ​Bà con mình đã biết...",
   source: "Huỳnh Văn Chung",
   sourceType: "Facebook",
@@ -6926,7 +6890,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 776,
+  id: 774,
   title: "CÁI GÌ Ở VIKKI DIGITAL BANK CÓ MÀ NHỮNG NGÂN HÀNG SỐ KHÁC KHÔNG CÓ? 🤔✨ Bạn nghĩ Ngân hàng số...",
   source: "Lan Nguyen",
   sourceType: "Facebook Group",
@@ -6944,7 +6908,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 777,
+  id: 775,
   title: "VIKKI BANK CÓ GÌ MÀ NGÂN HÀNG SỐ KHÁC KHÔNG CÓ? 💚 Người ta hỏi em Lan: Vikki có gì mà khách...",
   source: "Lan Tây",
   sourceType: "Facebook",
@@ -6962,7 +6926,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 778,
+  id: 776,
   title: "VIKKI BANK BẾN TRE – ĐỒNG HÀNH CÙNG NGÀY CHUYỂN ĐỔI SỐ QUỐC GIA 10/10/2026 . Hưởng ứng Ngày...",
   source: "Ngọc Tú",
   sourceType: "Facebook",
@@ -6980,7 +6944,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 779,
+  id: 777,
   title: "Đà Nẵng 💕E lại cập nhật lô mới phục vụ Khách ạ💕 🌟Bạn nào hỏi chưa mua được ghé e nha✌️...",
   source: "@tamle.1512",
   sourceType: "Threads",
@@ -6998,7 +6962,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 780,
+  id: 778,
   title: "BÁO CÁO TỔNG KẾT TUẦN 05/10 - 09/10/2026 Tuần này VN-Index gần như đi ngang, đóng cửa 1.735,09...",
   source: "Duc Xoan",
   sourceType: "Facebook",
@@ -7016,7 +6980,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 781,
+  id: 779,
   title: "Xin chúc mừng những tuổi trẻ Vikkibank Hà Tiên, trẻ trung năng động, hết mình, nổ lực tiến lên...",
   source: "Tran Phu",
   sourceType: "Facebook",
@@ -7034,7 +6998,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 782,
+  id: 780,
   title: "Từ những dấu ấn của các thế hệ đi trước đến những ý tưởng sáng tạo hôm nay, triển lãm gửi gắm...",
   source: "Báo Thanh Niên",
   sourceType: "Facebook Fanpage",
@@ -7052,7 +7016,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 783,
+  id: 781,
   title: "Ngày 11/10, theo khảo sát lãi suất gửi tiết kiệm trực tuyến của 35 ngân hàng, Sacombank niêm yết...",
   source: "Toàn Cảnh 24H",
   sourceType: "Facebook",
@@ -7070,7 +7034,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 784,
+  id: 782,
   title: "ILoveHDBank HDBank VayHDBank HappyDigitalBank",
   source: "Duy Phong",
   sourceType: "Facebook",
@@ -7088,7 +7052,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 785,
+  id: 783,
   title: "Lớn rồi là hết mê Ngày Xửa Ngày Xưa ✅ Gặp nghệ sĩ Hoàng Trinh là cả trời tuổi thơ ùa về 💜 Trích...",
   source: "Tran Toan",
   sourceType: "Facebook",
@@ -7106,7 +7070,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 786,
+  id: 784,
   title: "QUỸ NGOẠI VỪA MUA MẠNH PNJ ĐÃ QUAY ĐẦU BÁN GẦN 5,5 TRIỆU CỔ PHIẾU, TRONG KHI OCH ĐÓN CỔ ĐÔNG LỚN...",
   source: "LTC Capital",
   sourceType: "Facebook",
@@ -7124,7 +7088,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 787,
+  id: 785,
   title: "Tân phú ghé mình sẵn nhiều mã. 🔥Hổ trợ trả góp qua NH HDBank-Mira-Thẻ Tín Dụng.Sinh Viên Có Thẻ...",
   source: "@tieu_nhu68",
   sourceType: "Threads",
@@ -7142,7 +7106,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 788,
+  id: 786,
   title: "Chuyển động quỹ đầu tư tại HDB, OCH, PNJ Leadvisors Capital mua trọn lô cổ phiếu riêng lẻ của...",
   source: "SB Capital",
   sourceType: "Facebook Group",
@@ -7160,7 +7124,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 789,
+  id: 787,
   title: "Vikki bank ls 9.6% Vp bank ls 9.3% Ce cho e xin ít review gởi tk việt nam với P/s : e hỏi để tối...",
   source: "@chaungocnina",
   sourceType: "Threads",
@@ -7178,7 +7142,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 790,
+  id: 788,
   title: "Vikki Bank lãi suất vô cùng ưu đãi🧡 ⭐️Gửi từ 1tr: 🖕 8,6% 💝Gửi từ 200tr: 9,4% 🍃 Gửi từ 500tr:...",
   source: "Đỗ Thanh",
   sourceType: "Facebook Group",
@@ -7196,7 +7160,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 791,
+  id: 789,
   title: "FLOW MA] BẢN TIN CHIẾN LƯỢC TUẦN 12/10 - 16/10 🌊 \"THỊ TRƯỜNG CHƯA NÊN ĐÁNH LỚN — TẬP TRUNG TÌM...",
   source: "Flow Ma",
   sourceType: "Facebook",
@@ -7214,7 +7178,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 792,
+  id: 790,
   title: "VN-INDEX 09/10/2026 – KIỂM ĐỊNH VÙNG HỖ TRỢ 1.730 ĐIỂM: DÒNG TIỀN CẢI THIỆN HAY ÁP LỰC BÁN CHƯA...",
   source: "CAS - Đồn Kinh Tế",
   sourceType: "Facebook Group",
@@ -7232,7 +7196,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 793,
+  id: 791,
   title: "Từ Cà Mau, nơi cực Nam thiêng liêng của đất nước, ngọn lửa được các đại biểu thanh niên tiếp...",
   source: "Báo Thanh Niên",
   sourceType: "Facebook Fanpage",
@@ -7250,7 +7214,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 794,
+  id: 792,
   title: "MỞ TÀI KHOẢN VIKKI BANK – KẾT NỐI AN SINH XÃ HỘI, NHẬN TIỆN ÍCH MỖI NGÀY! 💜 📣 Cả nhà ơi! Bạn...",
   source: "Cá Cảnh",
   sourceType: "Facebook",
@@ -7268,7 +7232,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 795,
+  id: 793,
   title: "Ngày 11/10/2026, đội ngũ Vikki Digital Bank đã đến Chợ Đán, Thái Nguyên thực hiện chương trình...",
   source: "Huong Nguyen",
   sourceType: "Facebook",
@@ -7286,7 +7250,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 796,
+  id: 794,
   title: "Ghé Vikkafe để trải nghiệm không gian tài chính hoàn toàn mới! Vừa thưởng thức cà phê, vừa kết...",
   source: "Duong Luu",
   sourceType: "Facebook",
@@ -7304,7 +7268,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 797,
+  id: 795,
   title: "Một ngày làm việc đầy năng lượng tại Hà Nội cùng Workshop “Kỹ năng bán và quản lý thúc đẩy...",
   source: "Đăng Hậu",
   sourceType: "Facebook",
@@ -7322,7 +7286,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 798,
+  id: 796,
   title: "LÃI SUẤT TIẾT KIỆM THÁNG 10 – ƯU ĐÃI NHẤT NĂM 2026🌿 Anh chị đang tìm nơi gửi tiết kiệm an toàn,...",
   source: "Phạm Thanh Hằng",
   sourceType: "Facebook Group",
@@ -7340,7 +7304,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 799,
+  id: 797,
   title: "Mỗi ngày thêm một chút tích cực cùng Vikki 💜 Bạn đã bao giờ nghĩ việc quản lý tài chính cũng có...",
   source: "Nhan La",
   sourceType: "Facebook",
@@ -7358,7 +7322,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 800,
+  id: 798,
   title: "VIKKI DIGITAL BANK VƯƠN LÊN DẪN ĐẦU BẢNG XẾP HẠNG YMI THÁNG 8/2026 NGÀNH NGÂN HÀNG! 💜🔥 Một dấu...",
   source: "Dua Hong Dua Hau",
   sourceType: "Facebook",
@@ -7376,7 +7340,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 801,
+  id: 799,
   title: "Ngân hàng số Vikki Ngân hàng gửi tiết kiệm tốt nhất Gửi tiết kiệm trúng bóng vàng kí Vikki...",
   source: "Hồng Xuân",
   sourceType: "Facebook",
@@ -7394,7 +7358,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 802,
+  id: 800,
   title: "PHỤ NỮ TỰ TIN – VỮNG VÀNG TÀI CHÍNH 🌷 Ngày 10/10/2026, HDBank Long Bình và Hội Liên hiệp Phụ nữ...",
   source: "Kimpha Lê",
   sourceType: "Facebook",
@@ -7412,7 +7376,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 803,
+  id: 801,
   title: "Đà Nẵng 🧢🧢 𝐈𝐩𝐚𝐝 𝐆𝐞𝐧 𝟏𝟎-𝟔𝟒𝐆𝐁 𝟓𝐆 -Vàng💛 - emm lại về thêm 🌟Hiệu năng ổn định,...",
   source: "@tamle.1512",
   sourceType: "Threads",
@@ -7430,7 +7394,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 804,
+  id: 802,
   title: "DU HÀNH CÙNG VIKKI – TIÊN PHONG MỞ LỐI TƯƠNG LAI TÀI CHÍNH 🔹 Ngân hàng Số Vikki tiên phong kiến...",
   source: "Tuyen Minh",
   sourceType: "Facebook",
@@ -7448,7 +7412,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 805,
+  id: 803,
   title: "ĐÓN KHÁCH HÀNG BẰNG NỤ CƯỜI, ĐỒNG HÀNH BẰNG SỰ TẬN TÂM Một lời chào thân thiện có thể tạo nên...",
   source: "Tung Diep",
   sourceType: "Facebook",
@@ -7466,7 +7430,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 806,
+  id: 804,
   title: "LÃI SUẤT TIẾT KIỆM THÁNG 10 – ƯU ĐÃI NHẤT NĂM 2026🌿 Anh chị đang tìm nơi gửi tiết kiệm an toàn,...",
   source: "Phạm Thanh Hằng",
   sourceType: "Facebook Group",
@@ -7484,7 +7448,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 807,
+  id: 805,
   title: "Xem là chốt luôn,quay vòng quay may mắn trúng thêm 1triệu nửa,tuyệt vời luôn khứa ưi🌺🌺🌺...",
   source: "Hà Cưng",
   sourceType: "Facebook",
@@ -7502,7 +7466,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 808,
+  id: 806,
   title: "Nhiều người nghĩ được nâng hạng là cổ phiếu tăng ngay. Nhưng thực ra, tính đến phiên 8/10,...",
   source: "Chứng khoán Vương Soros",
   sourceType: "Facebook",
@@ -7520,7 +7484,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 809,
+  id: 807,
   title: "7-9/10/26 Chia sẽ thông tin Dự Án Celesta Gold mới tọa lạc trên cung đường của những dự án tỷ tỷ...",
   source: "Van Anh Phan",
   sourceType: "Facebook",
@@ -7538,7 +7502,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 810,
+  id: 808,
   title: "Smoney vừa chỉnh sửa lại Tín hiệu mua bán S.Vision để tự điều chỉnh lại giá mua cho các cổ phiếu...",
   source: "Smoney",
   sourceType: "Facebook Group",
@@ -7556,7 +7520,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 811,
+  id: 809,
   title: "TỔNG KẾT TUẦN 41: 05–09/10/2026 📊 VN-Index khép tuần tại 1.735,09 điểm, giảm 0,15%, nhưng mức...",
   source: "Chứng khoán Tân Việt",
   sourceType: "Facebook",
@@ -7574,7 +7538,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 812,
+  id: 810,
   title: "Thời điểm vàng mua xe trước khi vào mùa bán🛵🛵ạ. Chỉ cần tiền lẻ các bác đã sở hữu liền tay xe...",
   source: "Hoàng Linh",
   sourceType: "Facebook",
@@ -7592,7 +7556,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 813,
+  id: 811,
   title: "HDB, VPB 2 CỔ PHIẾU NGÂN HÀNG TÍCH LŨY NỀN GIÁ 1 NĂM, CHUẨN BỊ VƯỢT NỀN CHO NHỊP TĂNG BỨT TỐC QUÝ 4",
   source: "Chứng khoán F88",
   sourceType: "Facebook Group",
@@ -7610,7 +7574,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 814,
+  id: 812,
   title: "Vikki Digital Bank tự hào được vinh danh tại Giải thưởng Ngân hàng Việt Nam Tiêu biểu 2026 với...",
   source: "Quang Son Ngo",
   sourceType: "Facebook",
@@ -7628,7 +7592,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 815,
+  id: 813,
   title: "VIKKI CÓ GÌ MÀ CÁC NGÂN HÀNG KHÁC KHÔNG CÓ ??? 🌟 Không chỉ là nơi hội tụ những đầu sách hấp dẫn...",
   source: "Thị Thoa",
   sourceType: "Facebook",
@@ -7646,7 +7610,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 816,
+  id: 814,
   title: "LÃI SUẤT TIỀN GỬI LÊN TRÊN 9%, NHNN NÓI TỐC ĐỘ TĂNG ĐÃ CHẬM LẠI. Tóm tắt nhanh một số điểm đáng...",
   source: "Thành Quách",
   sourceType: "Facebook Group",
@@ -7664,7 +7628,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 817,
+  id: 815,
   title: "Mn đừng để ý cái lap trầy của e nha. E dùng nhiều năm với lại ko dùng chuột nên nó zậy á 🤭 Bài...",
   source: "Vàn HD",
   sourceType: "Facebook",
@@ -7682,7 +7646,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 818,
+  id: 816,
   title: "CHÚC MỪNG KHAI TRƯƠNG NGÂN HÀNG SỐ VIKKI ĐÔNG HƯNG! 🎉🎉 ❤️💙 VIKKI DIGITAL BANK – ĐIỂM HẸN NGÂN...",
   source: "Phạm Lam",
   sourceType: "Facebook",
@@ -7700,7 +7664,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 819,
+  id: 817,
   title: "VIKKI BANK – NGÂN HÀNG SỐ, KẾT NỐI TƯƠNG LAI! ✨💜 🌟 Hiện đại, năng động và không ngừng đổi mới,...",
   source: "Anh Thơ",
   sourceType: "Facebook",
@@ -7718,7 +7682,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 820,
+  id: 818,
   title: "Vì sao lãi suất tiết kiệm khó giảm trong các quý tới? Đầu tháng 9/2026, kỳ hạn 6 tháng tại NHTM...",
   source: "Ngọc Hà",
   sourceType: "Facebook",
@@ -7736,7 +7700,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 821,
+  id: 819,
   title: "Rất nhanh đây thôi Vikki Bank sẽ phủ sóng đến từng nhà, từng ngõ ngách ạ🥰🥰 Buổi sáng tràn đầy...",
   source: "Hoàng Mai",
   sourceType: "Facebook",
@@ -7754,7 +7718,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 822,
+  id: 820,
   title: "VIKKI TÂY ĐÔ – CHÍNH THỨC CÓ MẶT TẠI ĐỊA CHỈ MỚI 💜 📍 K2-3, K2-4 Võ Nguyên Giáp, phường Hưng...",
   source: "Anh Lam Thao",
   sourceType: "Facebook Group",
@@ -7772,7 +7736,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 823,
+  id: 821,
   title: "Flex nhẹ team Vikki nhà mình hôm nay! Sáng xuất phát từ chi nhánh, chiều lượn quanh quảng trường...",
   source: "Coi Voi",
   sourceType: "Facebook",
@@ -7790,7 +7754,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 824,
+  id: 822,
   title: "Ngày hội giao lưu văn hóa- thể thao các ngân hàng trên địa bàn khu vực Móng Cái lần thứ XIX năm...",
   source: "Phường Móng Cái 1",
   sourceType: "Facebook",
@@ -7808,7 +7772,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 825,
+  id: 823,
   title: "Tiệm đẹp, dịch vụ tốt mới là nam châm thu hút các \"thượng đế\" chi tiêu mạnh tay trong mùa lễ;...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -7826,7 +7790,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 826,
+  id: 824,
   title: "Đồng hành cùng hộ kinh doanh:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -7844,7 +7808,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 827,
+  id: 825,
   title: "Quyết vừa hoàn thành chuỗi 5 cuộc thi 42km trong 5 tuần liên tiếp tại 5 thành phố khác nhau. Từ...",
   source: "Đan Quyết",
   sourceType: "Facebook",
@@ -7862,7 +7826,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 828,
+  id: 826,
   title: "Lãi suất tiết kiệm lên đến 9️⃣,❎%/năm +X% (kèm quà tặng) +++ Quay số trúng vàng + Lì xì. Vikki...",
   source: "Thắng Trương",
   sourceType: "Facebook Group",
@@ -7880,7 +7844,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 829,
+  id: 827,
   title: "Sáng Chủ nhật, cùng Vikki trên mọi nẻo đường! 💜 Dù là một chuyến đi xa hay hành trình quen...",
   source: "Thu Vân Nguyễn",
   sourceType: "Facebook",
@@ -7898,7 +7862,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 830,
+  id: 828,
   title: "Khối ngoại ghi nhận trạng thái bán ròng đối với nhóm cổ phiếu theo dõi trong tuần tái cơ cấu...",
   source: "Radar Cổ Phiếu - Tín hiệu & phân tích thị trường",
   sourceType: "Facebook",
@@ -7916,7 +7880,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 831,
+  id: 829,
   title: "VIKKI BANK – ĐỔI MỚI DIỆN MẠO, LAN TỎA TRẢI NGHIỆM KHÁC BIỆT 💜✨ 🌟 Không ngừng đổi mới để mang...",
   source: "Vu Danh Phuc",
   sourceType: "Facebook",
@@ -7934,7 +7898,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 832,
+  id: 830,
   title: "VN30F PHIÊN THỨ 6, 09/10/2026: NHỊP GIẢM NGẮN DẦN NHƯNG LỰC BÁN CHƯA BUÔNG, CHỜ Ở BIÊN TRƯỚC...",
   source: "InvestSkill - Rèn Luyện Đầu Tư",
   sourceType: "Facebook",
@@ -7952,7 +7916,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 833,
+  id: 831,
   title: "Chương trình TIÊT KIỆM VIKKI TRÚNG BÓNG VÀNG KÝ chỉ còn 19 ngày nữa là kết thúc, nhanh tay gửi...",
   source: "Sương Huỳnh",
   sourceType: "Facebook",
@@ -7970,7 +7934,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 834,
+  id: 832,
   title: "Ngân hàng tự động \"chạy đến\" nhà bạn, chuyện thật như đùa! 💡 Giờ không cần phải lặn lội ra tận...",
   source: "VSA Index",
   sourceType: "Facebook",
@@ -7988,7 +7952,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 835,
+  id: 833,
   title: "TIN NHANH CHỨNG KHOÁN 10/10 => DOANH NGHIỆP 1) VIC: VinFast bàn giao 23.624 ô tô điện tại Việt...",
   source: "ĐIỂM NÓNG KINH TẾ",
   sourceType: "Facebook",
@@ -8006,7 +7970,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 836,
+  id: 834,
   title: "ROADSHOW VIKKI BANK – ĐỒNG HÀNH CÙNG NHÀ NÔNG, PHÁT TRIỂN NÔNG THÔN 🌾 💚 Tiếp sức nguồn vốn –...",
   source: "Nguyễn Hoài",
   sourceType: "Facebook",
@@ -8024,7 +7988,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 837,
+  id: 835,
   title: "Vikki Digital Bank tiên phong mang trải nghiệm tài chính đến gần bạn hơn! 🏆 Mỗi điểm chạm là...",
   source: "Minh Hằng Lê Thị",
   sourceType: "Facebook",
@@ -8042,7 +8006,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 838,
+  id: 836,
   title: "ĐIỂM HẸN NGÂN HÀNG SỐ, ĐỂ MỖI LẦN GHÉ LẠI THÊM MỘT TRẢI NGHIỆM 💜 Ngân hàng không nhất thiết chỉ...",
   source: "Oanh Nice",
   sourceType: "Facebook",
@@ -8060,7 +8024,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 839,
+  id: 837,
   title: "Top 7 cổ phiếu bị khối ngoại bán ròng mạnh nhất...... Trên toàn thị trường, khối ngoại bán ròng...",
   source: "Đầu tư cùng Ngọc Ánh",
   sourceType: "Facebook",
@@ -8078,7 +8042,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 840,
+  id: 838,
   title: "TỰ HÀO VIKKI – ĐỔI MỚI ĐƯỢC GHI NHẬN 🏆 Một tin vui từ Vikki Digital Bank! Thẻ VikkiONE Connect...",
   source: "Tâm Như Ngọc",
   sourceType: "Facebook",
@@ -8096,7 +8060,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 841,
+  id: 839,
   title: "TIN NHANH CHỨNG KHOÁN 10/10 => DOANH NGHIỆP 1) VIC: VinFast bàn giao 23.624 ô tô điện tại Việt...",
   source: "Tung Piro",
   sourceType: "Facebook",
@@ -8114,7 +8078,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 842,
+  id: 840,
   title: "BẠN ĐÃ SẴN SÀNG TRẢI NGHIỆM CÔNG NGHỆ SỐ CÙNG VIKKI DIGITAL BANK? 🔥 Hôm nay gian hàng của Vikki...",
   source: "Vytran Vytt",
   sourceType: "Facebook",
@@ -8132,7 +8096,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 843,
+  id: 841,
   title: "Vikki Bank – Nơi làm việc, và cũng là Gia đình thứ hai của tôi! 💙✨ 📖Người ta thường bảo: \"Muốn...",
   source: "Trịnh Loan",
   sourceType: "Facebook",
@@ -8150,7 +8114,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 844,
+  id: 842,
   title: "Cửa Vikki Bank cùng chú Bảo vệ thân yêu của tụi em luôn sẵn sàng mở cửa và chào đón các khách...",
   source: "Nguyễn Thu",
   sourceType: "Facebook",
@@ -8168,7 +8132,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 845,
+  id: 843,
   title: "SĂN VÉ ĐI SAPA - NHẬN ƯU ĐÃI TỚI 100K CÙNG VIKKI DIGITAL BANK! ⚡ ​Bạn muốn vi vu Sapa tiết kiệm...",
   source: "Tinh Van Vuong",
   sourceType: "Facebook",
@@ -8186,7 +8150,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 846,
+  id: 844,
   title: "Hôm nay cùng đồng đội Vikki Digital Bank thực hiện roadshow chương trình Tiết kiệm Trúng Bóng...",
   source: "Coi Voi",
   sourceType: "Facebook",
@@ -8204,7 +8168,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 847,
+  id: 845,
   title: "NÉT ĐẸP LAO ĐỘNG – LAN TỎA GIÁ TRỊ VIKKIBANK 💜 Nét đẹp của người lao động không chỉ nằm ở những...",
   source: "Lee Thu",
   sourceType: "Facebook",
@@ -8222,7 +8186,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 848,
+  id: 846,
   title: "TÍCH LŨY HÔM NAY – AN TÂM CHO TƯƠNG LAI CÙNG VIKKI! Những kế hoạch lớn thường bắt đầu từ những...",
   source: "Que Anh",
   sourceType: "Facebook",
@@ -8240,7 +8204,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 849,
+  id: 847,
   title: "ANH HÙNG LAO ĐỘNG NGUYỄN THỊ PHƯƠNG THẢO LÀ NGƯỜI PHỤ NỮ GIÀU NHẤT VIỆT NAM Theo bảng xếp hạng...",
   source: "Quách Dũng",
   sourceType: "Facebook",
@@ -8258,7 +8222,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 850,
+  id: 848,
   title: "Cổ tức tuần tới: HDBank chốt quyền nhận 30% cổ phiếu, 3 doanh nghiệp trả tiền mặt",
   source: "Tạp chí Mekong ASEAN",
   sourceType: "Facebook",
@@ -8276,7 +8240,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 851,
+  id: 849,
   title: "Dỗi HD Bank thế nhỉ. Kể mà có cái sổ tk 1 tị thì mai cũng rút luôn!!!",
   source: "@lala_220795",
   sourceType: "Threads",
@@ -8294,7 +8258,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 852,
+  id: 850,
   title: "Một ngày làm \"chiến binh xanh\" của Vikki Digital Bank 💙 Đội mũ xanh, áo xanh, chạy xe khắp các...",
   source: "Coi Voi",
   sourceType: "Facebook",
@@ -8312,7 +8276,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 853,
+  id: 851,
   title: "Đến với Vikki Digital Bank để trải nghiệm không gian tài chính số hoàn toàn khác biệt. Nơi mỗi...",
   source: "Hà Phương Thảo",
   sourceType: "Facebook",
@@ -8330,7 +8294,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 854,
+  id: 852,
   title: "Tải app hd saison về",
   source: "@minhhh962",
   sourceType: "Threads",
@@ -8348,7 +8312,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 855,
+  id: 853,
   title: "SỐNG HIỆN TẠI – ĐẦU TƯ THÔNG MINH, CHỌN VIKKI! Mỗi lựa chọn tài chính hôm nay là một bước chuẩn...",
   source: "Bảo Ngọc",
   sourceType: "Facebook",
@@ -8366,7 +8330,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 856,
+  id: 854,
   title: "TIỀN ĐỂ TRONG TÀI KHOẢN THÌ NẰM IM, GỬI HDBANK THÌ SINH LỜI 😆💚 Người yêu có thể không có, chứ...",
   source: "Lê Thảo Nhung",
   sourceType: "Facebook",
@@ -8384,7 +8348,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 857,
+  id: 855,
   title: "Vikki Digital Bank đồng hành cùng phường An Khê, Đà Nẵng thúc đẩy chuyển đổi số, lan tỏa tiện...",
   source: "Gia Hân",
   sourceType: "Facebook",
@@ -8402,7 +8366,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 858,
+  id: 856,
   title: "KẾT NỐI GIÁ TRỊ HÔM NAY – VỮNG BƯỚC TƯƠNG LAI ✨ Khi khoảng cách không còn là rào cản, việc trao...",
   source: "HDBank",
   sourceType: "Facebook Fanpage",
@@ -8420,7 +8384,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 859,
+  id: 857,
   title: "Chạm hứng khởi – Mỗi ngày thêm tích cực cùng Vikki! Ngân hàng số Vikki luôn ở đây, đồng hành...",
   source: "Tram Le",
   sourceType: "Facebook",
@@ -8438,7 +8402,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 860,
+  id: 858,
   title: "VIKKI ngân hàng số tốt và đa tiện ích nhất hiện nay. Lãi xuất ưu đãi khủng. Bảo mật an toàn...",
   source: "Nguyễn Trọng Bình",
   sourceType: "Facebook",
@@ -8456,7 +8420,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 861,
+  id: 859,
   title: "VIKKI READ – GHÉ VIKKI, MỞ TRANG SÁCH MỚI! 💜 ☘️ Đôi khi, chỉ cần một cuốn sách hay cũng đủ mang...",
   source: "Kim Chi Lee",
   sourceType: "Facebook",
@@ -8474,7 +8438,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 862,
+  id: 860,
   title: "HDB — 22.40 (+3.99%) · Hỗ trợ 20.85 / 20.38 · Kháng cự 22.13 / không có 📰 Tin tức • Tích cực —...",
   source: "Radar Cổ Phiếu - Tín hiệu & phân tích thị trường",
   sourceType: "Facebook",
@@ -8492,7 +8456,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 863,
+  id: 861,
   title: "VIKKI READ – MỞ TRANG SÁCH, MỞ CHÂN TRỜI TRI THỨC! ✨ Một ngân hàng hiện đại không chỉ là nơi kết...",
   source: "Ánh Thu",
   sourceType: "Facebook",
@@ -8510,7 +8474,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 864,
+  id: 862,
   title: "TỪ VIKKI BANK, VIKKAFÉ ĐẾN VIKKI READ – MỖI ĐIỂM CHẠM, MỘT NIỀM VUI! 💜✨ Không chỉ là điểm hẹn...",
   source: "Tran Quan",
   sourceType: "Facebook",
@@ -8528,7 +8492,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 865,
+  id: 863,
   title: "CUỐI TUẦN VIKKIBANK PGD POUYUEN – HỌC HỎI ĐỂ BỨT PHÁ! ✨📚 🚀 Tham gia học Core T24 – Nâng cao...",
   source: "Việt Đức",
   sourceType: "Facebook",
@@ -8546,7 +8510,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 866,
+  id: 864,
   title: "VIKKI TRÀ VINH – TRAO YÊU THƯƠNG, ĐÓN MÙA SÊN ĐÔLTA AN LÀNH 🌸 🙏 Hòa chung không khí đón lễ Sên...",
   source: "Huỳnh Như An",
   sourceType: "Facebook",
@@ -8564,7 +8528,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 867,
+  id: 865,
   title: "LÃI SUẤT VIKKI BANK TIẾP TỤC CHẠM ĐỈNH! 💰 Tiền nhàn rỗi – gửi ngay sinh lời! 💚 Ghé Vikki Bank...",
   source: "Nguyễn Thị KimY",
   sourceType: "Facebook",
@@ -8582,7 +8546,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 868,
+  id: 866,
   title: "VIKKI LAN TỎA YÊU THƯƠNG – ĐỒNG HÀNH CÙNG THẾ HỆ TƯƠNG LAI 💙 🌻 Hành trình mang những giá trị...",
   source: "Diem Nguyen",
   sourceType: "Facebook",
@@ -8600,7 +8564,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 869,
+  id: 867,
   title: "Cuối tuần, tự thưởng cho mình một chút ngọt ngào! Có những niềm vui chẳng cần lên kế hoạch....",
   source: "Võ Minh Đăng",
   sourceType: "Facebook",
@@ -8618,7 +8582,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 870,
+  id: 868,
   title: "Khi xem phim quá 180p =)) Nhân tiện lãi suất vikki bank đang đu đỉnh kính mời anh chị em cô chú...",
   source: "@duy.tute",
   sourceType: "Threads",
@@ -8636,7 +8600,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 871,
+  id: 869,
   title: "Chúng em là những con ong chăm chỉ đây ạ🐝 Giờ hành chính phục vụ quý KH📈 Tối đi pha nhưng ly...",
   source: "Phạm Xuân Phương",
   sourceType: "Facebook",
@@ -8654,7 +8618,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 872,
+  id: 870,
   title: "Hưởng ứng phong trào chuyển đổi số tại địa phương, Vikki PGD Hòa Khánh đã tham gia Ngày hội...",
   source: "Swan Thái",
   sourceType: "Facebook",
@@ -8672,7 +8636,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 873,
+  id: 871,
   title: "Từ dữ liệu Social Listening, SocialTrack nhìn lại bức tranh thảo luận của 10 ngân hàng được nhắc...",
   source: "Trịnh Hoàng Tuấn",
   sourceType: "Facebook",
@@ -8690,7 +8654,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 874,
+  id: 872,
   title: "DẪN ĐẦU TRẢI NGHIỆM – LAN TỎA KẾT NỐI Không chỉ mang đến những tiện ích tài chính hiện đại, Ngân...",
   source: "Bảo Vikki",
   sourceType: "Facebook",
@@ -8708,7 +8672,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 875,
+  id: 873,
   title: "VIKKI DIGITAL BANK – KHÁC BIỆT TỪ NHỮNG ĐIỂM CHẠM ✨ Điều gì làm nên sức hút của Ngân hàng Số...",
   source: "Quynh Nguyen",
   sourceType: "Facebook",
@@ -8726,7 +8690,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 876,
+  id: 874,
   title: "Thứ 7 tiền vẫn chảy về emmmm ❤️ Lãi suất bên em đang cực tốt, khách iu cứ đều đều gửi tiết kiệm...",
   source: "Ngọc Hoàn",
   sourceType: "Facebook",
@@ -8744,7 +8708,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 877,
+  id: 875,
   title: "Cho mình hỏi. Lãi suất HDBank 12 tháng đang bao nhiêu. Mình đang có 6 tỷ sắp đến hạn. Ace HDBank...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -8762,7 +8726,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 878,
+  id: 876,
   title: "Đến với Vikki Bank không những có Vikkafe mà còn có Vikki Read không gian đọc sách hiện đại, độc...",
   source: "Thuy Le",
   sourceType: "Facebook",
@@ -8780,7 +8744,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 879,
+  id: 877,
   title: "Chào mọi người trong Gr, mọi người đọc xong chửi em ngu em chịu nhưng hôm nay em lên đây xin mọi...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -8798,7 +8762,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 880,
+  id: 878,
   title: "NỮ TỶ PHÚ GIÀU NHẤT VIỆT NAM VÀ BÀI TOÁN TẦM VÓC TOÀN CẦU 📌 Không chỉ dừng lại ở khối tài sản...",
   source: "Kem tivi",
   sourceType: "Facebook Group",
@@ -8816,7 +8780,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 881,
+  id: 879,
   title: "Đồng hành cùng hộ kinh doanh:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -8834,7 +8798,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 882,
+  id: 880,
   title: "các bác cho e hỏi thẻ hdbank họ gửi sao kê về cho mình vào ngày nào vậy ak",
   source: "IntelligentMango3695",
   sourceType: "Facebook Group",
@@ -8852,7 +8816,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 883,
+  id: 881,
   title: "Khách cũ lên hồ sơ vayy tiêu dùng HD SAISON cần chứng từ gì? donhdsaison HDSAISON",
   source: "Đặng Thị Dơn",
   sourceType: "Facebook",
@@ -8870,7 +8834,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 884,
+  id: 882,
   title: "Không phí ẩn, không thủ tục rườm rà. Ngân hàng số Vikki giúp mình tiết kiệm tối đa thời gian và...",
   source: "Phạm Xuân Phương",
   sourceType: "Facebook",
@@ -8888,7 +8852,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 885,
+  id: 883,
   title: "MỖI CHI TIẾT NHỎ ĐỀU HƯỚNG ĐẾN TRẢI NGHIỆM KHÁCH HÀNG Một trải nghiệm trọn vẹn được hình thành...",
   source: "Linh Vikki",
   sourceType: "Facebook",
@@ -8906,7 +8870,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 886,
+  id: 884,
   title: "CÙNG VIKKI XUỐNG PHỐ! 💜 Không chỉ là một ngân hàng hiện đại, Vikki còn muốn trở thành người bạn...",
   source: "Nhật Huy",
   sourceType: "Facebook",
@@ -8924,7 +8888,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 887,
+  id: 885,
   title: "VIKKI ĐỒNG HÀNH CÙNG NGÀY HỘI CHUYỂN ĐỔI SỐ PHƯỜNG AN KHÊ 📱 ✨ Ngân hàng Số Vikki vinh dự tham...",
   source: "Lee Thu",
   sourceType: "Facebook",
@@ -8942,7 +8906,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 888,
+  id: 886,
   title: "VIKKI ROADSHOW – LAN TỎA NĂNG LƯỢNG, KẾT NỐI MUÔN NƠI! 🚀✨ Một ngày xuống phố cùng đại gia đình...",
   source: "Thúy Hằng",
   sourceType: "Facebook",
@@ -8960,7 +8924,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 889,
+  id: 887,
   title: "VIKKAFÉ – ĐIỂM HẸN CHILL, KẾT NỐI TÀI CHÍNH! Không chỉ là nơi thưởng thức cà phê, Vikkafé của...",
   source: "Võ Thanh",
   sourceType: "Facebook",
@@ -8978,7 +8942,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 890,
+  id: 888,
   title: "SIÊU SÓNG NGÂN HÀNG GỌI TÊN HDBANK: ĐỘNG LỰC NÀO CHO GIAI ĐOẠN TĂNG TRƯỞNG MỚI? Thị trường chứng...",
   source: "CK Bull",
   sourceType: "Facebook Group",
@@ -8996,7 +8960,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 891,
+  id: 889,
   title: "CHÀO THÁNG CỦA NÀNG, ĐÓN DEAL NGẬP TRÀN! Tháng 10 này, cùng Tấm Vikki khởi động hành trình thật...",
   source: "Ha Quan",
   sourceType: "Facebook",
@@ -9014,7 +8978,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 892,
+  id: 890,
   title: "CƯỚI RỒI THÌ Ở ĐÂU? Ở TRỌ MÃI SAO ĐƯỢC! 💒 Đám cưới là happy ending, nhưng mua nhà mới là happy...",
   source: "Thảo Thảo",
   sourceType: "Facebook Group",
@@ -9032,7 +8996,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 893,
+  id: 891,
   title: "Gần 7 tỷ USD vốn ngoại sắp vào ngân hàng Việt, nhưng phần của cổ đông cũ lại mỏng đi. Theo ghi...",
   source: "Vương Soros Đầu tư Tăng trưởng",
   sourceType: "Facebook",
@@ -9050,7 +9014,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 894,
+  id: 892,
   title: "GHÉ VIKKI- THƯỞNG THỨC NGAY LY CAFE THÔI NÀO🎉🎉 Một ly cà phê thơm ngon, một không gian hiện...",
   source: "Yen Tran",
   sourceType: "Facebook",
@@ -9068,7 +9032,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 895,
+  id: 893,
   title: "MỒNG 1 ĐẦU THÁNG – NGÀY ĐÔI 10/10 💜 ✨ Khởi đầu tháng mới với thật nhiều may mắn, tài lộc và...",
   source: "Nguyễn Nga",
   sourceType: "Facebook",
@@ -9086,7 +9050,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 896,
+  id: 894,
   title: "HDBank MinigameHDBank LoveHDBank 12t",
   source: "Bangtam le Thi",
   sourceType: "Facebook",
@@ -9104,7 +9068,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 897,
+  id: 895,
   title: "Cuối tuần trời mưa 🌨️🌨️ Đi dưới mưa rất lạnh nhưng trong lòng rất ấm ❤️chỉ cần khách hàng alo...",
   source: "Tram Nguyên Thanh",
   sourceType: "Facebook",
@@ -9122,7 +9086,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 898,
+  id: 896,
   title: "VIKKIBANK CHI NHÁNH NHA TRANG – RỰC RỠ ROADSHOW NGÀY 10/10 🚩 💙❤️ Ngày 10/10, tập thể cán bộ...",
   source: "Hồ Tuyết",
   sourceType: "Facebook",
@@ -9140,7 +9104,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 899,
+  id: 897,
   title: "ĐẾN VIKKI BANK – KHÔNG CHỈ GIAO DỊCH, MÀ CÒN LÀ ĐIỂM HẸN CỦA NHỮNG CẢM HỨNG! -Đến Vikki Bank...",
   source: "Lê Văn Diệp",
   sourceType: "Facebook",
@@ -9158,7 +9122,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 900,
+  id: 898,
   title: "ƯU ĐÃI HAI Mười 💰✨ 🔥 Tiết kiệm Ngày đôi – X2 lợi ích cùng Vikki 🎁 Cộng thêm 2,20%/năm khi gửi...",
   source: "Tran Thuy Lieu",
   sourceType: "Facebook",
@@ -9176,7 +9140,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 901,
+  id: 899,
   title: "CHÀO THÁNG CỦA NÀNG, ĐÓN DEAL NGẬP TRÀN CÙNG VIKKI DIGITAL BANK! ✨ Cộng lãi suất tiết kiệm lên...",
   source: "Mẫn Trương",
   sourceType: "Facebook",
@@ -9194,7 +9158,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 902,
+  id: 900,
   title: "I Love HDBank",
   source: "Kenny Dao",
   sourceType: "Facebook",
@@ -9212,7 +9176,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 903,
+  id: 901,
   title: "VIKKI BANK ĐỨC PHỔ – THÔNG BÁO BÁN ĐẤU GIÁ 02 TÀI SẢN 🔥 📍 Địa điểm: Phường Trà Câu, tỉnh Quảng...",
   source: "Sương Huỳnh",
   sourceType: "Facebook",
@@ -9230,7 +9194,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 904,
+  id: 902,
   title: "Ghé ngay Vikkafe nằm ngay trong lòng Ngân hàng số Vikki mới thấy định nghĩa \"đi giao dịch\" giờ...",
   source: "Le Hoang",
   sourceType: "Facebook",
@@ -9248,7 +9212,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 905,
+  id: 903,
   title: "CÙNG NHÌN LẠI HÀNH TRÌNH \"TÔI YÊU VIKKI BANK – CÙNG NHAU TỎA SÁNG\" ✨ 😍😍​Hành trình...",
   source: "Nguyen Thi Tú Anh",
   sourceType: "Facebook",
@@ -9266,7 +9230,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 906,
+  id: 904,
   title: "NGAY LÚC NÀY THAM GIA NGAY PHIÊN LIVESTREAM ĐỂ NHẬN NHIỀU QUÀ TẶNG HẤP DẪN Từ HDBank Ngô Gia Tự...",
   source: "Luong Thanh Hang",
   sourceType: "Facebook",
@@ -9284,7 +9248,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 907,
+  id: 905,
   title: "Trải qua 1 thời gian khá dài gắn bó và đồng hành cùng HDBank, bản thân tôi luôn dành trọn niềm...",
   source: "Ngọc Nhạn",
   sourceType: "Facebook",
@@ -9302,7 +9266,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 908,
+  id: 906,
   title: "HDBANK ĐỒNG HÀNH CÙNG DOANH NGHIỆP VIỆT KẾT NỐI CHUỖI CUNG ỨNG TOÀN CẦU Ngày 10/10/2026, HDBank...",
   source: "HDBank",
   sourceType: "Facebook Fanpage",
@@ -9320,7 +9284,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 909,
+  id: 907,
   title: "Tự hào là HDBanker ILoveHDBank HDBank HappyDigitalBank",
   source: "Tham Tran",
   sourceType: "Facebook",
@@ -9338,7 +9302,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 910,
+  id: 908,
   title: "VIKKI BANK – CN NHA TRANG: ĐI LÀ PHẢI CHẤT, LÀM LÀ PHẢI SUNG, CHẠY KPI LÀ PHẢI TỚI! 🚀🔥 💙🧡...",
   source: "Đinh Đỗ Đài Đoan",
   sourceType: "Facebook",
@@ -9356,7 +9320,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 911,
+  id: 909,
   title: "LÃI SUẤT NGÂN HÀNG 9/10: CAO NHẤT 7,5%/NĂM, BIG4 ĐỒNG LOẠT 6,8%! Khảo sát 35 ngân hàng cho thấy...",
   source: "Giải mã chứng khoán",
   sourceType: "Facebook",
@@ -9374,7 +9338,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 912,
+  id: 910,
   title: "Chúng mình lên sóng rồi cả nhà ơiiiii 11:00 | 10/10 cùng HDBank Đông Hà Nội lên sóng LIVESTREAM...",
   source: "Trân Nguyễn",
   sourceType: "Facebook",
@@ -9392,7 +9356,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 913,
+  id: 911,
   title: "M.n cho e hỏi HD Bank nay có làm việc buổi chìu ko ạ",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -9410,7 +9374,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 914,
+  id: 912,
   title: "VIKKI TRÀ VINH – LAN TỎA YÊU THƯƠNG, GẮN KẾT CỘNG ĐỒNG NHÂN DỊP LỄ SÊN ĐÔLTA 🌸 🙏 Nhân dịp lễ...",
   source: "Tran Thanh Hau",
   sourceType: "Facebook",
@@ -9428,7 +9392,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 915,
+  id: 913,
   title: "NGÀY ĐÔI 10/10: ƯU ĐÃI KÉP HOÀN TIỀN ĐẾN 2,1 TRIỆU ĐỒNG TỪ THẺ & APP HDBANK 🎁 Thẻ tín dụng...",
   source: "Quang Nguyen",
   sourceType: "Facebook",
@@ -9446,7 +9410,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 916,
+  id: 914,
   title: "Ngày đôi 10/10, deal hời ê hề duy nhất khi gửi Tiết kiệm Vikki. Nhập VIKKINGAYDOI10, gửi tiết...",
   source: "Linda Tran",
   sourceType: "Facebook",
@@ -9464,7 +9428,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 917,
+  id: 915,
   title: "VAY HƯU TRÍ 💡 Vay trả góp dành cho Khách hàng hưu trí - Giải pháp tuổi vàng, an nhàn mỗi ngày...",
   source: "Daisy Tran",
   sourceType: "Facebook Group",
@@ -9482,7 +9446,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 918,
+  id: 916,
   title: "MỒNG 1 SỚM MAI – CẦU CHÚC AN LÀNH 🌸 Mồng 1 đầu tháng, cầu chúc mọi điều tốt đẹp, bình an và may...",
   source: "Ngân Hạnh",
   sourceType: "Facebook",
@@ -9500,7 +9464,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 919,
+  id: 917,
   title: "TRÂN TRỌNG – TRI ÂN - CHÀO ĐÓN🌹💐 Mỗi chặng đường đều có những dấu ấn đáng nhớ, mỗi sự thay đổi...",
   source: "Trần Hải Hà",
   sourceType: "Facebook",
@@ -9518,7 +9482,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 920,
+  id: 918,
   title: "NGÀY ĐÔI 10.10: CHẠM THẺ HDBANK NGAY - HOÀN TIỀN ĐẾN 1,5 TRIỆU ĐỒNG!​ 🏦 Chi tiết ưu đãi:...",
   source: "Alexlv Nguyen",
   sourceType: "Facebook",
@@ -9536,7 +9500,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 921,
+  id: 919,
   title: "Từ Vikki Bank, đến VikKafe, và bây giờ là Vikki read Tất cả là các mảng không gian và tiện ích...",
   source: "Tien Bui",
   sourceType: "Facebook",
@@ -9554,7 +9518,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 922,
+  id: 920,
   title: "Hãy yêu thương bản thân như cách bạn yêu thương những điều tuyệt vời nhất trên đời. Bạn xứng...",
   source: "Nhựt Huỳnh",
   sourceType: "Facebook",
@@ -9572,7 +9536,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 923,
+  id: 921,
   title: "Duyệt nhanh 25M cho anh khách hàng cũ của HDSAISON ạ. Nhắn em để được hướng dẫn làm hồ sơ online...",
   source: "@_ng1420",
   sourceType: "Threads",
@@ -9590,7 +9554,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 924,
+  id: 922,
   title: "ESSENSIA SKY – Chạm đến chuẩn sống tinh tế, kiến tạo giá trị tương lai! Một căn hộ không chỉ là...",
   source: "Roger Đình Hoá",
   sourceType: "Facebook",
@@ -9608,7 +9572,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 925,
+  id: 923,
   title: "VIKKI GO+ _ Chiếc thẻ cứu vớt ví tiền của em những ngày qua🥰🥰 Thay vì 1 ngày tốn gần 100k tiền...",
   source: "Thuy Hang Bui",
   sourceType: "Facebook",
@@ -9626,7 +9590,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 926,
+  id: 924,
   title: "Mập mờ đi mọi người Xiềng đang còn nhiều Em chờ được ạ HDSAISON thuyle",
   source: "Thuý Lê",
   sourceType: "Facebook",
@@ -9644,7 +9608,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 927,
+  id: 925,
   title: "Trả góp xe máy giữ ngay cà vẹt gốc – Đăng ký liền tay tại các điểm giới thiệu dịch vụ mà HD...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -9662,7 +9626,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 928,
+  id: 926,
   title: "Top 5 mã cổ phiếu nóng nhất trong tuần: ACV, BCM, HDB, SHS, VPB - Dòng tiền phân hóa, tâm điểm...",
   source: "Tin Tức Chứng Khoán 24h",
   sourceType: "Facebook",
@@ -9680,7 +9644,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 929,
+  id: 927,
   title: "VIKKI DIGITAL BANK DẪN ĐẦU ĐIỂM CHẠM – TOP 1 THẢO LUẬN NGÀNH NGÂN HÀNG! 🚀 Nói đến độ phủ sóng,...",
   source: "Nga Pham",
   sourceType: "Facebook",
@@ -9698,7 +9662,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 930,
+  id: 928,
   title: "Lãi suất đặc biệt thường có điều kiện về tiền gửi thay vì dành cho mọi khách hàng như mức niêm...",
   source: "Radar Cổ Phiếu - Tín hiệu & phân tích thị trường",
   sourceType: "Facebook",
@@ -9716,7 +9680,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 931,
+  id: 929,
   title: "CHÚC MỪNG PHƯỜNG ĐỨC PHỔ TỔ CHỨC GẶP MẶT DOANH NGHIỆP, NHÀ ĐẦU TƯ NHÂN NGÀY DOANH NHÂN VIỆT NAM...",
   source: "Sương Huỳnh",
   sourceType: "Facebook",
@@ -9734,7 +9698,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 932,
+  id: 930,
   title: "VIKKI DIGITAL BANK BÌNH DƯƠNG – ĐỒNG HÀNH CÙNG THẾ HỆ TRẺ, KIẾN TẠO TƯƠNG LAI ♥♥♥ 🇻🇳Ngày...",
   source: "Tung Diep",
   sourceType: "Facebook",
@@ -9752,7 +9716,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 933,
+  id: 931,
   title: "Vikki Bank Gia Lâm đồng hành cùng người dân xã Lạc Đạo - Hưng Yên thực hiện theo nghị quyết...",
   source: "Duy Truong",
   sourceType: "Facebook",
@@ -9770,7 +9734,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 934,
+  id: 932,
   title: "TIN NHANH CHỨNG KHOÁN 09/10 => DOANH NGHIỆP 1) DGC: Siêu dự án tại Nghi Sơn sắp vận hành, đã có...",
   source: "Tung Piro",
   sourceType: "Facebook",
@@ -9788,7 +9752,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 935,
+  id: 933,
   title: "Hành trình về Hưng Yên không chỉ mang theo những tiện ích ngân hàng số mà còn lan tỏa sự tận tâm...",
   source: "Hoàng Thu Thuỷ",
   sourceType: "Facebook",
@@ -9806,7 +9770,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 936,
+  id: 934,
   title: "Màu sắc tuổi thơ kết hợp cùng không gian hiện đại của Vikki siêu đỉnh! Chúc Vikki luôn giữ vững...",
   source: "Hoàng Nhi",
   sourceType: "Facebook",
@@ -9824,7 +9788,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 937,
+  id: 935,
   title: "VIKKI DIGITAL BANK CÓ MÀ NHỮNG NGÂN HÀNG SỐ KHÁC KHÔNG CÓ 💜 Chính là Vikkafé ☕ Cafe tài chính,...",
   source: "Hồ Hoài",
   sourceType: "Facebook",
@@ -9842,7 +9806,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 938,
+  id: 936,
   title: "HDBANK CHIA CỔ TỨC VÀ THƯỞNG CỔ PHIẾU 30%, BÀ NGUYỄN THỊ PHƯƠNG THẢO SẮP CÓ THÊM 50,9 TRIỆU CỔ...",
   source: "SMART Investing",
   sourceType: "Facebook",
@@ -9860,7 +9824,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 939,
+  id: 937,
   title: "KỂ CHUYỆN VNINDEX TUẦN 41: 05–09/10/2026 Nếu chỉ nhìn vào kết quả cuối tuần, Tuần 41 dường như...",
   source: "Phan Lê Thanh Toàn",
   sourceType: "Facebook",
@@ -9878,7 +9842,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 940,
+  id: 938,
   title: "TIN NHANH Doanh nghiệp và thị trường ck ngày 10/10 => DOANH NGHIỆP 1) DGC: Siêu dự án tại Nghi...",
   source: "Chu Văn Long",
   sourceType: "Facebook Group",
@@ -9896,7 +9860,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 941,
+  id: 939,
   title: "DẤU ẤN TOP 1 – KẾT NỐI TRIỆU CẢM HỨNG 👍Một dấu ấn đáng nhớ trên hành trình phát triển của Vikki...",
   source: "Linh Nguyễn",
   sourceType: "Facebook",
@@ -9914,7 +9878,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 942,
+  id: 940,
   title: "10/10 – NGÀY ĐÔI RỰC RỠ, SẮM DEAL TIẾT KIỆM CỰC HỜI CÙNG VIKKI DIGITAL BANK! 🔥💚 Chào tháng 10...",
   source: "Cỏ Thảo",
   sourceType: "Facebook",
@@ -9932,7 +9896,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 943,
+  id: 941,
   title: "Tối mùa thu rồi… ghé vào “Tôi Yêu Vikki” một chút nhé! 🍂💜 🎉 Woa… MỨC 1 rồi ơi! Quá tuyệt vời!...",
   source: "Nguyễn Hoàng",
   sourceType: "Facebook",
@@ -9950,7 +9914,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 944,
+  id: 942,
   title: "MỖI NGÀY MỘT TỐT HƠN – CÙNG VIKKI VƯƠN XA Thành công không phải là điểm đến, mà là hành trình...",
   source: "Ha Nguyen Thu",
   sourceType: "Facebook",
@@ -9968,7 +9932,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 945,
+  id: 943,
   title: "Danh hiệu “Ngân hàng Bán lẻ tốt nhất châu Á” lần đầu tiên được trao cho một ngân hàng Việt Nam...",
   source: "Trương Huy",
   sourceType: "Facebook",
@@ -9986,7 +9950,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 946,
+  id: 944,
   title: "TIN THỊ TRƯỜNG TÀI CHÍNH – SÁNG 10/10/2026 Hôm nay là thứ Bảy, thị trường chứng khoán Việt Nam...",
   source: "Trần Văn Hải",
   sourceType: "Facebook",
@@ -10004,7 +9968,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 947,
+  id: 945,
   title: "CHÀO THÁNG 10 - THÁNG TÔN VINH PHỤ NỮ VIỆT NAM🌷 💥 BẢN LĨNH NỮ CHỦ – BỨT PHÁ KINH DOANH CÙNG...",
   source: "HDBank Hà Nam",
   sourceType: "Facebook Fanpage",
@@ -10022,7 +9986,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 948,
+  id: 946,
   title: "ĐỒNG ĐỘI VIKKI BANK– CÙNG NHAU NỖ LỰC, CÙNG NHAU TỎA SÁNG! 💙 Mỗi ngày đi làm là một ngày học...",
   source: "Phạm Dương",
   sourceType: "Facebook",
@@ -10040,7 +10004,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 949,
+  id: 947,
   title: "Có những sưh hài hước và vui nhộn, gửi tiết kiệm Vikki thật thú vị và tràng đầy niềm vui về lãi...",
   source: "Trương Ràng",
   sourceType: "Facebook",
@@ -10058,7 +10022,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 950,
+  id: 948,
   title: "Shb 9,2 hdbank 9,1 Pvcombank 9,6 Ncb 9,4 vikki 9,4",
   source: "@ayami_9206",
   sourceType: "Threads",
@@ -10076,7 +10040,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 951,
+  id: 949,
   title: "HD SAISON TIẾP TỤC ĐỒNG HÀNH CÙNG SINH VIÊN TRƯỜNG ĐẠI HỌC MỞ HÀ NỘI QUA CHƯƠNG TRÌNH “GIẢNG...",
   source: "Đại học Mở Hà Nội - Hanoi Open University",
   sourceType: "Facebook",
@@ -10094,7 +10058,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 952,
+  id: 950,
   title: "Nỗ lực chống gian lận tài chính tiêu dùng",
   source: "Báo Nhân Dân",
   sourceType: "Báo chí",
@@ -10107,7 +10071,7 @@ const HDBANK_FEED = [
   excerpt: "Từ kiểm soát nhiều đến kiểm soát đúng Ông Nguyễn Đình Đức, Chủ nhiệm Câu lạc bộ Tài chính Tiêu dùng, Phó Tổng Giám đốc <mark>HD SAISON</mark> ví đặc thù của ngành là phải giải đồng thời bài toán “4 nhất”: Đưa nguồn vốn đến gần khách hàng nhanh nhất, thẩm định và phê duyệt nhanh nhất, giải ngân nhanh nhất, nhưng vẫn phải kiểm soát rủi ro tốt nhất."
  },
  {
-  id: 953,
+  id: 951,
   title: "HDBANK 5 NĂM LIÊN TIẾP DẪN ĐẦU TOP DOANH NGHIỆP ĐƯỢC YÊU THÍCH NGÀNH TÀI CHÍNH - NGÂN HÀNG -...",
   source: "Trương Nguyễn Uyên Châu",
   sourceType: "Facebook",
@@ -10125,7 +10089,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 954,
+  id: 952,
   title: "Ngân hàng Số Vikki có gì khác so với các ngân hàng khác. 👌 Có Vikkikafe 👌 Có Lãi suất tiết...",
   source: "Linh Linh",
   sourceType: "Facebook",
@@ -10143,7 +10107,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 955,
+  id: 953,
   title: "Chúc mừng sinh nhật HDBank Sơn La ❤️ ILoveHDBank",
   source: "Chi Phạm",
   sourceType: "Facebook",
@@ -10161,7 +10125,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 956,
+  id: 954,
   title: "LÃI SUẤT VAY MUA NHÀ THÁNG 10/2026 Đừng chỉ nhìn lãi suất ưu đãi! Một số mức lãi suất tham khảo:...",
   source: "@dzuidze68",
   sourceType: "Threads",
@@ -10179,7 +10143,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 957,
+  id: 955,
   title: "Cái gì ở Vikki có mà Bank khác không có? ✨ Đó chính là một “điểm hẹn” rất riêng – nơi khách hàng...",
   source: "Châu Nhã",
   sourceType: "Facebook",
@@ -10197,7 +10161,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 958,
+  id: 956,
   title: "LÃI SUẤT LÊN ĐẾN 9,X%/NĂM Tối ưu tiền nhàn rỗi với giải pháp tiền gửi tại Vikki Bank. ✅ Kỳ hạn...",
   source: "Nguyễn Hoàng",
   sourceType: "Facebook Group",
@@ -10215,7 +10179,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 959,
+  id: 957,
   title: "GỬI TIẾT KIỆM VIKKI – RINH NGAY CƠ HỘI TRÚNG BÓNG VÀNG KÝ! ⚽🏆 Tiền gửi sinh lời, cơ hội nhận...",
   source: "Kevin Tâm",
   sourceType: "Facebook",
@@ -10233,7 +10197,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 960,
+  id: 958,
   title: "HDBank",
   source: "Nhi Ho",
   sourceType: "Facebook",
@@ -10251,7 +10215,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 961,
+  id: 959,
   title: "MỖI KHÔNG GIAN ĐỀU MANG MỘT NGUỒN CẢM HỨNG Không gian xung quanh có thể ảnh hưởng rất nhiều đến...",
   source: "Hoàng Ánh",
   sourceType: "Facebook",
@@ -10269,7 +10233,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 962,
+  id: 960,
   title: "VIKKI CÙNG SINH VIÊN BẮT NHỊP SỐ – MỞ LỐI TƯƠNG LAI! 💜 ✨ Mang công nghệ đến gần hơn với giảng...",
   source: "Nguyễn Như Ngọc",
   sourceType: "Facebook",
@@ -10287,7 +10251,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 963,
+  id: 961,
   title: "VIKKI READ – MỞ TRANG TRI THỨC, LAN TỎA GIÁ TRỊ YÊU THƯƠNG! 📚☕❤️ Từ Ngân hàng Số Vikki hiện...",
   source: "Anh Le Thi Xuan",
   sourceType: "Facebook",
@@ -10305,7 +10269,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 964,
+  id: 962,
   title: "3 Cổ phiếu Bank mạnh nhất thời điểm hiện tại đã vượt đỉnh vượt nền VPB, MSB, HDB Liệu TCB có trờ...",
   source: "Minh Hoàn Vsa",
   sourceType: "Facebook Group",
@@ -10323,7 +10287,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 965,
+  id: 963,
   title: "11:00 ngày 10/10 trên kênh tiktok của HDBank Đức Linh. Hẹn gặp cả nhà nhé!! 🔥🔥 Link:...",
   source: "Thanh Long",
   sourceType: "Facebook",
@@ -10341,7 +10305,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 966,
+  id: 964,
   title: "Lãi suất của Vikki Bank đã vô cùng hấp dẫn. 🪎Từ 1 triệu: lên đến 8,6% 👆 Từ 50triệu tri ân PN:...",
   source: "Đỗ Thanh",
   sourceType: "Facebook Group",
@@ -10359,7 +10323,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 967,
+  id: 965,
   title: "LỄ KHÁNH THÀNH NGÂN HÀNG SỐ VIKKI BANK HÀ NAM Lần thứ 2 Vân Thư được đồng hành cùng ngân hàng số...",
   source: "MC Vân Thư",
   sourceType: "Facebook",
@@ -10377,7 +10341,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 968,
+  id: 966,
   title: "VIKKI DIGITAL BANK – MỖI CHẠM TRẢI NGHIỆM, MỖI NGÀY VUI TƯƠI! ✨🌈 💖 Mỗi ngày một niềm vui, mỗi...",
   source: "Thoa.vikki",
   sourceType: "Facebook",
@@ -10395,7 +10359,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 969,
+  id: 967,
   title: "Vikki Digital Bank – có gì mà ngân hàng số khác không có? 💜 Ngân hàng số 24/7 📍 Mạng lưới 212...",
   source: "Nguyễn Thị Phương",
   sourceType: "Facebook",
@@ -10413,7 +10377,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 970,
+  id: 968,
   title: "Hệ sinh thái Chuyện là, mỗi lần mình bay đi công tác Mình đều cố ý mặc áo HDBank hoặc Vikkibank...",
   source: "Hòa Đỗ Xuân",
   sourceType: "Facebook",
@@ -10431,7 +10395,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 971,
+  id: 969,
   title: "TOP CỔ PHIẾU MẠNH & TỔNG KẾT THỊ TRƯỜNG NGÀY 09/10/2026 🚀 VN-INDEX GIẰNG CO QUANH MỐC 1735 ĐIỂM...",
   source: "Novus Wealth",
   sourceType: "Facebook",
@@ -10449,7 +10413,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 972,
+  id: 970,
   title: "Ngày đôi 10/10, deal hời ê hề duy nhất khi gửi Tiết kiệm Vikki. Nhập VIKKINGAYDOI10, gửi tiết...",
   source: "Nga Luu Hang",
   sourceType: "Facebook",
@@ -10467,7 +10431,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 973,
+  id: 971,
   title: "Bộ đôi mã khuyến mãi của Ngân hàng Số Vikki quá hấp dẫn, nhanh tây gửi tiết kiệm Vikki nhe...",
   source: "Trương Ràng",
   sourceType: "Facebook",
@@ -10485,7 +10449,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 974,
+  id: 972,
   title: "Ngân hàng nhiều tài sản chưa chắc đã là ngân hàng hoạt động hiệu quả nhất, và HDBank vừa có một...",
   source: "Review Tài chính",
   sourceType: "Facebook",
@@ -10503,7 +10467,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 975,
+  id: 973,
   title: "VIKKI CAFÉ – PGD BÌNH LONG HẸN NHAU MỘT CHÚT, KẾT NỐI YÊU THƯƠNG! 💚☕ Một góc nhỏ xinh xắn,...",
   source: "NA Tra Tran",
   sourceType: "Facebook",
@@ -10521,7 +10485,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 976,
+  id: 974,
   title: "TOP CỔ PHIẾU SỨC MẠNH GIÁ – 09/10/2026 VN-Index giảm 3,88 điểm (-0,22%) xuống 1.735,09 điểm,...",
   source: "Chứng Khoán Mirae Asset Việt Nam",
   sourceType: "Facebook",
@@ -10539,7 +10503,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 977,
+  id: 975,
   title: "Hội Nông dân xã Tân Biên tổ chức về nguồn kỷ niệm 96 năm Ngày thành lập Hội Nông dân Việt Nam...",
   source: "Trang thông tin xã Tân Biên, tỉnh Tây Ninh",
   sourceType: "Facebook",
@@ -10557,7 +10521,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 978,
+  id: 976,
   title: "LKC Fintech xin gửi tới quý anh chị nhà đầu tư phiên live ngày 9/10/2026! Nội dung: Phân tích...",
   source: "Lam Kinh Capital",
   sourceType: "Facebook Group",
@@ -10575,7 +10539,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 979,
+  id: 977,
   title: "VN-INDEX ĐẢO CHIỀU THẤT BẠI: VIC KÉO GIẢM CHỈ SỐ, NHƯNG DÒNG TIỀN ĐANG ÂM THẦM CHỌN CỔ PHIẾU DẪN...",
   source: "Nguyễn Việt Trung",
   sourceType: "Facebook",
@@ -10593,7 +10557,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 980,
+  id: 978,
   title: "VN-INDEX 09/10/2026: THANH KHOẢN TĂNG MẠNH, ÁP LỰC BÁN VẪN CHIẾM ƯU THẾ 📌 THÔNG TIN TÁC ĐỘNG •...",
   source: "Chứng khoán số - Digital Stock",
   sourceType: "Facebook",
@@ -10611,7 +10575,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 981,
+  id: 979,
   title: "ĐIỂM TIN THỊ TRƯỜNG | NGÀY 09.10 THANH KHOẢN BÙNG NỔ - VNINDEX TIẾP TỤC HẠ NHIỆT 📌 Các diễn...",
   source: "Chứng khoán Vikki - VikkibankS",
   sourceType: "Facebook",
@@ -10629,7 +10593,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 982,
+  id: 980,
   title: "Một ca phẫu thuật căng thẳng vừa được tiến hành!🚨 Bước tới - Tiền vào - Nhận ưu đãi tại:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -10647,7 +10611,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 983,
+  id: 981,
   title: "Vikki Digital Bank Luỹ Bán Bích - TP.HCM khoác áo mới đã sẵn sàng chào đón khách hàng 💜 Không...",
   source: "Giang Trần",
   sourceType: "Facebook",
@@ -10665,7 +10629,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 984,
+  id: 982,
   title: "4 CỔ PHIẾU NGÂN HÀNG CHO QUÝ 4/2026: HDB - VPB - TCB - MBB Trong giai đoạn thị trường còn nhiều...",
   source: "Chứng khoán F88",
   sourceType: "Facebook Group",
@@ -10683,7 +10647,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 985,
+  id: 983,
   title: "LH 0917542483 Uyên HD SAISON- không mất phí CCCD: 15🍠 Bằng Lái : 25🍠 BHYT cty cấp : 30-50🍠...",
   source: "@f_uyen53",
   sourceType: "Threads",
@@ -10701,7 +10665,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 986,
+  id: 984,
   title: "Dạ anh Triết ơi, hihihi 😀 , em đang ngồi uống nước ngọt ở Lotteria nà anh … em mới đi lấy thẻ...",
   source: "Phan Thị Bích Ngọc",
   sourceType: "Facebook",
@@ -10719,7 +10683,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 987,
+  id: 985,
   title: "NHẬN ĐỊNH CÁ NHÂN : PHIÊN NGÀY 09/10/2026. Phiên sáng vận động chưa có gì quá nổi bật để đảo...",
   source: "Giá Vàng 24/7",
   sourceType: "Facebook",
@@ -10737,7 +10701,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 988,
+  id: 986,
   title: "Muốn mua xe nhưng còn ngại phải trả hết một lần? Đừng lo, đã có HD SAISON hỗ trợ trả góp giúp...",
   source: "Hữu Vinh",
   sourceType: "Facebook",
@@ -10755,7 +10719,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 989,
+  id: 987,
   title: "SWANBAY – SỞ HỮU NHÀ MƠ, TÀI CHÍNH NHẸ NHÀNG CÙNG HDBANK Bạn đang quan tâm SWANBAY nhưng còn cân...",
   source: "Quang Trung Lê",
   sourceType: "Facebook Group",
@@ -10773,7 +10737,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 990,
+  id: 988,
   title: "Đón chờ chương trình Livestream gửi tiết kiệm đầu tiên trên TikTok của HDBank Tam Phước vào lúc...",
   source: "HDBank Tam Phước",
   sourceType: "Facebook Fanpage",
@@ -10791,7 +10755,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 991,
+  id: 989,
   title: "Top 1 uy tín anh nha👍👍 HD SAISON HỖ TRỢ TƯ VẤN NHANH ​CCCD (21+ tuổi) ➔ 15 tr ​CCCD + GPLX ➔...",
   source: "@conghdss",
   sourceType: "Threads",
@@ -10809,7 +10773,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 992,
+  id: 990,
   title: "Một trong những các con leader bên mình khuyến nghị, dấu hiệu của siêu cổ phiếu là...",
   source: "Ku Lì Trader",
   sourceType: "Facebook",
@@ -10827,7 +10791,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 993,
+  id: 991,
   title: "Chứng khoán BDS phiên nay đơn giản là bật hồi khi về đến đáy cũ, nhưng chỉ là nhịp T+ 3-5 Đào...",
   source: "Đào Hiếu",
   sourceType: "Facebook",
@@ -10845,7 +10809,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 994,
+  id: 992,
   title: "Anh/Chị đang có khách mua căn hộ tại dự án, nếu khách cần thêm hỗ trợ về nguồn vốn thì gửi em...",
   source: "Đức Huy",
   sourceType: "Facebook Group",
@@ -10863,7 +10827,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 995,
+  id: 993,
   title: "HD SAISON – HỖ TRỢ TƯ VẤN HỒ SƠ Ko phí hồ sơ 📌 Khách hàng cũ: Hạn mức tham khảo đến 110 triệu...",
   source: "Phạm Huyền Linh",
   sourceType: "Facebook Group",
@@ -10881,7 +10845,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 996,
+  id: 994,
   title: "Woori Bank: 9,3%/năm trong 12 tháng; 9,8%/năm trong 24 tháng. VIB: 9,5%/năm trong 6 tháng;...",
   source: "@dzuidze68",
   sourceType: "Threads",
@@ -10899,7 +10863,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 997,
+  id: 995,
   title: "RỰC RỠ KHỞI ĐẦU – CHÚC MỪNG KHAI TRƯƠNG VIKKI BANK HÀ NAM! 🥳💜 🚀 Thêm một điểm hẹn mới trên...",
   source: "Trung Pham",
   sourceType: "Facebook",
@@ -10917,7 +10881,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 998,
+  id: 996,
   title: "CƠ HỘI TIỀM NĂNG HÔM NAY: THỊ TRƯỜNG GIẢM 14 ĐIỂM, VÌ SAO HDB VẪN TĂNG? Khi toàn thị trường chìm...",
   source: "KFSP",
   sourceType: "Facebook",
@@ -10935,7 +10899,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 999,
+  id: 997,
   title: "Tự hào là một phần của đại gia đình VikkiBank, VikkiBank – nơi gửi trọn niềm tin, lan tỏa yêu...",
   source: "Mai Lý",
   sourceType: "Facebook",
@@ -10953,7 +10917,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1000,
+  id: 998,
   title: "Ví momo 100tr 36th đóng 11th 5tr3/th còn 95tr Vpbank thẻ chưa đóng 40tr Hdbank 30tr 24th đóng...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -10971,7 +10935,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1001,
+  id: 999,
   title: "Năm nhất, con cần một điểm tựa để làm quen. Năm hai, con bắt đầu tự lo. Năm ba, con dần biết...",
   source: "Nhi Le",
   sourceType: "Facebook",
@@ -10989,7 +10953,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1002,
+  id: 1000,
   title: "Các mom ở đây có ai gửi tiết kiệm ngân hàng VIKKI ko ạ…",
   source: "PeacefulWolf3937",
   sourceType: "Facebook Group",
@@ -11007,7 +10971,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1003,
+  id: 1001,
   title: "Mở lối tương lai tài chính! 🚀 Ngân hàng Số Vikki kiến tạo hệ sinh thái đa tiện ích, chỉ một...",
   source: "Minh Hằng Lê Thị",
   sourceType: "Facebook",
@@ -11025,7 +10989,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1004,
+  id: 1002,
   title: "HDBank Gia Lâm 🔥 TIỀN NHÀN RỖI – ĐỪNG ĐỂ “NẰM IM” NỮA! 🔥 💥 HDBank – LÃI SUẤT TIẾT KIỆM LÊN...",
   source: "Hà Lạnh",
   sourceType: "Facebook Group",
@@ -11043,7 +11007,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1005,
+  id: 1003,
   title: "TẠI VIKKI, MỌI NỖ LỰC ĐỀU ĐƯỢC GHI NHẬN Tại Vikki, mỗi cố gắng đều đáng trân trọng, mỗi bước...",
   source: "Tết Ken",
   sourceType: "Facebook",
@@ -11061,7 +11025,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1006,
+  id: 1004,
   title: "CHẠM NHỊP SỐ - CHỐT QUÀ ĐỈNH MÙA 2: Phiên 7 - Tích lũy trúng vàng, săn quà tặng Nàng 10.10 –...",
   source: "My Nguyễn",
   sourceType: "Facebook",
@@ -11079,7 +11043,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1007,
+  id: 1005,
   title: "MỘT NGÀY LÀM TẤM Ở VIKKI – BẬN RỘN MÀ VUI! 👸✨ Nếu trong truyện cổ tích, Tấm có những ngày chăm...",
   source: "Thu Vân Nguyễn",
   sourceType: "Facebook",
@@ -11097,7 +11061,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1008,
+  id: 1006,
   title: "Khi mọi người đã nghỉ ngơi sau một ngày dài, đại gia đình Vikki Bank Đà Nẵng vẫn miệt mài học...",
   source: "Thuy Le",
   sourceType: "Facebook",
@@ -11115,7 +11079,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1009,
+  id: 1007,
   title: "CHÚC MỪNG KHAI TRƯƠNG NGÂN HÀNG SỐ VIKKI ĐÔNG HƯNG! 🎉 Một điểm đến tài chính mới – hiện đại,...",
   source: "Phong Nguyen",
   sourceType: "Facebook",
@@ -11133,7 +11097,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1010,
+  id: 1008,
   title: "CHẠM NHỊP SỐ 10/10: CHỈ 1 CHẠM - CHỐT LÃI VÀNG! ​ Dù Quý khách đang xuống phố vui chơi hay tận...",
   source: "HDBank",
   sourceType: "Facebook Fanpage",
@@ -11151,7 +11115,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1011,
+  id: 1009,
   title: "Dự báo lợi nhuận ngân hàng quý 3/2026 sẽ có bất ngờ lớn: Vietcombank, VietinBank, MB,...",
   source: "@rubynotrubies",
   sourceType: "Threads",
@@ -11169,7 +11133,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1012,
+  id: 1010,
   title: "Tư vấn trả góp ô tô ] Như trên, Nhờ các bác tư vấn e Tổ chức tài chính nào lãi suất ổn( Bank giờ...",
   source: "Trần Quốc Việt",
   sourceType: "Facebook Group",
@@ -11187,7 +11151,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1013,
+  id: 1011,
   title: "Thị trường phiên sáng 9/10/2026: Giảm nhẹ trên diện rộng, giao dịch đột biến ở SHB VNINDEX tiếp...",
   source: "FiinTrade Happy Investing",
   sourceType: "Facebook",
@@ -11205,7 +11169,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1014,
+  id: 1012,
   title: "Một buổi sáng ý nghĩa của em Phương💫🌻 Cùng Vikki đồng hành đến các điểm trường, lan toả đến...",
   source: "Phạm Xuân Phương",
   sourceType: "Facebook",
@@ -11223,7 +11187,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1015,
+  id: 1013,
   title: "Em mới tốt nghiệp, nhận được 2 Offer sau: - GDV VIB ( 2 tháng thử việc -> chính thức) - GDV...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -11241,7 +11205,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1016,
+  id: 1014,
   title: "Huấn luyện sản phẩm Chubb Life cho đội ngũ HD Bank. Lâu lắm rồi mới bước vào ngân hàng, cảm giác...",
   source: "Dolas Tran",
   sourceType: "Facebook",
@@ -11259,7 +11223,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1017,
+  id: 1015,
   title: "Lãi vay mua nhà lên tới 13,2%/năm, nhiều người hoãn kế hoạch mua nhà Lãi suất vay mua nhà tăng...",
   source: "Nguyễn Thanh Tuấn",
   sourceType: "Facebook Group",
@@ -11277,7 +11241,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1018,
+  id: 1016,
   title: "HDB, SHB, VCB,... là những cổ phiếu có điểm vào trong phiên ngày hôm nay 9/10",
   source: "Trương Kính Nam",
   sourceType: "Facebook",
@@ -11295,7 +11259,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1019,
+  id: 1017,
   title: "HDB: CƠ HỘI BÁN ĐÚNG ĐỈNH DÀI HẠN! GIÁ ĐẮT CHO NHÀ ĐẦU TƯ FOMO HÔM NAY Trong khi đám đông mải...",
   source: "Duc Xoan",
   sourceType: "Facebook",
@@ -11313,7 +11277,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1020,
+  id: 1018,
   title: "HDB - 1 triệu lệnh giá gần trần, nhỏ lẻ đu đỉnh hay .. tay to hấp thụ cung ?...",
   source: "Đào Hiếu",
   sourceType: "Facebook",
@@ -11331,7 +11295,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1021,
+  id: 1019,
   title: "VIKKI DIGITAL BANK – ĐƯA TIỆN ÍCH SỐ ĐẾN GẦN HƠN VỚI HỌC ĐƯỜNG 💜 Tại sự kiện Trường Đại học...",
   source: "Nhu Quynh",
   sourceType: "Facebook",
@@ -11349,7 +11313,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1022,
+  id: 1020,
   title: "HDB cổ phiếu chiến lược",
   source: "Trương Kính Nam",
   sourceType: "Facebook",
@@ -11367,7 +11331,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1023,
+  id: 1021,
   title: "Chúc mừng những bạn đã mua và sở hữu cổ phiếu HDB",
   source: "Phố Đầu Tư Chứng Khoán",
   sourceType: "Facebook",
@@ -11385,7 +11349,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1024,
+  id: 1022,
   title: "Sáng nay gia đình em lại ra quân rồi nha mọi người. Không chỉ tiếp cận khách hàng trên sóng...",
   source: "Ly Tr",
   sourceType: "Facebook",
@@ -11403,7 +11367,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1025,
+  id: 1023,
   title: "Vikki bank STK Online toàn quốc lên đến 9.7% kèm quà 📞Lh Ms Hương 0916 227179 Vikki Bank - Ngân...",
   source: "Nguyễn Thảo Hương",
   sourceType: "Facebook Group",
@@ -11421,7 +11385,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1026,
+  id: 1024,
   title: "CUỐI TUẦN THẬT CHILL CÙNG VIKKI BANK! ✨ Cuối tuần là dịp để thư giãn, hẹn hò cùng bạn bè và...",
   source: "Trần Thanh",
   sourceType: "Facebook",
@@ -11439,7 +11403,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1027,
+  id: 1025,
   title: "Từ Vikki Bank, đến VikKafe, và bây giờ là Vikki read Tất cả là các mảng không gian và tiện ích...",
   source: "Cẩm Vân",
   sourceType: "Facebook",
@@ -11457,7 +11421,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1028,
+  id: 1026,
   title: "Chứng khoán ngày 9/10: Khối ngoại bán ròng hơn 9.700 tỷ đồng, VN-Index mất gần 4 điểm",
   source: "Báo Nhân Dân",
   sourceType: "Báo chí",
@@ -11470,7 +11434,7 @@ const HDBANK_FEED = [
   excerpt: "Phiên này, các mã đóng góp tích cực cho chỉ số VN-Index tăng 4,64 điểm gồm: <mark>HDB</mark>, TCB, VPB, VHM, CTG, NVL, MBB, VPL, GEE, VIX. Nhóm cổ phiếu chứng khoán phiên này nghiêng về sắc đỏ có mức giảm 0,17%, chủ yếu từ các mã TCX, VCK, SSI, HCM, CTS, TVS, BMS, VUA, EVS… Chiều ngược lại, các mã tăng gồm VPX, VIX, VND, SHS, DSE, ORS, FTS, BSI, DSC, VDS, AGR, AAS,..."
  },
  {
-  id: 1029,
+  id: 1027,
   title: "Các bạn có biết trong lúc thị trường đang đỏ lửa, cổ phiếu HDB vẫn tăng + 3%",
   source: "Phố Đầu Tư Chứng Khoán",
   sourceType: "Facebook",
@@ -11488,7 +11452,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1030,
+  id: 1028,
   title: "CHÚC MỪNG KHÁCH HÀNG VIKKI CẨM LỆ TRÚNG 1 CHỈ VÀNG! 🏆💛 ✨ Niềm vui nhân đôi, may mắn đong đầy!...",
   source: "Mi Mi",
   sourceType: "Facebook",
@@ -11506,7 +11470,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1031,
+  id: 1029,
   title: "HDBANK KIẾN TẠO “NGÂN HÀNG KHÔNG KHOẢNG CÁCH” TỪ NHỮNG ĐIỂM CHẠM MỚI Không nhất thiết phải đến...",
   source: "Tuấn Dũng",
   sourceType: "Facebook",
@@ -11524,7 +11488,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1032,
+  id: 1030,
   title: "Cùng Vikki khám phá những sản phẩm, tiện ích và ưu đãi hấp dẫn – vừa xem, vừa tương tác, vừa cập...",
   source: "Trâm Hoan Hỷ",
   sourceType: "Facebook",
@@ -11542,7 +11506,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1033,
+  id: 1031,
   title: "VIKKI PHÚ YÊN] QUYẾT TÂM ĐỒNG LÒNG – SẴN SÀNG CHO NGÀY SỰ KIỆN GO-LIVE T24! 🚀 Để mang đến những...",
   source: "Nguyễn Thị Lim",
   sourceType: "Facebook",
@@ -11560,7 +11524,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1034,
+  id: 1032,
   title: "HDBANK KIẾN TẠO “NGÂN HÀNG KHÔNG KHOẢNG CÁCH” TỪ NHỮNG ĐIỂM CHẠM MỚI",
   source: "Ngoc Dong",
   sourceType: "Facebook",
@@ -11578,7 +11542,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1035,
+  id: 1033,
   title: "Trộm vía tỉ lần! Cảm ơn quý khách hàng đã luôn tin tưởng và ủng hộ em hết mình. Sự tin yêu của...",
   source: "Nguyễn Thị Xuân Mùi",
   sourceType: "Facebook",
@@ -11596,7 +11560,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1036,
+  id: 1034,
   title: "HDBANK KHAI TRƯƠNG 38 ĐIỂM ĐẠI LÝ THANH TOÁN TẠI VNPT CẦN THƠ Ngày 8/10/2026, HDBank phối hợp...",
   source: "HDBank",
   sourceType: "Facebook Fanpage",
@@ -11614,7 +11578,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1037,
+  id: 1035,
   title: "GO GLOBAL BẮC NINH 2026: \"NÂNG CAO NĂNG LỰC - KẾT NỐI CHUỖI - PHÁT TRIỂN THỊ TRƯỜNG\" Ngày 10/10,...",
   source: "Dân trí",
   sourceType: "Facebook Fanpage",
@@ -11632,7 +11596,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1038,
+  id: 1036,
   title: "Tại Vikki bank không những bạn được giao dịch tài chính mà còn được thưởng thức cà phê thơm ngon...",
   source: "Tung Diep",
   sourceType: "Facebook",
@@ -11650,7 +11614,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1039,
+  id: 1037,
   title: "Xã hình DNF HDbank cần giờ năm 2026 🫠 - Marathon đơn giản là vậy , chỉ là những bài chạy nhàm...",
   source: "Ngọc Giàu Trần",
   sourceType: "Facebook",
@@ -11668,7 +11632,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1040,
+  id: 1038,
   title: "Vikki mang đến trải nghiệm mới với Vikkafé – không gian nơi bạn vừa thong thả nhâm nhi tách cà...",
   source: "Đức Minh",
   sourceType: "Facebook",
@@ -11686,7 +11650,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1041,
+  id: 1039,
   title: "ĐIỂM HẸN VIKKI – NƠI KẾT NỐI THÀNH NIỀM VUI! ✨ 🏆 Mỗi lần tương tác là một cơ hội sẻ chia. Mỗi...",
   source: "Huong Vikki",
   sourceType: "Facebook",
@@ -11704,7 +11668,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1042,
+  id: 1040,
   title: "VĂN PHÒNG CHUẨN XANH TẠI VIKKI BANK! Đột nhập nơi làm việc của Ngân hàng số Vikki – Nơi làm việc...",
   source: "Hải Minh Home",
   sourceType: "Facebook",
@@ -11722,7 +11686,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1043,
+  id: 1041,
   title: "𝐌.Ư.Ợ𝐍 💸💸💸 HD Saison dễ dàng 𝐡ơ𝐧 𝐦.ượ𝐧 𝐛ạ𝐧 𝐛è, 𝐧𝐠ườ𝐢 𝐭𝐡â𝐧 ✨ ♻️𝐂ầ𝐧 💰 𝐋à 𝐂ó...",
   source: "Tuyền Thanh",
   sourceType: "Facebook",
@@ -11740,7 +11704,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1044,
+  id: 1042,
   title: "Chiếc huy hiệu nhỏ, niềm tự hào lớn! Cầm biểu tượng Vikki trên tay, thấy thêm yêu nơi mình gắn...",
   source: "Nguyễn Trung Châu",
   sourceType: "Facebook",
@@ -11758,7 +11722,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1045,
+  id: 1043,
   title: "Bốn năm đại học, con sẽ lớn lên theo những cách ba mẹ không thể đoán trước. Mỗi năm một thay...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -11776,7 +11740,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1046,
+  id: 1044,
   title: "Đầu tư cho tương lai: 🌐 Website: https://credit4tomorrow.hdsaison.com.vn 📌 Tải app HD SAISON:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -11794,7 +11758,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1047,
+  id: 1045,
   title: "VIKKAFÉ – ĐIỂM HẸN HẠNH PHÚC, CHẠM VÀO NIỀM VUI! ✨ Bạn đã thử trải nghiệm cà phê ngay tại ngân...",
   source: "Vikki Tuyet Anh",
   sourceType: "Facebook",
@@ -11812,7 +11776,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1048,
+  id: 1046,
   title: "ĐI NGÂN HÀNG CŨNG CÓ GÓC CHƠI CHO CON! 💛 Một lần theo ba mẹ đến ngân hàng, các bé có thêm một...",
   source: "Ngoc Huyen",
   sourceType: "Facebook",
@@ -11830,7 +11794,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1049,
+  id: 1047,
   title: "Em Tuyền HDSAISON ạ",
   source: "Tuyền Thanh",
   sourceType: "Facebook",
@@ -11848,7 +11812,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1050,
+  id: 1048,
   title: "Mát lạnh Nồng Ấm tại Vikkafé - VikkiBank Chi Nhánh Ninh Thuận 404-406 Thống Nhất! Hai ly trà sen...",
   source: "Trương Thuỳ Mai Lâm",
   sourceType: "Facebook",
@@ -11866,7 +11830,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1051,
+  id: 1049,
   title: "Đảo chiều thất bại vì trụ kém đồng thuận, tiền vẫn hoạt động tốt ở cổ phiếu vừa và nhỏ",
   source: "VnEconomy",
   sourceType: "Báo chí",
@@ -11879,7 +11843,7 @@ const HDBANK_FEED = [
   excerpt: "Tuy vốn hóa của <mark>HDB</mark> hạn chế nhưng biên độ giá mạnh cũng khiến cổ phiếu này vươn lên vị trí số 1 trong nhóm dẫn dắt, dù chỉ hơn 0,9 điểm. Ở phía tăng cũng không ít cổ phiếu mạnh, trong 130 mã xanh có 63 mã tăng hơn 1%, số đạt thanh khoản trên trăm tỷ đồng khá nhiều: NVL tăng 6,83%, <mark>HDB</mark> tăng 3,94%, VIX tăng 3,1%, TCB tăng 1,41%, VPB tăng 1,49%, CTG tăng..."
  },
  {
-  id: 1052,
+  id: 1050,
   title: "Minhf muốn mở thẻ HD bank để liên kết với Skyjoy của Vietjet, có bạn nào tư vấn mở thẻ giúp mình...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -11897,7 +11861,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1053,
+  id: 1051,
   title: "Đến với Vikki Digital Bank để cảm nhận một ngân hàng số hiện đại dẫn đầu với hệ thống ✨ VikKafé...",
   source: "Quốc Thông",
   sourceType: "Facebook",
@@ -11915,7 +11879,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1054,
+  id: 1052,
   title: "TÍNH NĂNG MỚI TRÊN APP HDBANK - CẢNH BÁO TÀI KHOẢN NHẬN TIỀN CÓ DẤU HIỆU LỪA ĐẢO!​ Để bảo vệ tài...",
   source: "HDBank Dầu Giây",
   sourceType: "Facebook Fanpage",
@@ -11933,7 +11897,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1055,
+  id: 1053,
   title: "ĐỌC SÁCH HAY - ĐẾN NGAY VIKKI READ! ✨ Bạn đang tìm kiếm không gian tri thức vừa hiện đại, vừa...",
   source: "Ha Nguyen Thu",
   sourceType: "Facebook",
@@ -11951,7 +11915,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1056,
+  id: 1054,
   title: "NGÀY MỚI HỨNG KHỞI – CÙNG NGÂN HÀNG SỐ VIKKI! 💜 Mỗi ngày thêm tiện lợi với hệ sinh thái số hiện...",
   source: "Bảo Cần",
   sourceType: "Facebook",
@@ -11969,7 +11933,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1057,
+  id: 1055,
   title: "Một mùa hè gửi tiết kiệm, một đêm Trung thu nhận 16 lượng vàng! ✨ - Khách hàng Mã Tiếp Ngân...",
   source: "VSA Index",
   sourceType: "Facebook",
@@ -11987,7 +11951,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1058,
+  id: 1056,
   title: "Vikki Bank kính gửi Anh/Chị tham khảo lãi suất ưu đãi gửi tiết kiệm Online từ 200 triệu đồng: 🔹...",
   source: "Trần Đào",
   sourceType: "Facebook Group",
@@ -12005,7 +11969,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1059,
+  id: 1057,
   title: "LÃI SUẤT TĂNG, NIỀM VUI TÍCH LŨY NHÂN ĐÔI! Mỗi khoản tiết kiệm hôm nay là một bước tiến gần hơn...",
   source: "Lâm Thuỳ Trang",
   sourceType: "Facebook",
@@ -12023,7 +11987,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1060,
+  id: 1058,
   title: "CẬP NHẬT TIN TỨC NGÀY 09/10: 1. Thông tin doanh thu OpenAI gây chấn động, Nasdaq Composite sụt...",
   source: "Lưu Hùng",
   sourceType: "Facebook",
@@ -12041,7 +12005,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1061,
+  id: 1059,
   title: "Vikki Bank - Ngân Hàng Số xịn nhất trong lĩnh vực Bank. Nhắn anh nhé 0384842474 ( anh Khôi )",
   source: "@davidtietkiem",
   sourceType: "Threads",
@@ -12059,7 +12023,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1062,
+  id: 1060,
   title: "Tại Vikki bank không những bạn được giao dịch tài chính mà còn được thưởng thức cà phê thơm ngon...",
   source: "Đặng Hoàng Nam",
   sourceType: "Facebook",
@@ -12077,7 +12041,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1063,
+  id: 1061,
   title: "TỪ VIKKI BANK – VIKKAFE ĐẾN VIKKI READ: LAN TỎA GIÁ TRỊ, KẾT NỐI YÊU THƯƠNG! 📚☕️ Một ngân hàng...",
   source: "Hao Nguyen Dinh",
   sourceType: "Facebook",
@@ -12095,7 +12059,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1064,
+  id: 1062,
   title: "Đi ngân hàng mà cứ ngỡ đang đi chill cafe 💜☕ Ai bảo không gian tài chính thì lúc nào cũng phải...",
   source: "Phạm Tứ",
   sourceType: "Facebook",
@@ -12113,7 +12077,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1065,
+  id: 1063,
   title: "Mọi người tưởng Mr Vinh đi làm ngân hàng ngày nào cũng vest bảnh bao, ngồi máy lạnh tại văn...",
   source: "Nguyễn Vinh",
   sourceType: "Facebook",
@@ -12131,7 +12095,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1066,
+  id: 1064,
   title: "VIKKI DIGITAL BANK – CHÀO MỪNG ĐIỂM HẸN MỚI TẠI GÀNH HÀO! 🏦✨ 🌟 Một không gian mới đã sẵn sàng...",
   source: "Vu Danh Phuc",
   sourceType: "Facebook",
@@ -12149,7 +12113,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1067,
+  id: 1065,
   title: "TỪ VIKKI BANK – VIKKAFE ĐẾN VIKKI READ: LAN TỎA GIÁ TRỊ, KẾT NỐI YÊU THƯƠNG! 💜📚☕️ Không chỉ là...",
   source: "Lich Nguyen",
   sourceType: "Facebook",
@@ -12167,7 +12131,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1068,
+  id: 1066,
   title: "Vikki bank STK Online toàn quốc lên đến 9.7% kèm quà 📞Lh Ms Hương 0916 227179 Vikki Bank - Ngân...",
   source: "Nguyễn Thảo Hương",
   sourceType: "Facebook Group",
@@ -12185,7 +12149,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1069,
+  id: 1067,
   title: "MANIFEST – CÓ NHỮNG ĐIỀU ƯỚC VUI MIỆNG LẠI THÀNH SỰ THẬT… Hôm nay vô tình ghé Marina, ngồi chill...",
   source: "Nguyễn Diệu An",
   sourceType: "Facebook",
@@ -12203,7 +12167,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1070,
+  id: 1068,
   title: "Từ Vikki Digital Bank , đến VikKafe, và bây giờ là Vikki read. Tất cả là các mảng không gian và...",
   source: "@nguyen_huong201",
   sourceType: "Threads",
@@ -12221,7 +12185,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1071,
+  id: 1069,
   title: "VN-INDEX MẤT MỐC 1.740 ĐIỂM: 5 TÍN HIỆU CẢNH BÁO VÀ CHIẾN LƯỢC CHO PHIÊN 9/10! Thị trường giảm...",
   source: "Nguyễn Việt Trung",
   sourceType: "Facebook",
@@ -12239,7 +12203,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1072,
+  id: 1070,
   title: "Thanh khoản bất ngờ tăng mạnh, SHB và HDB là tâm điểm",
   source: "VnEconomy",
   sourceType: "Báo chí",
@@ -12252,7 +12216,7 @@ const HDBANK_FEED = [
   excerpt: "Mức tăng thanh khoản này thực ra không “chất lượng”: SHB và <mark>HDB</mark> đang có mức tập trung giao dịch tới 22,4% cả sàn HoSE và gấp 6,3 lần mức giao dịch sáng hôm qua. Dĩ nhiên lượng tiền lớn đổ vào SHB và <mark>HDB</mark> cũng tạo biến động đáng chú ý."
  },
  {
-  id: 1073,
+  id: 1071,
   title: "Marketing Vikki – Tăng cường kết nối, lan tỏa thương hiệu qua từng hành trình, thấu hiểu khách...",
   source: "Linh Mai",
   sourceType: "Facebook",
@@ -12270,7 +12234,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1074,
+  id: 1072,
   title: "Lãi suất ngân hàng hôm nay 9/10/2026: Kỳ hạn 6 tháng ưu đãi tới 8,8%/năm",
   source: "VietNamNet",
   sourceType: "Báo chí",
@@ -12283,7 +12247,7 @@ const HDBANK_FEED = [
   excerpt: "Lãi suất ngân hàng hôm nay, 9/10/2026, ngân hàng ngoại đẩy lãi suất huy động kỳ hạn 6 tháng lên đến 8,8%/năm, cao hơn nhiều so với lãi suất tiền gửi cùng kỳ hạn tại hầu hết ngân hàng trong nước."
  },
  {
-  id: 1075,
+  id: 1073,
   title: "có anh em nào bùng HD Saison chưa nhỉ",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -12301,7 +12265,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1076,
+  id: 1074,
   title: "Hai giải thưởng tại Vietnam Outstanding Banking Awards 2026 tiếp tục là những ghi nhận cho hướng...",
   source: "Debbie Pham",
   sourceType: "Facebook",
@@ -12319,7 +12283,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1077,
+  id: 1075,
   title: "Tín dụng tăng mạnh, cổ phiếu ngân hàng vẫn chìm trong sắc đỏ",
   source: "VietNamNet",
   sourceType: "Báo chí",
@@ -12332,7 +12296,7 @@ const HDBANK_FEED = [
   excerpt: "ACB bị bán ròng gần 2 triệu cổ phiếu, BID hơn 630.000 cổ phiếu, CTG khoảng 570.000 cổ phiếu và <mark>HDB</mark> hơn 4,4 triệu cổ phiếu. <mark>HDBank</mark> được chấp thuận tăng vốn điều lệ tối đa hơn 22.000 tỷ đồng; Techcombank, VPBank và MB đều có kế hoạch phát hành thêm hàng tỷ cổ phiếu theo các phương án khác nhau."
  },
  {
-  id: 1078,
+  id: 1076,
   title: "Đi ngân hàng thời nay: Giao dịch số mượt mà, chờ đợi hóa thảnh thơi. ☕️ Tại không gian kết hợp...",
   source: "Minh Trang",
   sourceType: "Facebook",
@@ -12350,7 +12314,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1079,
+  id: 1077,
   title: "THỊ TRƯỜNG] NHẬN ĐỊNH KẾT PHIÊN GIAO DỊCH 08/10/2026 Phiên giao dịch giảm điểm ghi nhận áp lực...",
   source: "Phương Nghi HSC",
   sourceType: "Facebook Group",
@@ -12368,7 +12332,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1080,
+  id: 1078,
   title: "HDBank liên hệ em ạ 0942276419",
   source: "@thuha_1129",
   sourceType: "Threads",
@@ -12386,7 +12350,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1081,
+  id: 1079,
   title: "VikkiBank không những là Ngân hàng tiết kiệm tốt nhất mà còn có những cán bộ nhân viên tuyệt...",
   source: "Huy Đồng",
   sourceType: "Facebook",
@@ -12404,7 +12368,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1082,
+  id: 1080,
   title: "Ngân hàng số thì có gì đặc biệt? ☕ Ở Vikki, bạn có thể vừa giao dịch ngân hàng, vừa nhâm nhi một...",
   source: "Oanh Nguyễn Thị",
   sourceType: "Facebook",
@@ -12422,7 +12386,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1083,
+  id: 1081,
   title: "Mỗi ngày tại Vikki Bank là một trải nghiệm mới, được học hỏi, được phát triển và được làm việc...",
   source: "Mai Lý",
   sourceType: "Facebook",
@@ -12440,7 +12404,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1084,
+  id: 1082,
   title: "vikki mở tài khoản, gửi tiết kiệm online, rút tiết kiệm, chuyển khoản, 500tr-1 tỷ thì có làm...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -12458,7 +12422,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1085,
+  id: 1083,
   title: "HDBank HDBank, HappyDigitalBank ILoveHDBank",
   source: "Kim Hồng",
   sourceType: "Facebook",
@@ -12476,7 +12440,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1086,
+  id: 1084,
   title: "Khách em said: \"Biết thế đầu năm ra gửi em, Đi Mua vàng giờ vàng cả mắt \" 🥲 🔥Thị trường lãi...",
   source: "Phuong Anh",
   sourceType: "Facebook",
@@ -12494,7 +12458,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1087,
+  id: 1085,
   title: "VIKKI –VINH DỰ ĐỒNG HÀNH CÙNG LỄ HỘI TRUYỀN THỐNG ANH HÙNG NGUYỄN TRUNG TRỰC. Giữa dòng nước lấp...",
   source: "Nguyễn Thị KimY",
   sourceType: "Facebook",
@@ -12512,7 +12476,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1088,
+  id: 1086,
   title: "Lãi suất tháng 10 của Vikki Bank đã vô cùng hấp dẫn. 🪎Từ 1 triệu: lên đến 8,6% 👆 Từ 50triệu...",
   source: "Đỗ Thanh",
   sourceType: "Facebook Group",
@@ -12530,7 +12494,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1089,
+  id: 1087,
   title: "TIỀN NHÀN RỖI ĐỪNG ĐỂ NẰM IM… BIẾT ĐÂU MAY MẮN ĐANG GỌI TÊN! 🏆 Có tiền nhàn rỗi? Đừng chỉ để...",
   source: "Hien Duong",
   sourceType: "Facebook",
@@ -12548,7 +12512,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1090,
+  id: 1088,
   title: "Những ngân hàng TMCP tư nhân có thương hiệu lớn và quy mô rộng khắp cũng không nằm ngoài xu...",
   source: "@viethvng",
   sourceType: "Threads",
@@ -12566,7 +12530,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1091,
+  id: 1089,
   title: "Vikki Digital Bank - Điểm hẹn Ngân hàng Số - Chạm cảm hứng, bật tương lai! Đến với Vikki Bank để...",
   source: "Phương Phan",
   sourceType: "Facebook",
@@ -12584,7 +12548,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1092,
+  id: 1090,
   title: "BẢN TIN THỊ TRƯỜNG PHIÊN 08/10/2026: VN-INDEX CHỊU ÁP LỰC ĐÈ TRỤ – CÁ MẬP KÍCH HOẠT SÓNG NĂNG...",
   source: "Chứng Trường",
   sourceType: "Facebook",
@@ -12602,7 +12566,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1093,
+  id: 1091,
   title: "Xin chúc mừng những cá nhân và tập thể đã xuất sắc được vinh danh trong buổi trao giải nội bộ...",
   source: "Ni Ken",
   sourceType: "Facebook",
@@ -12620,7 +12584,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1094,
+  id: 1092,
   title: "NƠI CÔNG NGHỆ HIỆN ĐẠI GẶP GỠ SỰ GẦN GŨI Ngân hàng số không chỉ hiện diện trên màn hình điện...",
   source: "Hoàng Ánh",
   sourceType: "Facebook",
@@ -12638,7 +12602,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1095,
+  id: 1093,
   title: "LÃI SUẤT VIKKI BANK TIẾP TỤC CHẠM ĐỈNH Lãi suất thì đang “nóng” 🔥 Còn Vikkafe thì đã sẵn sàng...",
   source: "Phan Thị Ngọc Hân",
   sourceType: "Facebook",
@@ -12656,7 +12620,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1096,
+  id: 1094,
   title: "Vikki – Ngân hàng Số cho mọi trải nghiệm! Từ giao dịch ngân hàng, tiết kiệm, thanh toán đến mua...",
   source: "Như Nguyễn",
   sourceType: "Facebook",
@@ -12674,7 +12638,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1097,
+  id: 1095,
   title: "CÙNG NHÌN LẠI HÀNH TRÌNH NGÀY HỘI GIA ĐÌNH 2026 “Ngày hội Gia đình 2026” tại Hà Nội đã ghi dấu...",
   source: "HDbank Hai Bà Trưng",
   sourceType: "Facebook Fanpage",
@@ -12692,7 +12656,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1098,
+  id: 1096,
   title: "MỞ TÀI KHOẢN 3 PHÚT - HÚT TRỌN COMBO 200K! 🎁 Chỉ 3 phút mở tài khoản số trên App HDBank, bạn bỏ...",
   source: "Thái Nguyễn",
   sourceType: "Facebook",
@@ -12710,7 +12674,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1099,
+  id: 1097,
   title: "HD SAISON – tìm thêm những đồng đội mới cho team! P/s: Có người quen đang tìm việc hoặc đang...",
   source: "@sophia_nhu",
   sourceType: "Threads",
@@ -12728,7 +12692,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1100,
+  id: 1098,
   title: "HDBank thông báo chính sách lãi suất đến Quý Khách hàng vay vốn ✅ Tỷ lệ vay 75% giá trị tài sản...",
   source: "Lệ Nhiên",
   sourceType: "Facebook Group",
@@ -12746,7 +12710,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1101,
+  id: 1099,
   title: "Vikki Digital Bank là ngân hàng số hiện đại, đặc biệt khi quý khách hàng đến giao dịch sẽ được...",
   source: "Kha PhuQuy",
   sourceType: "Facebook",
@@ -12764,7 +12728,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1102,
+  id: 1100,
   title: "Sáng nay VN-Index có lúc lên tới 1.764 điểm, nhưng từ gần trưa thì quay đầu, càng về chiều càng...",
   source: "Duc Xoan",
   sourceType: "Facebook",
@@ -12782,7 +12746,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1103,
+  id: 1101,
   title: "Vikki Digital Bank có gì mà các Ngân hàng số khác không có? 🍀Có Vikkafe. 🫰Giao dịch là có cà...",
   source: "Linh Nguyễn",
   sourceType: "Facebook",
@@ -12800,7 +12764,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1104,
+  id: 1102,
   title: "NGÂN HÀNG SỐ VIKKI CÓ GÌ VIP? Ngân hàng Số Vikki mang đến những trải nghiệm thật khác biệt: vừa...",
   source: "Mít Lùi",
   sourceType: "Facebook",
@@ -12818,7 +12782,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1105,
+  id: 1103,
   title: "Chúc mừng khách hàng Vikki Hải Phòng đã nhận vàng từ chương trình “TIẾT KIỆM VIKKI – TRÚNG BÓNG...",
   source: "Ha Do",
   sourceType: "Facebook",
@@ -12836,7 +12800,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1106,
+  id: 1104,
   title: "THEO DỰ BÁO TỪ RESEARCH VPBS LỢI NHUẬN NGÂN HÀNG Q3/2026 🔹 VietinBank (CTG): 10.226 tỷ (+20,1%)...",
   source: "Sỹ Nguyễn",
   sourceType: "Facebook",
@@ -12854,7 +12818,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1107,
+  id: 1105,
   title: "Đến với Vikki Bank, khách hàng không chỉ được trải nghiệm các dịch vụ ngân hàng trong không gian...",
   source: "Thừa Minh",
   sourceType: "Facebook",
@@ -12872,7 +12836,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1108,
+  id: 1106,
   title: "MUA SWANBAY PHÂN KHU 4,5,6,8 – VAY HDBANK, LÃI SUẤT CHỈ TỪ 10%/NĂM ✅ Lãi suất chỉ từ 10%/năm (cố...",
   source: "Diem Nguyen",
   sourceType: "Facebook Group",
@@ -12890,7 +12854,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1109,
+  id: 1107,
   title: "hdbank financenews virel",
   source: "@vineet.kumar.7731247",
   sourceType: "Threads",
@@ -12908,7 +12872,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1110,
+  id: 1108,
   title: "HỘI ĐỒNG AI · Hội đồng AI phân tích 360° HDB Khối ngoại xả ròng hơn 3.121 tỷ đồng chỉ trong 15...",
   source: "Titanlabs - Stock AI Agent",
   sourceType: "Facebook",
@@ -12926,7 +12890,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1111,
+  id: 1109,
   title: "TOP CỔ PHIẾU SỨC MẠNH GIÁ – 08/10/2026 VN-Index giảm 14,42 điểm (-0,82%) xuống 1.738,97 điểm, áp...",
   source: "Chứng Khoán Mirae Asset Việt Nam",
   sourceType: "Facebook",
@@ -12944,7 +12908,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1112,
+  id: 1110,
   title: "Phiên giao dịch 8/10/2026: VNINDEX MẤT -14 ĐIỂM, KHỐI NGOẠI BÁN -450 TỶ, SHB \"ĐÓNG CỬA\" ĐẦY KỊCH...",
   source: "Nguyễn Minh Hiếu",
   sourceType: "Facebook Group",
@@ -12962,7 +12926,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1113,
+  id: 1111,
   title: "BẢN LĨNH NỮ CHỦ – BỨT PHÁ KINH DOANH CÙNG HDBANK 💼✨ Dưới tầm nhìn chiến lược của các nữ doanh...",
   source: "HDBank",
   sourceType: "Facebook Fanpage",
@@ -12980,7 +12944,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1114,
+  id: 1112,
   title: "VN-INDEX LẠI THỬ THÁCH VÙNG ĐÁY 1.730: NGÂN HÀNG BỊ BÁN MẠNH, DÒNG TIỀN ĐANG RÚT LUI HAY CHUYỂN...",
   source: "Nguyễn Việt Trung",
   sourceType: "Facebook",
@@ -12998,7 +12962,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1115,
+  id: 1113,
   title: "TỔNG KẾT PHIÊN 08/10 — LẦN THỨ BA CHẠM 1.760–1.765 RỒI QUAY ĐẦU: VN-INDEX MẤT 14,42 ĐIỂM, ĐÓNG...",
   source: "Góc Nhìn Thị Trường & Cổ Phiếu",
   sourceType: "Facebook",
@@ -13016,7 +12980,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1116,
+  id: 1114,
   title: "MỘT GIAO DỊCH – MỘT TRANG SÁCH – MỘT TRẢI NGHIỆM KHÁC BIỆT Giao dịch xong, đừng vội về! Bởi tại...",
   source: "Nguyễn Diệu An",
   sourceType: "Facebook",
@@ -13034,7 +12998,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1117,
+  id: 1115,
   title: "Ghé c sẵn nhiều mã nè. 🔥Hổ trợ trả góp qua NH HDBank-Mira-Thẻ Tín Dụng.Sinh Viên Có Thẻ Duyệt...",
   source: "@tieu_nhu68",
   sourceType: "Threads",
@@ -13052,7 +13016,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1118,
+  id: 1116,
   title: "KHÔNG CHỈ LÀ NƠI GIAO DỊCH TÀI CHÍNH, MÀ CÒN LÀ MỘT ĐIỂM HẸN HẠNH PHÚC ✨ Tại Vikki Digital Bank....",
   source: "Quỳnh Trang",
   sourceType: "Facebook",
@@ -13070,7 +13034,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1119,
+  id: 1117,
   title: "ĐẶC QUYỀN PHÁI ĐẸP THÁNG 10​ GỬI TIỀN AN TÂM, NHẬN QUÀ TINH TẾ ​ 💝 Ở HDBank, tháng của \"một nửa...",
   source: "Nguyễn Đức Minh",
   sourceType: "Facebook",
@@ -13088,7 +13052,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1120,
+  id: 1118,
   title: "Anh trai đi săn voucher HD SAISON mà cồng kềnh cỡ này! 🚨😱 Bước tới - Tiền vào - Nhận ưu đãi...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -13106,7 +13070,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1121,
+  id: 1119,
   title: "VN-INDEX GIẢM 14 ĐIỂM: ÁP LỰC BÁN LỚN, CẦU VẪN ĐANG HẤP THỤ VN-Index kết phiên 08/10 tại...",
   source: "TechProfit",
   sourceType: "Facebook",
@@ -13124,7 +13088,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1122,
+  id: 1120,
   title: "DẪN ĐẦU ĐIỂM CHẠM – ĐIỂM HẸN KẾT NỐI CÙNG VIKKI BANK Mỗi điểm chạm là một cơ hội kết nối. Mỗi...",
   source: "@nguyen_huong201",
   sourceType: "Threads",
@@ -13142,7 +13106,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1123,
+  id: 1121,
   title: "TRẢI NGHIỆM MỘT NGÂN HÀNG THÔNG MINH VÀ GẦN GŨI Tài chính không còn khô khan khi bạn trải nghiệm...",
   source: "Dang Kathy",
   sourceType: "Facebook",
@@ -13160,7 +13124,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1124,
+  id: 1122,
   title: "Vikki Bank - Mỗi điểm chạm là một câu chuyện, mỗi điểm hẹn là một kết nối 💜 Vikki đang từng...",
   source: "Dang Kathy",
   sourceType: "Facebook",
@@ -13178,7 +13142,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1125,
+  id: 1123,
   title: "VIKKI DIGITAL BANK – PGD GÀNH HÀO CHÍNH THỨC RA MẮT! Thêm một “Điểm hẹn Ngân hàng Số” mới chính...",
   source: "Nguyễn Văn Đạt",
   sourceType: "Facebook",
@@ -13196,7 +13160,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1126,
+  id: 1124,
   title: "Các ngân hàng Việt Nam đang huy động vốn quốc tế với quy mô chưa từng có và có nhiều điều đáng...",
   source: "Hue Tran",
   sourceType: "Facebook",
@@ -13214,7 +13178,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1127,
+  id: 1125,
   title: "MỘT KHÔNG GIAN DỄ CHỊU CHO NHỮNG GIAO DỊCH AN TÂM Giữa những ngày bận rộn, một không gian giao...",
   source: "Linh Vikki",
   sourceType: "Facebook",
@@ -13232,7 +13196,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1128,
+  id: 1126,
   title: "Vikki Digital Bank có gì mà các Ngân hàng số khác không có? Mời các khách hàng cùng đến trải...",
   source: "Nguyễn Hải",
   sourceType: "Facebook",
@@ -13250,7 +13214,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1129,
+  id: 1127,
   title: "Mỗi người một cá tính, một thế mạnh, một màu sắc riêng. Nhưng khi cùng đứng trong một tập thể,...",
   source: "Tiên Tiên",
   sourceType: "Facebook",
@@ -13268,7 +13232,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1130,
+  id: 1128,
   title: "Khách đừng hỏi “ EM ƠI EM CÒN LÀM BÊN HDSAISON NỮA KHÔNG” - Mà hãy nói “LÊN HỒ SƠ CHO ANH EM ƠI”...",
   source: "Thúy Huyền",
   sourceType: "Facebook",
@@ -13286,7 +13250,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1131,
+  id: 1129,
   title: "Toàn bộ 40 mã cổ phiếu leader hiện tại tôi xếp hạng lại được phân loại thành 11 nhóm ngành chính...",
   source: "Ku Lì Trader",
   sourceType: "Facebook",
@@ -13304,7 +13268,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1132,
+  id: 1130,
   title: "8-10-2026 – THỨ 5 – 2H29 -AM ( NỬA ĐÊM MA CÀ RỒNG ) ( ĐỌC SUY NGHĨ ) CỦA ( CHỦ TỊCH LOTTE ) CỦA...",
   source: "Quang Laze Bất Tử",
   sourceType: "Facebook",
@@ -13322,7 +13286,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1133,
+  id: 1131,
   title: "TRÂN TRỌNG CẢM ƠN CÁC NHÀ TÀI TRỢ ĐỒNG HÀNH CÙNG NTTU INNOVATION STARTUP CHALLENGE 2026 Mỗi ý...",
   source: "NIIC - Trung tâm Sáng tạo và Ươm tạo Khởi nghiệp Trường ĐH Nguyễn Tất Thành",
   sourceType: "Facebook",
@@ -13340,7 +13304,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1134,
+  id: 1132,
   title: "THÁNG 10 GÕ CỬA – BẠN ĐÃ DÀNH GÌ CHO CHÍNH MÌNH? ♡ 𓂃 ࣪˖ ִֶָ🌸 Một món quà mình yêu thích? 𓂃 ࣪˖...",
   source: "Nhỏ Nga",
   sourceType: "Facebook",
@@ -13358,7 +13322,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1135,
+  id: 1133,
   title: "FPTS- Research] ĐỂ NGỎ NHỊP TĂNG NGẮN HẠN Chúng tôi khuyến nghị MUA đối với cổ phiếu HDB dựa...",
   source: "FPTS - FPT Securities",
   sourceType: "Facebook",
@@ -13376,7 +13340,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1136,
+  id: 1134,
   title: "10 năm trước: Hai đứa sinh viên chung nghành ở chung, ăn chung, ngủ chung đi học chung! 10 năm...",
   source: "Trung Kiên",
   sourceType: "Facebook",
@@ -13394,7 +13358,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1137,
+  id: 1135,
   title: "Gửi tiết kiệm lãi 9,4% ở ngân hàng từng 0 đồng: tiền có an toàn không? Tháng 10/2026",
   source: "chuyện tiền bạc",
   sourceType: "YouTube",
@@ -13412,7 +13376,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1138,
+  id: 1136,
   title: "NGÂN HÀNG SỐ VIKKI – PHÒNG GIAO DỊCH HỒNG DÂN ✨️ 🎉 NGÀY ĐẦU TIÊN HOẠT ĐỘNG TẠI ĐỊA CHỈ MỚI 🎉...",
   source: "Thành Lương",
   sourceType: "Facebook",
@@ -13430,7 +13394,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1139,
+  id: 1137,
   title: "HDBank và Đại học Quốc gia TP.HCM hợp tác toàn diện, kết nối giáo dục, tài chính và công nghệ",
   source: "HDBank",
   sourceType: "Facebook Fanpage",
@@ -13448,7 +13412,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1140,
+  id: 1138,
   title: "HDSAISON: - Vay 50tr : cần CCCD + BLX + BHYT do cty cấp - Vay 25tr: cần CCCD + BLX - Vay 12tr:...",
   source: "@susu_1k1k",
   sourceType: "Threads",
@@ -13466,7 +13430,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1141,
+  id: 1139,
   title: "Bắt bài\" TOP 5 danh mục Quỹ cổ phiếu SSI-SCA tháng 9.2026 Trong tháng 9 năm 2026, danh mục Quỹ...",
   source: "SSI Asset Management",
   sourceType: "Facebook",
@@ -13484,7 +13448,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1142,
+  id: 1140,
   title: "HAPPY BIRTHDAY TO OUR INSPIRING LEADER! 🌸✨ ​“Điểm hẹn Ngân hàng Số – Chạm cảm hứng, bật tương...",
   source: "Ngô Quốc Chiêu",
   sourceType: "Facebook",
@@ -13502,7 +13466,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1143,
+  id: 1141,
   title: "Vikki bank với thương hiệu ngân hàng số hiện đại với nhiều dịch vụ tài chính an toàn và hiện đại...",
   source: "Đặng Hoàng Nam",
   sourceType: "Facebook",
@@ -13520,7 +13484,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1144,
+  id: 1142,
   title: "Hôm nay, không khí tại Vikkibank thật nhộn nhịp! 🤩 Rất nhiều khách hàng đã ghé thăm để thực...",
   source: "Cao Daisy Kim Cuc",
   sourceType: "Facebook",
@@ -13538,7 +13502,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1145,
+  id: 1143,
   title: "Trong ngắn hạn, tôi cố gắng tìm kiếm những cổ phiếu tốt có chất xúc tác cũng như tương quan lực...",
   source: "Ku Lì Trader",
   sourceType: "Facebook",
@@ -13556,7 +13520,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1146,
+  id: 1144,
   title: "hdbank HappyDigitalBank IloveHDBank",
   source: "Thanh Hằng Phạm",
   sourceType: "Facebook",
@@ -13574,7 +13538,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1147,
+  id: 1145,
   title: "Nếu gửi 1-2 tỷ kỳ hạn 6 tháng thì lãi suất Ngân hàng Sacom, VP, MB và Vikki được bao nhiêu hả...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -13592,7 +13556,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1148,
+  id: 1146,
   title: "Về làng Đại học Thủ Đức 1 cái là biết bao kỷ niệm thời sinh viên ùa về😍, thật hoài niệm những...",
   source: "To Trinh Bao Hung",
   sourceType: "Facebook",
@@ -13610,7 +13574,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1149,
+  id: 1147,
   title: "NGÂN HÀNG VIỆT SẮP BƯỚC VÀO “LÀN SÓNG” HUY ĐỘNG VỐN GẦN 7 TỶ USD Theo Reuters, các ngân hàng...",
   source: "Hiếu Nguyễn",
   sourceType: "Facebook Group",
@@ -13628,7 +13592,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1150,
+  id: 1148,
   title: "Chúc mừng Lễ khánh thành Ngân hàng số Vikki Thuận Thành 🎉 Một hành trình mới chính thức bắt đầu...",
   source: "Đào Kim",
   sourceType: "Facebook",
@@ -13646,7 +13610,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1151,
+  id: 1149,
   title: "Mình vay HD saison 25tr trả đc 3 kì thì hông trả nữa cũng 2 năm rồi nó nói xuống nhà thương...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -13664,7 +13628,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1152,
+  id: 1150,
   title: "MỖI NGÀY MỘT CUỘC GẶP – THÊM MỘT NIỀM TIN 💙 Sáng sớm, ghé thăm và đồng hành cùng khách hàng tại...",
   source: "Diem Nguyen",
   sourceType: "Facebook",
@@ -13682,7 +13646,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1153,
+  id: 1151,
   title: "Đồng hành trên con đường tri thức",
   source: "Phong Đỗ",
   sourceType: "Facebook",
@@ -13700,7 +13664,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1154,
+  id: 1152,
   title: "VIKKI BANK – ĐIỂM HẸN NGÂN HÀNG SỐ, KHÔNG CHỈ ĐỂ GIAO DỊCH! ☕✨ - Với không gian giao dịch hiện...",
   source: "Hùng Thái",
   sourceType: "Facebook",
@@ -13718,7 +13682,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1155,
+  id: 1153,
   title: "7h20 – Có mặt tại HDBank PGD Minh Hải- Cà Mau, mở máy là mở luôn một ngày “chạy hết công suất”...",
   source: "Trường Nguyễn Nnc",
   sourceType: "Facebook",
@@ -13736,7 +13700,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1156,
+  id: 1154,
   title: "English below 📣 Họp báo ra mắt Ngày Thanh toán số Việt Nam 2026 Tại Hà Nội, buổi họp báo công...",
   source: "Luigi",
   sourceType: "Facebook",
@@ -13754,7 +13718,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1157,
+  id: 1155,
   title: "NAY EM BÁN SÁCH RỒI Ạ Một diện mạo hoàn toàn mới – không gian chưa từng có tại Vikki chính thức...",
   source: "Trang Thùy Vũ",
   sourceType: "Facebook",
@@ -13772,7 +13736,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1158,
+  id: 1156,
   title: "MỘT CHẠM VIKKI – MỞ KHÓA VẠN TRẢI NGHIỆM! ✨ Từ quản lý tài chính, thanh toán, di chuyển, mua sắm...",
   source: "Nguyễn Đức Minh",
   sourceType: "Facebook",
@@ -13790,7 +13754,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1159,
+  id: 1157,
   title: "HDBANK XẾP THỨ 2 VỀ HIỆU QUẢ HOẠT ĐỘNG TRONG BẢNG XẾP HẠNG 50 NGÂN HÀNG NIÊM YẾT LỚN NHẤT ĐÔNG...",
   source: "Hiệp hội Ngân hàng Việt Nam",
   sourceType: "Facebook",
@@ -13808,7 +13772,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1160,
+  id: 1158,
   title: "NGÂN HÀNG SỐ MÀ CÓ CẢ VIKKAFE – SAO MÀ KHÔNG MÊ? 💜 Một chút cà phê cho ngày thêm tỉnh táo, một...",
   source: "Lan Anh Nguyen",
   sourceType: "Facebook",
@@ -13826,7 +13790,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1161,
+  id: 1159,
   title: "VAY TIỀN MẶT - HD SAISON ✔️ CCCD: 15tr (21T) ✔️ CCCD + GPLX: 25tr ✔️ CCCD + BHYT +...",
   source: "@tranyen8101",
   sourceType: "Threads",
@@ -13844,7 +13808,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1162,
+  id: 1160,
   title: "Em gái à, 6 tháng thử thách qua rồi… ❤️💪🏻🌿 6 tháng cứ miệt mài chăm chỉ, tận tâm với từng...",
   source: "Kun Lee",
   sourceType: "Facebook",
@@ -13862,7 +13826,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1163,
+  id: 1161,
   title: "100 TRIỆU ĐỒNG ĐẦU TƯ CỔ PHIẾU NGÂN HÀNG TỪ 2019 ĐẾN 2026 – BẠN SẼ CÓ BAO NHIÊU? Cùng một số...",
   source: "PHẠM HẠNH MMO",
   sourceType: "Facebook",
@@ -13880,7 +13844,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1164,
+  id: 1162,
   title: "Sáng ăn Khoai cùng sữa hạt nhà Vikkafe tại Vikki Bank Ninh Thuận, là đủ năng lượng cho cả ngày...",
   source: "Hùng Thái",
   sourceType: "Facebook",
@@ -13898,7 +13862,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1165,
+  id: 1163,
   title: "Ngân hàng Số Vikki Digital Bank có gì mà tạo nên sự khác biệt vượt trội? Không chỉ là một ứng...",
   source: "Trang Thien",
   sourceType: "Facebook",
@@ -13916,7 +13880,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1166,
+  id: 1164,
   title: "Có 1 câu chuyện kỳ vọng mà ít nhà đầu tư chứng khoán quan tâm lúc này Đó là công bố kết quả kinh...",
   source: "Trương Kính Nam",
   sourceType: "Facebook",
@@ -13934,7 +13898,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1167,
+  id: 1165,
   title: "Mình cần hỗ trợ mở thẻ hdbank vietjet platinum. Mình đã có thẻ signature của tpbank và vib. Mình...",
   source: "An Quoc",
   sourceType: "Facebook Group",
@@ -13952,7 +13916,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1168,
+  id: 1166,
   title: "VIKKI DIGITAL BANK CÓ GÌ MÀ NGÂN HÀNG KHÁC KHÔNG CÓ?👀 ☕ Có Vikkafé – không gian vừa giao dịch,...",
   source: "Hà Phạm",
   sourceType: "Facebook",
@@ -13970,7 +13934,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1169,
+  id: 1167,
   title: "ĐẾ CHẾ TÀI PHIỆT] ANH HÙNG LAO ĐỘNG 4,1 TỶ USD VÀ NGHỆ THUẬT LẤY BANK NUÔI BAY CỦA MADAM THẢO Bà...",
   source: "Admin Cổ phiếu Dẫn sóng",
   sourceType: "Facebook Group",
@@ -13988,7 +13952,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1170,
+  id: 1168,
   title: "HDBank gửi online lãi 8.8% liên hệ em hỗ trợ nha 0834089517",
   source: "@zundtn",
   sourceType: "Threads",
@@ -14006,7 +13970,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1171,
+  id: 1169,
   title: "Đến với Vikki Digital Bank để cảm nhận một ngân hàng số hiện đại dẫn đầu với hệ thống ✨ VikKafé...",
   source: "Quốc Thông",
   sourceType: "Facebook",
@@ -14024,7 +13988,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1172,
+  id: 1170,
   title: "Một buổi sáng cần chút cà phê để tỉnh táo? ☕ Ghé Vikkafe làm một ly cà phê thơm ngon, nạp năng...",
   source: "Anh Thu",
   sourceType: "Facebook",
@@ -14042,7 +14006,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1173,
+  id: 1171,
   title: "Gửi tiết kiệm, điều mình quan tâm không chỉ là lãi suất tốt mà còn là sự minh bạch và an tâm...",
   source: "Thu Vân Nguyễn",
   sourceType: "Facebook",
@@ -14060,7 +14024,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1174,
+  id: 1172,
   title: "Các chứng từ đăng kí vayyy tiêu dùng qua HD SAISON được bỏ qua bước gọi người thân hdsaison",
   source: "Đặng Thị Dơn",
   sourceType: "Facebook",
@@ -14078,7 +14042,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1175,
+  id: 1173,
   title: "SẮC XANH VIKKI KON TUM RỰC RỠ CÀN QUÉT CÁC CUNG ĐƯỜNG! 🛵✨ Bạn đã bắt gặp dàn chiến binh Vikki...",
   source: "Minh Nhân Vikki",
   sourceType: "Facebook",
@@ -14096,7 +14060,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1176,
+  id: 1174,
   title: "Cổ phiếu PNJ rơi xuống mức 18.900 đồng, chạm mốc thấp nhất trong gần 10 năm giữa đà giảm của thị...",
   source: "Tiêu Điểm 24H",
   sourceType: "Facebook Group",
@@ -14114,7 +14078,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1177,
+  id: 1175,
   title: "Hơn cả một ngân hàng số, Vikki Digital Bank là điểm hẹn tài chính đồng hành cùng mọi mục tiêu...",
   source: "Thu Lien Vo",
   sourceType: "Facebook",
@@ -14132,7 +14096,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1178,
+  id: 1176,
   title: "BẢN TIN SÁNG - NGÀY 08/10/2026 📍 Diễn biến thị trường VN-Index giảm 5,69 điểm (-0,32%); chỉ số...",
   source: "Chứng Khoán Thành Công - TCSC",
   sourceType: "Facebook",
@@ -14150,7 +14114,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1179,
+  id: 1177,
   title: "Lãi suất tiết kiệm HDBank siêu tốt + chương trình quà tặng hấp dẫn🎁🎁 Quý anh/chị để lại bình...",
   source: "Minh Phương",
   sourceType: "Facebook Group",
@@ -14168,7 +14132,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1180,
+  id: 1178,
   title: "Vikki bank khu vực Định Công, gần Định Công cho e xin lãi suất 500tr có thể gửi 6th or 12th (...",
   source: "Minh Khánh",
   sourceType: "Facebook Group",
@@ -14186,7 +14150,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1181,
+  id: 1179,
   title: "Vikki Digital Bank – không chỉ là nơi giao dịch tài chính, mà còn là điểm hẹn của mọi khoảnh...",
   source: "Tung Diep",
   sourceType: "Facebook",
@@ -14204,7 +14168,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1182,
+  id: 1180,
   title: "15pro max-256gb ❌ 17tr.xxx ❌ 🔥 HỖ TRỢ TRẢ GÓP - TRẢ TRƯỚC 0₫ 🔥 💥- HD Saison 💥- Mirae Asset...",
   source: "@dinhlinh308qn",
   sourceType: "Threads",
@@ -14222,7 +14186,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1183,
+  id: 1181,
   title: "Khách hàng là thượng đế anh nha☺️ HD SAISON – HỖ TRỢ TƯ VẤN Hồ sơ tham khảo: - CCCD: 15 tr (đủ...",
   source: "@conghdss",
   sourceType: "Threads",
@@ -14240,7 +14204,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1184,
+  id: 1182,
   title: "Quý Khách hàng/ Quý đối tác/ Anh,Chị,Em đồng nghiệp thân mến, Em Ngọc Thanh sẽ làm việc tại...",
   source: "Thanh Tran",
   sourceType: "Facebook",
@@ -14258,7 +14222,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1185,
+  id: 1183,
   title: "Vikki bank 9-9.6, quan tâm thì nhắn anh nhé",
   source: "@dk_reuss",
   sourceType: "Threads",
@@ -14276,7 +14240,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1186,
+  id: 1184,
   title: "Reviewthecogivui Hi các ct, cho em hỏi tí. Các bác có gặp tình trạng Thẻ TD HDBANK Gold cứ hay...",
   source: "TaupeStrawberry828",
   sourceType: "Facebook Group",
@@ -14294,7 +14258,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1187,
+  id: 1185,
   title: "Tặng AirPods 4 khi sử dụng thẻ 📱 Ưu đãi mua sắm Samsung Galaxy Z, Iphone 18 2-5.000.000 💰 Hoàn...",
   source: "Quang Huy Rboot ",
   sourceType: "Facebook Group",
@@ -14312,7 +14276,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1188,
+  id: 1186,
   title: "Quá đỉnh luôn HDBank HappyDigitalBank",
   source: "Quỳnh Trâm Matxicorp-Kis22",
   sourceType: "Facebook",
@@ -14330,7 +14294,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1189,
+  id: 1187,
   title: "TIẾP VỐN THẢNH THƠI 👷‍♂️ ĐOÀN VIÊN - CÔNG NHÂN VẸN TOÀN CUỘC SỐNG 🌐 Đồng hành cùng ĐVCN:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -14348,7 +14312,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1190,
+  id: 1188,
   title: "Đoàn viên, công nhân sẽ nhẹ nhàng và thảnh thơi hơn rất nhiều nếu biết chủ động \"gói gọn\" bài...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -14366,7 +14330,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1191,
+  id: 1189,
   title: "Lãi suất tiết kiệm HDBank siêu tốt + chương trình quà tặng hấp dẫn🎁🎁 Quý anh chị để lại bình...",
   source: "Uyển My",
   sourceType: "Facebook Group",
@@ -14384,7 +14348,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1192,
+  id: 1190,
   title: "HDBank cùng 'Trẩy hội trăng rằm 2026' – Gieo niềm vui, trao yêu thương đến trẻ nhỏ",
   source: "Báo Tiền Phong",
   sourceType: "Báo chí",
@@ -14397,7 +14361,7 @@ const HDBANK_FEED = [
   excerpt: "Từ những điều tưởng như giản dị ấy, câu chuyện đồng hành cùng cộng đồng của <mark>HDBank</mark> được nối dài qua những hoạt động gần gũi với đời sống, trong đó có việc cùng các đơn vị tổ chức mang đến cho trẻ nhỏ một mùa trăng đủ đầy hơn cả niềm vui. Tại chuỗi sự kiện Trẩy hội trăng rằm 2026, <mark>HDBank</mark> đồng hành cùng chương trình trong một không gian nghệ thuật dành cho..."
  },
  {
-  id: 1193,
+  id: 1191,
   title: "VINH DANH CHIẾN BINH XUẤT SẮC VIKKI BẮC NINH! Nhiệt liệt chúc mừng những cá nhân và tập thể xuất...",
   source: "Hải Minh Home",
   sourceType: "Facebook",
@@ -14415,7 +14379,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1194,
+  id: 1192,
   title: "Vikki Digital Bank là ngân hàng số hiện đại, đặc biệt khi quý khách hàng đến giao dịch sẽ được...",
   source: "Nguyễn Tống Dũ",
   sourceType: "Facebook",
@@ -14433,7 +14397,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1195,
+  id: 1193,
   title: "KẾT NỐI MỖI NGÀY – LAN TỎA GIÁ TRỊ 🏆 Vikki đang từng bước biến những điểm chạm ngân hàng thành...",
   source: "Hồng Hạnh",
   sourceType: "Facebook Group",
@@ -14451,7 +14415,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1196,
+  id: 1194,
   title: "NGÂN HÀNG SỐ VIKKI 🩷🩷 💰 Lãi suất tiết kiệm tốt nhất – tối ưu khoản tiền nhàn rỗi. ☕ VikkiKafe...",
   source: "Chánh Văn",
   sourceType: "Facebook",
@@ -14469,7 +14433,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1197,
+  id: 1195,
   title: "Nhà đầu tư nước ngoài chưa dứt chuỗi bán ròng",
   source: "VnExpress",
   sourceType: "Báo chí",
@@ -14482,7 +14446,7 @@ const HDBANK_FEED = [
   excerpt: "Ở chiều ngược lại, nhóm nhà đầu tư này bán ra hơn 2.250 tỷ đồng, tiêu điểm nằm ở TCB (gần 153 tỷ), <mark>HDB</mark> (gần 118 tỷ) và PNJ (gần 116 tỷ)."
  },
  {
-  id: 1198,
+  id: 1196,
   title: "“Quét sạch” thành quả 3 phiên tăng, VN-Index giảm mạnh thử thách đáy ngắn hạn",
   source: "VnEconomy",
   sourceType: "Báo chí",
@@ -14495,7 +14459,7 @@ const HDBANK_FEED = [
   excerpt: "Các mã bị bán lớn là TCB -153,1 tỷ, <mark>HDB</mark> -124,5 tỷ, PNJ -115,4 tỷ, VHM -61 tỷ, FPT -59,7 tỷ."
  },
  {
-  id: 1199,
+  id: 1197,
   title: "HD Bank có nhận thế chấp xe cũ 2024 đứng tên CTY không ạ. Khu vực long biên .",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -14513,7 +14477,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1200,
+  id: 1198,
   title: "S&P Global Market Intelligence: HDBank là ngân hàng dẫn đầu Việt Nam, Á quân hiệu quả hoạt động...",
   source: "VnFinance.vn",
   sourceType: "Facebook",
@@ -14531,7 +14495,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1201,
+  id: 1199,
   title: "Góc sách… Saigon Books vừa hợp tác với Ngân hàng Số Vikki để đưa những “Góc sách” vào “siêu thị...",
   source: "Nguyen Tuan Quynh",
   sourceType: "Facebook",
@@ -14549,7 +14513,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1202,
+  id: 1200,
   title: "TÀI SẢN BÀ NGUYỄN THỊ PHƯƠNG THẢO GIẢM MẠNH, MẤT VỊ TRÍ GIÀU THỨ HAI VIỆT NAM 💰 Theo bảng xếp...",
   source: "SMART Investing",
   sourceType: "Facebook",
@@ -14567,7 +14531,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1203,
+  id: 1201,
   title: "LÃI SUẤT TIỀN GỬI “NÓNG” TRỞ LẠI: NHIỀU NGÂN HÀNG CHÀO TRÊN 9%/NĂM, CÓ NƠI LÊN 10% Bước vào...",
   source: "Vietnam Banking News",
   sourceType: "Facebook",
@@ -14585,7 +14549,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1204,
+  id: 1202,
   title: "Anh hùng lao động Nguyễn Thị Phương Thảo là người giàu thứ 2 ở Việt Nam Theo bảng xếp hạng tỷ...",
   source: "Võ Thuận",
   sourceType: "Facebook Group",
@@ -14603,7 +14567,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1205,
+  id: 1203,
   title: "Phiên giao dịch 08/10 - Thị trường cân bằng , dòng tiền chọn lọc ✅ VNINDEX phiên hôm qua giảm...",
   source: "Chứng Khoán Mỗi Ngày - Red Investment",
   sourceType: "Facebook",
@@ -14621,7 +14585,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1206,
+  id: 1204,
   title: "Anh hùng lao động Nguyễn Thị Phương Thảo là người phụ nữ giàu nhất Việt Nam Với khối tài sản 4,1...",
   source: "Võ Thuận",
   sourceType: "Facebook Group",
@@ -14639,7 +14603,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1207,
+  id: 1205,
   title: "NHẬN ĐỊNH THỊ TRƯỜNG NGÀY 8/10/2026: THỊ TRƯỜNG TEST CUNG - KỊCH BẢN NÀO TRONG NHỮNG PHIÊN TỚI?...",
   source: "Hệ thống đầu tư Atagetz",
   sourceType: "Facebook Group",
@@ -14657,7 +14621,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1208,
+  id: 1206,
   title: "Không chỉ là đồng nghiệp, chúng ta còn là những người cùng nhau tạo nên một tập thể đoàn kết,...",
   source: "Vo Thanh Binh",
   sourceType: "Facebook",
@@ -14675,7 +14639,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1209,
+  id: 1207,
   title: "Chào buổi sáng thứ 5, cùng Vikki bắt đầu một ngày thật nhiều năng lượng. Mời khách ghé Vikki...",
   source: "Yến Linh Tô",
   sourceType: "Facebook",
@@ -14693,7 +14657,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1210,
+  id: 1208,
   title: "Ngân hàng HDB chia cổ tức đợt 2 bằng cổ phiếu tỉ lệ 100/25. Ngày mai 09/10 GDKHQ (giao dịch...",
   source: "Duong Nguyen",
   sourceType: "Facebook",
@@ -14711,7 +14675,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1211,
+  id: 1209,
   title: "BẢN TIN CASHFLOW FOCUS - Ngày 08/10/2026 Cường gửi anh chị trạng thái danh mục theo Hệ thống 5...",
   source: "Cashflow Focus - Đầu tư có kỷ luật",
   sourceType: "Facebook Group",
@@ -14729,7 +14693,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1212,
+  id: 1210,
   title: "Bà Nguyễn Thị Phương Thảo trở lại vị trí người giàu thứ 2 Việt Nam",
   source: "CafeF",
   sourceType: "Báo chí",
@@ -14742,7 +14706,7 @@ const HDBANK_FEED = [
   excerpt: "Bà <mark>Nguyễn Thị Phương Thảo</mark> trở lại vị trí người giàu thứ 2 Việt Nam Với việc giá trị tài sản ròng tăng lên 4,2 tỷ USD, bà <mark>Nguyễn Thị Phương Thảo</mark>-Chủ tịch VietJet Air, đã trở lại vị trí người giàu thứ 2 Việt Nam. Ngoài ra, bà <mark>Nguyễn Thị Phương Thảo</mark>-Chủ tịch HĐQT Vietjet Air và Phó Chủ tịch thường trực <mark>HDBank</mark>, trở lại vị trí người giàu thứ 2 Việt Nam với..."
  },
  {
-  id: 1213,
+  id: 1211,
   title: "Lãi suất ngân hàng hôm nay 8/10/2026: Có 1 triệu cũng mua được chứng chỉ tiền gửi",
   source: "VietNamNet",
   sourceType: "Báo chí",
@@ -14755,7 +14719,7 @@ const HDBANK_FEED = [
   excerpt: "Lãi suất ngân hàng hôm nay 8/10/2026, một ngân hàng hạ mệnh giá chứng chỉ tiền gửi nhằm mở rộng đối tượng khách hàng tham gia."
  },
  {
-  id: 1214,
+  id: 1212,
   title: "VIKKI BANK CN KIÊN GIANG – TIẾP SỨC MÙA LỄ HỘI NGUYỄN TRUNG TRỰC 🌿 “Một điểm dừng chân – Một ly...",
   source: "Trong Van",
   sourceType: "Facebook",
@@ -14773,7 +14737,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1215,
+  id: 1213,
   title: "TP.HCM CÓ TAKASHIMAYA – VIKKI CÓ ĐỔI NGOẠI TỆ! 💜 Sắp đi du lịch, công tác hay đơn giản là cần...",
   source: "Hà Phạm",
   sourceType: "Facebook",
@@ -14791,7 +14755,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1216,
+  id: 1214,
   title: "DU HÀNH CÙNG VIKKI – CHẠM HIỆN TẠI, MỞ LỐI TƯƠNG LAI Không chỉ là ngân hàng trên màn hình, Vikki...",
   source: "Bảo Vikki",
   sourceType: "Facebook",
@@ -14809,7 +14773,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1217,
+  id: 1215,
   title: "BÁO CÁO THỊ TRƯỜNG — 07/10/2026 (Thứ Tư) VN-Index: 1.753,39 điểm (-5,69 điểm / -0,32%)...",
   source: "Đào Trường Giang",
   sourceType: "Facebook Group",
@@ -14827,7 +14791,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1218,
+  id: 1216,
   title: "Mua 100 Triệu Cổ Phiếu Ngân Hàng Tư Nhân Năm 2019, Giờ Thành Bao Nhiêu? TCB VPB HDB VIB LPB 100...",
   source: "Mê Đầu Tư",
   sourceType: "Facebook",
@@ -14845,7 +14809,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1219,
+  id: 1217,
   title: "Tại đợt e làm hd saison có phí á c",
   source: "@meok3_",
   sourceType: "Threads",
@@ -14863,7 +14827,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1220,
+  id: 1218,
   title: "Mình được phê duyệt trước thẻ HDBank 60tr mà k hiểu sao đăng ký online toàn bị tạch. Các bác có...",
   source: "SolidHedgehog6064",
   sourceType: "Facebook Group",
@@ -14881,7 +14845,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1221,
+  id: 1219,
   title: "iPhone 17 256GB XANH 💙 ✨ Máy đẹp, màu cực iu – nhìn là mê! 🔋 Pin 99% – mới sạc 88 lần 🛡️ Còn...",
   source: "@tieu_nhu68",
   sourceType: "Threads",
@@ -14899,7 +14863,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1222,
+  id: 1220,
   title: "Mang Vikki đến gần hơn với mọi người! Mỗi cuộc gặp là một cơ hội để lắng nghe, chia sẻ và đồng...",
   source: "Uyên Thi",
   sourceType: "Facebook",
@@ -14917,7 +14881,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1223,
+  id: 1221,
   title: "Lãi suất VikkiBank cao lên tới 9️⃣,6️⃣% 🎁 Quà lớn tri ân 📲 Lh em Tiến 0565583939 để được tư vấn ạ",
   source: "@tien_kutee",
   sourceType: "Threads",
@@ -14935,7 +14899,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1224,
+  id: 1222,
   title: "Vikki Digital Bank PGD Gành Hào chính thức ra mắt! Với tiêu chí \"Điểm hẹn Ngân hàng Số – Chạm...",
   source: "Huỳnh Minh Trọng",
   sourceType: "Facebook",
@@ -14953,7 +14917,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1225,
+  id: 1223,
   title: "Vikki - Điểm hẹn kết nối - Vừa giao dịch vừa chill, vừa trò chuyện sẻ chia! Đúng là Ngân hàng Số...",
   source: "Ngân Ngân",
   sourceType: "Facebook",
@@ -14971,7 +14935,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1226,
+  id: 1224,
   title: "Lời chào trân trọng từ HDBank Priority🤗 Mỗi đồng tiền của anh/chị đều xứng đáng được trân trọng...",
   source: "Phuong Bich",
   sourceType: "Facebook",
@@ -14989,7 +14953,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1227,
+  id: 1225,
   title: "ĐIỂM BÙNG NỔ PIVOT CỦA THỊ TRƯỜNG - CHÌA KHÓA VÀO SÓNG CỦA CỔ PHIẾU KÊNH TRÊN. Thị trường bước...",
   source: "X Cuong Pham",
   sourceType: "Facebook Group",
@@ -15007,7 +14971,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1228,
+  id: 1226,
   title: "Ngân hàng số Vikki có gì mà các ngân hàng số khác không có? Vikki VikkiDigitalBank ToiyeuVikki",
   source: "Nguyễn Vinh",
   sourceType: "Facebook",
@@ -15025,7 +14989,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1229,
+  id: 1227,
   title: "Giải vàng may mắn lại gọi tên khách hàng Vikki bank - chi nhánh Hải Phòng. Ngoài lãi suất siêu...",
   source: "Lê Tuyết Nhung",
   sourceType: "Facebook",
@@ -15043,7 +15007,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1230,
+  id: 1228,
   title: "Chuyến đi cùng NH HD BANK 102026 💕 5T HDBank",
   source: "Huyen Thu",
   sourceType: "Facebook",
@@ -15061,7 +15025,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1231,
+  id: 1229,
   title: "Mang vẻ đẹp rực rỡ và đầy sức sống, hoa Thiên Điểu tượng trưng cho khát vọng vươn lên, tinh thần...",
   source: "Tiến Nguyễn",
   sourceType: "Facebook",
@@ -15079,7 +15043,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1232,
+  id: 1230,
   title: "VIKKI VỀ HƯNG YÊN – ĐỒNG HÀNH CÙNG CÔ, CHÚ! 🫶 Một ngày làm việc thật nhiều niềm vui khi đội ngũ...",
   source: "Hoàng Thu Thuỷ",
   sourceType: "Facebook",
@@ -15097,7 +15061,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1233,
+  id: 1231,
   title: "Một nhiệm vụ mới, sau 11 năm gắn bó với HDBank ❤️ Cảm ơn Ban lãnh đạo, cảm ơn các anh chị em...",
   source: "Trang Minh",
   sourceType: "Facebook",
@@ -15115,7 +15079,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1234,
+  id: 1232,
   title: "Chúc mừng Lễ khánh thành Ngân hàng số Vikki Thuận Thành 🎉 Một hành trình mới chính thức bắt đầu...",
   source: "Loan Ngoc",
   sourceType: "Facebook",
@@ -15133,7 +15097,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1235,
+  id: 1233,
   title: "CHÀO THÁNG CỦA NÀNG – ĐÓN DEALS BẠT NGÀN CÙNG VIKKI! 💜💙 Tháng mới đến rồi, deal xịn đã sẵn...",
   source: "Quốc Khánh",
   sourceType: "Facebook",
@@ -15151,7 +15115,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1236,
+  id: 1234,
   title: "Mẫu đồng phục ngân hàng HDBank đang được nhiều ACE hỏi nhất hôm nay đây ạ ✨",
   source: "Hoàng Liên",
   sourceType: "Facebook Group",
@@ -15169,7 +15133,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1237,
+  id: 1235,
   title: "SÁNG SÁNG – MỘT LY VIKKAFE, CẢ NGÀY ĐẦY NĂNG LƯỢNG! 💚 Không cần đi đâu xa, ngay tại VikkiBank,...",
   source: "Hà Phương",
   sourceType: "Facebook",
@@ -15187,7 +15151,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1238,
+  id: 1236,
   title: "VIKKI KHÁC BIỆT – KHÔNG CHỈ LÀ NGÂN HÀNG SỐ 💰 Lãi suất tiết kiệm tốt nhất – tối ưu khoản tiền...",
   source: "Tạ Thị Thu Hiền",
   sourceType: "Facebook",
@@ -15205,7 +15169,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1239,
+  id: 1237,
   title: "Cảm ơn người chị thân thiết đã luôn tin tưởng, yêu thương và nhiệt tình ủng hộ em, tạo cơ hội để...",
   source: "Huong Ninh",
   sourceType: "Facebook",
@@ -15223,7 +15187,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1240,
+  id: 1238,
   title: "Ngân hàng số Vikki có gì VIP?” Câu trả lời có lẽ không chỉ nằm ở một tính năng… mà nằm ở một hệ...",
   source: "Roger Đình Hoá",
   sourceType: "Facebook",
@@ -15241,7 +15205,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1241,
+  id: 1239,
   title: "Rộn ràng buổi sáng cùng nhau💖💖 Được mời vinh dự Sài Gòn tham gia 👍 Chương trình xổ số trúng...",
   source: "Ngọc Ngân",
   sourceType: "Facebook",
@@ -15259,7 +15223,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1242,
+  id: 1240,
   title: "HDBANK NHẬN CÚ ĐÚP GIẢI THƯỞNG VỀ TÍN DỤNG XANH VÀ HỖ TRỢ ĐẦU TƯ NÔNG NGHIỆP BỀN VỮNG Ngày 30/9...",
   source: "Thúy Võ",
   sourceType: "Facebook",
@@ -15277,7 +15241,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1243,
+  id: 1241,
   title: "VIKKI Digital Bank có gì mà các Ngân hàng số khác không có ??? ✨🌈🎉♥️",
   source: "Minh Đăng",
   sourceType: "Facebook",
@@ -15295,7 +15259,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1244,
+  id: 1242,
   title: "HAPPY BIRTHDAY – Trương Công Đạt 🎉🎂 🌟 PGD Đô Lương hân hoan tổ chức sinh nhật cho em Trương...",
   source: "HDBank Đô Lương",
   sourceType: "Facebook Fanpage",
@@ -15313,7 +15277,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1245,
+  id: 1243,
   title: "MỖI NGÀY LÀ MỘT HÀNH TRÌNH MANG ĐẾN TRẢI NGHIỆM TỐT HƠN Một ngày tại không gian giao dịch Vikki...",
   source: "Linh Vikki",
   sourceType: "Facebook",
@@ -15331,7 +15295,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1246,
+  id: 1244,
   title: "VN-INDEX 7/10: ĐIỀU CHỈNH NHẸ, NHỊP HỒI CHƯA BỊ PHÁ VỠ VN-Index kết phiên tại 1.753,39 điểm,...",
   source: "TechProfit",
   sourceType: "Facebook Group",
@@ -15349,7 +15313,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1247,
+  id: 1245,
   title: "Vikki Bank cho vay đất Nông Nghiệp với lãi suất 10.5% cho 5 tháng. Anh/Chị cần đáo gom lãi liên...",
   source: "Bảo Ngân Hàng",
   sourceType: "Facebook Group",
@@ -15367,7 +15331,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1248,
+  id: 1246,
   title: "NỖ LỰC BẤT THÀNH, ĐIỀU CHỈNH CHỈ SỐ 💥 1️⃣ Về chỉ số: Kết thúc phiên giao dịch VNINDEX đóng cửa...",
   source: "Fstock - Trợ lý đầu tư chứng khoán",
   sourceType: "Facebook",
@@ -15385,7 +15349,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1249,
+  id: 1247,
   title: "NIỀM VUI TRAO ĐI – GIÁ TRỊ LAN TỎA! 🏆✨ Một ngày thật vui khi được cùng đội ngũ VikkiBank trao...",
   source: "Anh Phuong",
   sourceType: "Facebook",
@@ -15403,7 +15367,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1250,
+  id: 1248,
   title: "Chúc mừng quý khách hàng đã may mắn trúng giải thưởng lớn từ HDBank👏",
   source: "Lam Pham",
   sourceType: "Facebook",
@@ -15421,7 +15385,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1251,
+  id: 1249,
   title: "Ngân hàng TMCP Phát triển TP.HCM (HDBank, mã chứng khoán: HDB) thông báo ngày 12/10/2026 là ngày...",
   source: "Thảo Thảo",
   sourceType: "Facebook",
@@ -15439,7 +15403,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1252,
+  id: 1250,
   title: "ĐHQG-HCM VÀ HDBANK KÝ KẾT HỢP TÁC PHÁT TRIỂN NGUỒN NHÂN LỰC, HỖ TRỢ NGƯỜI HỌC 🎓 👇",
   source: "Đại học Quốc gia TP.HCM",
   sourceType: "Facebook Fanpage",
@@ -15457,7 +15421,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1253,
+  id: 1251,
   title: "VPB, TCB, HDB hưởng lợi nhờ thông tư 50 của NHNN mới ban hành? Một trong những thông tin quan...",
   source: "Chứng Khoán Efinkey",
   sourceType: "Facebook",
@@ -15475,7 +15439,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1254,
+  id: 1252,
   title: "BẢN TIN CHỨNG KHOÁN CUỐI NGÀY 07/10/2026 📈 Tổng quan thị trường - VN‑Index: –5.69 điểm (-0.32%)...",
   source: "Chứng khoán Phú Hưng - PHS",
   sourceType: "Facebook",
@@ -15493,7 +15457,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1255,
+  id: 1253,
   title: "HDBank chốt chia cổ tức và cổ phiếu thưởng tỷ lệ 30%",
   source: "HDBank",
   sourceType: "Facebook Fanpage",
@@ -15511,7 +15475,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1256,
+  id: 1254,
   title: "Nếu bạn đang tìm kiếm một ngân hàng số vừa hiện đại vừa có nhiều đặc quyền vượt trội, Vikki...",
   source: "Lâm Xong Tài",
   sourceType: "Facebook",
@@ -15529,7 +15493,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1257,
+  id: 1255,
   title: "Ngày mai mình cần gửi 600 triệu tại quầy, cho mình hỏi chi nhánh HD bank nào ở Biên Hoà còn áp...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -15547,7 +15511,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1258,
+  id: 1256,
   title: "MÁI NHẬT 2 TẦNG SÂN VƯỜN - CĂN NHÀ ĐỘC THÂN VUI VẺ CỦA EM PHƯƠNG TÂM! 🏠 Kết thúc chuyện tình 10...",
   source: "@hoangkim_phan",
   sourceType: "Threads",
@@ -15565,7 +15529,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1259,
+  id: 1257,
   title: "KHAI TRƯƠNG ĐẠI LÝ THANH TOÁN HDBANK – ĐẾN VNPT CẦN THƠ, NHẬN QUÀ LIỀN TAY! 📣 Ngày 08/10/2026,...",
   source: "VNPT Cần Thơ",
   sourceType: "Facebook Fanpage",
@@ -15583,7 +15547,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1260,
+  id: 1258,
   title: "VN-INDEX 07/10/2026 – RUNG LẮC SAU HAI PHIÊN HỒI PHỤC, DÒNG TIỀN CHUYỂN SANG NHÓM CỔ PHIẾU RIÊNG...",
   source: "CAS - Đồn Kinh Tế",
   sourceType: "Facebook Group",
@@ -15601,7 +15565,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1261,
+  id: 1259,
   title: "Góc sách… Saigon Books vừa hợp tác với Ngân hàng Số Vikki để đưa những “Góc sách” vào “siêu thị...",
   source: "Nguyen Tuan Quynh",
   sourceType: "Facebook",
@@ -15619,7 +15583,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1262,
+  id: 1260,
   title: "VIKKI BANK – THẮP SÁNG NIỀM TIN, TRI ÂN ANH HÙNG DÂN TỘC NGUYỄN TRUNG TRỰC 🇻🇳 Hòa chung không...",
   source: "Đức Minh",
   sourceType: "Facebook",
@@ -15637,7 +15601,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1263,
+  id: 1261,
   title: "VIKKI BANK HỒNG DÂN – NHÀ MỚI, VIBE MỚI, TRẢI NGHIỆM MỚI! 💜✨ Bà con Hồng Dân ơi, \"tọa độ\" Ngân...",
   source: "Gia Gia Trang",
   sourceType: "Facebook",
@@ -15655,7 +15619,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1264,
+  id: 1262,
   title: "TOP CỔ PHIẾU SỨC MẠNH GIÁ – 07/10/2026 VN-Index giảm 5,69 điểm (-0,32%) xuống 1.753,39 điểm,...",
   source: "Chứng Khoán Mirae Asset Việt Nam",
   sourceType: "Facebook",
@@ -15673,7 +15637,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1265,
+  id: 1263,
   title: "VIKKI – NGÂN HÀNG SỐ, NHƯNG TRẢI NGHIỆM THÌ RẤT “RIÊNG”! ❤️❤️❤️ Không chỉ tiện lợi trong giao...",
   source: "Thaonguyen Tran",
   sourceType: "Facebook",
@@ -15691,7 +15655,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1266,
+  id: 1264,
   title: "Cứ thấy NVB FOMO 96 là tưởng khỏe toàn diện, cho đến khi soi điểm Quant 22... Phiên 06/10, cổ...",
   source: "Alphasensei.io",
   sourceType: "Facebook Group",
@@ -15709,7 +15673,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1267,
+  id: 1265,
   title: "HDBANK ĐÃ TÌM THẤY “TỶ PHÚ” CỦA HÈ VÀNG ĐẠI CÁT! Một hành trình rực rỡ đã về đích với những niềm...",
   source: "Giang Nguyễn Đông",
   sourceType: "Facebook",
@@ -15727,7 +15691,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1268,
+  id: 1266,
   title: "VIETNAM RETAIL BANKING FORUM 2026 TRI ÂN CÁC NHÀ TÀI TRỢ HỘI THẢO | CONFERENCE SPONSORS DIỄN ĐÀN...",
   source: "IDG Vietnam",
   sourceType: "Facebook",
@@ -15745,7 +15709,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1269,
+  id: 1267,
   title: "Ngoài gửi tiết kiệm, trái phiếu Doanh nghiệp cũng là một kênh đầu tư mang lại mức sinh lời cực...",
   source: "Lê Thanh Thảo",
   sourceType: "Facebook",
@@ -15763,7 +15727,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1270,
+  id: 1268,
   title: "SẴN SÀNG HÔM NAY - VỮNG VÀNG TƯƠNG LAI​ 📌 Tìm hiểu chi tiết tại:...",
   source: "HDBank",
   sourceType: "Facebook Fanpage",
@@ -15781,7 +15745,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1271,
+  id: 1269,
   title: "Vikki có gì khác biệt? 🤔 ☕ Có Vikkafe – vừa giao dịch, vừa chill cà phê. 🏦 Có 212 điểm giao...",
   source: "Trương Ngọc Trâm",
   sourceType: "Facebook",
@@ -15799,7 +15763,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1272,
+  id: 1270,
   title: "VN-INDEX GIẢM NHẸ NHƯNG DÒNG TIỀN ĐANG “CHỌN MẶT GỬI VÀNG”: TÍCH LŨY HAY CHỈ LÀ NHỊP HỒI TRONG...",
   source: "Nguyễn Việt Trung",
   sourceType: "Facebook",
@@ -15817,7 +15781,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1273,
+  id: 1271,
   title: "Hôm nay cả team vào guồng 😆 Người lo việc này, người xử lý việc kia, ai cũng tập trung hết công...",
   source: "Tiên Tiên",
   sourceType: "Facebook",
@@ -15835,7 +15799,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1274,
+  id: 1272,
   title: "KHÔNG GIAN NGÂN HÀNG SỐ – NƠI MỖI LẦN GHÉ ĐỀU THÊM MỘT NIỀM VUI Tại Vikki, ngân hàng không chỉ...",
   source: "Kim Chi Lee",
   sourceType: "Facebook",
@@ -15853,7 +15817,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1275,
+  id: 1273,
   title: "Nếu hỏi Vikki có gì khác biệt, câu trả lời không chỉ nằm ở một ứng dụng ngân hàng số tiện lợi,...",
   source: "Kiều Anh Vikki",
   sourceType: "Facebook",
@@ -15871,7 +15835,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1276,
+  id: 1274,
   title: "ĐIỂM TIN THỊ TRƯỜNG | NGÀY 07.10 DÒNG TIỀN PHÂN HÓA - VNINDEX ĐIỀU CHỈNH NHẸ 📌 Các diễn biến...",
   source: "Chứng khoán Vikki - VikkibankS",
   sourceType: "Facebook",
@@ -15889,7 +15853,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1277,
+  id: 1275,
   title: "VIETCOMBANK, BIDV, VPBANK... CÙNG VÀO CUỘC ĐUA HUY ĐỘNG VỐN KHỦNG Các ngân hàng Việt Nam đang...",
   source: "Banking Insider ",
   sourceType: "Facebook",
@@ -15907,7 +15871,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1278,
+  id: 1276,
   title: "SẮP DIỄN RA GO GLOBAL BẮC NINH 2026: NÂNG CAO NĂNG LỰC, KẾT NỐI CHUỖI, PHÁT TRIỂN THỊ TRƯỜNG...",
   source: "Dân trí",
   sourceType: "Facebook Fanpage",
@@ -15925,7 +15889,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1279,
+  id: 1277,
   title: "ĐIỂM HẸN NGÂN HÀNG SỐ – GHÉ LÀ THÊM TRẢI NGHIỆM 💜 Tại Vikki, ngân hàng không chỉ là nơi giao...",
   source: "Vinh Huynh",
   sourceType: "Facebook",
@@ -15943,7 +15907,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1280,
+  id: 1278,
   title: "Không cần phép 👉Không cần tích góp quá lâu 👉4 Chỉ cần có CCCD GĂN CHÍP và gặp ngay e. Ngọc HD...",
   source: "Lê Ngọc",
   sourceType: "Facebook",
@@ -15961,7 +15925,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1281,
+  id: 1279,
   title: "HDBankActivationDay HD HD026027",
   source: "Như Ý Phan",
   sourceType: "Facebook",
@@ -15979,7 +15943,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1282,
+  id: 1280,
   title: "Được ngày lên Hà Nội, lại có dịp gặp anh Trần Hoài Phương ❤️🎸 nghệ sĩ guitarist classical với...",
   source: "@yann.es90",
   sourceType: "Threads",
@@ -15997,7 +15961,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1283,
+  id: 1281,
   title: "Phiên giao dịch 07/10 - Có thứ để nói sau chuỗi giao dịch buồn chán 1. PNJ chính thức lủng đáy...",
   source: "Phạm Hoàng Hải",
   sourceType: "Facebook",
@@ -16015,7 +15979,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1284,
+  id: 1282,
   title: "Anh chị cho em hỏi vị trí nhân viên kinh doanh vikki bank kpi nặng k ạ, cho em xin ít review",
   source: "AgileQuince8867",
   sourceType: "Facebook Group",
@@ -16033,7 +15997,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1285,
+  id: 1283,
   title: "HOT 🔥🔥Gửi tiết kiệm Vikki Bank ĐU ĐỈNH rồi ạ 😍 👉50tr - LS 9-1% 👉200tr - LS 9,x to % Cam kết...",
   source: "Quỳnh Trang",
   sourceType: "Facebook",
@@ -16051,7 +16015,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1286,
+  id: 1284,
   title: "Hôm nay kể chuyện cầm dưới 1 tỷ đi gửi tiết kiệm cho bà con nghe chơi 😆 Trước khi đi, tui ngồi...",
   source: "Toàn Lê",
   sourceType: "Facebook",
@@ -16069,7 +16033,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1287,
+  id: 1285,
   title: "VIKKI CÓ GÌ MÀ KHÁC BIỆT? ☕✨ Một chiếc ngân hàng số nhưng không chỉ có giao dịch online… ☕ Có...",
   source: "Hà Phương",
   sourceType: "Facebook",
@@ -16087,7 +16051,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1288,
+  id: 1286,
   title: "NHẬN QUÀ XINH – GẮN KẾT CÙNG VIKKI! 🎁 Không chỉ là những món quà, đây còn là những “người bạn...",
   source: "Thao Pham",
   sourceType: "Facebook",
@@ -16105,7 +16069,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1289,
+  id: 1287,
   title: "HDBANK TUYÊN QUANG – 20/10 TRAO YÊU THƯƠNG, TÀI LỘC ĐONG ĐẦY 🌷 Nhân ngày Phụ nữ Việt Nam 20/10,...",
   source: "Hoàng Thu Thảo",
   sourceType: "Facebook",
@@ -16123,7 +16087,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1290,
+  id: 1288,
   title: "BẢN TIN VĨ MÔ – 07/10/2026 Việt Nam: GDP quý III tăng 9,95% YoY, 9 tháng tăng 9,01%, nhưng CPI...",
   source: "Lâm Tuấn Kiệt",
   sourceType: "Facebook Group",
@@ -16141,7 +16105,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1291,
+  id: 1289,
   title: "Vikki bank nhắn anh Zl 0971492951",
   source: "@dk_reuss",
   sourceType: "Threads",
@@ -16159,7 +16123,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1292,
+  id: 1290,
   title: "Vikki Digital Bank có gì mà các ngân hàng số khác không có??? Mời quý khách hàng ghé Vikki Bank...",
   source: "Dao Truc Quynh Mai",
   sourceType: "Facebook",
@@ -16177,7 +16141,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1293,
+  id: 1291,
   title: "S&P Global Market Intelligence: HDBank là ngân hàng dẫn đầu Việt Nam, Á quân hiệu quả hoạt động...",
   source: "Người Quan Sát",
   sourceType: "Facebook",
@@ -16195,7 +16159,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1294,
+  id: 1292,
   title: "Có tầm 300 triệu, muốn gửi kỳ hạn tầm 12 tháng. Giờ ls ngân hàng nào tốt nhỉ các bạn, ưu tiên...",
   source: "HonestAvocado3652",
   sourceType: "Facebook Group",
@@ -16213,7 +16177,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1295,
+  id: 1293,
   title: "CHẠM NGÕ MÙA VÀNG, VI VU SA PA CÙNG VIKKI! 🌾💜 Mùa lúa chín rực rỡ đẹp nhất năm đã đến, còn...",
   source: "Minh Nhân Vikki",
   sourceType: "Facebook",
@@ -16231,7 +16195,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1296,
+  id: 1294,
   title: "VikkiDigitalBank mang đến chương trình siêu khủng dành riêng cho tháng 10 này, mừng ngày phụ nữ...",
   source: "Ngân Ngân",
   sourceType: "Facebook",
@@ -16249,7 +16213,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1297,
+  id: 1295,
   title: "CHẠM NGÕ MÙA VÀNG, VI VU SA PA CÙNG VIKKI! 💜 🌿 Mùa lúa chín đẹp nhất đã đến, cũng là lúc lên...",
   source: "Ngân hàng Số Vikki",
   sourceType: "Facebook Fanpage",
@@ -16267,7 +16231,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1298,
+  id: 1296,
   title: "Độc lập tự do, ăn no là hạnh phúc. Thanh toán bằng thẻ HDBank trên GrabFood để tiết kiệm đến...",
   source: "Grab",
   sourceType: "Facebook Fanpage",
@@ -16285,7 +16249,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1299,
+  id: 1297,
   title: "CUỘC ĐUA PHÁT HÀNH TRÁI PHIẾU NGÂN HÀNG: GẦN 165.000 TỶ ĐỒNG CHỈ TRONG HƠN 4 THÁNG Từ đầu tháng...",
   source: "@chuyennhabang_official",
   sourceType: "Threads",
@@ -16303,7 +16267,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1300,
+  id: 1298,
   title: "CUỘC ĐUA PHÁT HÀNH TRÁI PHIẾU NGÂN HÀNG: GẦN 165.000 TỶ ĐỒNG CHỈ TRONG HƠN 4 THÁNG Từ đầu tháng...",
   source: "Chuyện Nhà Băng 2.0",
   sourceType: "Facebook",
@@ -16321,7 +16285,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1301,
+  id: 1299,
   title: "Bên em kì hạn 6th trở lên 9.5-9.6 + quà VIKKI BANK Lh em :0795871129(Bích) Hỗ trợ onl miễn phí",
   source: "@hcibw_w",
   sourceType: "Threads",
@@ -16339,7 +16303,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1302,
+  id: 1300,
   title: "BA MẸ ƠI, ĐI NGÂN HÀNG CŨNG CÓ GÓC CHƠI CHO CON! 💛 Một lần theo ba mẹ đến ngân hàng, các bé có...",
   source: "Nguyễn Hằng Nga",
   sourceType: "Facebook",
@@ -16357,7 +16321,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1303,
+  id: 1301,
   title: "HDBANK CHÚC MỪNG CỜ VUA VIỆT NAM: THÀNH CÔNG VƯỢT KỲ VỌNG TẠI OLYMPIAD 2026! Hơn một thập kỷ...",
   source: "Nguyễn Quân Kha",
   sourceType: "Facebook",
@@ -16375,7 +16339,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1304,
+  id: 1302,
   title: "BẢN TIN CHỨNG KHOÁN – 07/10/2026 CỔ PHIẾU & DOANH NGHIỆP 1. HDBank, VPBank và loạt ngân hàng đẩy...",
   source: "Vantruyen Nguyen",
   sourceType: "Facebook Group",
@@ -16393,7 +16357,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1305,
+  id: 1303,
   title: "Cũng lâu rồi!",
   source: "Nhatbichtuyen Phan",
   sourceType: "Facebook",
@@ -16411,7 +16375,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1306,
+  id: 1304,
   title: "VN-INDEX ĐIỀU CHỈNH HƠN 14 ĐIỂM VÀ CÂU CHUYỆN HẤP THỤ VỐN NGOẠI 📉 Thị trường sau phiên sáng...",
   source: "Cáo & Thỏ FC",
   sourceType: "Facebook",
@@ -16429,7 +16393,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1307,
+  id: 1305,
   title: "ƯU ĐÃI VAY VỐN CÓ TÀI SẢN ĐẢM BẢO 💸 Vay tối thiểu: 50 triệu đồng/1 KH 📅 Thời hạn tối đa: 15...",
   source: "Thảo Ngân",
   sourceType: "Facebook Group",
@@ -16447,7 +16411,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1308,
+  id: 1306,
   title: "Chào anh chị trong nhóm, em vừa rồi đã bốc thăm trúng noxh ở Nghệ An đã ký HĐMB -giờ muốn liên...",
   source: "Thanh Tâm",
   sourceType: "Facebook Group",
@@ -16465,7 +16429,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1309,
+  id: 1307,
   title: "Cùng mục tiêu, cùng chiến tuyến 🤝🤝✨ Mỗi người góp một tay, phối hợp thêm một chút, thế là cả...",
   source: "Nguyễn Thái Tâm Quyên",
   sourceType: "Facebook",
@@ -16483,7 +16447,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1310,
+  id: 1308,
   title: "VIKKIDIGITALBANK 💜 VikkiDigitalbank có gì khác so với những ngân hàng số khác? 🤔 ☕ Có Vikkafé...",
   source: "Nhung Bi",
   sourceType: "Facebook",
@@ -16501,7 +16465,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1311,
+  id: 1309,
   title: "TIN NÓNG! TIN NÓNG! TIN NÓNG! 🔥 💰 LÃI SUẤT TIẾT KIỆM VIKKI BANK LÊN ĐẾN 9,50%/NĂM 💰 🚨 06...",
   source: "ZestyHummingbird7422",
   sourceType: "Facebook Group",
@@ -16519,7 +16483,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1312,
+  id: 1310,
   title: "Danh sách ủng hộ đội thi dân vũ đến thời điểm hiện tại ạ . Trân trọng cảm ơn tình cảm của bà con...",
   source: "@hang1286nguyen",
   sourceType: "Threads",
@@ -16537,7 +16501,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1313,
+  id: 1311,
   title: "Bank Vietnam rancang jualan saham hampir AS$7 bilion bagi mendapatkan modal tambahan susulan...",
   source: "@ekonomirakyatmy",
   sourceType: "Threads",
@@ -16555,7 +16519,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1314,
+  id: 1312,
   title: "VIKKI – KHÔNG CHỈ LÀ NGÂN HÀNG SỐ, MÀ CÒN LÀ NGƯỜI BẠN ĐỒNG HÀNH 🌿Vikki không chỉ mang đến...",
   source: "Tu Nguyen",
   sourceType: "Facebook",
@@ -16573,7 +16537,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1315,
+  id: 1313,
   title: "Cùng Vikki kết nối những điểm chạm, để mỗi điểm chạm trở thành một điểm hẹn kết nối, trải...",
   source: "Linh Nguyễn",
   sourceType: "Facebook",
@@ -16591,7 +16555,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1316,
+  id: 1314,
   title: "Bản tin hành động đầu tư trưa 07/10/2026 Thị trường Việt Nam Dữ liệu gần nhất trước giờ nghỉ...",
   source: "Diễn đàn Công nghệ dầu khí Community",
   sourceType: "Facebook",
@@ -16609,7 +16573,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1317,
+  id: 1315,
   title: "E muốn gửi 500tr ngân hàng HD BANK hoặc SACOMBANK khu vực ĐỒNG NAI kỳ hạn 6tháng hoặc 1năm ls...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -16627,7 +16591,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1318,
+  id: 1316,
   title: "Niềm vui cuối ngày của emmm. 🌹Cảm ơn quý khách hàng đã luôn iu thương tin tưởng ngân hàng...",
   source: "Quynh Chi",
   sourceType: "Facebook",
@@ -16645,7 +16609,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1319,
+  id: 1317,
   title: "Chạy nhanh ra nhận ipon 18 khách tặng đã 🤭… về đóng phạt sau ! Ps: Anh, Chị chỉ cần gửi 2ty .....",
   source: "Bích Phương",
   sourceType: "Facebook",
@@ -16663,7 +16627,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1320,
+  id: 1318,
   title: "Mới đky thẻ HDBank online được duyệt 15tr thẻ vật lý khi nào giao vậy m.n với thường bên nào sẽ...",
   source: "Khánh Nguyễn",
   sourceType: "Facebook Group",
@@ -16681,7 +16645,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1321,
+  id: 1319,
   title: "Nàng ơi, tháng 10 này có hẹn với Vikki! Ưu đãi tiết kiệm, tiện ích di chuyển cùng nhiều trải...",
   source: "Hồng Hạnh",
   sourceType: "Facebook Group",
@@ -16699,7 +16663,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1322,
+  id: 1320,
   title: "Chạm cảm hứng, bật tương lai cùng Vikki Digital Bank! Hạnh phúc mỗi ngày của mình là được làm...",
   source: "Hải Minh Home",
   sourceType: "Facebook",
@@ -16717,7 +16681,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1323,
+  id: 1321,
   title: "M&A NGÂN HÀNG] SIÊU SÓNG GỌI VỐN 7 TỶ USD: ĐẠI TIỆC ROOM NGOẠI HAY \"BÌNH OXY\" GÁNH NỢ XẤU BĐS?...",
   source: "Admin Cổ phiếu Dẫn sóng",
   sourceType: "Facebook Group",
@@ -16735,7 +16699,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1324,
+  id: 1322,
   title: "TIÊN PHONG TRONG TỪNG ĐIỂM CHẠM – KẾT NỐI MỌI NHỊP SỐNG 💙💜 🚀 Một chạm – mở ra cả thế giới...",
   source: "Quốc Khánh",
   sourceType: "Facebook",
@@ -16753,7 +16717,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1325,
+  id: 1323,
   title: "DẪN ĐẦU ĐIỂM CHẠM – ĐIỂM HẸN KẾT NỐI Với tinh thần tiên phong, Ngân hàng Số Vikki đưa trải...",
   source: "Ngân hàng Số Vikki",
   sourceType: "Facebook Fanpage",
@@ -16771,7 +16735,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1326,
+  id: 1324,
   title: "THỊ TRƯỜNG HỒI PHỤC PHIÊN THỨ 2 — NHƯNG DÒNG TIỀN VẪN THẬN TRỌNG VN-Index kết phiên 06/10 tại...",
   source: "Trần Tiền",
   sourceType: "Facebook Group",
@@ -16789,7 +16753,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1327,
+  id: 1325,
   title: "Có bác nào pv bên HDSAISON chưa, mình xin review môi trường làm việc và lương thưởng bên này...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -16807,7 +16771,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1328,
+  id: 1326,
   title: "Người ta có câu “vững như bàn thạch”, còn chứng sĩ cầm SHB thì nâng cấp thành: “VỮNG NHƯ SHB” 🫢...",
   source: "Việt Nguyễn",
   sourceType: "Facebook",
@@ -16825,7 +16789,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1329,
+  id: 1327,
   title: "Lãi suất tiết kiệm lên đến 9️⃣,❎%/năm +X% (kèm quà tặng) +++ Quay số trúng vàng + Lì xì. Vikki...",
   source: "Thắng Trương",
   sourceType: "Facebook Group",
@@ -16843,7 +16807,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1330,
+  id: 1328,
   title: "BẢN TIN TÀI CHÍNH: VN-INDEX ĐẢO CHIỀU RÚT CHÂN NGOẠN MỤC, SÓNG DẦU KHÍ DẪN ĐẦU & LOẠT CƠ CHẾ ĐỘT...",
   source: "Khôi Nguyễn HS - Tư Duy Đầu Tư",
   sourceType: "Facebook",
@@ -16861,7 +16825,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1331,
+  id: 1329,
   title: "Buổi livestream rất ý nghĩa và nhiều cảm xúc🫶🫶🫶 Thời đại số, ngân hàng không chỉ là nơi gửi...",
   source: "Phạm Xuân Phương",
   sourceType: "Facebook",
@@ -16879,7 +16843,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1332,
+  id: 1330,
   title: "8.7 nhắn anh Vikki bank Zl 0971492951",
   source: "@dk_reuss",
   sourceType: "Threads",
@@ -16897,7 +16861,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1333,
+  id: 1331,
   title: "Vikki Digital Bank – không chỉ là nơi giao dịch tài chính, mà còn là điểm hẹn của mọi khoảnh...",
   source: "Tran Thanh Hau",
   sourceType: "Facebook",
@@ -16915,7 +16879,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1334,
+  id: 1332,
   title: "Tháng trước mình có nợ 1,5 tỷ bao gồm thế chấp, tín chấp và thẻ tín dụng, có nhìu khoản bên cttc...",
   source: "@minhhung8219",
   sourceType: "Threads",
@@ -16933,7 +16897,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1335,
+  id: 1333,
   title: "Bản tin sáng 07/10 ☀️] KHỐI NGOẠI XẢ RÒNG, DÒNG TIỀN NỘI XOAY TUA Áp lực xả hàng nghìn tỷ từ...",
   source: "Cáo & Thỏ FC",
   sourceType: "Facebook",
@@ -16951,7 +16915,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1336,
+  id: 1334,
   title: "DIỄN TẬP THÀNH CÔNG: SẴN SÀNG CHO CORE BANKING T24 MỚI] 🚀 Một bước tiến quan trọng trong hành...",
   source: "Thoa Ttm",
   sourceType: "Facebook",
@@ -16969,7 +16933,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1337,
+  id: 1335,
   title: "Khách cũ HDsaison: + 18t->70t: cccd: 46-70-110 •Khách mới: + sinh viên: thẻ sv: 8 + 21t->70t:...",
   source: "@tham_hd.saison",
   sourceType: "Threads",
@@ -16987,7 +16951,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1338,
+  id: 1336,
   title: "Lãi suất tiết kiệm ngân hàng Vikki vẫn đang nằm trong TOP, anh/chị có người thân, bạn bè cần gửi...",
   source: "Thùy Vân Nguyễn",
   sourceType: "Facebook",
@@ -17005,7 +16969,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1339,
+  id: 1337,
   title: "Lãi suất tiết kiệm bên em vẫn đang nằm trong TOP, anh/chị có người thân, bạn bè cần gửi tiết...",
   source: "Tu Cam Vo",
   sourceType: "Facebook",
@@ -17023,7 +16987,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1340,
+  id: 1338,
   title: "Vikki digital bank nghe lạ lẫm phết. Tiền thân là Đông Á nay chịu sự quản lý của HD bank. Giao...",
   source: "Dược Sĩ Hạnh",
   sourceType: "Facebook",
@@ -17041,7 +17005,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1341,
+  id: 1339,
   title: "HDBANK TIẾP TỤC GHI DẤU ẤN TẠI THƯƠNG HIỆU MẠNH VIỆT NAM 2026 Ngày 3/10 tại Hà Nội, HDBank nhận...",
   source: "HDBank Dầu Giây",
   sourceType: "Facebook Fanpage",
@@ -17059,7 +17023,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1342,
+  id: 1340,
   title: "Vikki – Không chỉ là giao dịch tài chính, mà là điểm hẹn ngân hàng số và điểm hẹn hạnh phúc! Bạn...",
   source: "Trân Huynh",
   sourceType: "Facebook",
@@ -17077,7 +17041,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1343,
+  id: 1341,
   title: "Mỗi ngày một nhịp sống mới tại Vikki Bank! Khách hàng đến giao dịch, chúng em luôn sẵn sàng hỗ...",
   source: "Lương Thị Việt Hòa",
   sourceType: "Facebook",
@@ -17095,7 +17059,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1344,
+  id: 1342,
   title: "Cập nhật thị trường chứng khoán VNINDEX ngày 5/10 và 6/10 - Phiên 5/10: VN-Index hồi phục mạnh...",
   source: "Hồ Bảo",
   sourceType: "Facebook Group",
@@ -17113,7 +17077,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1345,
+  id: 1343,
   title: "Xin phép admin em đăng bài S@le chính thống HD SAISON cần tìm khác ạ Zll 0377.026.909 em...",
   source: "Thắm HD Saison",
   sourceType: "Facebook Group",
@@ -17131,7 +17095,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1346,
+  id: 1344,
   title: "CHƯƠNG TRÌNH KHÔNG THỂ BỎ LỠ TRONG THÁNG 10 DÀNH CHO TÍN ĐỒ SAMSUNG! Thanh toán bằng thẻ tín...",
   source: "Quỳnh Sala",
   sourceType: "Facebook",
@@ -17149,7 +17113,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1347,
+  id: 1345,
   title: "VAY NGAY ĐẾN 50 TRIỆU - TIẾP SỨC CHO NGƯỜI GIEO CHỮ 🌐 Website:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -17167,7 +17131,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1348,
+  id: 1346,
   title: "Dành cho Quý thầy cô đang cân nhắc bài toán tài chính cho các kế hoạch: học thêm kỹ năng mới,...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -17185,7 +17149,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1349,
+  id: 1347,
   title: "Cùng Vũ Thu Phương trending 1 ngày ở Ngân hàng số Vikki nào! 💜 Không gian giao dịch hiện đại,...",
   source: "Nguyễn Hằng Nga",
   sourceType: "Facebook",
@@ -17203,7 +17167,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1350,
+  id: 1348,
   title: "Báo cáo phân tích nhanh xu hướng dòng tiền các nhóm ngành và danh sách các cổ phiếu dẫn dắt cập...",
   source: "Gom Tin News",
   sourceType: "Facebook Group",
@@ -17221,7 +17185,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1351,
+  id: 1349,
   title: "Em Lan Anh luôn ngồi đây sẵn sàng hỗ trợ anh chị với những sản phẩm dịch vụ tốt nhất ❤️❤️ 👉Lãi...",
   source: "Lan Anh Nguyen",
   sourceType: "Facebook",
@@ -17239,7 +17203,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1352,
+  id: 1350,
   title: "TỰ HÀO VIKKI – BỨT PHÁ VƯƠN LÊN TOP 1! 🌟 Một dấu ấn thật đáng tự hào! 🎉 Theo YouNet Media...",
   source: "Ngọc Thưởng",
   sourceType: "Facebook",
@@ -17257,7 +17221,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1353,
+  id: 1351,
   title: "A: Vikki Digital Bank có gì mà các ngân hàng số khác không có? B: Có Vikkafe! A: Và 212 điểm...",
   source: "Cá Cảnh",
   sourceType: "Facebook",
@@ -17275,7 +17239,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1354,
+  id: 1352,
   title: "Sáng đến Cơ quan tiếp đoàn khách Vip đến thăm và làm việc hợp tác cùng Vikki Bank Ninh Thuận, tự...",
   source: "Hùng Thái",
   sourceType: "Facebook",
@@ -17293,7 +17257,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1355,
+  id: 1353,
   title: "VikkiBank gửi tiết kiệm truyền thống - Không chứng chỉ tiền gửi - Từ 50tr ls 8,9% - Từ 200tr ls...",
   source: "@_lyn.ttpl_",
   sourceType: "Threads",
@@ -17311,7 +17275,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1356,
+  id: 1354,
   title: "HDBank tiếp tục khẳng định vị thế khi được S&P Global Market Intelligence xếp thứ 2 về hiệu quả...",
   source: "Quỳnh Sala",
   sourceType: "Facebook",
@@ -17329,7 +17293,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1357,
+  id: 1355,
   title: "Điều kiện lên hồ sơ vayyy tiêu dùng HD SAISON dành cho khách cũ. Phần 2 hdsaison",
   source: "Đặng Thị Dơn",
   sourceType: "Facebook",
@@ -17347,7 +17311,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1358,
+  id: 1356,
   title: "VAY THẾ CHẤP TẠI HDBANK – GIẢI PHÁP VỐN CHO NHỮNG KẾ HOẠCH LỚN ✅ Lãi suất hấp dẫn: Chỉ từ...",
   source: "Liên Ngân Hàng",
   sourceType: "Facebook",
@@ -17365,7 +17329,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1359,
+  id: 1357,
   title: "MỘT GÓC NHỎ, MỘT NGÀY ĐẦY NĂNG LƯỢNG Một góc quen thuộc ở Vikki, nơi mỗi ngày đều có những câu...",
   source: "Võ Thị Thúy Kiều",
   sourceType: "Facebook",
@@ -17383,7 +17347,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1360,
+  id: 1358,
   title: "Giằng co phân hóa, dòng tiền vẫn rất thận trọng",
   source: "VnEconomy",
   sourceType: "Báo chí",
@@ -17396,7 +17360,7 @@ const HDBANK_FEED = [
   excerpt: "Ngoài ra TCB -112,1 tỷ, <mark>HDB</mark> -95,5 tỷ, FPT -66,6 tỷ, VIX -43,3 tỷ, MSB -35,2 tỷ, GMD -34,7 tỷ, HAH -33,9 tỷ, TCX -33,7 tỷ, VHM -32,4 tỷ."
  },
  {
-  id: 1361,
+  id: 1359,
   title: "CHỨNG KHOÁN SÁNG 07/10: VN-INDEX ĐANG HỒI PHỤC HAY CHỈ “NẢY” SAU NHỊP GIẢM? VN-Index tiếp tục...",
   source: "Nguyễn Thế Hưng",
   sourceType: "Facebook",
@@ -17414,7 +17378,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1362,
+  id: 1360,
   title: "Tiết kiệm, vay vốn liên hệ mình nhé ☎️☎️0934758378 Em Huyền - HDBank Đà Nẵng",
   source: "@maay__15",
   sourceType: "Threads",
@@ -17432,7 +17396,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1363,
+  id: 1361,
   title: "VIKKAFÉ – ĐIỀU ĐẶC BIỆT CHỈ CÓ TẠI VIKKI! ☕✨ 🤔 Ngân hàng Số có gì khác biệt? Đến với Vikki...",
   source: "Mỹ Phương",
   sourceType: "Facebook",
@@ -17450,7 +17414,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1364,
+  id: 1362,
   title: "Một tin vui bứt phá cho gia đình VIKKI DIGITAL BANK! Tháng 8/2026 khép lại với mốc son rực rỡ:...",
   source: "Quang Vinh Lê",
   sourceType: "Facebook",
@@ -17468,7 +17432,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1365,
+  id: 1363,
   title: "Vikki Digital Bank mang đến trải nghiệm tài chính hiện đại, gần gũi cho mọi lứa tuổi. Mời banh...",
   source: "Nguyen Thi Bich Lien",
   sourceType: "Facebook",
@@ -17486,7 +17450,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1366,
+  id: 1364,
   title: "Bên tuii HDbank 8,8% nè. Tui hổ trợ bạn nhaa 0794.086.340",
   source: "@vthinnn_",
   sourceType: "Threads",
@@ -17504,7 +17468,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1367,
+  id: 1365,
   title: "VIKKI DIGITAL BANK TỎA SÁNG TẠI ASIAN EXPERIENCE AWARDS 2026! 🏆 Tự hào khoảnh khắc Vikki...",
   source: "Phan Thuỷ",
   sourceType: "Facebook",
@@ -17522,7 +17486,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1368,
+  id: 1366,
   title: "Phiên giao dịch 07/10 - Tiền vào bắt đáy , tín hiệu tạm ổn ✅ VNINDEX có phiên tăng nhẹ phiên hôm...",
   source: "Chứng Khoán Mỗi Ngày - Red Investment",
   sourceType: "Facebook Group",
@@ -17540,7 +17504,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1369,
+  id: 1367,
   title: "Hdbank lãi suất tốt bạn lh mình 0987364001",
   source: "@xoteen92",
   sourceType: "Threads",
@@ -17558,7 +17522,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1370,
+  id: 1368,
   title: "HDBankActivationDay HD027540",
   source: "Ha Pham Quang",
   sourceType: "Facebook",
@@ -17576,7 +17540,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1371,
+  id: 1369,
   title: "NHẬN ĐỊNH THỊ TRƯỜNG NGÀY 7/10/2026: RŨ BỎ TÍCH CỰC - ĐỂ XÁC NHẬN TẠO ĐÁY CẦN THÊM ĐIỀU KIỆN...",
   source: "Hệ thống đầu tư Atagetz",
   sourceType: "Facebook",
@@ -17594,7 +17558,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1372,
+  id: 1370,
   title: "Danh mục Cashflow ngày 07/10/2026: Tỷ trọng cổ phiếu vẫn không thay đổi Sau bốn phiên, cơ cấu...",
   source: "Đầu Tư Cổ Phiếu",
   sourceType: "Facebook",
@@ -17612,7 +17576,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1373,
+  id: 1371,
   title: "Tiến sĩ Nguyễn Thị Phương Thảo đóng góp 30 tỷ đồng làm một việc ý nghĩa nhân dịp Phụ nữ Việt Nam 20/10",
   source: "CafeF",
   sourceType: "Báo chí",
@@ -17625,7 +17589,7 @@ const HDBANK_FEED = [
   excerpt: "Tiến sĩ <mark>Nguyễn Thị Phương Thảo</mark> đóng góp 30 tỷ đồng làm một việc ý nghĩa nhân dịp Phụ nữ Việt Nam 20/10 Sovico, Vietjet và <mark>HDBank</mark> đóng góp tổng cộng 30 tỷ đồng tại chương trình hỗ trợ phụ nữ, trẻ em mắc bệnh hiểm nghèo có hoàn cảnh khó khăn. Theo thông tin được công bố tại chương trình, Công ty Cổ phần Tập đoàn Sovico, Công ty Cổ phần Hàng không Vietjet..."
  },
  {
-  id: 1374,
+  id: 1372,
   title: "VIKKI DIGITAL BANK – CHẠM CÔNG NGHỆ, BẬT NHỊP SỐNG THÔNG MINH! 🇻🇳💜 🌟 Công nghệ đang thay đổi...",
   source: "Duy Le",
   sourceType: "Facebook",
@@ -17643,7 +17607,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1375,
+  id: 1373,
   title: "Lãi suất ngân hàng hôm nay 7/10/2026: 'Ông lớn' trả trước cao nhất 6,39%/năm",
   source: "VietNamNet",
   sourceType: "Báo chí",
@@ -17656,7 +17620,7 @@ const HDBANK_FEED = [
   excerpt: "Lãi suất ngân hàng hôm nay, 7/10/2026, ghi nhận tại BIDV, lãi suất huy động trả trước cao nhất ở mức 6,39%/năm, thấp hơn 0,41 điểm phần trăm so với lãi suất huy động trả lãi cuối kỳ."
  },
  {
-  id: 1376,
+  id: 1374,
   title: "MỘT NGÀY BÌNH THƯỜNG, MỘT CHÚT NIỀM VUI CÙNG VIKKI Đi làm mỗi ngày là thêm một lần học hỏi, thêm...",
   source: "Ngọc Quyên",
   sourceType: "Facebook",
@@ -17674,7 +17638,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1377,
+  id: 1375,
   title: "HD hỗ trợ khách hàng sang thẻ khi: Khách đã có thẻ tín dụng ngân hàng khách Không nợ nhóm Chỉ...",
   source: "@phngah_166",
   sourceType: "Threads",
@@ -17692,7 +17656,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1378,
+  id: 1376,
   title: "Một buổi làm việc Giám Đốc Vùng - KV3 - Miền Trung Ông Huỳnh Quốc Thi , ghé thăm và làm việc...",
   source: "Anh Thy",
   sourceType: "Facebook",
@@ -17710,7 +17674,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1379,
+  id: 1377,
   title: "LÃI SUẤT HẤP DẪN – GỬI TIỀN THÊM VUI! Đừng để tiền nhàn rỗi nằm im! 💰 Mở sổ tiết kiệm tại Vikki...",
   source: "Nguyễn Hồng Minh",
   sourceType: "Facebook",
@@ -17728,7 +17692,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1380,
+  id: 1378,
   title: "S&P Global Market Intelligence: HDBank đứng thứ 2 về hiệu quả hoạt động trong Top 50 ngân hàng...",
   source: "Tuan Tran",
   sourceType: "Facebook",
@@ -17746,7 +17710,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1381,
+  id: 1379,
   title: "NHỮNG “VỊ KHÁCH ĐẶC BIỆT” TẠI QUẦY GIAO DỊCH 💜 Tổng diễn tập lần 2 Core Banking T24 thế hệ mới...",
   source: "Dung Lyna",
   sourceType: "Facebook",
@@ -17764,7 +17728,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1382,
+  id: 1380,
   title: "Vikkibank- HDbank chuẩn bị cho hành trình đổi mới! Chuẩn bị cho một giai đoạn mới luôn cần nhiều...",
   source: "Linda Tran",
   sourceType: "Facebook",
@@ -17782,7 +17746,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1383,
+  id: 1381,
   title: "TIN NHANH TÀI CHÍNH - CHỨNG KHOÁN 06/10: => DOANH NGHIỆP 1) GAS: Phát hiện ‘kho báu’ 74 triệu...",
   source: "Giải Mã Cổ Phiếu",
   sourceType: "Facebook",
@@ -17800,7 +17764,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1384,
+  id: 1382,
   title: "Cần mở thẻ tín dụng HD Bank Mình ở Quận 8. TP.HCM",
   source: "Lý Khánh Hoàng",
   sourceType: "Facebook Group",
@@ -17818,7 +17782,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1385,
+  id: 1383,
   title: "Muốn mở thẻ tín dung HD Bank Mình ở quận 8. TP._HCM",
   source: "Lý Khánh Hoàng",
   sourceType: "Facebook Group",
@@ -17836,7 +17800,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1386,
+  id: 1384,
   title: "BÁO CÁO THỊ TRƯỜNG — 06/10/2026 (Thứ Ba) VN-Index: 1.759,08 điểm (+5,88 / +0,34%) VN30: 1.898,82...",
   source: "Đào Trường Giang",
   sourceType: "Facebook Group",
@@ -17854,7 +17818,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1387,
+  id: 1385,
   title: "Tân phú ghé chị nè. Sẵn nhiều mã. 🔥Hổ trợ trả góp qua NH HDBank-Mira-Thẻ Tín Dụng.Sinh Viên Có...",
   source: "@tieu_nhu68",
   sourceType: "Threads",
@@ -17872,7 +17836,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1388,
+  id: 1386,
   title: "VIKKI BANK – PGD NGÔ QUYỀN | DIỆN MẠO MỚI – HÀNH TRÌNH MỚI! ✨🏢 Khai trương trụ sở mới với không...",
   source: "Minh Nhân Vikki",
   sourceType: "Facebook",
@@ -17890,7 +17854,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1389,
+  id: 1387,
   title: "LỄ KHÁNH THÀNH NGÂN HÀNG SỐ VIKKI BANK NGÔ QUYỀN Một sự kiện thật ý nghĩa khi Quang Thạch được...",
   source: "Nguyễn Thạch",
   sourceType: "Facebook",
@@ -17908,7 +17872,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1390,
+  id: 1388,
   title: "Khối ngoại xả ròng đột biến hơn 2.600 tỷ đồng, điều gì đã giúp VN-Index lội ngược dòng tăng điểm...",
   source: "Titanlabs - Stock AI Agent",
   sourceType: "Facebook",
@@ -17926,7 +17890,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1391,
+  id: 1389,
   title: "Tháng của nàng mà Vikki ưu đãi cũng “xịn” quá trời! 🌷 Vừa tiết kiệm sinh lời, vừa có thêm nhiều...",
   source: "Hà Phạm",
   sourceType: "Facebook",
@@ -17944,7 +17908,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1392,
+  id: 1390,
   title: "tvscredit hdbank bajajfinance",
   source: "@hasancommunication",
   sourceType: "Threads",
@@ -17962,7 +17926,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1393,
+  id: 1391,
   title: "Hãy Đến với Vikki – nơi gửi trọn niềm tin, nhận về những giá trị bền vững. Tiết kiệm an toàn –...",
   source: "Hoang Hiep",
   sourceType: "Facebook",
@@ -17980,7 +17944,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1394,
+  id: 1392,
   title: "ILoveHDBank",
   source: "Buny Trần",
   sourceType: "Facebook",
@@ -17998,7 +17962,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1395,
+  id: 1393,
   title: "Lần đầu chạm Vikki Digital Bank – Bật ngửa với 3 điều siêu thú vị! ✨💎 Khám phá không gian ngân...",
   source: "Van TA",
   sourceType: "Facebook",
@@ -18016,7 +17980,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1396,
+  id: 1394,
   title: "Radar chứng khoán phiên 06/10: Thanh khoản cải thiện, khối ngoại bán ròng mạnh ☉ VN-Index đóng...",
   source: "Đầu tư cùng Ewealth",
   sourceType: "Facebook",
@@ -18034,7 +17998,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1397,
+  id: 1395,
   title: "Trộm vía Tân Yên em đang vào dây trúng vàng ⭐️⭐️⭐️⭐️⭐️ Xin được chúc mừng 02 KH may mắn của...",
   source: "Vũ Quỳnh",
   sourceType: "Facebook",
@@ -18052,7 +18016,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1398,
+  id: 1396,
   title: "Mình cần contact của các bạn ngân hàng NCB, AB bank, Vikki, Pvcombank tại vũng tàu. Ai có thì...",
   source: "RedCelery3181",
   sourceType: "Facebook Group",
@@ -18070,7 +18034,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1399,
+  id: 1397,
   title: "Lãi suất cao thì nên chọn cổ phiếu nào? Giải mã: Trong môi trường lãi suất neo cao, không phải...",
   source: "Kể chuyện Chứng khoán",
   sourceType: "Facebook",
@@ -18088,7 +18052,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1400,
+  id: 1398,
   title: "TÔI YÊU VIKKI 💖 📞Chị Dung iu dấu của em. Em H Bệnh viện tỉnh Bình Thuận nè. Ôi cái con bé xinh...",
   source: "Dung Kim",
   sourceType: "Facebook",
@@ -18106,7 +18070,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1401,
+  id: 1399,
   title: "TIN NHANH CHỨNG KHOÁN 06/10 => DOANH NGHIỆP 1) GAS: Phát hiện ‘kho báu’ 74 triệu thùng dầu và 17...",
   source: "Thông Tô",
   sourceType: "Facebook Group",
@@ -18124,7 +18088,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1402,
+  id: 1400,
   title: "NGÂN HÀNG SỐ VIKKI – NGÂN HÀNG TIẾT KIỆM TỐT NHẤT CHO MỌI NHÀ 💎 Vikki liên tục mang đến các...",
   source: "Lan Nguyen",
   sourceType: "Facebook Group",
@@ -18142,7 +18106,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1403,
+  id: 1401,
   title: "VIKKI CN NINH THUẬN – CHÚC MỪNG SINH NHẬT THÁNG 10 🌷🎂 Tháng 10 về mang theo những yêu thương,...",
   source: "Minh Minh",
   sourceType: "Facebook",
@@ -18160,7 +18124,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1404,
+  id: 1402,
   title: "CHÀO NĂM HỌC MỚI 2026-2027: TRÂN TRỌNG CẢM ƠN QUÝ DOANH NGHIỆP ĐỒNG HÀNH CÙNG DNTU TẠI LỄ KHAI...",
   source: "Đại học Công nghệ Đồng Nai",
   sourceType: "Facebook",
@@ -18178,7 +18142,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1405,
+  id: 1403,
   title: "Phiên hôm nay thót tim. Giữa phiên chiều VN-Index có lúc mất gần 20 điểm, lùi về 1.735, rồi...",
   source: "Duc Xoan",
   sourceType: "Facebook",
@@ -18196,7 +18160,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1406,
+  id: 1404,
   title: "GHÉ VIKKI – KHÔNG CHỈ GIAO DỊCH, CÒN CÓ THÊM NHỮNG KHOẢNH KHẮC THẬT VUI ☕✨ Một không gian ngân...",
   source: "Tâm Như Ngọc",
   sourceType: "Facebook Group",
@@ -18214,7 +18178,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1407,
+  id: 1405,
   title: "Một ngày làm việc bình thường tại Vikki Bank 💛 Vẫn là những góc quen, những công việc quen…...",
   source: "Linh Nguyen Mai",
   sourceType: "Facebook",
@@ -18232,7 +18196,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1408,
+  id: 1406,
   title: "Thay vì để tiền nhàn rỗi nằm yên một chỗ, chuyển ngay sang Vikki để tối ưu hóa dòng tiền và nhận...",
   source: "Cỏ Thảo",
   sourceType: "Facebook",
@@ -18250,7 +18214,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1409,
+  id: 1407,
   title: "App HD Bank của mình không nhận được thông báo biến động số dư. Có ai biết chỉnh kiểu nào không ạ ?",
   source: "Đinh Đức Cường",
   sourceType: "Facebook Group",
@@ -18268,7 +18232,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1410,
+  id: 1408,
   title: "Niềm vui và tự hào!",
   source: "Thao Huynh Phu Thanh",
   sourceType: "Facebook",
@@ -18286,7 +18250,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1411,
+  id: 1409,
   title: "KẾT NỐI CHUỖI CUNG ỨNG – MỞ RỘNG CƠ HỘI GO GLOBAL Trong hành trình Việt Nam tham gia sâu hơn vào...",
   source: "Trung tâm Logistics Quốc tế Bắc Giang",
   sourceType: "Facebook",
@@ -18304,7 +18268,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1412,
+  id: 1410,
   title: "VIKKI BANK - Lãi tháng 10 tăng tối đa 0.4% 40 Thành Trung, Ngô Xuân Quảng Trâu Quỳ, Ocean Park...",
   source: "Thanh Huyen",
   sourceType: "Facebook Group",
@@ -18322,7 +18286,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1413,
+  id: 1411,
   title: "em muốn đăng ký làm đại lý ngân hàng của HD bank có ac nào làm bên HDbank hướng dẫn em được...",
   source: "PastelDolphin5197",
   sourceType: "Facebook Group",
@@ -18340,7 +18304,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1414,
+  id: 1412,
   title: "TUYỆT VỜI QUÁ HDBANK ƠI HDBankActivationDay HD011708 ILoveHDBank",
   source: "Nicolas Nicolai",
   sourceType: "Facebook",
@@ -18358,7 +18322,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1415,
+  id: 1413,
   title: "Thật tự hào Quá đã tỷ phú ơi ILoveHDBank HDBank AppHDBank TheHDBank",
   source: "Vân Nhi Phan Trần",
   sourceType: "Facebook",
@@ -18376,7 +18340,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1416,
+  id: 1414,
   title: "SẮP DIỄN RA LỄ KHAI TRƯƠNG ĐẠI LÝ THANH TOÁN HDBANK TẠI VNPT CẦN THƠ 📣 Tin vui dành cho bà con...",
   source: "VNPT Cần Thơ",
   sourceType: "Facebook Fanpage",
@@ -18394,7 +18358,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1417,
+  id: 1415,
   title: "Đến với Vikki Digital Bank, mọi nhu cầu tài chính đều trở nên đơn giản, nhanh chóng và thuận...",
   source: "Thu Huyền",
   sourceType: "Facebook",
@@ -18412,7 +18376,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1418,
+  id: 1416,
   title: "TRỌN ƯU ĐÃI TÀI CHÍNH CHO TƯƠNG LAI SẴN SÀNG ​ ​ Tương lai vững vàng bắt đầu từ những hành động...",
   source: "Nguyễn Phương",
   sourceType: "Facebook",
@@ -18430,7 +18394,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1419,
+  id: 1417,
   title: "THỎA SỨC KINH DOANH, HDBANK ĐỒNG HÀNH MỌI MÔ HÌNH Từ tiệm tạp hóa, cửa hàng bán lẻ, quán ăn, sạp...",
   source: "Võ Tuấn Vũ",
   sourceType: "Facebook",
@@ -18448,7 +18412,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1420,
+  id: 1418,
   title: "HDBank tiếp tục ghi dấu ấn tại Thương hiệu Mạnh Việt Nam 2026, khẳng định vị thế và hành trình...",
   source: "HaMy Huynh Ngoc",
   sourceType: "Facebook",
@@ -18466,7 +18430,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1421,
+  id: 1419,
   title: "VN-INDEX 3 LẦN THỬ THÁCH 1.730 ĐIỂM VẪN CHƯA GÃY: DÒNG TIỀN ĐÃ BẮT ĐẦU QUAY LẠI BLUE-CHIPS?...",
   source: "Nguyễn Việt Trung",
   sourceType: "Facebook",
@@ -18484,7 +18448,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1422,
+  id: 1420,
   title: "TỔNG KẾT PHIÊN 06/10 — VN-INDEX CHẠM 1.735 RỒI BẬT LÊN 1.759, NHƯNG SỐ MÃ GIẢM VẪN NHIỀU HƠN 🏷️...",
   source: "Góc Nhìn Thị Trường & Cổ Phiếu",
   sourceType: "Facebook",
@@ -18502,7 +18466,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1423,
+  id: 1421,
   title: "Một thứ thật tiện lợi với Vikki Bank Vikki VikkiDigitalBank ToiyeuVikki",
   source: "Thư Lê",
   sourceType: "Facebook",
@@ -18520,7 +18484,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1424,
+  id: 1422,
   title: "19 thì có fe,hd saison hỗ trợ nha",
   source: "@meowt_2811",
   sourceType: "Threads",
@@ -18538,7 +18502,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1425,
+  id: 1423,
   title: "HDBankActivationDay HD007450 HDBANK XIN CẢM ƠN TRIỆU KHÁCH HÀNG 🏆 Danh hiệu “Ngân hàng Bán lẻ...",
   source: "Tuan Nguyenquoc",
   sourceType: "Facebook",
@@ -18556,7 +18520,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1426,
+  id: 1424,
   title: "TCB - HDB - VPB vẫn là 3 cổ phiếu Bank khá đặc biệt và vẫn khỏe trên thị trường",
   source: "Chứng khoán mỗi ngày - Nhật ký thị trường",
   sourceType: "Facebook Group",
@@ -18574,7 +18538,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1427,
+  id: 1425,
   title: "Một góc nhỏ ở Vikki, nhìn quen thuộc vậy thôi mà mỗi ngày lại có một chút khác nhau. 💚 Không...",
   source: "Tiên Tiên",
   sourceType: "Facebook",
@@ -18592,7 +18556,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1428,
+  id: 1426,
   title: "VIKKI DIGITAL BANK – NGÂN HÀNG TIẾT KIỆM TỐT NHẤT! 🏆 Bạn đang tìm kiếm giải pháp tài chính an...",
   source: "Lâm Bang",
   sourceType: "Facebook",
@@ -18610,7 +18574,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1429,
+  id: 1427,
   title: "VN-INDEX RÚT CHÂN TĂNG NGƯỢC HƠN 5 ĐIỂM: ĐIỀU GÌ THỰC SỰ ĐANG XẢY RA? Hôm nay chắc hẳn là một...",
   source: "Nhật Tân",
   sourceType: "Facebook Group",
@@ -18628,7 +18592,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1430,
+  id: 1428,
   title: "Bước tới - Tiền vào:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -18646,7 +18610,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1431,
+  id: 1429,
   title: "Nợ 3tr cake,4tr shopee,hd bank 6tr quá hạn 90 ngày có bị xuống nhà ko ạ,em vay giấu gia đình",
   source: "ExcellentElephant9921",
   sourceType: "Facebook Group",
@@ -18664,7 +18628,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1432,
+  id: 1430,
   title: "HD SAISON❌❌sale chính thống👌👌👌 👉Chỉ cần cccd 👉Hỗ trợ khách cũ và mới 👉 Hỗ trợ free hết nha...",
   source: "@dan.hdsaison",
   sourceType: "Threads",
@@ -18682,7 +18646,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1433,
+  id: 1431,
   title: "HDBANK XIN CẢM ƠN TRIỆU KHÁCH HÀNG về Danh hiệu “Ngân hàng Bán lẻ tốt nhất châu Á”...",
   source: "Kiều Trinh",
   sourceType: "Facebook",
@@ -18700,7 +18664,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1434,
+  id: 1432,
   title: "PHE CẦM TIỀN ĐI SĂN SALE MẠNH QUÁ! NẾU BIẾT ĐI CHỢ BẠN HOÀN TOÀN VẪN CÓ ZIỀN TĂNG KHI VNINDEX...",
   source: "Tuấn Hải VN30",
   sourceType: "Facebook Group",
@@ -18718,7 +18682,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1435,
+  id: 1433,
   title: "Người ta bảo \"vững như bàn thạch\", còn chứng sĩ bây giờ chỉ biết than trời: \"Vững như SHB!\" 🫢...",
   source: "Vũ Ngọc Linh Stock",
   sourceType: "Facebook",
@@ -18736,7 +18700,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1436,
+  id: 1434,
   title: "Ai tưng vay trả góp xe máy-điện thoại... Của HD SAISON mà không có khả năng thanh toán dài hạn...",
   source: "ScenicFish6443",
   sourceType: "Facebook Group",
@@ -18754,7 +18718,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1437,
+  id: 1435,
   title: "CHÀO THÁNG CỦA NÀNG, ĐÓN DEAL NGẬP TRÀN! ✨ Tháng 10 này, cùng Tấm Vikki khởi động hành trình...",
   source: "Ngân hàng Số Vikki",
   sourceType: "Facebook Fanpage",
@@ -18772,7 +18736,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1438,
+  id: 1436,
   title: "Các bác cho em hỏi, em có khoản nợ vay tín dụng bên HD bank gốc là 100tr, sau 3-4 năm nay thì dư...",
   source: "Cừunonlạclối",
   sourceType: "Facebook Group",
@@ -18790,7 +18754,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1439,
+  id: 1437,
   title: "HỒ SƠ FUTSAL | PHẠM ĐỨC HÒA – BIỂU TƯỢNG BẢN LĨNH VÀ CỘT MỐC LỊCH SỬ TÂY BAN NHA Nhắc đến một...",
   source: "VOV Futsal 365",
   sourceType: "Facebook",
@@ -18808,7 +18772,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1440,
+  id: 1438,
   title: "Ngân hàng Vikki là Ngân hàng tiết kiệm tốt nhất. Lãi suất ưu đãi tốt nhất ạ. ☘️ Như lời nhắn...",
   source: "Dung Kim",
   sourceType: "Facebook",
@@ -18826,7 +18790,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1441,
+  id: 1439,
   title: "Thần tài gõ cửa, tài lộc hanh thông! Niềm vui của Quý khách cũng chính là động lực lớn để Vikki...",
   source: "Thien Than Bong Bong",
   sourceType: "Facebook",
@@ -18844,7 +18808,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1442,
+  id: 1440,
   title: "HDBank gửi online 1-3 tháng 4.7% 6 tháng 8.8% từ 50triệu nhắn em hỗ trợ nha 0327441730",
   source: "@donhatquyen_",
   sourceType: "Threads",
@@ -18862,7 +18826,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1443,
+  id: 1441,
   title: "Một ngày làm việc bình thường, có lúc bận rộn, có lúc thong thả một chút 😄 Cứ gặp khách, xử lý...",
   source: "Tiên Tiên",
   sourceType: "Facebook",
@@ -18880,7 +18844,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1444,
+  id: 1442,
   title: "HÀNH TRÌNH CHUYỂN ĐỔI SỐ VIKKI – CÙNG MADAM THẢO Từ những điểm chạm đầu tiên đến một hệ sinh...",
   source: "Chiến Vikki An Giang",
   sourceType: "Facebook",
@@ -18898,7 +18862,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1445,
+  id: 1443,
   title: "Cả nhà ơi, vào xem live stream của Vikki Bank nha, chuẩn bị đến khúc quay số vùng 3 rồi. Cùng em...",
   source: "Hà Phạm",
   sourceType: "Facebook",
@@ -18916,7 +18880,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1446,
+  id: 1444,
   title: "Em 19tuổi và đang vay Momo : 20tr HD SaiSon : Vay Tiền mặc : 40tr Vay góp xe : 48tr Vay góp máy...",
   source: "BalancedWolf8013",
   sourceType: "Facebook Group",
@@ -18934,7 +18898,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1447,
+  id: 1445,
   title: "1 năm sau 🗓⏳👣 Em đang ngồi chờ khách ghé mua trả góp điện thoại, vay tiền mặt đây khách ơi 🤗...",
   source: "Hanh My",
   sourceType: "Facebook",
@@ -18952,7 +18916,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1448,
+  id: 1446,
   title: "GHÉ VIKKIBANK, EM MỜI ANH/CHỊ MỘT LY CÀ PHÊ BAN MÊ! 💚 Có những cuộc gặp bắt đầu bằng một giao...",
   source: "Kim Chi Vikkibank",
   sourceType: "Facebook",
@@ -18970,7 +18934,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1449,
+  id: 1447,
   title: "Bạn có biết rằng, cây sồi trở nên mạnh mẽ trong gió ngược, và kim cương hình thành dưới áp lực....",
   source: "Le Hoang",
   sourceType: "Facebook",
@@ -18988,7 +18952,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1450,
+  id: 1448,
   title: "Giá trọn bộ: 14.500.000 VNĐ 🛡 Bảo hành: 3 tháng (Bao test sử dụng yên tâm). 💳 Chính sách hỗ...",
   source: "@khanh_eos",
   sourceType: "Threads",
@@ -19006,7 +18970,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1451,
+  id: 1449,
   title: "Bảo hành: 3 tháng (Bao test sử dụng yên tâm). 💳 Chính sách hỗ trợ: Hỗ trợ quẹt thẻ / Trả góp...",
   source: "@khanh_eos",
   sourceType: "Threads",
@@ -19024,7 +18988,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1452,
+  id: 1450,
   title: "Top những thứ mà các chị em phụ nữ rất thích, đúng hông chị em mình ơi. 🌷Tháng 10 là tháng của...",
   source: "Quynh Chi",
   sourceType: "Facebook",
@@ -19042,7 +19006,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1453,
+  id: 1451,
   title: "ĐÓN XEM LIVESTREAM CÙNG NGÂN HÀNG SỐ VIKKI! ✨ Những câu chuyện thú vị, thông tin hấp dẫn và...",
   source: "Tran Quan",
   sourceType: "Facebook",
@@ -19060,7 +19024,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1454,
+  id: 1452,
   title: "VIKKI DIGITAL BANK – TOP 1 YMI THÁNG 8/2026 NGÀNH NGÂN HÀNG! 🏆💜 Với mình, TOP 1 không đơn...",
   source: "Mai Hương",
   sourceType: "Facebook",
@@ -19078,7 +19042,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1455,
+  id: 1453,
   title: "dạ mọi người từng làm vị trí nhân viên cskh vị trí nhắc phí ở hd saison chưa cho e xin ít review...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -19096,7 +19060,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1456,
+  id: 1454,
   title: "E đang dùng App HD bank. Rút hết tiền chứng khoán ra gửi HD Bank. Ai có mã áp lãi suất ko. Haizzz.",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -19114,7 +19078,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1457,
+  id: 1455,
   title: "COMING SOON - VIKKI BANK - PGD NINH HẢI SẮP HOÀN THÀNH! 💙🧡 - Mới sửa chữa và xây dựng Trụ sở...",
   source: "Hùng Thái",
   sourceType: "Facebook",
@@ -19132,7 +19096,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1458,
+  id: 1456,
   title: "GẶP NHAU GIỜ VÀNG – RỘN RÀNG CÙNG NHÀ HÁT KỊCH IDECAF 🔴 Đang lên sóng! Cô Tấm Vikki và các nghệ...",
   source: "Ngân hàng Số Vikki",
   sourceType: "Facebook Fanpage",
@@ -19150,7 +19114,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1459,
+  id: 1457,
   title: "HDBank uy tín, rõ ràng, lúc gửi sẽ giải thích cho khách cặn kẽ nên khách hàng yên tâm và ghé lại...",
   source: "@bankergenyes",
   sourceType: "Threads",
@@ -19168,7 +19132,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1460,
+  id: 1458,
   title: "Vikki bank 9.4-9.6 ạ Tham khảo nhắn em nhé Zl 0971492951",
   source: "@dk_reuss",
   sourceType: "Threads",
@@ -19186,7 +19150,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1461,
+  id: 1459,
   title: "CÙNG ĐÓN XEM LIVESTREAM “TIẾT KIỆM Vikki – Trúng Bóng VÀNG Ký”! ⚽️🏆 ⏰ 11h30 – 13h30 | Thứ Ba,...",
   source: "Ut Pham",
   sourceType: "Facebook",
@@ -19204,7 +19168,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1462,
+  id: 1460,
   title: "CHƯA THẤY TIN HIỆU ĐẢO CHIỀU VN-Index vừa trải qua chuỗi 5 phiên giảm điểm liên tiếp, sau khi...",
   source: "Chứng khoán DSC",
   sourceType: "Facebook",
@@ -19222,7 +19186,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1463,
+  id: 1461,
   title: "Vikki Digital Bank – Điểm hẹn Ngân hàng Số, Điểm hẹn Hạnh phúc Không chỉ là nơi giao dịch tài...",
   source: "Ha Quan",
   sourceType: "Facebook",
@@ -19240,7 +19204,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1464,
+  id: 1462,
   title: "Khách hàng Gửi 2 tỷ- 9.3% Liên hệ: Kiều Loan HDBank 0399845676 Kèm quà tặng + định danh KHƯT liền ạ",
   source: "Loan Kiều",
   sourceType: "Facebook Group",
@@ -19258,7 +19222,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1465,
+  id: 1463,
   title: "Tháng 10 tới rồi, mà “đường đua” Bóng Vàng Ký vẫn chưa hết cơ hội đâu ạ! 💜⚽️✨ Nhiều khách hàng...",
   source: "Minh Minh",
   sourceType: "Facebook",
@@ -19276,7 +19240,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1466,
+  id: 1464,
   title: "Vikki tiên phong mở lối - kết nối tiện ích, nâng tầm trải nghiệm tài chính số mỗi ngày 🥰 Vikki...",
   source: "Mỹ Tuyết",
   sourceType: "Facebook",
@@ -19294,7 +19258,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1467,
+  id: 1465,
   title: "NHÂN VIÊN VIKKI – 5 CHỮ T, TRỌN VẸN TẬN TÂM! Một trải nghiệm ngân hàng tốt không chỉ đến từ công...",
   source: "Nguyen Hoa",
   sourceType: "Facebook",
@@ -19312,7 +19276,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1468,
+  id: 1466,
   title: "GỬI TIẾT KIỆM VIKKI – LÃI SUẤT TỐT, QUÀ TẶNG HẤP DẪN! 🎁 Tiền nhàn rỗi để đâu cho vừa an tâm,...",
   source: "Nguyễn Thị Thu Thảo",
   sourceType: "Facebook",
@@ -19330,7 +19294,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1469,
+  id: 1467,
   title: "DU HÀNH CÙNG VIKKI – CHẠM HIỆN TẠI, MỞ LỐI TƯƠNG LAI Một hành trình tài chính hiện đại không chỉ...",
   source: "Phạm Tứ",
   sourceType: "Facebook",
@@ -19348,7 +19312,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1470,
+  id: 1468,
   title: "Món đồ đáng tiền không nhất thiết phải mắc tiền, mà là mua về rồi dùng tới đâu thấy “đáng” tới...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -19366,7 +19330,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1471,
+  id: 1469,
   title: "Tiêu dùng thông thái, trả trước từ 0 đồng tại các điểm giới thiệu dịch vụ mà HD SAISON liên kết:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -19384,7 +19348,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1472,
+  id: 1470,
   title: "ĂN NGON – GIẢM ĐẾN 50% – DEAL QUÁ HỜI! 💜💛 Mùa lễ hội này, rủ hội bạn, gia đình làm một bữa...",
   source: "Nguyễn Ngọc Trâm",
   sourceType: "Facebook",
@@ -19402,7 +19366,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1473,
+  id: 1471,
   title: "MỘT NGÀY BÌNH THƯỜNG, MỘT CHÚT NIỀM VUI CÙNG VIKKI Đi làm mỗi ngày là thêm một lần học hỏi, thêm...",
   source: "Phan Minh",
   sourceType: "Facebook",
@@ -19420,7 +19384,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1474,
+  id: 1472,
   title: "Chúc mừng Lễ khánh thành Ngân hàng số Vikki Thuận Thành Một hành trình mới chính thức bắt đầu –...",
   source: "Huỳnh Minh Trọng",
   sourceType: "Facebook",
@@ -19438,7 +19402,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1475,
+  id: 1473,
   title: "Nhà đầu tư ngoại rút hơn 400 triệu USD sau nửa tháng nâng hạng",
   source: "VnExpress",
   sourceType: "Báo chí",
@@ -19451,7 +19415,7 @@ const HDBANK_FEED = [
   excerpt: "<mark>HDBank</mark> dẫn đầu danh sách bị rút vốn nhiều nhất với hơn 73 triệu cổ phiếu."
  },
  {
-  id: 1476,
+  id: 1474,
   title: "VỐN ĐẾN MỌI MIỀN - NÔNG NGHIỆP BỘI THU Nguồn vốn vững vàng chính là \"đòn bẩy\" để nhà nông đầu tư...",
   source: "Nguyen Duy",
   sourceType: "Facebook",
@@ -19469,7 +19433,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1477,
+  id: 1475,
   title: "Chứng khoán ngày 6/10: VN-Index tăng điểm, khối ngoại tiếp tục bán ròng hơn 2.500 tỷ đồng",
   source: "Báo Nhân Dân",
   sourceType: "Báo chí",
@@ -19482,7 +19446,7 @@ const HDBANK_FEED = [
   excerpt: "Nhà đầu tư nước ngoài tiếp tục bán ròng trên cả 3 sàn hơn 2.519 tỷ đồng, tập trung vào các mã <mark>HDB</mark> (1.957,65 tỷ đồng), VJC (770,71 tỷ đồng), PNJ (101,61 tỷ đồng), TCB (85,51 tỷ đồng), ACB (69,7 tỷ đồng)..."
  },
  {
-  id: 1478,
+  id: 1476,
   title: "VIKKI BANK – NƠI MỖI GIAO DỊCH THÊM GẦN GŨI Một không gian hiện đại, thân thiện cùng sự phục vụ...",
   source: "Jenny Lam",
   sourceType: "Facebook",
@@ -19500,7 +19464,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1479,
+  id: 1477,
   title: "Ngân hàng số Vikki Ngân hàng tiết kiệm tốt nhất Vikki Bank Bình Dương toiyeuvikki vikkiGo...",
   source: "Vy Tit",
   sourceType: "Facebook",
@@ -19518,7 +19482,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1480,
+  id: 1478,
   title: "Ls hdbank khu vực thanh xuân nay bn vậy mng?",
   source: "SavvyGoose1269",
   sourceType: "Facebook Group",
@@ -19536,7 +19500,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1481,
+  id: 1479,
   title: "Tháng trước mình có nợ 1,5 tỷ bao gồm thế chấp, tín chấp và thẻ tín dụng, có nhìu khoản bên cttc...",
   source: "@minhhung8219",
   sourceType: "Threads",
@@ -19554,7 +19518,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1482,
+  id: 1480,
   title: "Tự hào Vikki Digital Bank! 🌟 Ngân hàng số của chúng ta đã chính thức chinh phục giải thưởng...",
   source: "Van Nguyen Thi Bich",
   sourceType: "Facebook",
@@ -19572,7 +19536,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1483,
+  id: 1481,
   title: "GHÉ VIKKI – GẶP NHAU, KẾT NỐI, TẬN HƯỞNG ✨ Ghé Vikki đâu chỉ để giao dịch! 😊 ☕ Có Vikkafé để...",
   source: "Ngocmai Nguyen",
   sourceType: "Facebook",
@@ -19590,7 +19554,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1484,
+  id: 1482,
   title: "Xin lãi suất cụ thể theo tháng và mức tiền của LPbank, ACB và HDbank",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -19608,7 +19572,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1485,
+  id: 1483,
   title: "HDBANK VÀ VIETJET CÙNG ĐẠT CỘT MỐC LỚN, 2 “CỖ MÁY” GẮN VỚI NỮ TỶ PHÚ NGUYỄN THỊ PHƯƠNG THẢO Đầu...",
   source: "Giải Mã Băng Cơ",
   sourceType: "Facebook",
@@ -19626,7 +19590,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1486,
+  id: 1484,
   title: "VAY MUA/HOÀN VỐN CĂN HỘ CHUNG CƯ – AN CƯ CÙNG VIKKI BANK Bạn đang có kế hoạch sở hữu căn hộ...",
   source: "Hồng Hân",
   sourceType: "Facebook Group",
@@ -19644,7 +19608,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1487,
+  id: 1485,
   title: "GẶP LẠI THẦN TƯỢNG TUỔI THƠ, VIẾT TIẾP NHỮNG ƯỚC MƠ Tuổi thơ có thể bắt đầu từ một buổi xem...",
   source: "Ngân hàng Số Vikki",
   sourceType: "Facebook Fanpage",
@@ -19662,7 +19626,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1488,
+  id: 1486,
   title: "VIKKIBANK TRÀ VINH CHÍNH THỨC RỘNG MỞ CỬA - ĐÓN TRỤ SỞ MỚI! 🎉 Hôm nay, Vikkibank tưng bừng tổ...",
   source: "Trương Tuấn",
   sourceType: "Facebook",
@@ -19680,7 +19644,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1489,
+  id: 1487,
   title: "VIKKI BANK – PGD GÀNH HÀO CHÍNH THỨC ĐI VÀO HOẠT ĐỘNG! 🎉 Ngày 05/10/2026, PGD Gành Hào chính...",
   source: "Hoang Sil Vikkibank",
   sourceType: "Facebook",
@@ -19698,7 +19662,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1490,
+  id: 1488,
   title: "VIKKI BANK - Lãi tháng 10 tăng tối đa 0.4 40 Thành Trung, Ngô Xuân Quảng Trâu Quỳ, Ocean Park 🎁...",
   source: "Thanh Huyen",
   sourceType: "Facebook Group",
@@ -19716,7 +19680,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1491,
+  id: 1489,
   title: "ĐẰNG SAU NHỮNG TRẢI NGHIỆM SỐ MƯỢT MÀ LÀ MỘT ĐỘI NGŨ KHÔNG NGỪNG TẬP LUYỆN 🔮 ​Để mang đến cho...",
   source: "Hathinhuy Hathinhuy",
   sourceType: "Facebook",
@@ -19734,7 +19698,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1492,
+  id: 1490,
   title: "Ngân hàng số Vikki tự hào ra mắt Tiết kiệm GenV Future – giải pháp tài chính đột phá đồng hành...",
   source: "Nguyễn Văn Triều",
   sourceType: "Facebook",
@@ -19752,7 +19716,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1493,
+  id: 1491,
   title: "KHI NIỀM VUI NHÂN ĐÔI - TRI ÂN KHÁCH HÀNG THÂN THIẾT CÙNG VIKKI DIGITAL BANK ✨ Có những niềm vui...",
   source: "Đức Minh",
   sourceType: "Facebook",
@@ -19770,7 +19734,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1494,
+  id: 1492,
   title: "VIKKI DIGITAL BANK – ĐƯA TIỆN ÍCH SỐ ĐẾN GẦN HƠN VỚI HỌC ĐƯỜNG 💜 Ngày 25/09, tại sự kiện của...",
   source: "Trọng Nhân",
   sourceType: "Facebook",
@@ -19788,7 +19752,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1495,
+  id: 1493,
   title: "THÁNG 10 TỎA SÁNG – PHỤ NỮ CHỦ ĐỘNG TÀI CHÍNH CÙNG VIKKI! 🌸 Tháng 10 là dịp để yêu thương, trân...",
   source: "Đinh Hoàng Nam",
   sourceType: "Facebook",
@@ -19806,7 +19770,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1496,
+  id: 1494,
   title: "Danh mục Cashflow ngày 06/10/2026: Chưa có tín hiệu mua mới Sang phiên giao dịch ngày...",
   source: "Đầu Tư Cổ Phiếu",
   sourceType: "Facebook",
@@ -19824,7 +19788,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1497,
+  id: 1495,
   title: "CHÚC MỪNG PGD GÀNH HÀO CHÍNH THỨC ĐI VÀO HOẠT ĐỘNG! 🎉 💙 Ngày 05/10/2026 – một dấu mốc mới, một...",
   source: "Tuyết Hồng",
   sourceType: "Facebook",
@@ -19842,7 +19806,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1498,
+  id: 1496,
   title: "Hành trình trải nghiệm giải Marathon của 2026 -------_-------_------- Quốc Gia Báo Tiền Phong...",
   source: "Nguyễn Duy Thành",
   sourceType: "Facebook",
@@ -19860,7 +19824,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1499,
+  id: 1497,
   title: "Lãi suất ngân hàng hôm nay 6/10/2026: Lộ diện nhà băng dẫn đầu kỳ hạn 6 tháng",
   source: "VietNamNet",
   sourceType: "Báo chí",
@@ -19873,7 +19837,7 @@ const HDBANK_FEED = [
   excerpt: "Lãi suất ngân hàng hôm nay, 6/10/2026, những ngân hàng niêm yết lãi suất huy động kỳ hạn 6 tháng cao nhất gồm ACB, Sacombank, Bac A Bank..."
  },
  {
-  id: 1500,
+  id: 1498,
   title: "VIKKI DIGITAL BANK GHI DẤU ẤN TẠI GIẢI THƯỞNG NGÂN HÀNG VIỆT NAM TIÊU BIỂU 2026 💜 Một tin vui...",
   source: "Bảo Vikki",
   sourceType: "Facebook",
@@ -19891,7 +19855,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1501,
+  id: 1499,
   title: "VIKKI – NGÂN HÀNG SỐ CỦA BẠN, CỦA MỌI NHÀ! 💙✨ Vikki mở ra thế giới ngân hàng số tiện lợi không...",
   source: "Minh Nhân Vikki",
   sourceType: "Facebook",
@@ -19909,7 +19873,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1502,
+  id: 1500,
   title: "Cảm ơn thời gian qua đã đồng hành cùng anh, cảm ơn tất cả những tình cảm của các bạn đã dành cho...",
   source: "Đặng Quốc Vương",
   sourceType: "Facebook",
@@ -19927,7 +19891,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1503,
+  id: 1501,
   title: "TỔNG DIỄN TẬP LẦN 2 | CORE BANKING T24 THẾ HỆ MỚI 🔥 Một ngày tập trung – một mục tiêu chung –...",
   source: "Que Anh",
   sourceType: "Facebook",
@@ -19945,7 +19909,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1504,
+  id: 1502,
   title: "MỘT ĐỒNG ĐỘI – MỘT MỤC TIÊU – CÙNG NHAU BỨT PHÁ! 🌟❤️ HDBank & Vikki Bank cùng đồng hành, cùng...",
   source: "Yến Nhi",
   sourceType: "Facebook",
@@ -19963,7 +19927,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1505,
+  id: 1503,
   title: "Mẹ ơi, sau này con sẽ mua quà cho mẹ…” ❤️ Trẻ con nói một câu có thể khiến người lớn vui cả...",
   source: "Anh Phuong",
   sourceType: "Facebook",
@@ -19981,7 +19945,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1506,
+  id: 1504,
   title: "Bay màu 6.000 tỷ trong 2 tuần, chuyện gì xảy ra với Vietjet và HDBank? Vietjet HDBank...",
   source: "Banking Insider ",
   sourceType: "Facebook",
@@ -19999,7 +19963,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1507,
+  id: 1505,
   title: "VN-INDEX TĂNG HƠN 15 ĐIỂM | Thị trường phiên 05/10/2026 Sau 5 phiên đỏ lửa liên tiếp, VN-Index...",
   source: "Kiến Thức Đầu Tư Tài Chính",
   sourceType: "Facebook",
@@ -20017,7 +19981,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1508,
+  id: 1506,
   title: "Vikki không chỉ là ngân hàng số, mà còn là người bạn đồng hành cùng những trải nghiệm trong cuộc...",
   source: "Hà Phạm",
   sourceType: "Facebook",
@@ -20035,7 +19999,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1509,
+  id: 1507,
   title: "Lãi suất VikkiBank cao hấp dẫn nhất thị trường lên tới 9️⃣,6️⃣% 🎁 Quà tặng hấp dẫn 📲 Lh em...",
   source: "@tien_kutee",
   sourceType: "Threads",
@@ -20053,7 +20017,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1510,
+  id: 1508,
   title: "NHẬN ĐỊNH THỊ TRƯỜNG NGÀY 6/10/2026: THỊ TRƯỜNG TIẾP ĐÀ PHỤC HỒI? Dear anh chị Thị trường đã...",
   source: "Hệ thống đầu tư Atagetz",
   sourceType: "Facebook Group",
@@ -20071,7 +20035,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1511,
+  id: 1509,
   title: "sao bọn Hd saison 1 năm nay nó không gọi điện nhắn tin gì vậy AE .",
   source: "ThoughtfulCaterpillar5854",
   sourceType: "Facebook Group",
@@ -20089,7 +20053,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1512,
+  id: 1510,
   title: "Điều khiến khách hàng cảm thấy hài lòng không chỉ là dịch vụ tốt mà còn là sự tận tâm của đội...",
   source: "@nguyen_huong201",
   sourceType: "Threads",
@@ -20107,7 +20071,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1513,
+  id: 1511,
   title: "Lý do mà /// sọc không dám đối diện sự thật về Việt Nam: @chieutran7329 Đây là bảng thống kê chi...",
   source: "Tran HanhPhuc",
   sourceType: "Facebook Group",
@@ -20125,7 +20089,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1514,
+  id: 1512,
   title: "VIKKI DIGITAL BANK BẮT TAY MASTERCARD – KẾT NỐI CÔNG NGHỆ, NÂNG TẦM TRẢI NGHIỆM SỐ Trong khuôn...",
   source: "Bảo Ngọc",
   sourceType: "Facebook",
@@ -20143,7 +20107,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1515,
+  id: 1513,
   title: "Khách hàng không chỉ gửi tiền, mà còn gửi cả niềm tin. ❤️ Cảm ơn quý khách hàng đã luôn tin...",
   source: "Lan Tây",
   sourceType: "Facebook",
@@ -20161,7 +20125,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1516,
+  id: 1514,
   title: "Sinh viên cũng có thể bắt đầu tiết kiệm từ hôm nay 💰💜 📍 2 bạn tại Sài Gòn đã 📱mở sổ hoàn...",
   source: "Mỹ Linh",
   sourceType: "Facebook",
@@ -20179,7 +20143,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1517,
+  id: 1515,
   title: "Mua vàng hay gửi tiết kiệm? 🤔 Là người làm tại Vikki Bank, mình chọn gửi tiết kiệm khi muốn...",
   source: "@davidtietkiem",
   sourceType: "Threads",
@@ -20197,7 +20161,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1518,
+  id: 1516,
   title: "E hok có thẻ cứng cccd. Chỉ có vnedivi 2 từng có tk hd bank. Nhưng lâu hok sử dụng e muốn sử...",
   source: "Quốc Duy",
   sourceType: "Facebook Group",
@@ -20215,7 +20179,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1519,
+  id: 1517,
   title: "Có ai tự lên hồ sơ hd saison oke không ạ. Lên ở app hd saison hay app hpo ạ.",
   source: "ChipperYuzu6556",
   sourceType: "Facebook Group",
@@ -20233,7 +20197,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1520,
+  id: 1518,
   title: "HDBANK LỆ THỦY – TIẾP SỨC PHÁT TRIỂN, KIẾN TẠO GIÁ TRỊ 🌾 Ngày 04/10/2026, HDBank Lệ Thủy tổ...",
   source: "HDBank Lệ Thủy",
   sourceType: "Facebook Fanpage",
@@ -20251,7 +20215,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1521,
+  id: 1519,
   title: "VIKKI DIGITAL BANK – CHẠM NGÂN HÀNG SỐ, BẮT TREND TƯƠNG LAI! Cùng Vikki khuấy đảo campus với...",
   source: "Ngọc Quý",
   sourceType: "Facebook",
@@ -20269,7 +20233,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1522,
+  id: 1520,
   title: "Bạn nào làm ở vikki bank bên chi nhánh Biên Hòa tư vấn giúp mình với, mình muốn gửi tiết kiệm",
   source: "Trần Tuan Anh",
   sourceType: "Facebook Group",
@@ -20287,7 +20251,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1523,
+  id: 1521,
   title: "THỨ 4 NGỌT NGÀO – CHIỀU CẢ NHÀ HẾT NẤC! 🥤 🎉 Giữa tuần này, Vikkafé bật chế độ “THỨ 4 NGỌT...",
   source: "Minh Thư",
   sourceType: "Facebook Group",
@@ -20305,7 +20269,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1524,
+  id: 1522,
   title: "Chơi game cùng HD Bank nào",
   source: "Thanh Lam",
   sourceType: "Facebook",
@@ -20323,7 +20287,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1525,
+  id: 1523,
   title: "Khám phá Trạm Công dân số: Không gian kết nối tiện ích tài chính, kiểm tra sức khỏe tự động và...",
   source: "Tran Toan",
   sourceType: "Facebook",
@@ -20341,7 +20305,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1526,
+  id: 1524,
   title: "Kim Quyên cùng VIKKI trong một ngày đặc biệt Cuối cùng cũng có duyên đồng hành tại LỄ KHÁNH...",
   source: "MC Kim Quyên",
   sourceType: "Facebook",
@@ -20359,7 +20323,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1527,
+  id: 1525,
   title: "NHỮNG “VỊ KHÁCH ĐẶC BIỆT” TẠI QUẦY GIAO DỊCH Ngày tổng diễn tập lần 2 càng thêm đặc biệt khi...",
   source: "Châu Mint",
   sourceType: "Facebook",
@@ -20377,7 +20341,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1528,
+  id: 1526,
   title: "Phiên giao dịch 5/10 Chốt phiên, VN-Index tăng 15,49 điểm (+0,89%), lên mức 1.753,2 điểm. Các mã...",
   source: "Quang Anh",
   sourceType: "Facebook Group",
@@ -20395,7 +20359,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1529,
+  id: 1527,
   title: "VIKKI – NGÂN HÀNG SỐ TIẾT KIỆM TỐT NHẤT 💜 Một danh hiệu là sự ghi nhận. Một niềm tin là hành...",
   source: "Tô Phương Quỳnh",
   sourceType: "Facebook",
@@ -20413,7 +20377,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1530,
+  id: 1528,
   title: "Lần đầu trải nghiệm Vikki Digital Bank và 3 điều thú vị chưa được kể... 🌺 Ấn tượng về Vikki:...",
   source: "Minh Nhân Vikki",
   sourceType: "Facebook",
@@ -20431,7 +20395,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1531,
+  id: 1529,
   title: "Gửi tiết kiệm Vikki – An tâm tích lũy, vững vàng tương lai💸 Có một khoản tiền chưa dùng đến?...",
   source: "Bùi Thị Kim Loan",
   sourceType: "Facebook",
@@ -20449,7 +20413,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1532,
+  id: 1530,
   title: "Lãi suất bên em đã LẬP ĐỈNH mới rồi ạ! 🔥🔥 Tiền nhàn rỗi đừng để “nằm im” — để em giúp mình tối...",
   source: "Trần Đức Việt",
   sourceType: "Facebook",
@@ -20467,7 +20431,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1533,
+  id: 1531,
   title: "HIỆP HỘI NGÂN HÀNG VIỆT NAM LÀM VIỆC VỚI MỘT SỐ HỘI VIÊN TẠI TP. HỒ CHÍ MINH 🤝 Từ ngày 30/09...",
   source: "Lê Anh Khoa",
   sourceType: "Facebook",
@@ -20485,7 +20449,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1534,
+  id: 1532,
   title: "MỘT CHẠM ĐẾN VIKKI - BẬT NGÀN TRẢI NGHIỆM ✨ Bạn đã sẵn sàng bước vào kỷ nguyên tài chính số đa...",
   source: "Minh Trang",
   sourceType: "Facebook",
@@ -20503,7 +20467,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1535,
+  id: 1533,
   title: "Mỗi ngày đi làm là một ngày có thêm chút trải nghiệm, chút áp lực và thật nhiều niềm vui cùng...",
   source: "Tiên Tiên",
   sourceType: "Facebook",
@@ -20521,7 +20485,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1536,
+  id: 1534,
   title: "TEAM VIKKI QUẢNG NINH LÊN ĐƯỜNG! 💜 Không ngại nắng, không ngại đường xa, chỉ ngại khách hàng...",
   source: "Cú Vọ",
   sourceType: "Facebook",
@@ -20539,7 +20503,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1537,
+  id: 1535,
   title: "Mong ngày nào cũng tràn ngập tiếng cười và vui như hôm nay! Lobe NguyenPhuong Nguyen Minh vikki...",
   source: "Nguyễn Đức Minh",
   sourceType: "Facebook",
@@ -20557,7 +20521,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1538,
+  id: 1536,
   title: "Có những nơi ghé qua để giải quyết một việc, nhưng cũng có những nơi khiến mình muốn ngồi lại...",
   source: "Minh Minh",
   sourceType: "Facebook",
@@ -20575,7 +20539,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1539,
+  id: 1537,
   title: "VIKKI DIGITAL BANK – MỞ LỐI TƯƠNG LAI TÀI CHÍNH❤️❤️❤️ 👉🏻Hệ sinh thái số \"Một chạm\": Quản lý...",
   source: "Bùi Thị Kim Loan",
   sourceType: "Facebook",
@@ -20593,7 +20557,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1540,
+  id: 1538,
   title: "GO GLOBAL BẮC NINH 2026: CÚ HÍСH ĐỂ DOANH NGHIỆP VIỆT VƯƠN LÊN TIER 1 Từ “sản xuất được” đến...",
   source: "Dân trí",
   sourceType: "Facebook Fanpage",
@@ -20611,7 +20575,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1541,
+  id: 1539,
   title: "KHÔNG GIAN HIỆN ĐẠI – PHỤC VỤ TỪ SỰ TẬN TÂM Ấn tượng về một ngân hàng không chỉ được tạo nên từ...",
   source: "Hoàng Ánh",
   sourceType: "Facebook",
@@ -20629,7 +20593,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1542,
+  id: 1540,
   title: "RỰC RỠ THẮNG LỢI – CHÚC MỪNG KHAI TRƯƠNG VIKKI BANK HÀ NAM! 🥳💥 ​Chào đón điểm đến tiếp theo...",
   source: "Nguyễn Tuấn Vinh",
   sourceType: "Facebook",
@@ -20647,7 +20611,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1543,
+  id: 1541,
   title: "TOP CỔ PHIẾU SỨC MẠNH GIÁ – 05/10/2026 Sắc xanh trở lại. Kết thúc chuỗi giảm 5 phiên, VN-Index...",
   source: "Chứng Khoán Mirae Asset Việt Nam",
   sourceType: "Facebook",
@@ -20665,7 +20629,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1544,
+  id: 1542,
   title: "TÍCH LŨY AN TÂM – KIẾN TẠO TƯƠNG LAI BỀN VỮNG CÙNG VIKKI! Mọi hành trình lớn đều bắt đầu từ...",
   source: "Nhi Tran",
   sourceType: "Facebook",
@@ -20683,7 +20647,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1545,
+  id: 1543,
   title: "VIKKAFE – GÓC NHỎ CHO NHỮNG NGÀY THÊM NĂNG LƯỢNG Một ngày bận rộn đôi khi chỉ cần chậm lại một...",
   source: "Võ Nhung",
   sourceType: "Facebook",
@@ -20701,7 +20665,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1546,
+  id: 1544,
   title: "Tân phú qua c sẵn nhiều mã 🔥Hổ trợ trả góp qua NH HDBank-Mira-Thẻ Tín Dụng.Sinh Viên Có Thẻ...",
   source: "@tieu_nhu68",
   sourceType: "Threads",
@@ -20719,7 +20683,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1547,
+  id: 1545,
   title: "MỘT CHẠM KẾT NỐI – MUÔN TRẢI NGHIỆM CÙNG VIKKI Từ tài chính, mua sắm, di chuyển đến thư giãn và...",
   source: "Nhật Khánh Huỳnh",
   sourceType: "Facebook Group",
@@ -20737,7 +20701,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1548,
+  id: 1546,
   title: "Mọi người cho mình hỏi chút với ạ. Chuyện là hồi đại học thì mình có được mời chào cài đặt và...",
   source: "@im_a_little_whale_",
   sourceType: "Threads",
@@ -20755,7 +20719,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1549,
+  id: 1547,
   title: "Với một mục tiêu đem lại những trãi nghiệm tốt nhất cho Quý khách hàng. - Tập thể CBNV VikkiBank...",
   source: "Thong Nguyen",
   sourceType: "Facebook",
@@ -20773,7 +20737,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1550,
+  id: 1548,
   title: "ĐẾN VIKKI BANK, CẢM NHẬN SỰ THUẬN TIỆN TRONG TỪNG KHOẢNH KHẮC Một không gian giao dịch tốt không...",
   source: "Linh Vikki",
   sourceType: "Facebook",
@@ -20791,7 +20755,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1551,
+  id: 1549,
   title: "GỬI TIẾT KIỆM VIKKI – CỘNG THÊM +2,7% 💥Rất nhiều ưu đãi lãi suất hấp dẫn, an tâm tích lũy –...",
   source: "Nguyễn Hoài",
   sourceType: "Facebook",
@@ -20809,7 +20773,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1552,
+  id: 1550,
   title: "VIKKI DIGITAL BANK – BỨT PHÁ VƯƠN LÊN TOP 1! 🏆 Tháng 8/2026, Vikki Digital Bank chính thức dẫn...",
   source: "Tiên Tiên",
   sourceType: "Facebook",
@@ -20827,7 +20791,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1553,
+  id: 1551,
   title: "MINIGAME PHÁ ĐẢO MÊ CUNG - TÌM KHO ƯU ĐÃI CÙNG HDBANK! 🎁✨ Một \"kho báu\" chứa vô vàn chương...",
   source: "Thái Nguyễn",
   sourceType: "Facebook",
@@ -20845,7 +20809,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1554,
+  id: 1552,
   title: "Nhận khen thưởng tháng 9 xong lại lo 3 tháng cuối năm 😅 Mong tiếp tục được mọi người yêu...",
   source: "Lê Thanh Thảo",
   sourceType: "Facebook",
@@ -20863,7 +20827,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1555,
+  id: 1553,
   title: "Chưa bằng 2008, năm đó dàn bank leo rank lãi suất liên tục hdbank gánh team chạm mốc 24% 😁😁",
   source: "@sa_ngo_nghinh",
   sourceType: "Threads",
@@ -20881,7 +20845,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1556,
+  id: 1554,
   title: "Bạn có tò mò Vikki Digital Bank khác biệt thế nào không? 🤔 Đó chính là Vikkafé đó cả nhà ơi! ☕️...",
   source: "Minh Hằng Lê Thị",
   sourceType: "Facebook",
@@ -20899,7 +20863,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1557,
+  id: 1555,
   title: "Chúc mừng KH may mắn nhận quà cực đỉnh từ HDBank",
   source: "Trang Pham",
   sourceType: "Facebook",
@@ -20917,7 +20881,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1558,
+  id: 1556,
   title: "HDBankActivationDay, HD017092",
   source: "Nguyễn Thị Thúy Kiều",
   sourceType: "Facebook",
@@ -20935,7 +20899,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1559,
+  id: 1557,
   title: "CHÚC MỪNG KHAI TRƯƠNG PGD VIKKI BANK THUẬN THÀNH – BẮC NINH PGD Vikki Bank Thuận Thành chính...",
   source: "PURO Corporation",
   sourceType: "Facebook",
@@ -20953,7 +20917,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1560,
+  id: 1558,
   title: "Vikki bank 9.6 nhắn mình tư vấn",
   source: "@dk_reuss",
   sourceType: "Threads",
@@ -20971,7 +20935,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1561,
+  id: 1559,
   title: "Theo giới truyền thông, trọng tâm ở đợt tập trung tới là thử nghiệm các mảng miếng luân chuyển...",
   source: "VOV Futsal",
   sourceType: "Facebook",
@@ -20989,7 +20953,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1562,
+  id: 1560,
   title: "Gửi online lãi lúc nào cũng cao hơn, tiết kiệm thời gian dễ theo dõi Vikki bank lãi suất lên tới...",
   source: "@hcibw_w",
   sourceType: "Threads",
@@ -21007,7 +20971,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1563,
+  id: 1561,
   title: "Dung hả con. Con nghe Bố!. ☘️ Mai chở Bố ra Ngân hàng con ở Buôn Hồ gửi tiết kiệm nhé!. 🎉 Hai...",
   source: "Dung Kim",
   sourceType: "Facebook",
@@ -21025,7 +20989,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1564,
+  id: 1562,
   title: "VIKKI BANK KÍNH GỬI QUÝ KHÁCH HÀNG ✨ LÃI SUẤT TIẾT KIỆM 6 THÁNG – LÊN ĐẾN 9,5%/NĂM 🔹 Lãi cuối...",
   source: "Bảo Ngân Hàng",
   sourceType: "Facebook Group",
@@ -21043,7 +21007,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1565,
+  id: 1563,
   title: "Cảm ơn mọi người đã nhớ và gửi lời chúc sinh nhật cho em nha 🥰❤️ Vui và bất ngờ lắm luôn! 🫶...",
   source: "Bùi Viết Khương",
   sourceType: "Facebook",
@@ -21061,7 +21025,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1566,
+  id: 1564,
   title: "TRÂN TRỌNG CẢM ƠN SỰ QUAN TÂM VÀ ĐỘNG VIÊN CỦA BAN LÃNH ĐẠO VIKKI BANK Những ngày qua, sự hiện...",
   source: "Trịnh Loan",
   sourceType: "Facebook",
@@ -21079,7 +21043,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1567,
+  id: 1565,
   title: "VIKKI DIGITAL BANK – TIẾP TỤC KHẲNG ĐỊNH DẤU ẤN TRÊN TRƯỜNG QUỐC TẾ 💜 ✨ Một lần nữa, Vikki...",
   source: "Võ Thị Thúy Kiều",
   sourceType: "Facebook",
@@ -21097,7 +21061,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1568,
+  id: 1566,
   title: "KHÔNG GIAN GIAO DỊCH HIỆN ĐẠI – TRẢI NGHIỆM GẦN GŨI TẠI VIKKI BANK Ngay từ khi bước vào không...",
   source: "Hoàng Thu Thuỷ",
   sourceType: "Facebook",
@@ -21115,7 +21079,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1569,
+  id: 1567,
   title: "HDB: 3 ĐỘNG LỰC ĐÁNG CHÚ Ý TRONG QUÝ IV/2026 - Liệu có đáng để đầu tư 1. Lợi nhuận quý III tăng...",
   source: "Nhật Ký Tư Bản",
   sourceType: "Facebook Group",
@@ -21133,7 +21097,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1570,
+  id: 1568,
   title: "Team Vikki Quảng Ninh lên đường! Không ngại nắng, không ngại đường xa, chỉ ngại khách hàng chưa...",
   source: "Quang Hoà",
   sourceType: "Facebook",
@@ -21151,7 +21115,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1571,
+  id: 1569,
   title: "VIKKI DIGITAL BANK vươn lên dẫn đầu trên bảng xếp hạng YMI tháng 8.2026 ngành Ngân hàng cả nhà...",
   source: "Nguyen Thi Bich Lien",
   sourceType: "Facebook",
@@ -21169,7 +21133,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1572,
+  id: 1570,
   title: "CORE MỚI – TINH THẦN VIKKI VẪN FULL NĂNG LƯỢNG! 🔥 VikkiBank_ HD Bank cùng nhau diễn tập, học...",
   source: "Diem Nguyen",
   sourceType: "Facebook",
@@ -21187,7 +21151,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1573,
+  id: 1571,
   title: "CORE MỚI – TINH THẦN VIKKI VẪN FULL NĂNG LƯỢNG! 🔥 VikkiBank_ HD Bank cùng nhau diễn tập, học...",
   source: "@snake_cat89",
   sourceType: "Threads",
@@ -21205,7 +21169,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1574,
+  id: 1572,
   title: "NGÀY THẺ HDBANK: LÊN ĐỒ SĂN DEAL – HOÀN TIỀN CỰC \"CHILL\" ĐẾN 500.000 ĐỒNG!​ 👉 Chi tiết ưu đãi...",
   source: "Huệ Nguyễn",
   sourceType: "Facebook",
@@ -21223,7 +21187,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1575,
+  id: 1573,
   title: "PHÂN TÍCH CỔ PHIẾU NỔI BẬT TUẦN 05-09/10/2026 TỪ VIETSTOCK 📌 GÓC NHÌN SANDBOX: Cổ phiếu đang...",
   source: "Sandboxstartup.vn",
   sourceType: "Facebook",
@@ -21241,7 +21205,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1576,
+  id: 1574,
   title: "ƯU ĐÃI THẢ GA – SINH LỜI TỐI ĐA ✨ “Nạp” niềm vui cho cuộc sống, thêm động lực cho kế hoạch tích...",
   source: "Nguyễn Trung Châu",
   sourceType: "Facebook",
@@ -21259,7 +21223,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1577,
+  id: 1575,
   title: "Lãi suất truyền thống hôm nay bên Vikki bank bao nhiêu ạ? Vikki Cầu Giấy ạ.",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -21277,7 +21241,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1578,
+  id: 1576,
   title: "Ngân hàng mạnh tay chi cổ tức Một loạt ngân hàng đang bước vào mùa chia cổ tức với tỷ lệ cao,...",
   source: "Ngọc Anh 19s",
   sourceType: "Facebook",
@@ -21295,7 +21259,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1579,
+  id: 1577,
   title: "Tỷ phú Nguyễn Thị Phương Thảo thăng hoa cùng 2 cỗ máy trăm nghìn tỷ: Dưới đất HDBank vượt LPBank...",
   source: "CafeF",
   sourceType: "Facebook Fanpage",
@@ -21313,7 +21277,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1580,
+  id: 1578,
   title: "MỘT MÙA HÈ GỬI TIẾT KIỆM, MỘT ĐÊM TRUNG THU NHẬN 16 LƯỢNG VÀNG: CÁI KẾT VIÊN MÃN CỦA “TIẾT KIỆM...",
   source: "Cafe KINH TẾ",
   sourceType: "Facebook",
@@ -21331,7 +21295,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1581,
+  id: 1579,
   title: "Ngày 02/10/2026.Thứ sáu. Ngày đẹp trời. Thiên thời, địa lợi, nhân hoà. Dự lễ Khánh thành Trụ sở...",
   source: "Nhung Sữa Non",
   sourceType: "Facebook",
@@ -21349,7 +21313,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1582,
+  id: 1580,
   title: "Vikki Digital Bank Chi nhánh Đắk Lắk (tiền thân là Ngân hàng Đông Á) 👉Hiện Vikki Digital Bank...",
   source: "Nhu Phung",
   sourceType: "Facebook",
@@ -21367,7 +21331,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1583,
+  id: 1581,
   title: "Câu chuyện của Dì Tám và Khách hàng uống cà phê tiếp theo sẽ như thế nào em hóng quá mn có hóng...",
   source: "Kim Tran",
   sourceType: "Facebook",
@@ -21385,7 +21349,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1584,
+  id: 1582,
   title: "Mình cần chuyển nhượng sổ tiết kiệm HD bank, trị giá 600tr, 27/11 đến hạn. Lãi suất tính 9,2%,...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -21403,7 +21367,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1585,
+  id: 1583,
   title: "Chứng khoán ngày 5/10: VN-Index tăng gần 16 điểm, VIC và VHM nâng đỡ thị trường",
   source: "Báo Nhân Dân",
   sourceType: "Báo chí",
@@ -21416,7 +21380,7 @@ const HDBANK_FEED = [
   excerpt: "Nhóm cổ phiếu chứng khoán phiên này nghiêng về sắc đỏ có mức giảm 0,63%, chủ yếu từ các TCX, VCK, SSI, VPX, HCM, VCI, MBS, SHS, DSE, ORS, TVS, VDS… Chiều ngược lại, các mã tăng gồm VIX, VND, BSI, AGR, DSC, BVS, TCI, APG, EVS, IVS, PSI… Nhóm cổ phiếu ngân hàng phiên này đóng cửa tăng 0,37%, chủ yếu từ các mã TCB, VPB, MBB, LPB, SSB, VIB, NVB, ABB, BVB…..."
  },
  {
-  id: 1586,
+  id: 1584,
   title: "Cái gì ở Vikki Digital Bank có mà những Ngân hàng số khác không có? 📷 Vikkafé! Tuyệt vời, uống...",
   source: "Võ Thị Thúy Kiều",
   sourceType: "Facebook",
@@ -21434,7 +21398,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1587,
+  id: 1585,
   title: "Khách cũ hdsaison hú em hihi",
   source: "@taichinhcanthorz",
   sourceType: "Threads",
@@ -21452,7 +21416,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1588,
+  id: 1586,
   title: "Tài chính linh hoạt – Chủ động mọi kế hoạch! Bạn đang cần một khoản tiền để mua sắm, sửa chữa...",
   source: "Vàn HD",
   sourceType: "Facebook",
@@ -21470,7 +21434,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1589,
+  id: 1587,
   title: "Điều quan trọng lúc này không phải đoán đáy, mà là quan sát phản ứng của cổ phiếu với thông tin...",
   source: "SC Trading",
   sourceType: "Facebook",
@@ -21488,7 +21452,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1590,
+  id: 1588,
   title: "CẬP NHẬT TIN TỨC NGÀY 05/10: 1. Phó Giáo sư Đặng Đức Huy (Viện Môi trường và Khoa Hóa học, Đại...",
   source: "AI + cơm",
   sourceType: "Facebook",
@@ -21506,7 +21470,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1591,
+  id: 1589,
   title: "Xin phép Admin ! HD SAISON Hỗ trợ mua trả góp xe máy , xe điện ( XEM XE , LÊN HỒ SƠ , NHẬN XE...",
   source: "Long HD Saison",
   sourceType: "Facebook Group",
@@ -21524,7 +21488,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1592,
+  id: 1590,
   title: "TRAO TRI ÂN – GỬI LỘC VÀNG, LAN TỎA NIỀM VUI CÙNG VIKKI ✨ 🏆💛 Chúc mừng Quý khách hàng may mắn...",
   source: "Tuyết Hiền",
   sourceType: "Facebook",
@@ -21542,7 +21506,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1593,
+  id: 1591,
   title: "Tiết kiệm Online Vikki Bank (Đông Á cũ) 💰 Lãi suất cao hấp dẫn nhất thị trường lên tới 9️⃣,6️⃣%...",
   source: "@tien_kutee",
   sourceType: "Threads",
@@ -21560,7 +21524,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1594,
+  id: 1592,
   title: "DOANH NGHIỆP XUẤT NHẬP KHẨU CẦN VỐN? HDBank HỖ TRỢ NGAY! Nguồn vốn ưu đãi dành cho doanh nghiệp...",
   source: "Cẩm Tiên",
   sourceType: "Facebook",
@@ -21578,7 +21542,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1595,
+  id: 1593,
   title: "Nên gửi tiết kiệm ngân hàng lãi cao mà uy tín?) Nên gửi tiết kiệm Vikki bank, Vp bank, MBV bank,...",
   source: "@nobody.space_",
   sourceType: "Threads",
@@ -21596,7 +21560,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1596,
+  id: 1594,
   title: "HDB: KỲ VỌNG BỨT PHÁ LỢI NHUẬN QUÝ III, IPO HDS VÀ TĂNG VỐN QUA CỔ TỨC 30% HDB đang hội tụ nhiều...",
   source: "Minh Duc",
   sourceType: "Facebook Group",
@@ -21614,7 +21578,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1597,
+  id: 1595,
   title: "HDB: LỢI NHUẬN QUÝ III KỲ VỌNG TĂNG MẠNH, HDS IPO VÀ CỔ TỨC 30% HDB đang thu hút sự chú ý khi...",
   source: "Đúng Đỉnh ",
   sourceType: "Facebook Group",
@@ -21632,7 +21596,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1598,
+  id: 1596,
   title: "Vikki bank 9.6 nhắn em tư vấn nhé Zl 0971492951",
   source: "@dk_reuss",
   sourceType: "Threads",
@@ -21650,7 +21614,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1599,
+  id: 1597,
   title: "20/10 này, đừng chỉ nhận hoa – nhận QUÀ xịn từ HDBank nữa chứ! 🎁 💐 Gửi một khoản tiết kiệm –...",
   source: "Anh Salmon",
   sourceType: "Facebook",
@@ -21668,7 +21632,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1600,
+  id: 1598,
   title: "Kính gửi : Quý khác hàng! PGD Hộ Phòng sẽ chính thức về Gành Hào từ ngày 05/10/2026. Việc di dời...",
   source: "Quang Quach Thoai",
   sourceType: "Facebook",
@@ -21686,7 +21650,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1601,
+  id: 1599,
   title: "Lãi suất tiền gửi truyền thống không điều kiện HDBANK - HÀ ĐÔNG KHÔNG ĐIỀU KIỆN 6 tháng :...",
   source: "Quỳnh",
   sourceType: "Facebook",
@@ -21704,7 +21668,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1602,
+  id: 1600,
   title: "Dạ. Chiều tối nay. Ngày 5-10. AE tâm an đi biên hoà mua áo quan về Hỗ trợ cho người nghèo. 0...",
   source: "@gianghi734",
   sourceType: "Threads",
@@ -21722,7 +21686,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1603,
+  id: 1601,
   title: "HDBank mãi đỉnh ạ ❤️❤️❤️",
   source: "Tran Thi Lan Anh",
   sourceType: "Facebook",
@@ -21740,7 +21704,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1604,
+  id: 1602,
   title: "CUỐI TUẦN CỦA TEAM VIKKI – CÙNG HỌC, CÙNG RÈN, CÙNG TIẾN BỘ! Cuối tuần không chỉ là thời gian...",
   source: "Ngocmai Nguyen",
   sourceType: "Facebook",
@@ -21758,7 +21722,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1605,
+  id: 1603,
   title: "TIN NHANH CHỨNG KHOÁN NGÀY 05/10/2026 1/ HPG: Con trai Chủ tịch HPG đăng ký mua 50 triệu cổ...",
   source: "Ngoc Pham",
   sourceType: "Facebook Group",
@@ -21776,7 +21740,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1606,
+  id: 1604,
   title: "Nếu có ai hỏi: Cuộc sống sinh viên sau 1 tháng xa nhà còn màu hồng nữa không? 🤔 Tôi mạnh dạn...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -21794,7 +21758,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1607,
+  id: 1605,
   title: "Xem thêm chi tiết tại: https://www.hdsaison.com.vn/vn/vay-sinh-vien Tiếp vốn trao quyền 🎓 Sinh...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -21812,7 +21776,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1608,
+  id: 1606,
   title: "HDSAISON........ 𝚅.𝚊𝚢 𝚗.𝚑𝚊𝚗𝚑,𝚗𝚑𝚊̣̂𝚗 𝚝.𝚒𝚎̂̀𝚗 𝚗𝚐𝚊𝚢 𝙲𝚑𝚒̉ 𝚌𝚊̂̀𝚗 𝚖𝚘̂̃𝚒...",
   source: "@kiudanh_0911",
   sourceType: "Threads",
@@ -21830,7 +21794,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1609,
+  id: 1607,
   title: "NGÂN HÀNG CHO VAY THẾ CHẤP VỚI LS ƯU ĐÃI - Cho vay: Tiêu dùng, mua nhà đất, sản xuất kinh doanh…...",
   source: "Nguyễn Viết Thái",
   sourceType: "Facebook Group",
@@ -21848,7 +21812,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1610,
+  id: 1608,
   title: "Gửi tiết kiệm HDBank lãi suất cao. Chương trình quà tặng hấp dẫn🎁anh chị cmt e nt chi tiết ạ",
   source: "Uyển My",
   sourceType: "Facebook Group",
@@ -21866,7 +21830,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1611,
+  id: 1609,
   title: "TIẾT KIỆM HÔM NAY – AN TÂM TƯƠNG LAI 💰✨ Bạn đang có khoản tiền nhàn rỗi và muốn vừa an toàn vừa...",
   source: "Phong Dương",
   sourceType: "Facebook Group",
@@ -21884,7 +21848,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1612,
+  id: 1610,
   title: "Manifest ✨Tháng nào cũng như tháng này ❤ HDBank Camketloiichcaonnhat",
   source: "Đinh Thị Thủy Tiên",
   sourceType: "Facebook",
@@ -21902,7 +21866,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1613,
+  id: 1611,
   title: "Vingroup giúp chứng khoán cắt chuỗi giảm 5 phiên liên tục",
   source: "VnExpress",
   sourceType: "Báo chí",
@@ -21915,7 +21879,7 @@ const HDBANK_FEED = [
   excerpt: "Trong khi LPB tăng trần và dư mua gần 700.000 cổ phiếu, nhiều mã vốn hóa lớn như <mark>HDB</mark>, SHB, EIB, STB, BID lại đối mặt áp lực xả hàng và đóng cửa dưới tham chiếu."
  },
  {
-  id: 1614,
+  id: 1612,
   title: "Cổ phiếu đáng chú ý ngày 5/10: HDB, ANV, MWG HoaiChungKhoan thanhhoai ChungKhoanHomNay...",
   source: "Thanh Hoài Chứng Khoán",
   sourceType: "Facebook",
@@ -21933,7 +21897,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1615,
+  id: 1613,
   title: "Vikki Digital Bank đồng hành cùng Kios Công dân số 🇻🇳 +++++++Chung tay lan tỏa tiện ích số,...",
   source: "Thanh Nguyên",
   sourceType: "Facebook",
@@ -21951,7 +21915,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1616,
+  id: 1614,
   title: "Vikki Bank lãi suất top 1 Từ 500 triệu lãi suất 9,6% Từ 200 triệu lãi suất 9,4% Liên hệ 0392940461",
   source: "Trà Giang",
   sourceType: "Facebook Group",
@@ -21969,7 +21933,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1617,
+  id: 1615,
   title: "THANH XUÂN NÀY, ĐI ĐÂU? ĐI VIKKI CHỨ ĐI ĐÂU! 💜 🎉 VIKKI THANH XUÂN CHÍNH THỨC KHAI TRƯƠNG! 🎉...",
   source: "Susanmi Tran",
   sourceType: "Facebook",
@@ -21987,7 +21951,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1618,
+  id: 1616,
   title: "Để có được kết quả ngày mai, chúng tôi phải kiên trì mở lối bắt đầu từ hôm nay - Cuối tuần của...",
   source: "Hùng Thái",
   sourceType: "Facebook",
@@ -22005,7 +21969,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1619,
+  id: 1617,
   title: "Thị trường phân hóa cân bằng, VN-Index phục hồi vượt 1750 điểm",
   source: "VnEconomy",
   sourceType: "Báo chí",
@@ -22018,7 +21982,7 @@ const HDBANK_FEED = [
   excerpt: "Cụ thể, ở phía giảm mạnh quá 1%, PNJ giảm 6,07%, <mark>HDB</mark> giảm 1,41%, VPI giảm 3,23%, MSB giảm 1,07% là 4 cổ phiếu duy nhất khớp lệnh trên ngưỡng trăm tỷ đồng, chiếm 63% tổng giao dịch của toàn nhóm yếu nhất."
  },
  {
-  id: 1620,
+  id: 1618,
   title: "Tạm biệt Phước Long thân yêu 🌾🥹 Em tạm xa đồng ruộng một tuần, khăn gói về xứ biển Gành Hào...",
   source: "Hoàng Ngọc Phương",
   sourceType: "Facebook",
@@ -22036,7 +22000,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1621,
+  id: 1619,
   title: "Em ơi tháng này chị mới chuyển sang bên ngân hàng vikki bank ( thuộc hd bank) ở nguyễn cơ thạch...",
   source: "Chimenen2208",
   sourceType: "Facebook Group",
@@ -22054,7 +22018,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1622,
+  id: 1620,
   title: "Vikki bank ngân hàng số hiện đại với đội ngũ nhân viên nhiệt tình và năng động luôn sẵn lòng...",
   source: "Đặng Hoàng Nam",
   sourceType: "Facebook",
@@ -22072,7 +22036,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1623,
+  id: 1621,
   title: "Hoa Đăng VIKKI DIGITAL BANK rực rỡ Mùa Lễ Hội ĐÌNH THẦN NGUYỄN TRUNG TRỰC. 💜 Lễ hội là di sản...",
   source: "Non Nguyen",
   sourceType: "Facebook",
@@ -22090,7 +22054,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1624,
+  id: 1622,
   title: "Cùng đón xem truyện nhà Tấm,dì 8 ra tay điều tra, phen này sẽ có nhiều chuyện để hóng. Cùng theo...",
   source: "Tuyết Hồng",
   sourceType: "Facebook",
@@ -22108,7 +22072,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1625,
+  id: 1623,
   title: "Các cô gái chăm chỉ nhất Vikki bank Bắc Ninh, phục vụ khách hàng tốt nhất! Sáng thứ 2, cà phê...",
   source: "Hải Minh Home",
   sourceType: "Facebook",
@@ -22126,7 +22090,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1626,
+  id: 1624,
   title: "THỊ TRƯỜNG ĐANG TIẾN GẦN ĐẾN VÙNG CÓ THỂ XUẤT HIỆN NHỮNG CÚ BẬT MẠNH? Sau nhiều phiên điều chỉnh...",
   source: "Uperfin Core",
   sourceType: "Facebook",
@@ -22144,7 +22108,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1627,
+  id: 1625,
   title: "Lịch chốt quyền và sự kiện doanh nghiệp tuần từ ngày 05/10 đến 12/10/2026 Thị trường ghi nhận 34...",
   source: "FechTin - Tự do tài chính",
   sourceType: "Facebook",
@@ -22162,7 +22126,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1628,
+  id: 1626,
   title: "Cuối tuần không ngơi nghỉ: Tắt chế độ công việc, mở chế độ nâng cấp bản thân! 📕Nhìn lại một...",
   source: "Nguyễn Thị Như Huỳnh",
   sourceType: "Facebook",
@@ -22180,7 +22144,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1629,
+  id: 1627,
   title: "MƯA CỔ TỨC” TUẦN 5–9/10: CAO NHẤT 6.500 ĐỒNG/CỔ PHIẾU! Một tuần đáng chú ý với nhà đầu tư thích...",
   source: "Giải mã chứng khoán",
   sourceType: "Facebook",
@@ -22198,7 +22162,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1630,
+  id: 1628,
   title: "NGÂN HÀNG VIỆT NAM TIÊU BIỂU 2026 💜 Một dấu ấn đáng tự hào trên hành trình đổi mới của Ngân...",
   source: "Trần Tân",
   sourceType: "Facebook",
@@ -22216,7 +22180,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1631,
+  id: 1629,
   title: "Vikki Digital Bank đồng hành cùng Kios Công dân số 🇻🇳 Vikki Digital Bank luôn sẵn sàng đồng...",
   source: "Nguyễn Kiều Như Nguyệt",
   sourceType: "Facebook",
@@ -22234,7 +22198,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1632,
+  id: 1630,
   title: "VIKKI TIẾP TỤC MỞ RỘNG, DIỆN MẠO MỚI - TRẢI NGHIỆM MỚI Những ngày đầu tháng 10, Vikki tiếp tục...",
   source: "Kết Trần",
   sourceType: "Facebook",
@@ -22252,7 +22216,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1633,
+  id: 1631,
   title: "Cái gì ở Vikki Digital Bank có mà những Ngân hàng số khác không có? 📷 Vikkafé! Tuyệt vời, uống...",
   source: "Dua Hong Dua Hau",
   sourceType: "Facebook",
@@ -22270,7 +22234,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1634,
+  id: 1632,
   title: "Vikki Bank CN Ninh Thuận khởi động tuần mới đầy hứng khởi - Các em GDV nhà Vikki Bank Ninh Thuận...",
   source: "Hùng Thái",
   sourceType: "Facebook",
@@ -22288,7 +22252,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1635,
+  id: 1633,
   title: "LÃI SUẤT LẬP ĐỈNH MỚI – CƠ HỘI GIA TĂNG GIÁ TRỊ CHO TIỀN NHÀN RỖI! 💚 Có những thời điểm, điều...",
   source: "Ánh Thu",
   sourceType: "Facebook",
@@ -22306,7 +22270,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1636,
+  id: 1634,
   title: "VIKKI DIGITAL BANK – DẤU ẤN ĐỔI MỚI TẠI GIẢI THƯỞNG NGÂN HÀNG VIỆT NAM TIÊU BIỂU 2026 💜 ✨ Vikki...",
   source: "Tran Lan",
   sourceType: "Facebook",
@@ -22324,7 +22288,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1637,
+  id: 1635,
   title: "Khối ngoại xả ròng tuần thứ hai liên tiếp, điều gì đang thực sự diễn ra phía sau phiên giảm sàn...",
   source: "Titanlabs - Stock AI Agent",
   sourceType: "Facebook",
@@ -22342,7 +22306,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1638,
+  id: 1636,
   title: "Trải nghiệm không gian giao dịch xịn xò chuẩn 5 sao tại Vikki Bạn đã thử giao dịch ngân hàng...",
   source: "Nguyen Cao",
   sourceType: "Facebook",
@@ -22360,7 +22324,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1639,
+  id: 1637,
   title: "Nồng Ấm từ ly Vikkafé, Tận Tâm từ nụ cười tư vấn! Tại VikkiBank Chi nhánh Ninh Thuận - 404 - 406...",
   source: "Hoàng Phạm Vikkibank",
   sourceType: "Facebook",
@@ -22378,7 +22342,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1640,
+  id: 1638,
   title: "VIKKI BANK – THẮP SÁNG NIỀM TIN, TRI ÂN ANH HÙNG DÂN TỘC NGUYỄN TRUNG TRỰC 🏮 Hòa cùng không khí...",
   source: "Myni Tran",
   sourceType: "Facebook",
@@ -22396,7 +22360,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1641,
+  id: 1639,
   title: "Danh mục Cashflow ngày 05/10/2026: giữ 6 mã, chưa có tín hiệu mua mới Bước vào phiên đầu tuần...",
   source: "Đầu Tư Cổ Phiếu",
   sourceType: "Facebook",
@@ -22414,7 +22378,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1642,
+  id: 1640,
   title: "VIKKI ĐỒNG HÀNH CÙNG KIOSK CÔNG DÂN SỐ 💙 🔹 Vikki tích cực tham gia Kiosk Công dân số, góp phần...",
   source: "Huynh Minh Thanh",
   sourceType: "Facebook",
@@ -22432,7 +22396,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1643,
+  id: 1641,
   title: "Lãi suất ngân hàng hôm nay 5/10/2026: Ngân hàng đầu tiên tăng lãi suất tháng 10",
   source: "VietNamNet",
   sourceType: "Báo chí",
@@ -22445,7 +22409,7 @@ const HDBANK_FEED = [
   excerpt: "Lãi suất ngân hàng hôm nay, 5/10/2026, xuất hiện ngân hàng đầu tiên tăng lãi suất huy động trong tháng 10, qua đó tiếp tục là ngân hàng niêm yết lãi suất huy động cao nhất hệ thống."
  },
  {
-  id: 1644,
+  id: 1642,
   title: "Gửi tiết kiệm HD Bank có ok không mọi người và lãi suất bao nhiêu ạ",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -22463,7 +22427,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1645,
+  id: 1643,
   title: "NGHI NGỜ CÓ NGƯỜI \"ĐÂM SAU LƯNG\" MÌNH, DÌ TẤM QUYẾT ĐỊNH MỞ CUỘC ĐIỀU TRA! 🕵️‍♀️ Chuyện gì đang...",
   source: "Minh Nhân Vikki",
   sourceType: "Facebook",
@@ -22481,7 +22445,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1646,
+  id: 1644,
   title: "Xin thông tin bạn nào ở HDbank Hoàng Quốc Việt, HN, mình cần gửi 400tr khoảng 6 tháng. Xin ttin...",
   source: "KindChestnut2508",
   sourceType: "Facebook Group",
@@ -22499,7 +22463,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1647,
+  id: 1645,
   title: "Gắn kết yêu thương – Trọn vẹn đặc quyền cùng HDBank Priority ❤️ Trân trọng cảm ơn Quý khách hàng...",
   source: "Lê Thị Oanh",
   sourceType: "Facebook",
@@ -22517,7 +22481,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1648,
+  id: 1646,
   title: "Cùng Vikki khám phá một ngân hàng số tiện lợi, thân thiện và luôn đồng hành trên hành trình tài...",
   source: "Thaonguyen Tran",
   sourceType: "Facebook",
@@ -22535,7 +22499,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1649,
+  id: 1647,
   title: "Tỷ phú Nguyễn Thị Phương Thảo thăng hoa cùng 2 cỗ máy trăm nghìn tỷ: Dưới đất HDBank vượt LPBank vào Top 3, trên trời Vietjet có đội bay lớn nhất Việt Nam",
   source: "CafeF",
   sourceType: "Báo chí",
@@ -22548,7 +22512,7 @@ const HDBANK_FEED = [
   excerpt: "Tỷ phú <mark>Nguyễn Thị Phương Thảo</mark> thăng hoa cùng 2 cỗ máy trăm nghìn tỷ: Dưới đất <mark>HDBank</mark> vượt LPBank vào Top 3, trên trời Vietjet có đội bay lớn nhất Việt Nam Đầu tháng 10/2026, hai doanh nghiệp lớn gắn với tỷ phú <mark>Nguyễn Thị Phương Thảo</mark> cùng đứng quanh những cột mốc đáng chú ý về quy mô, vốn hóa và vị thế trên thị trường. <mark>HDBank</mark> vừa vượt LPBank về vốn hóa,..."
  },
  {
-  id: 1650,
+  id: 1648,
   title: "LÃI SUẤT VIKKIBANK – ĐÃ CHẠM ĐỈNH! 🔥 💰 Tiền nhàn rỗi chưa biết gửi đâu? 📈 Lãi suất đang ở mức...",
   source: "Nguyễn Xuân",
   sourceType: "Facebook",
@@ -22566,7 +22530,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1651,
+  id: 1649,
   title: "HỔ TRỢ TRẢ GÓP QUA NH HDBANK - MIRAE & THẺ TÍN DỤNG👨‍🎓ƯU TIÊN SINH VIÊN CÓ THẺ(KO THẨM ĐỊNH)",
   source: "@tieu_nhu68",
   sourceType: "Threads",
@@ -22584,7 +22548,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1652,
+  id: 1650,
   title: "Đồng hành cùng VikkiBank trong hành trình chuyển đổi số❤️ Trân trọng cảm ơn các anh/chị cán bộ...",
   source: "Nguyễn Hồng Minh",
   sourceType: "Facebook",
@@ -22602,7 +22566,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1653,
+  id: 1651,
   title: "Ngân hàng mà có cả chỗ ngồi chill, cà phê ngon rồi tiện thể “tám” chuyện tài chính thì chắc cũng...",
   source: "Nguyen Tram",
   sourceType: "Facebook",
@@ -22620,7 +22584,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1654,
+  id: 1652,
   title: "CHẠM CẢM HỨNG – BẬT TƯƠNG LAI CÙNG VIKKI BANK 🚀 Một hành trình mới đang được khởi động tại...",
   source: "Huỳnh Thái Hòa",
   sourceType: "Facebook",
@@ -22638,7 +22602,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1655,
+  id: 1653,
   title: "Một tập thể – Một tinh thần – Một mục tiêu! 💙❤️ Cùng nhau nỗ lực, cùng nhau phát triển và mang...",
   source: "Hồ Thủy",
   sourceType: "Facebook",
@@ -22656,7 +22620,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1656,
+  id: 1654,
   title: "Không phải ai làm ngân hàng cũng chỉ biết ngồi sau quầy 😎 🏦Có những lúc phải bước ra ngoài và...",
   source: "Tăng Thanh Thảo",
   sourceType: "Facebook",
@@ -22674,7 +22638,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1657,
+  id: 1655,
   title: "HDBANK ĐÃ TÌM THẤY “TỶ PHÚ” CỦA HÈ VÀNG ĐẠI CÁT! HDBank HappyDigitalBank TietKiemTyPhu...",
   source: "Phượng Phạm",
   sourceType: "Facebook",
@@ -22692,7 +22656,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1658,
+  id: 1656,
   title: "TÍCH LŨY AN TÂM – KIẾN TẠO TƯƠNG LAI BỀN VỮNG! 🌱✨ ​Mỗi mục tiêu lớn trong đời đều bắt đầu từ...",
   source: "Hang Kim Lai",
   sourceType: "Facebook",
@@ -22710,7 +22674,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1659,
+  id: 1657,
   title: "HAI NGÂN HÀNG LĂN CHỐT TRẢ CỔ TỨC TRONG THÁNG 10, HÀNG NGHÌN TỶ ĐỒNG ĐẾN TAY CỔ ĐÔNG Trong tháng...",
   source: "ĐIỂM NÓNG NGÂN HÀNG",
   sourceType: "Facebook",
@@ -22728,7 +22692,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1660,
+  id: 1658,
   title: "Chúc mừng VikkiBank Thanh Xuân khai trương hồng phát 💐💐🍀🍀 toiyeuvikki vikkibank vikkidigitalbank",
   source: "Huy Đồng",
   sourceType: "Facebook",
@@ -22746,7 +22710,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1661,
+  id: 1659,
   title: "Lãi suất ngân hàng 4/10 tại Agribank, Vietcombank, BIDV, VietinBank, VPBank, MB, Techcombank,...",
   source: "Nguyễn Khắc Vương",
   sourceType: "Facebook Group",
@@ -22764,7 +22728,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1662,
+  id: 1660,
   title: "THỨ BẢY VẪN “CHÁY” CÙNG VIKKI BANK PGD POUYUEN! 🔥 Không có ngày nghỉ cho tinh thần học hỏi! 📚...",
   source: "Phuong Thao",
   sourceType: "Facebook",
@@ -22782,7 +22746,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1663,
+  id: 1661,
   title: "MỘT ĐIỂM CHẠM – HAI TRẢI NGHIỆM ĐỌC BẢN CÙNG VIKKI DIGITAL BANK! ✨ ​Cảm ơn bạn đã yêu thích...",
   source: "Hong Van",
   sourceType: "Facebook",
@@ -22800,7 +22764,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1664,
+  id: 1662,
   title: "VIKKI DIGITAL BANK VINH DỰ NHẬN GIẢI THƯỞNG NGÂN HÀNG VIỆT NAM TIÊU BIỂU 2026 💜 Một dấu mốc...",
   source: "Hưng Hoàng",
   sourceType: "Facebook",
@@ -22818,7 +22782,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1665,
+  id: 1663,
   title: "Gửi tiết kiệm An Tâm, cơ hội TRÚNG VÀNG Vikki Bank ngân hàng tiết kiệm tốt nhất👍 ToiyeuVikki...",
   source: "Tran Chan",
   sourceType: "Facebook",
@@ -22836,7 +22800,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1666,
+  id: 1664,
   title: "MỘT ĐỒNG ĐỘI – MỘT MỤC TIÊU – CÙNG NHAU BỨT PHÁ! 🌟 HDBank & Vikki Bank cùng đồng hành, cùng sẻ...",
   source: "An Trương",
   sourceType: "Facebook",
@@ -22854,7 +22818,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1667,
+  id: 1665,
   title: "THỨ 6, THỨ 7 NHÀ VIKKI CÓ HẸN… VỚI KIẾN THỨC! 📚😎 Không hẹn cà phê, không hẹn đi chill, Banker...",
   source: "Lâm Thuỳ Trang",
   sourceType: "Facebook",
@@ -22872,7 +22836,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1668,
+  id: 1666,
   title: "Hình ảnh buổi làm việc, chia sẻ kinh nghiệm đầy nhiệt huyết của đội ngũ Vikki Digital Bank là...",
   source: "Cỏ Thảo",
   sourceType: "Facebook",
@@ -22890,7 +22854,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1669,
+  id: 1667,
   title: "Nhìn hình ảnh chú mascot Vikki đáng yêu cùng những phần quà được chuẩn bị chỉ thấy không khí...",
   source: "Việt Đức",
   sourceType: "Facebook",
@@ -22908,7 +22872,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1670,
+  id: 1668,
   title: "Hôm nay đội ngũ của chúng mình đã có cơ hội trải nghiệm không gian làm việc hiện đại, trẻ trung...",
   source: "Loc Pham",
   sourceType: "Facebook",
@@ -22926,7 +22890,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1671,
+  id: 1669,
   title: "THÔNG BÁO DI DỜI ĐỊA ĐIỂM KINH DOANH: NGÂN HÀNG SỐ VIKKI - PHÒNG GIAO DỊCH HỒNG DÂN✨️✨️✨️ ✅️ Địa...",
   source: "Cẩm Tú",
   sourceType: "Facebook",
@@ -22944,7 +22908,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1672,
+  id: 1670,
   title: "Mùa báo cáo quý 3 đã bắt đầu, việc chú trọng vào câu chuyện triển vọng của từng DN, dòng tiền...",
   source: "Chứng Khoán Efinkey",
   sourceType: "Facebook",
@@ -22962,7 +22926,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1673,
+  id: 1671,
   title: "Lãi suất ngân hàng 4/10 tại Agribank, Vietcombank, BIDV, VietinBank, VPBank, MB, Techcombank,...",
   source: "ĐIỂM NÓNG NGÂN HÀNG",
   sourceType: "Facebook",
@@ -22980,7 +22944,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1674,
+  id: 1672,
   title: "HDBANK ĐÃ TÌM THẤY \"TỶ PHÚ\" CỦA HÈ VÀNG ĐẠI CÁT! Một hành trình rực rỡ đã về đích với những niềm...",
   source: "Linh Pham",
   sourceType: "Facebook",
@@ -22998,7 +22962,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1675,
+  id: 1673,
   title: "K26 LẠC HỒNG – SẴN SÀNG BẬT TƯƠNG LAI CÙNG VIKKI! 🚀 Một hành trình mới chính thức bắt đầu! ✨...",
   source: "Tran Quan",
   sourceType: "Facebook",
@@ -23016,7 +22980,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1676,
+  id: 1674,
   title: "LÃI SUẤT TIẾT KIỆM TẠI VIKKI BANK HIỆN BAO NHIÊU? 🔥 Lãi suất mới nhất có gì hấp dẫn? Gửi tiết...",
   source: "Lan Tây",
   sourceType: "Facebook",
@@ -23034,7 +22998,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1677,
+  id: 1675,
   title: "Vikki Bank CN Ninh Thuận tiếp tục đồng hành cùng các em Học sinh THPT Lê Duẩn - Các em Đi học...",
   source: "Hùng Thái",
   sourceType: "Facebook",
@@ -23052,7 +23016,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1678,
+  id: 1676,
   title: "HDBank Phú Bình Chúc mừng 81 năm Ngày truyền thống ngành Quản lý đất đai Việt Nam (03/10/1945 –...",
   source: "Nguyen Chi Hung",
   sourceType: "Facebook",
@@ -23070,7 +23034,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1679,
+  id: 1677,
   title: "Với một mục tiêu đem lại những trãi nghiệm tốt nhất cho Quý khách hàng. - Tập thể CBNV VikkiBank...",
   source: "Bảo Cần",
   sourceType: "Facebook",
@@ -23088,7 +23052,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1680,
+  id: 1678,
   title: "Một ly cà phê nhỏ, xây giấc mơ lớn, cùng ghé Ngân hàng Số Vikki để trải nghiệm dịch vụ của Vikki...",
   source: "Trương Ràng",
   sourceType: "Facebook",
@@ -23106,7 +23070,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1681,
+  id: 1679,
   title: "THÁNG 10 – ĐỈNH THÔN, SĂN VÉ ĐÓN NGƯỜI THÂN CÙNG VIKKI! ✈️🎉 🌟 Tháng 10 này, cùng Vikki Digital...",
   source: "Tung Diep",
   sourceType: "Facebook",
@@ -23124,7 +23088,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1682,
+  id: 1680,
   title: "Giao dịch tài chính... đi kèm một ly cà phê? Chỉ có thể là Vikki Digital Bank! ☕ Nếu bạn đang...",
   source: "Tung Diep",
   sourceType: "Facebook",
@@ -23142,7 +23106,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1683,
+  id: 1681,
   title: "Kiosk công dân số, điểm hẹn Ngân hàng Số, chạm cảm hứng bật tương lai với Ngân hàng Số Vikki,...",
   source: "Trương Ràng",
   sourceType: "Facebook",
@@ -23160,7 +23124,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1684,
+  id: 1682,
   title: "Một ngày trải nghiệm thật tuyêt vời của chúng mình: Vikki Bank Đức Phổ và HDBank Đức Phổ vào một...",
   source: "Diễm Trâm",
   sourceType: "Facebook",
@@ -23178,7 +23142,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1685,
+  id: 1683,
   title: "LỊCH CỔ TỨC TUẦN 1. GMD: Thưởng cổ phiếu 50%. GDKHQ 7/10. 2.​ HDB: Cổ tức bằng cổ phiếu 25% +...",
   source: "Thỏ Thông Thái",
   sourceType: "Facebook",
@@ -23196,7 +23160,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1686,
+  id: 1684,
   title: "Vikki Digital Bank trân trọng tự hào khi VikkiONE Connect được vinh danh tại Giải thưởng Ngân...",
   source: "Hoàng Thị Minh Châu",
   sourceType: "Facebook",
@@ -23214,7 +23178,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1687,
+  id: 1685,
   title: "Ngân hàng không nhất thiết chỉ là nơi đến để giao dịch. Với Vikki, đó còn có thể là một điểm hẹn...",
   source: "Loan Nguyen",
   sourceType: "Facebook",
@@ -23232,7 +23196,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1688,
+  id: 1686,
   title: "Anh trai HDbank cầm 1.5k qua đổi 2tr em chốt ngay, tuy lỗ nhưng lòng thấy vui và tự hào ạ💝🥰",
   source: "Phạm Khoa",
   sourceType: "Facebook",
@@ -23250,7 +23214,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1689,
+  id: 1687,
   title: "TUẦN 5–9/10: VN-INDEX MẤT 47 ĐIỂM, THỦNG 1.740 — KỊCH BẢN RUNG LẮC 1.715–1.750, ƯU TIÊN BẢO TOÀN...",
   source: "Gà Trading 1102",
   sourceType: "Facebook",
@@ -23268,7 +23232,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1690,
+  id: 1688,
   title: "Anh chị muốn nhận mã ưu đãi gửi tiết kiệm Onl trên App HDbank lên đến 8.xx% 9.xx% liên hệ em nhé...",
   source: "Nguyễn Thu Thủy",
   sourceType: "Facebook",
@@ -23286,7 +23250,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1691,
+  id: 1689,
   title: "Cẩm nang đầy đủ thông tin về thanh toán khoản vay cho mọi khách yêu của HD SAISON 👇👇",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -23304,7 +23268,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1692,
+  id: 1690,
   title: "Tham khảo 3 lựa chọn linh hoạt tại: https://www.hdsaison.com.vn/vn/huong-dan-thanh-toan.html...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -23322,7 +23286,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1693,
+  id: 1691,
   title: "MỖI ĐIỂM GIAO DỊCH LÀ MỘT KHÔNG GIAN KẾT NỐI Có những trải nghiệm tốt đẹp bắt đầu từ những điều...",
   source: "Linh Vikki",
   sourceType: "Facebook",
@@ -23340,7 +23304,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1694,
+  id: 1692,
   title: "VIKKAFÉ – ĐIỂM HẸN CỦA KẾT NỐI VÀ CẢM HỨNG ☕ Tại Vikki Digital Bank, mỗi lần ghé ngân hàng không...",
   source: "Hàng Ngọc Phượng",
   sourceType: "Facebook",
@@ -23358,7 +23322,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1695,
+  id: 1693,
   title: "Mọi người ơi, gửi ngân hàng vikki bank có uy tín không ạ? Do em thấy chi nhánh hơi nhỏ nên em sợ.",
   source: "SupportiveJackfruit215",
   sourceType: "Facebook Group",
@@ -23376,7 +23340,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1696,
+  id: 1694,
   title: "Cái gì ở Vikki Digital Bank có mà những ngân hàng số khác không có? ” ✨ Ngân hàng số 24/7 📍 212...",
   source: "Nguyen Anh Thu",
   sourceType: "Facebook",
@@ -23394,7 +23358,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1697,
+  id: 1695,
   title: "90 triệu cần gửi LPbank, ACB, HDbank, MBbank.",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -23412,7 +23376,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1698,
+  id: 1696,
   title: "Lãi suất ngân hàng 3/10 tại Agribank, Vietcombank, BIDV, VietinBank, VPBank, MB, Techcombank,...",
   source: "Chứng khoán F88",
   sourceType: "Facebook Group",
@@ -23430,7 +23394,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1699,
+  id: 1697,
   title: "Có từ 500tr- 1 tỷ muốn gửi tiết kiệm ngân hàng Vikki gần khu vực Sân vận Mỹ đình. Mình xin t.tin...",
   source: "SkilledLion5072",
   sourceType: "Facebook Group",
@@ -23448,7 +23412,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1700,
+  id: 1698,
   title: "Tuần 5-9/10: VN-Index tìm điểm cân bằng: Vùng 1.715-1.735 là tâm điểm VN-Index vừa trải qua tuần...",
   source: "TechProfit",
   sourceType: "Facebook Group",
@@ -23466,7 +23430,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1701,
+  id: 1699,
   title: "VIKKI PHÚ YÊN – SẴN SÀNG GO-LIVE CORE BANKING T24, BỨT PHÁ CÔNG NGHỆ, NÂNG TẦM TRẢI NGHIỆM 🚀💜...",
   source: "Hoàng Nguyen",
   sourceType: "Facebook",
@@ -23484,7 +23448,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1702,
+  id: 1700,
   title: "Chúc mừng các đơn vị Vikki Bank Thanh Xuân, Vikki Bank Thuận Thành, Vikki Bank Đông Hưng… khai...",
   source: "Nguyễn Thị Thanh Hảo",
   sourceType: "Facebook",
@@ -23502,7 +23466,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1703,
+  id: 1701,
   title: "Trung thu đã qua nhưng nhìn lại những bức hình cũng thật ấm áp,trung thu của các bạn nhỏ năm nay...",
   source: "Kim Tran",
   sourceType: "Facebook",
@@ -23520,7 +23484,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1704,
+  id: 1702,
   title: "VIKKI BANK - Lãi tháng 10 tăng tối đa 0.4% Thành Trung, Ngô Xuân Quảng Trâu Quỳ, Ocean Park 🎁...",
   source: "Thanh Huyen",
   sourceType: "Facebook Group",
@@ -23538,7 +23502,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1705,
+  id: 1703,
   title: "OFFICE TOUR: SINH VIÊN ĐẠI HỌC CÔNG NGHỆ ĐỒNG NAI TRẢI NGHIỆM MÔI TRƯỜNG LÀM VIỆC TẠI VIKKI BANK...",
   source: "Duoc Nguyen Tan",
   sourceType: "Facebook",
@@ -23556,7 +23520,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1706,
+  id: 1704,
   title: "Có lẽ HDB là cổ phiếu hiếm nhóm bank đã đi ngược xu hướng. Câu hỏi là tăng để giảm bù hay sẽ giữ...",
   source: "Fong Tài Chính",
   sourceType: "Facebook",
@@ -23574,7 +23538,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1707,
+  id: 1705,
   title: "Các doanh nghiệp chốt trả cổ tức, tuần từ ngày 5 đến 9/10",
   source: "Báo Nhân Dân",
   sourceType: "Báo chí",
@@ -23587,7 +23551,7 @@ const HDBANK_FEED = [
   excerpt: "Ngân hàng thương mại cổ phần Phát triển Thành phố Hồ Chí Minh (HOSE: <mark>HDB</mark>) thưởng cổ phiếu, tỷ lệ 100:5 (người sở hữu 100 cổ phiếu được nhận 5 cổ phiếu mới), ngày giao dịch không hưởng quyền là 9/10/2026 và ngày đăng ký cuối cùng là 12/10/2026. Ngân hàng thương mại cổ phần Phát triển Thành phố Hồ Chí Minh (HOSE: <mark>HDB</mark>) trả cổ tức năm 2025 bằng cổ phiếu, tỷ..."
  },
  {
-  id: 1708,
+  id: 1706,
   title: "Gửi 300 triệu ngân hàng hd bank giờ lãi suất bn vậy các bác , em từng gửi ở hd đào duy từ rồi",
   source: "MagicalTurkey2627",
   sourceType: "Facebook Group",
@@ -23605,7 +23569,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1709,
+  id: 1707,
   title: "Chuẩn bị cho một giai đoạn mới luôn cần nhiều hơn chuyên môn – đó là sự đồng hành. Không khí tại...",
   source: "Tu Cam Vo",
   sourceType: "Facebook",
@@ -23623,7 +23587,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1710,
+  id: 1708,
   title: "VIKKI BANK & HDBANK – CÙNG NHAU SẴN SÀNG CHO CORE BANKING MỚI 🚀 🤝 Một khung hình, hai sắc áo –...",
   source: "Lưu Bích Hường",
   sourceType: "Facebook",
@@ -23641,7 +23605,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1711,
+  id: 1709,
   title: "BẠN ĐÃ BIẾT ĐẾN VIKKI CHƯA? 💙 Nếu chưa thì hôm nay mình “bật mí” một chút nha! 😍 Vikki là ngân...",
   source: "Đinh Đỗ Đài Đoan",
   sourceType: "Facebook",
@@ -23659,7 +23623,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1712,
+  id: 1710,
   title: "Bước vào tháng 10, thị trường vẫn đang trong quá trình tìm vùng cân bằng sau khi VN-Index đánh...",
   source: "Hoàng Minh Thắng",
   sourceType: "Facebook Group",
@@ -23677,7 +23641,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1713,
+  id: 1711,
   title: "Ai đang đầu tư cổ phiếu . Đọc kĩ thông tư 50 NHNN vừa ban hành . Đừng nhìn tít mấy bài báo chỉ...",
   source: "Lãng tử buôn nước mắm",
   sourceType: "Facebook",
@@ -23695,7 +23659,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1714,
+  id: 1712,
   title: "Sắc xanh Ngân hàng Số Vikki đang \"đổ bộ\" khắp các tuyến đường! 🚙💨 Chúng tôi đã chính thức...",
   source: "Hải Minh Home",
   sourceType: "Facebook",
@@ -23713,7 +23677,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1715,
+  id: 1713,
   title: "Sẵn sàng cho một hành trình mới - T24R26 ! 🎉🎉🎉 Một buổi sáng cùng tập trung, cùng nhau học,...",
   source: "Minh Đăng",
   sourceType: "Facebook",
@@ -23731,7 +23695,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1716,
+  id: 1714,
   title: "Ngày 2/10/2026 , Tự hào là một mảnh ghép của Vikki! Xin gửi lời chúc mừng nồng nhiệt nhất đến...",
   source: "Hải Minh Home",
   sourceType: "Facebook",
@@ -23749,7 +23713,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1717,
+  id: 1715,
   title: "PNJ và KOS giảm sàn cả 5 phiên, cổ phiếu FPT giảm 8 phiên liên tiếp, chuỗi giảm dài nhất 13 năm...",
   source: "Huy Phạm Chứng Khoán",
   sourceType: "Facebook",
@@ -23767,7 +23731,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1718,
+  id: 1716,
   title: "GDP quý 3 tăng 9,95%, cao nhất từ đầu năm. Cũng tuần đó, VN-Index giảm cả năm phiên, đóng cửa ở...",
   source: "Đội chống lùa Gà",
   sourceType: "Facebook",
@@ -23785,7 +23749,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1719,
+  id: 1717,
   title: "BẢN TIN THỊ TRƯỜNG – SÁNG CHỦ NHẬT 04/10/2026 Lưu ý: Hôm nay là Chủ nhật. Dữ liệu chứng khoán và...",
   source: "Kiến Thức Đầu Tư Chứng Khoán Cho Người Mới",
   sourceType: "Facebook",
@@ -23803,7 +23767,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1720,
+  id: 1718,
   title: "Chủ Nhật xanh – Học hành hăng hái! 💙❤️ Mệt nhưng mà vui! Buổi đào tạo cuối tuần của team Vikki...",
   source: "Thái An",
   sourceType: "Facebook",
@@ -23821,7 +23785,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1721,
+  id: 1719,
   title: "CẢM ƠN NHỮNG NGƯỜI ĐỒNG HÀNH TRÊN HÀNH TRÌNH TEST CORE! 💙 Một hệ thống mới không chỉ được tạo...",
   source: "Việt Đức",
   sourceType: "Facebook",
@@ -23839,7 +23803,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1722,
+  id: 1720,
   title: "HDBankActivationDay HD014550 HappyDigitalBank",
   source: "Phi Phi",
   sourceType: "Facebook",
@@ -23857,7 +23821,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1723,
+  id: 1721,
   title: "Một thứ 7 dài hơn mọi thứ 7... Một cuộc đón tiếp bất ngờ...Một cuộc hội ngộ sau gần 15 năm ở 2...",
   source: "Linh Nguyen Mai",
   sourceType: "Facebook",
@@ -23875,7 +23839,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1724,
+  id: 1722,
   title: "PHÂN TÍCH DIỄN BIẾN VN-INDEX VÀ CÁC CỔ PHIẾU ĐÁNG CHÚ Ý TRONG TUẦN QUA 📌 GÓC NHÌN SANDBOX: Mặc...",
   source: "Sandboxstartup.vn",
   sourceType: "Facebook",
@@ -23893,7 +23857,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1725,
+  id: 1723,
   title: "Cuối tuần: OFF việc thường ngày, ON tinh thần học hỏi! Từ diễn tập nghiệp vụ đến những phút giây...",
   source: "Trần Cường",
   sourceType: "Facebook",
@@ -23911,7 +23875,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1726,
+  id: 1724,
   title: "Cần v.ốnnn kh.ách ơi e Thuận HD SAISON A 035-8976-059 Xp admin",
   source: "Mỹ Thuận",
   sourceType: "Facebook Group",
@@ -23929,7 +23893,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1727,
+  id: 1725,
   title: "VIKKI BANK THANH XUÂN – KHAI TRƯƠNG TRỤ SỞ MỚI ! 💜 Ngày 02/10/2026 – Một ngày thật đặc biệt,...",
   source: "Nguyễn Thị Như Huỳnh",
   sourceType: "Facebook",
@@ -23947,7 +23911,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1728,
+  id: 1726,
   title: "HDB đang cho thấy điều gì khi giá cổ phiếu biến động trái chiều với kết quả kinh doanh? 🔍 Lợi...",
   source: "Nghề Trading",
   sourceType: "Facebook",
@@ -23965,7 +23929,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1729,
+  id: 1727,
   title: "VIKKI DIGITAL BANK ĐƯA TIỆN ÍCH SỐ ĐẾN GẦN HƠN VỚI HỌC ĐƯỜNG Tại sự kiện của Trường Đại học...",
   source: "Mai Trâm",
   sourceType: "Facebook",
@@ -23983,7 +23947,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1730,
+  id: 1728,
   title: "RỰC RỠ LỄ KHÁNH THÀNH NGÂN HÀNG SỐ VIKKI THANH XUÂN! ✨💙 Một cột mốc mới đáng nhớ của Vikki...",
   source: "Minh Nhân Vikki",
   sourceType: "Facebook",
@@ -24001,7 +23965,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1731,
+  id: 1729,
   title: "VIKKI BANK & HDBANK – CHỦ ĐỘNG SẴN SÀNG CÙNG DIỄN TẬP CORE T24 🔐 Nhằm tăng cường năng lực vận...",
   source: "Trịnh Loan",
   sourceType: "Facebook",
@@ -24019,7 +23983,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1732,
+  id: 1730,
   title: "Anh em một nhà Vikki Bank và HDBank luôn đồng hành, hỗ trợ nhau trong công việc với tinh thần...",
   source: "Nguyễn Thị Thu Thảo",
   sourceType: "Facebook",
@@ -24037,7 +24001,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1733,
+  id: 1731,
   title: "BÁO CÁO CHIẾN LƯỢC TOÀN CẢNH TUẦN GIAO DỊCH (28/09 – 02/10/2026): TỰ DOANH ĐỐI ỨNG KỶ LỤC CÂN...",
   source: "Chứng Trường",
   sourceType: "Facebook",
@@ -24055,7 +24019,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1734,
+  id: 1732,
   title: "NHỮNG “VỊ KHÁCH ĐẶC BIỆT” TẠI QUẦY GIAO DỊCH Tổng diễn tập Core Banking T24 lần 2 diễn ra trong...",
   source: "Quỳnh Anh",
   sourceType: "Facebook",
@@ -24073,7 +24037,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1735,
+  id: 1733,
   title: "SIÊU BANK HDBANK (HDB) VÀ KỲ TÍCH HỢP ĐỒNG 48 TỶ USD TẠI MỸ: ĐỊNH GIÁ LẠI TRUNG HẠN 3-6 THÁNG!...",
   source: "Chứng Khoán 59 Giây",
   sourceType: "Facebook Group",
@@ -24091,7 +24055,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1736,
+  id: 1734,
   title: "SIÊU BANK HDB CHẤN ĐỘNG HĐ 48tỷ USD TẠI MỸ ! 🔥 SIÊU BANK HDBANK (HDB) VÀ KỲ TÍCH HỢP ĐỒNG 48 TỶ...",
   source: "Chứng Khoán 59 Giây",
   sourceType: "Facebook Group",
@@ -24109,7 +24073,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1737,
+  id: 1735,
   title: "HẾT GIỜ LÀM – ĐẾN GIỜ BỨT PHÁ Cuối tuần không chỉ là khoảng thời gian nghỉ ngơi, mà với những...",
   source: "Hưng Phạm",
   sourceType: "Facebook",
@@ -24127,7 +24091,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1738,
+  id: 1736,
   title: "Với một mục tiêu đem lại những trãi nghiệm tốt nhất cho Quý khách hàng. - Tập thể CBNV VikkiBank...",
   source: "Vo Yen Trinh",
   sourceType: "Facebook",
@@ -24145,7 +24109,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1739,
+  id: 1737,
   title: "TOP CHẠM ĐỈNH Đủ tin tưởng để gửi trao, đủ yêu thương để đồng hành ❤️ Một tin nhắn đơn giản từ...",
   source: "Huyen Nguyen",
   sourceType: "Facebook",
@@ -24163,7 +24127,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1740,
+  id: 1738,
   title: "Chỉ có em và anh biết thôi👌 TƯ VẤN GÓP HD SAISON • Gói 15TR ➔ CCCD (21+ tuổi) • Gói 25TR ➔ CCCD...",
   source: "@leconghd",
   sourceType: "Threads",
@@ -24181,7 +24145,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1741,
+  id: 1739,
   title: "9️⃣,X to% + Quà Đủ tin tưởng để gửi trao, đủ yêu thương để đồng hành ❤️ Một tin nhắn đơn giản từ...",
   source: "Diep Minh",
   sourceType: "Facebook",
@@ -24199,7 +24163,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1742,
+  id: 1740,
   title: "HD SAISON đồng hành cùng Học viện Ngân hàng tại lễ khai giảng đặc biệt kỷ niệm 65 năm Hai ngày...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -24217,7 +24181,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1743,
+  id: 1741,
   title: "Trong lần thứ 2 trở lại trường, HD SAISON tiếp tục trao tặng 500 triệu đồng thuộc Quỹ “Giảng...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -24235,7 +24199,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1744,
+  id: 1742,
   title: "Tìm hiểu các giải pháp tài chính dành cho sinh viên của HD SAISON và đăng ký tại:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -24253,7 +24217,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1745,
+  id: 1743,
   title: "Giải pháp vay học phí linh hoạt cho sinh viên thời đại số:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -24271,7 +24235,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1746,
+  id: 1744,
   title: "Thẻ 0 phí, sinh viên 0 lo: https://www.hdsaison.com.vn/vn/the-sinh-vien",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -24289,7 +24253,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1747,
+  id: 1745,
   title: "Gói vay sinh viên - Dành riêng cho sinh viên từ 18 tuổi:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -24307,7 +24271,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1748,
+  id: 1746,
   title: "TEST CORE – HÀNH TRÌNH CÓ CÔNG NGHỆ, CÓ ĐỒNG ĐỘI, CÓ NIỀM TIN! 🚀 ☘️☘️ Vikki xin gửi lời CẢM ƠN...",
   source: "Quỳnh Phạm",
   sourceType: "Facebook",
@@ -24325,7 +24289,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1749,
+  id: 1747,
   title: "NGÀY HỘI GIA ĐÌNH 2026 CÙNG HDBANK PRIORITY💕💕💕 Một ngày thật đặc biệt khi những khoảnh khắc...",
   source: "Tran Thanh Tam",
   sourceType: "Facebook",
@@ -24343,7 +24307,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1750,
+  id: 1748,
   title: "Dạ Vikki Bank nay gửi 500tr lãi 9.5% rồi ạ. Quý anh/ chị liên hệ em nhé. Cam kết đúng sự thật ạ",
   source: "@davidtietkiem",
   sourceType: "Threads",
@@ -24361,7 +24325,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1751,
+  id: 1749,
   title: "Test Core không chỉ là những dòng code hay những buổi kiểm thử “căng não”, mà còn là hành trình...",
   source: "Khanh Ha Bui",
   sourceType: "Facebook",
@@ -24379,7 +24343,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1752,
+  id: 1750,
   title: "THÔNG BÁO DI DỜI ĐỊA ĐIỂM KINH DOANH: NGÂN HÀNG SỐ VIKKI - PHÒNG GIAO DỊCH HỒNG DÂN ✅️ Địa chỉ...",
   source: "Huỳnh Minh Trọng",
   sourceType: "Facebook",
@@ -24397,7 +24361,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1753,
+  id: 1751,
   title: "VIB One Card là chiếc thẻ 2026 của mình! Nhưng để mà nói về những chiếc thẻ ấn tượng đi qua đời...",
   source: "Thoa Tran",
   sourceType: "Facebook",
@@ -24415,7 +24379,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1754,
+  id: 1752,
   title: "HDBank HDay NgayTheHDBank TheHDBank ThetindungHDBank uudaiTheHDBank uudaiThe khuyenmaiThe",
   source: "Duy Hiển",
   sourceType: "Facebook",
@@ -24433,7 +24397,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1755,
+  id: 1753,
   title: "CHÚC MỪNG VIKKI THUẬN THÀNH KHAI TRƯƠNG HỒNG PHÁT! 🎉 Một khởi đầu mới – một hành trình mới! 🌟...",
   source: "Thanh Trang",
   sourceType: "Facebook",
@@ -24451,7 +24415,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1756,
+  id: 1754,
   title: "HD SAISON – HỖ TRỢ TƯ VẤN TIÊU DÙNG CCCD: 15 triệu CCCD + GPLX: 25 triệu CCCD + BHYT + GPLX: 50...",
   source: "@otter.6652976",
   sourceType: "Threads",
@@ -24469,7 +24433,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1757,
+  id: 1755,
   title: "Đẩy mạnh kết nối tài chính Việt Nam - Hoa Kỳ! Standard Chartered vừa có bước tiến lớn tại New...",
   source: "Hóng",
   sourceType: "Facebook",
@@ -24487,7 +24451,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1758,
+  id: 1756,
   title: "Ngân hàng số VIKKI Là đơn vị đi đầu trong bước ngoặt của nền công nghệ số . Tạo ra cảm giác...",
   source: "Nguyễn Trọng Bình",
   sourceType: "Facebook",
@@ -24505,7 +24469,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1759,
+  id: 1757,
   title: "NGÀY MỚI HỨNG KHỞI CÙNG NGÂN HÀNG SỐ VIKKI Mỗi ngày đều trở nên trọn vẹn hơn khi có Vikki đồng...",
   source: "Ha Quan",
   sourceType: "Facebook",
@@ -24523,7 +24487,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1760,
+  id: 1758,
   title: "TEST CORE – HÀNH TRÌNH CÓ CÔNG NGHỆ, CÓ ĐỒNG ĐỘI, CÓ NIỀM TIN! 🚀 🍀🍀 Một hệ thống mới không...",
   source: "Nguyễn Thị Thảo Vy",
   sourceType: "Facebook",
@@ -24541,7 +24505,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1761,
+  id: 1759,
   title: "Ngân hàng số VIKKI Bank Ngã Bảy hân hạnh phục vụ quý khách.",
   source: "Nguyễn Hoàng Nhơn",
   sourceType: "Facebook",
@@ -24559,7 +24523,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1762,
+  id: 1760,
   title: "Sao trên này ít thấy chia sẻ thông tin lãi suất của HDbank và LPbank nhỉ...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -24577,7 +24541,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1763,
+  id: 1761,
   title: "Thị trường dạo này lắm chuyện để nói khi nhìn vào lịch chốt quyền cổ tức tuần năm đến chín tháng...",
   source: "VN Trend",
   sourceType: "Facebook",
@@ -24595,7 +24559,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1764,
+  id: 1762,
   title: "RỰC RỠ NGÀY KHÁNH THÀNH VIKKIBANK HÀ NAM 💙 Một ngày tràn ngập niềm vui, sắc màu và những khoảnh...",
   source: "Chuyen Tran",
   sourceType: "Facebook",
@@ -24613,7 +24577,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1765,
+  id: 1763,
   title: "DẤU ẤN MỚI – HÀNH TRÌNH MỚI Một dấu mốc đáng nhớ của Vikki Bank Hà Nam – mở ra một hành trình...",
   source: "Thuy Do",
   sourceType: "Facebook",
@@ -24631,7 +24595,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1766,
+  id: 1764,
   title: "Gần 3.300 tỷ đồng bị khối ngoại bán ròng trong một phiên — thị trường đang chứng kiến sự phân...",
   source: "Titanlabs - Stock AI Agent",
   sourceType: "Facebook",
@@ -24649,7 +24613,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1767,
+  id: 1765,
   title: "SẴN SÀNG GO-LIVE T24 – ĐỒNG LÒNG, QUYẾT TÂM, BỨT PHÁ! 🚀 Công tác Demo – Diễn tập GO-LIVE T24...",
   source: "You Võ",
   sourceType: "Facebook",
@@ -24667,7 +24631,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1768,
+  id: 1766,
   title: "Dù là ngày nghỉ cuối tuần, các \"Banker Vikki\" vẫn luôn chăm chỉ trau dồi chuyên môn, cập nhật...",
   source: "Huynh Huyền",
   sourceType: "Facebook",
@@ -24685,7 +24649,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1769,
+  id: 1767,
   title: "m ở VikkiBank Hà Nội nhé",
   source: "@thuy.ace",
   sourceType: "Threads",
@@ -24703,7 +24667,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1770,
+  id: 1768,
   title: "Institutional capital is crossing the Pacific in both directions, and real estate sits at the...",
   source: "Marshall N. Nguyen",
   sourceType: "Facebook",
@@ -24721,7 +24685,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1771,
+  id: 1769,
   title: "HDBANK PHÚ MỸ – CHÚC MỪNG HẠNH PHÚC 💐 Một ngày thật đặc biệt của cô giao dịch viên nhà HDBank!...",
   source: "Sinh Sun",
   sourceType: "Facebook",
@@ -24739,7 +24703,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1772,
+  id: 1770,
   title: "Một hoạt động ý nghĩa Một chiếc xẻng, một mầm cây, một tương lai xanh 🌱 Ngày 19/09 tại Cần Giờ...",
   source: "@tan_hoang_nguyen1610",
   sourceType: "Threads",
@@ -24757,7 +24721,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1773,
+  id: 1771,
   title: "VIKKI – HỌC HỎI MỖI NGÀY, BỨT PHÁ MỖI BƯỚC! Không ngừng học hỏi, không ngừng nâng cao chuyên môn...",
   source: "Lập Bùi",
   sourceType: "Facebook",
@@ -24775,7 +24739,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1774,
+  id: 1772,
   title: "MỘT NGÀY THỰC TẾ CORE MỚI – CÙNG HỌC, CÙNG LÀM, CÙNG BỨT PHÁ! 💻✨ Một ngày thật đặc biệt tại...",
   source: "Ánh Thu",
   sourceType: "Facebook",
@@ -24793,7 +24757,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1775,
+  id: 1773,
   title: "Một buổi diễn tập thật tuyệt vời khi đội ngũ HD Bank trải nghiệm thử hành trình như một khách...",
   source: "Mi Kẹo Nè",
   sourceType: "Facebook",
@@ -24811,7 +24775,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1776,
+  id: 1774,
   title: "TỔNG DIỄN TẬP T24 – SẴN SÀNG CHO MỘT HÀNH TRÌNH MỚI Hôm nay, đội ngũ Vikki Bank & HDBank cùng...",
   source: "Anh Phuong",
   sourceType: "Facebook",
@@ -24829,7 +24793,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1777,
+  id: 1775,
   title: "THÁNG CỦA NÀNG – GỬI TIẾT KIỆM TẠI VIKKI, THÊM PHẦN TỰ TẠI Yêu thương bản thân không chỉ là mua...",
   source: "Bảo Ngọc",
   sourceType: "Facebook",
@@ -24847,7 +24811,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1778,
+  id: 1776,
   title: "Thêm 1 PGD nữa của Vikki bank cụm Hải Phòng thay đổi diện mạo thành công. Chúc mừng Vikki bank...",
   source: "Đặng Liên",
   sourceType: "Facebook",
@@ -24865,7 +24829,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1779,
+  id: 1777,
   title: "Một cuối tuần thật vui khi được đồng hành cùng những “người anh em” thân thiết – Vikki & HDBank...",
   source: "Hồng Hân",
   sourceType: "Facebook",
@@ -24883,7 +24847,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1780,
+  id: 1778,
   title: "Phía sau một cuộc chuyển đổi quan trọng trong hoạt động ngân hàng không chỉ là một hệ thống vận...",
   source: "Hoàng Ngọc Phương",
   sourceType: "Facebook",
@@ -24901,7 +24865,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1781,
+  id: 1779,
   title: "VIKKI DIGITAL BANK – KẾT NỐI VIỆT NAM, CHẠM CHUẨN CHÂU Á VikkiONE Connect chính thức được vinh...",
   source: "Võ Huyền",
   sourceType: "Facebook",
@@ -24919,7 +24883,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1782,
+  id: 1780,
   title: "THỨ 7 – VẪN TRÀN ĐẦY NĂNG LƯỢNG CÙNG VIKKI BANK 💜 Thứ 7 của nhiều người là ngày nghỉ, còn với...",
   source: "Thúy Sương",
   sourceType: "Facebook",
@@ -24937,7 +24901,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1783,
+  id: 1781,
   title: "Vẫn bên nhau nhé — theo các nguồn công khai hiện tại thì không có thông tin ly hôn gì cả. Bà...",
   source: "@meta.ai",
   sourceType: "Threads",
@@ -24955,7 +24919,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1784,
+  id: 1782,
   title: "TIẾT KIỆM VIKKI – SẴN SÀNG 24/7 💙 Ngày hay đêm, bất cứ khi nào bạn muốn bắt đầu kế hoạch tích...",
   source: "Huỳnh Thiên Vikki",
   sourceType: "Facebook",
@@ -24973,7 +24937,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1785,
+  id: 1783,
   title: "Bả kết hôn với ông Nguyễn Thanh Hùng sinh 1967 ở Bến Tre - hai người gặp nhau thời du học Đông...",
   source: "@meta.ai",
   sourceType: "Threads",
@@ -24991,7 +24955,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1786,
+  id: 1784,
   title: "Vikki Digital Bank Đông Hưng khoác áo mới đã sẵn sàng chào đón khách hàng. 💜 Không gian giao...",
   source: "Dương Trìu",
   sourceType: "Facebook",
@@ -25009,7 +24973,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1787,
+  id: 1785,
   title: "Được mẹ cho đi giải trí là 2 em iu phấn khởi luôn. NGAYHOIGIADINH HDBANK",
   source: "Trịnh Loan",
   sourceType: "Facebook",
@@ -25027,7 +24991,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1788,
+  id: 1786,
   title: "HDBank - Ngân hàng bán lẻ tốt nhất Châu á",
   source: "Phuong Nguyen",
   sourceType: "Facebook",
@@ -25045,7 +25009,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1789,
+  id: 1787,
   title: "VIKKI DIGITAL BANK ĐÔNG HƯNG – KHOÁC ÁO MỚI, SẴN SÀNG CHÀO ĐÓN KHÁCH HÀNG! 💜 Một diện mạo mới –...",
   source: "Oanh Lekim",
   sourceType: "Facebook",
@@ -25063,7 +25027,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1790,
+  id: 1788,
   title: "THỨ 7 – HỌC ĐỂ BỨT PHÁ! 🚀 Thứ 7 tranh thủ nâng cấp bản thân 😆 Hôm nay học nghiệp vụ Core...",
   source: "Nga ISa",
   sourceType: "Facebook",
@@ -25081,7 +25045,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1791,
+  id: 1789,
   title: "Tuyệt vời quá HDBank ơi ❤️❤️❤️",
   source: "Vu Bao",
   sourceType: "Facebook",
@@ -25099,7 +25063,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1792,
+  id: 1790,
   title: "Ngày Thứ 7 của ACE VikkiBank Cụm Hải Phòng & ACE HDBank, mái iuuu 😍😍😍",
   source: "Oanh Kim",
   sourceType: "Facebook",
@@ -25117,7 +25081,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1793,
+  id: 1791,
   title: "HDBank & VikkiBank cùng đồng hành trong buổi diễn tập Core Banking T24 thế hệ mới 💻✨ Cùng trao...",
   source: "Nguyễn Nga",
   sourceType: "Facebook",
@@ -25135,7 +25099,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1794,
+  id: 1792,
   title: "Dù đã ngoài giờ làm việc, những cán bộ nhân viên Vikki Bank vẫn nhiệt tình hỗ trợ người dân mở...",
   source: "Tuan Vu",
   sourceType: "Facebook",
@@ -25153,7 +25117,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1795,
+  id: 1793,
   title: "Đây là Ngân Hàng đang chào mời LS >= 9.6 %/ năm. Vikki và Kien Long. Còn NH nào khác không ạ?",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -25171,7 +25135,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1796,
+  id: 1794,
   title: "Chúc mừng Team Vikki Đức Phổ đã hoàn thành 80% chương trình của ngày hôm nay 💗💗💗 🥰 Cảm ơn...",
   source: "Sương Huỳnh",
   sourceType: "Facebook",
@@ -25189,7 +25153,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1797,
+  id: 1795,
   title: "Với mục tiêu đem tới những trải nghiệm tốt nhất phục vụ khách hàng, tập thể CBNV VikkiBank cùng...",
   source: "Hương Thu",
   sourceType: "Facebook",
@@ -25207,7 +25171,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1798,
+  id: 1796,
   title: "Chúc mừng Vikki Digital Bank và VikkiONE Connect! Một chiếc thẻ nhưng kết nối được nhiều nhu cầu...",
   source: "Cẩm Vân",
   sourceType: "Facebook",
@@ -25225,7 +25189,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1799,
+  id: 1797,
   title: "Nào, mời cả đoàn di chuyển 1 vòng về lịch sử hình thành và phát triển của Ngân hàng HDBank nhé",
   source: "Nguyễn Quỳnh Trang",
   sourceType: "Facebook",
@@ -25243,7 +25207,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1800,
+  id: 1798,
   title: "Hôm nay ( Ngày mồng 3 - 10-2026 ) .Hai V / C đến tham gia Ngày Hội Gia đình của HD Bank . Được...",
   source: "Van Thanh Vu",
   sourceType: "Facebook",
@@ -25261,7 +25225,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1801,
+  id: 1799,
   title: "KHAI TRƯƠNG HỒNG PHÁT – GỬI TIẾT KIỆM, NHẬN ƯU ĐÃI ĐẶC BIỆT CÙNG VIKKI HÀ NAM! 💜 Ngày...",
   source: "Dương Nguyễn",
   sourceType: "Facebook",
@@ -25279,7 +25243,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1802,
+  id: 1800,
   title: "Một món quà kỷ niệm và một bất ngờ từ HD SAISON. ️🎉 Bước tới - Tiền vào - Nhận ưu đãi tại:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -25297,7 +25261,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1803,
+  id: 1801,
   title: "Vikki Bank từ 200tr lãi 9,2% - 9,6% liên hệ em ạ 0328544558",
   source: "@m.phuong10",
   sourceType: "Threads",
@@ -25315,7 +25279,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1804,
+  id: 1802,
   title: "VAY TIỀN MẶT - KHÔNG MẤT PHÍ HỒ SƠ💥 ✅Lãi suất chỉ từ 0️⃣.6️⃣9️⃣% ✅Vay 12-15 triệu -CCCD ✅Vay...",
   source: "@cuccuc748",
   sourceType: "Threads",
@@ -25333,7 +25297,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1805,
+  id: 1803,
   title: "Cứ thấy Bank tím trần là lao vào múc, cho đến khi soi ra con số Sức khỏe 22 điểm này... Bảng...",
   source: "Alphasensei.io",
   sourceType: "Facebook Group",
@@ -25351,7 +25315,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1806,
+  id: 1804,
   title: "TƯ VẤN VAY TIÊU DÙNG HD SAISON • Khách cũ từ 18 tuổi • Khách mới từ 21 tuổi 📌Hỗ trợ lãi cực...",
   source: "@susu_1k1k",
   sourceType: "Threads",
@@ -25369,7 +25333,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1807,
+  id: 1805,
   title: "Người ta thường bảo cuối tuần là để nghỉ ngơi, nhưng với các chiến binh nhà Vikki và HDBank ,...",
   source: "Thu Thảo",
   sourceType: "Facebook",
@@ -25387,7 +25351,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1808,
+  id: 1806,
   title: "Trước thềm hành trình Golive 10/10, mỗi ngày tại Vikki Bank Ninh Thuận đều là cơ hội để học hỏi,...",
   source: "@dielevan",
   sourceType: "Threads",
@@ -25405,7 +25369,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1809,
+  id: 1807,
   title: "VIKKI BANK TẬP TRUNG TOÀN LỰC CẬP NHẬT HỆ THỐNG – VÌ TRẢI NGHIỆM KHÁCH HÀNG TỐT HƠN Vikki Bank...",
   source: "Trịnh Loan",
   sourceType: "Facebook",
@@ -25423,7 +25387,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1810,
+  id: 1808,
   title: "SẴN SÀNG CHO NHỮNG BƯỚC CHUYỂN MÌNH MỚI CÙNG VIKKI DIGITAL BANK! 💜✨NHẰM ĐEM LẠI NHỮNG TRẢI...",
   source: "Quynh Chi",
   sourceType: "Facebook",
@@ -25441,7 +25405,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1811,
+  id: 1809,
   title: "Tại Vikki Digital Bank, mỗi chương trình đào tạo không chỉ là cơ hội cập nhật kiến thức mà còn...",
   source: "Huynh Tran",
   sourceType: "Facebook",
@@ -25459,7 +25423,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1812,
+  id: 1810,
   title: "𝑯𝑫𝑩𝒂𝒏𝒌 & 𝑽𝒊𝒌𝒌𝒊: 𝑪𝒐-𝑻𝒓𝒂𝒊𝒏𝒊𝒏𝒈 𝑭𝒐𝒓 𝑻𝒉𝒆 𝑵𝒆𝒘 𝑪𝒐𝒓𝒆 𝑺𝒚𝒔𝒕𝒆𝒎!...",
   source: "Windy Vũ",
   sourceType: "Facebook",
@@ -25477,7 +25441,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1813,
+  id: 1811,
   title: "Gắn kết yêu thương – Trọn vẹn đặc quyền cùng HDBank Priority ❤️ HDBank HDBankPriority...",
   source: "Hồng Nguyễn",
   sourceType: "Facebook",
@@ -25495,7 +25459,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1814,
+  id: 1812,
   title: "Sắc vàng năng lượng của Ngân hàng số Vikki đã chính thức phủ sóng khắp các nẻo đường ngợp bóng...",
   source: "Nguyễn Thị Thảo Vy",
   sourceType: "Facebook",
@@ -25513,7 +25477,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1815,
+  id: 1813,
   title: "SỨC KHOẺ LÀ SỐ 1 Hôm nay thứ 7 mình tham gia trạm chăm sóc sức khoẻ của NGÀY HỘI GIA ĐÌNH của HD...",
   source: "Lê Kim Thanh",
   sourceType: "Facebook",
@@ -25531,7 +25495,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1816,
+  id: 1814,
   title: "Không cần phép màu Không cần tích góp quá lâu ⚡Chỉ cần có CCCD GẮN CHÍP và gặp ngay e. nga HD...",
   source: "Đỗ Hằng Nga",
   sourceType: "Facebook",
@@ -25549,7 +25513,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1817,
+  id: 1815,
   title: "Kiến thức thêm một chút, kỹ năng tốt hơn một chút, hy vọng KPI cũng vui vẻ với mình thêm một...",
   source: "Dua Hong Dua Hau",
   sourceType: "Facebook",
@@ -25567,7 +25531,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1818,
+  id: 1816,
   title: "Cuối tuần tại Vikki – cùng nhau học hỏi và nâng cao nghiệp vụ! Cuối tuần này không chỉ có những...",
   source: "Giang Nguyen",
   sourceType: "Facebook",
@@ -25585,7 +25549,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1819,
+  id: 1817,
   title: "Cảm ơn Quý khách hàng Đặc biệt cùng người thân đã dành trọn một ngày để cùng HDBank Priority kết...",
   source: "Hải Nguyễn",
   sourceType: "Facebook",
@@ -25603,7 +25567,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1820,
+  id: 1818,
   title: "Làm việc thứ Bảy thật chill thật nhiệt huyết cùng các chiến binh Vikki Digital Bank để mang lại...",
   source: "Ly Tr",
   sourceType: "Facebook",
@@ -25621,7 +25585,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1821,
+  id: 1819,
   title: "Bản tin hành động đầu tư — 02/10/2026 Dữ kiện: VN-Index đóng cửa 1.737,71 điểm, -11,59 điểm...",
   source: "Diễn đàn Công nghệ dầu khí Community",
   sourceType: "Facebook",
@@ -25639,7 +25603,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1822,
+  id: 1820,
   title: "VIKKI DIGITAL BANK – ĐỒNG HÀNH BẢO VỆ TƯƠNG LAI GIA ĐÌNH 💜 Vikki Digital Bank kết hợp cùng...",
   source: "Nhi Tran",
   sourceType: "Facebook",
@@ -25657,7 +25621,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1823,
+  id: 1821,
   title: "CHỨNG KHOÁN VIỆT NAM SẮP ĐÓN HƠN 12 TỶ CỔ PHIẾU NGÂN HÀNG Thị trường chứng khoán Việt Nam đang...",
   source: "ĐIỂM NÓNG NGÂN HÀNG",
   sourceType: "Facebook",
@@ -25675,7 +25639,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1824,
+  id: 1822,
   title: "HDBank Chốt chia cổ tức và Cổ phiếu thưởng tỷ lệ 30% 👇",
   source: "Chứng Khoán cùng Đức Đạt",
   sourceType: "Facebook",
@@ -25693,7 +25657,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1825,
+  id: 1823,
   title: "Tham dự ngày hội gia đình cùng HDBank.",
   source: "Nguyễn Mạn",
   sourceType: "Facebook",
@@ -25711,7 +25675,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1826,
+  id: 1824,
   title: "HÀ NỘI ĐANG RỘN RÀNG TẠI NGÀY HỘI GIA ĐÌNH 2026! Ngày hội Gia đình 2026 tại Hà Nội đang diễn ra...",
   source: "Ralph Tran",
   sourceType: "Facebook",
@@ -25729,7 +25693,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1827,
+  id: 1825,
   title: "KHAI TRƯƠNG HỒNG PHÁT] CHÀO MỪNG VIKKI THANH XUÂN! 🎉 ✨ Vikki Digital Bank chính thức khánh...",
   source: "Minh Nhân Vikki",
   sourceType: "Facebook",
@@ -25747,7 +25711,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1828,
+  id: 1826,
   title: "Sẵn sàng cho một hành trình mới – T24R26! 🚀💜 Sáng nay, ACE Chi nhánh Quận 7 cùng tập trung,...",
   source: "Roger Đình Hoá",
   sourceType: "Facebook",
@@ -25765,7 +25729,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1829,
+  id: 1827,
   title: "từ FiinRatings: 📊 [ANALYSIS] BÁO CÁO THỊ TRƯỜNG VỐN NỢ VIỆT NAM 2026: MỞ RỘNG & PHÁT TRIỂN SÂU,...",
   source: "Jenny Chứng khoán",
   sourceType: "Facebook Group",
@@ -25783,7 +25747,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1830,
+  id: 1828,
   title: "VAY MUA – HOÀN VỐN CĂN HỘ CHUNG CƯ | VIKKI BANK 🔹 Thời gian vay tối đa 50 năm – chủ động kế...",
   source: "Nguyễn Hằng Nga",
   sourceType: "Facebook",
@@ -25801,7 +25765,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1831,
+  id: 1829,
   title: "Chúc mừng VikkiBank Ngô Quyền tại địa chỉ 43D-E Lê Lai, Phường Ngô Quyền, TP Hải Phòng khai...",
   source: "Anh Phuong",
   sourceType: "Facebook",
@@ -25819,7 +25783,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1832,
+  id: 1830,
   title: "ROADSHOW VIKKI BANK – LAN TỎA KẾT NỐI, SẺ CHIA TIỆN ÍCH Vikki Bank Cụm Chi nhánh Quận 1 xuống...",
   source: "Nguyen Anh Thu",
   sourceType: "Facebook",
@@ -25837,7 +25801,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1833,
+  id: 1831,
   title: "Done chiếc show xinh tươi từ Sài Gòn ra tới Hà Nội 🥰🥰 Cảm ơn các cô tiên xinh đẹp và các bé...",
   source: "Phú Truyền",
   sourceType: "Facebook",
@@ -25855,7 +25819,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1834,
+  id: 1832,
   title: "Em của ngày hôm qua ☘️🍃🎶❤️ Khai trương Ngân Hàng Vikki Bank Thanh Xuân 🌸💰 Kim Huyền Sâm...",
   source: "Kim Huyền Sâm",
   sourceType: "Facebook",
@@ -25873,7 +25837,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1835,
+  id: 1833,
   title: "Đừng lo lắng khi giao dịch ngân hàng! 🏦 Đến Vikki Bank, bạn sẽ được trải nghiệm không gian sang...",
   source: "Đào Tảu",
   sourceType: "Facebook",
@@ -25891,7 +25855,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1836,
+  id: 1834,
   title: "Thứ 7 của người khác có thể là ngày nghỉ, còn Thứ 7 của chúng tôi là một ngày học tập, cập nhật...",
   source: "Kha PhuQuy",
   sourceType: "Facebook",
@@ -25909,7 +25873,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1837,
+  id: 1835,
   title: "Học để giỏi hơn, cập nhật để bắt kịp và mỗi ngày làm việc chuyên nghiệp hơn Không chỉ có những...",
   source: "Tiên Tiên",
   sourceType: "Facebook",
@@ -25927,7 +25891,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1838,
+  id: 1836,
   title: "Mn vào like comment share ủng hộ hai bạn GDV HD Bank thân thiện nhiệt tình nha ahihi, lãi suất...",
   source: "Le My",
   sourceType: "Facebook",
@@ -25945,7 +25909,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1839,
+  id: 1837,
   title: "Cảm ơn Chị - một khách hàng rất dễ thương đồng hành cùng Ngân hàng mình từ lúc thành lập đến...",
   source: "Diễm Trâm",
   sourceType: "Facebook",
@@ -25963,7 +25927,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1840,
+  id: 1838,
   title: "SẴN SÀNG GOLIVE T24 – ĐỒNG LÒNG, QUYẾT TÂM, BỨT PHÁ! 🚀 🫰💯💐Công tác Demo – Diễn tập GOLIVE...",
   source: "Linh Nguyễn",
   sourceType: "Facebook",
@@ -25981,7 +25945,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1841,
+  id: 1839,
   title: "CHÚC MỪNG PGD NGÔ QUYỀN KHAI TRƯƠNG ĐẠI HỒNG PHÁT! 🎉🎉 🌸 Một hành trình mới chính thức bắt đầu...",
   source: "Trịnh Loan",
   sourceType: "Facebook",
@@ -25999,7 +25963,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1842,
+  id: 1840,
   title: "HỌC TẬP MỖI NGÀY – TIẾN BƯỚC CÙNG VIKKI 💙 Học để hiểu hơn – làm để trưởng thành hơn – đổi mới...",
   source: "Pham Ngoc Oanh",
   sourceType: "Facebook",
@@ -26017,7 +25981,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1843,
+  id: 1841,
   title: "Khung giờ vàng gửi tiết kiệm siêu ưu đãi đến từ HDBank Đào Duy Từ 👏👏👏...",
   source: "Minh Duyệt",
   sourceType: "Facebook",
@@ -26035,7 +25999,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1844,
+  id: 1842,
   title: "Thứ bảy mọi người làm gì? Thứ Bảy với em là ngày để cùng đồng đội học hỏi, phối hợp và sẵn sàng...",
   source: "Hoàng Ngọc Phương",
   sourceType: "Facebook",
@@ -26053,7 +26017,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1845,
+  id: 1843,
   title: "Mời mọi người vào xem livestream của HDBank Tư Nghĩa ạ, link dưới comment",
   source: "@khoi.lv2005",
   sourceType: "Threads",
@@ -26071,7 +26035,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1846,
+  id: 1844,
   title: "Buổi live tream của HDBank Long An đã bắt đầu, mời ace mình xem live ủng hộ. Gửi tiết kiệm với...",
   source: "HDBank CN Long An",
   sourceType: "Facebook Fanpage",
@@ -26089,7 +26053,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1847,
+  id: 1845,
   title: "Thứ Bảy đối với nhiều người là thời gian nghỉ ngơi, nhưng với chúng tôi, đây lại là cơ hội quý...",
   source: "Hải Minh Home",
   sourceType: "Facebook",
@@ -26107,7 +26071,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1848,
+  id: 1846,
   title: "THÁNG 10 SĂN VÉ XỊN – ĐÓN NGƯỜI THƯƠNG VỀ ĐÌNH THÔN! ✈️💜 Tháng 10 này, nếu đang lên kế hoạch...",
   source: "Bảo Vikki",
   sourceType: "Facebook",
@@ -26125,7 +26089,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1849,
+  id: 1847,
   title: "CHẠM NHỊP SỐ - CHỐT QUÀ ĐỈNH MÙA 2: Phiên 6 - Trao lãi suất vàng, tặng giá siêu hời Đầu tháng...",
   source: "Vũ Thanh Thúy",
   sourceType: "Facebook",
@@ -26143,7 +26107,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1850,
+  id: 1848,
   title: "Thứ 7 nâng tầm – Phục vụ vượt trội tại Vikki Digital Bank! Với Vikki, thứ 7 không chỉ là ngày...",
   source: "Hà Yến",
   sourceType: "Facebook",
@@ -26161,7 +26125,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1851,
+  id: 1849,
   title: "Vận điệuuuuu viên ACB đã nhận được kỷ niệm chương Shout out to BTC HDbank Green Marathon 🔥",
   source: "Như Quỳnh",
   sourceType: "Facebook",
@@ -26179,7 +26143,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1852,
+  id: 1850,
   title: "CUỐI TUẦN CÙNG VIKKI BANK 💙🧡 Cuối tuần vẫn rộn ràng – vẫn hết mình! 💪 💙 Vikki – Đồng hành...",
   source: "Ngân Hạnh",
   sourceType: "Facebook",
@@ -26197,7 +26161,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1853,
+  id: 1851,
   title: "Em có 250triệu gửi 6 tháng, HD bank thuong tin có lãi suất tốt không ạ?",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -26215,7 +26179,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1854,
+  id: 1852,
   title: "Cả nhà vào xem phiên livestream trên kênh tiktok của HDBank Cẩm Phả vào lúc 11h trưa nay để nhận...",
   source: "Đinh Tuyết",
   sourceType: "Facebook",
@@ -26233,7 +26197,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1855,
+  id: 1853,
   title: "Vikkibank PGD Ngã Bảy đóng vai trò quan trọng trong ật là đẩy mạnh marketing số thông qua...",
   source: "Ngọc Mii",
   sourceType: "Facebook",
@@ -26251,7 +26215,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1856,
+  id: 1854,
   title: "VIKKI DIGITAL BANK ĐƯỢC XƯỚNG TÊN TẠI VIETNAM BANKING AWARDS 2026! 🎉 Một cột mốc đáng nhớ khẳng...",
   source: "Trần Cường",
   sourceType: "Facebook",
@@ -26269,7 +26233,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1857,
+  id: 1855,
   title: "Cuối tuần vừa trông con vừa phát tờ rơi có khi lại gặp 😆 HDBank HDBankPriority",
   source: "Ngọc Huyền",
   sourceType: "Facebook",
@@ -26287,7 +26251,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1858,
+  id: 1856,
   title: "Chương trình đào tạo & trải nghiệm 2 ngày cuối tuần ❤️️ 💞 Vẫn là góc không gian quen thuộc mỗi...",
   source: "Nguyen Dang",
   sourceType: "Facebook",
@@ -26305,7 +26269,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1859,
+  id: 1857,
   title: "Tiết kiệm Online Vikki Bank (Đông Á cũ) 💰 Lãi suất cao hấp dẫn nhất thị trường lên tới 9️⃣,4️⃣%...",
   source: "@tien_kutee",
   sourceType: "Threads",
@@ -26323,7 +26287,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1860,
+  id: 1858,
   title: "CUỐI TUẦN KHÔNG NGHỈ, BANKER VIKKI VẪN SAY MÊ HỌC TẬP! 💪 Cuối tuần của Banker Vikki Ninh Thuận...",
   source: "Minh Minh",
   sourceType: "Facebook",
@@ -26341,7 +26305,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1861,
+  id: 1859,
   title: "VIKKI DIGITAL BANK – KHẲNG ĐỊNH DẤU ẤN SÁNG TẠO TẠI GIẢI THƯỞNG NGÂN HÀNG VIỆT NAM TIÊU BIỂU...",
   source: "Cát Nguyên",
   sourceType: "Facebook",
@@ -26359,7 +26323,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1862,
+  id: 1860,
   title: "THỨ BẢY MÁU CHẢY VỀ TEAM VIKKER HÙNG VƯƠNG 😄 Cuối tuần không chỉ để nghỉ, mà còn là dịp Team...",
   source: "Mỹ Tuyết",
   sourceType: "Facebook",
@@ -26377,7 +26341,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1863,
+  id: 1861,
   title: "THỨ 7 – CÙNG VIKKI BANKER HỌC TẬP & BỨT PHÁ! 💕🍁Vikki Cầu Ngang🍁💕 🔹 Không ngại cuối tuần,...",
   source: "Tran Duyen",
   sourceType: "Facebook",
@@ -26395,7 +26359,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1864,
+  id: 1862,
   title: "Mình hỗ trợ lên vay chính thống, HD saison. Ko mất phí, inb :0934779993",
   source: "@trinh_master",
   sourceType: "Threads",
@@ -26413,7 +26377,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1865,
+  id: 1863,
   title: "danang viral 🧢🧢 𝐈𝐩𝐚𝐝 𝐆𝐞𝐧 𝟏𝟏-𝟏𝟐𝟖𝐆𝐁 -Silver - emm lại về thêm 🌟Hiệu năng ổn định,...",
   source: "@tamle.1512",
   sourceType: "Threads",
@@ -26431,7 +26395,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1866,
+  id: 1864,
   title: "Vikki Bank Cập nhật bảng lãi suất mới từ ngày 2/10 cho số tiền từ 500🍠 Inb em lấy mã + siêu hời...",
   source: "Viên Sương Lợi",
   sourceType: "Facebook Group",
@@ -26449,7 +26413,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1867,
+  id: 1865,
   title: "Vikki: 🚀 SẴN SÀNG CHO NHỮNG BƯỚC CHUYỂN MÌNH MỚI CÙNG VIKKI DIGITAL BANK! 💜✨ Cuối tuần nhưng...",
   source: "Quynh Nguyen",
   sourceType: "Facebook",
@@ -26467,7 +26431,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1868,
+  id: 1866,
   title: "Hỗ trợ v@y vốn không tốn phí😍 Có hỗ trợ gói v@y dành cho sinh viên lun nhoa🥰 Ở gần có thể làm...",
   source: "Thanh Tiền",
   sourceType: "Facebook Group",
@@ -26485,7 +26449,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1869,
+  id: 1867,
   title: "Vikki Bank 200tr 9.2%, 500tr 9.5% ạ. Liên hệ em nhé 0384842474 ( em Khôi )",
   source: "@davidtietkiem",
   sourceType: "Threads",
@@ -26503,7 +26467,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1870,
+  id: 1868,
   title: "Thẻ 0 phí - Sinh viên 0 lo cùng HD SAISON: https://www.hdsaison.com.vn/vn/the-sinh-vien 💳 Không...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -26521,7 +26485,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1871,
+  id: 1869,
   title: "Ai bảo thời sinh viên chỉ có chuyện “học và hành” ? Đây còn là quãng thời gian để gặp thêm những...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -26539,7 +26503,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1872,
+  id: 1870,
   title: "Ngân hàng Vikki tiền thân của ( Đông Á) tại thôn Túy Loan Đông 1, Xã Hòa Vang, TP Đà Nẵng. Lãi...",
   source: "Phạm Thanh Phú",
   sourceType: "Facebook Group",
@@ -26557,7 +26521,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1873,
+  id: 1871,
   title: "Chúc mừng Vikki Bank Thuận Thành- TP Bắc Ninh khai trương hồng phát Nhu cầu khách hàng cần là có...",
   source: "Ha Nguyen",
   sourceType: "Facebook",
@@ -26575,7 +26539,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1874,
+  id: 1872,
   title: "Vikki Digital Bank – Vươn tầm Việt Nam, kết nối giá trị toàn cầu Từ nền tảng ngân hàng số hiện...",
   source: "Ha Quan",
   sourceType: "Facebook",
@@ -26593,7 +26557,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1875,
+  id: 1873,
   title: "Vikki Digital Bank vừa nhận giải thưởng Ngân hàng có Sản phẩm/Dịch vụ Sáng tạo Tiêu biểu 2026...",
   source: "Thúy Dương Minh",
   sourceType: "Facebook",
@@ -26611,7 +26575,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1876,
+  id: 1874,
   title: "Vikki Digital Bank vinh dự khi được nhận giải Ngân hàng Việt Nam tiêu biểu 2026 với sản phẩm thẻ...",
   source: "Nguyễn Thu",
   sourceType: "Facebook",
@@ -26629,7 +26593,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1877,
+  id: 1875,
   title: "Chúng tôi luôn mang năng lượng tích cực truyền đến quý khách hàng Vikki Bank thân yêu! Thứ 7 vui...",
   source: "Hải Minh Home",
   sourceType: "Facebook",
@@ -26647,7 +26611,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1878,
+  id: 1876,
   title: "LÃI SUẤT LẬP ĐỈNH – ƯU ĐÃI VÀNG🔥 💜 Gửi tiết kiệm cùng Ngân hàng số Vikki – an tâm tích lũy,...",
   source: "Ha Pham",
   sourceType: "Facebook Group",
@@ -26665,7 +26629,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1879,
+  id: 1877,
   title: "Ngày thứ 7, ngày hội gia đình cùng HDBANK",
   source: "@hoaitrang0708",
   sourceType: "Threads",
@@ -26683,7 +26647,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1880,
+  id: 1878,
   title: "Cần Gửi luôn 90 triệu Online tại MBbank, HDBank, lấy lãi hàng tháng. Ai có Ls tốt cho mã hỗ trợ...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -26701,7 +26665,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1881,
+  id: 1879,
   title: "Giữa nhịp sống sôi động của Dĩ An, các chiến binh VikkiBank Sóng Thần vẫn đều đặn mỗi ngày ra...",
   source: "Tu Cam Vo",
   sourceType: "Facebook",
@@ -26719,7 +26683,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1882,
+  id: 1880,
   title: "KHAI TRƯƠNG VIKKI THUẬN THÀNH – DIỆN MẠO MỚI, HÀNH TRÌNH MỚI! 💙✨ Một dấu mốc thật đặc biệt khi...",
   source: "The Dangthi",
   sourceType: "Facebook",
@@ -26737,7 +26701,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1883,
+  id: 1881,
   title: "CHÚC MỪNG KHÁNH THÀNH PGD NGÔ QUYỀN 🎉 Một dấu mốc mới – một hành trình mới! 💗 Chúc PGD Ngô...",
   source: "Thu Thuỷy",
   sourceType: "Facebook",
@@ -26755,7 +26719,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1884,
+  id: 1882,
   title: "Show sớm Ngày Hội Gia Đình của các bé nhà Myta Art. Quá iu ạ🥰🥰💃🏻💃🏻💃🏻 MytaArt...",
   source: "Myta Nguyen",
   sourceType: "Facebook",
@@ -26773,7 +26737,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1885,
+  id: 1883,
   title: "TIN CHUẨN 100%: VIKKI \"GIẬT\" GIẢI NGÂN HÀNG VIỆT NAM TIÊU BIỂU 2026! 🥂💜 Cụ thể, thẻ VikkiONE...",
   source: "Minh Nhân Vikki",
   sourceType: "Facebook",
@@ -26791,7 +26755,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1886,
+  id: 1884,
   title: "hallo sáng thứ 7 hdbank ILoveHDBank",
   source: "Cao Lâm",
   sourceType: "Facebook",
@@ -26809,7 +26773,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1887,
+  id: 1885,
   title: "VN-INDEX 02/10/2026 – ÁP LỰC BÁN GIA TĂNG, KHỐI NGOẠI BÁN RÒNG ĐỘT BIẾN – THỊ TRƯỜNG ĐỐI MẶT...",
   source: "CAS - Đồn Kinh Tế",
   sourceType: "Facebook Group",
@@ -26827,7 +26791,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1888,
+  id: 1886,
   title: "HIỆN ĐẠI TỪ DIỆN MẠO – KHÁC BIỆT TỪ TRẢI NGHIỆM Diện mạo hiện đại tạo nên ấn tượng đầu tiên. Sự...",
   source: "Ho Phuong",
   sourceType: "Facebook",
@@ -26845,7 +26809,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1889,
+  id: 1887,
   title: "Ngân hàng số Vikki đang có chương trình khuyến mãi tri ân đến Quý khách hàng: TIẾT KIỆM VIKKI...",
   source: "Diễm Trâm",
   sourceType: "Facebook",
@@ -26863,7 +26827,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1890,
+  id: 1888,
   title: "Vikkafé – Điểm hẹn hạnh phúc, kết nối yêu thương cùng Vikki Digital Bank! Không chỉ là nơi...",
   source: "Lê Văn Diệp",
   sourceType: "Facebook",
@@ -26881,7 +26845,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1891,
+  id: 1889,
   title: "ASUS AI V16 giá 25.xx0.000đ 🎒 Core 5 210H, RTX 3050 6GB, 16GB DDR5, màn 16\" 144Hz. Có phím...",
   source: "@xgearvietnam",
   sourceType: "Threads",
@@ -26899,7 +26863,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1892,
+  id: 1890,
   title: "cả nhà cho xin sdt nv HD bank ạ e cảm ơn",
   source: "HưngThái ThuỳAnh",
   sourceType: "Facebook Group",
@@ -26917,7 +26881,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1893,
+  id: 1891,
   title: "Legion 5 màn OLED, dùng rồi khó quay lại màn thường 👀 OLED 2.5K 165Hz 100% DCI-P3, Ultra 7 356H...",
   source: "@xgearvietnam",
   sourceType: "Threads",
@@ -26935,7 +26899,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1894,
+  id: 1892,
   title: "NGÀY MỚI HỨNG KHỞI – CÙNG NGÂN HÀNG SỐ VIKKI! ✨ Một ngày trọn vẹn hơn khi mọi nhu cầu tài chính...",
   source: "Hanh Nguyen Minh",
   sourceType: "Facebook",
@@ -26953,7 +26917,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1895,
+  id: 1893,
   title: "ASUS TUF A15 chỉ từ 23.xx0.000đ 🎮 Ryzen 7, RTX 3050, màn 144Hz, vỏ TUF nồi đồng cối đá. Có 3...",
   source: "@xgearvietnam",
   sourceType: "Threads",
@@ -26971,7 +26935,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1896,
+  id: 1894,
   title: "Lenovo LOQ 2026 về Xgear, chỉ từ 39.xx0.000đ 🔥 Bản Ryzen 7 250 + RTX 5050 cho ae chơi eSports,...",
   source: "@xgearvietnam",
   sourceType: "Threads",
@@ -26989,7 +26953,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1897,
+  id: 1895,
   title: "Sáng sớm đến Cơ quan, kiểm tra mọi thứ chuẩn chỉnh cho chương trình Học 2 ngày cuối tuần. - Vẫn...",
   source: "Hùng Thái",
   sourceType: "Facebook",
@@ -27007,7 +26971,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1898,
+  id: 1896,
   title: "Một lần nữa Ngân hàng số VIKKI CN HÀ NAM gửi lời cảm ơn đến tất cả các khách hàng đã bớt chút...",
   source: "Nguyễn Trọng Bình",
   sourceType: "Facebook",
@@ -27025,7 +26989,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1899,
+  id: 1897,
   title: "Em có chút thông báo nhẹ Mong anh chị em quan tâm Vikki Bank - Ngân hàng tiết kiệm tốt nhất",
   source: "Hiệp Bùi",
   sourceType: "Facebook",
@@ -27043,7 +27007,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1900,
+  id: 1898,
   title: "Vikkafé là mô hình \"Café in Bank\" độc đáo đầu tiên tại Việt Nam, mang đến sự kết hợp hoàn hảo...",
   source: "Minh Trang",
   sourceType: "Facebook",
@@ -27061,7 +27025,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1901,
+  id: 1899,
   title: "GIỮ CÂN BẰNG GIỮA CÔNG VIỆC VÀ GIA ĐÌNH – HÀNH TRÌNH CỦA MỘT VIKKI BANKER 💙 Làm việc tại Vikki...",
   source: "Đinh Đỗ Đài Đoan",
   sourceType: "Facebook",
@@ -27079,7 +27043,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1902,
+  id: 1900,
   title: "Mức trần 100 triệu đồng cho vay tiêu dùng đã tồn tại gần 1 thập kỷ – liệu đã đến lúc cần thay...",
   source: "Titanlabs - Stock AI Agent",
   sourceType: "Facebook",
@@ -27097,7 +27061,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1903,
+  id: 1901,
   title: "Chúc mừng Vikki Digital Bank vinh dự nhận giải thưởng Ngân hàng Việt Nam Tiêu biểu 2026! 💜 Thẻ...",
   source: "Châu Mint",
   sourceType: "Facebook",
@@ -27115,7 +27079,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1904,
+  id: 1902,
   title: "CHÚC MỪNG CHỦ NHÂN 0,5 CHỈ VÀNG! 🏆✨ Niềm vui gọi tên một Quý khách hàng may mắn tại Vikki...",
   source: "Ngoc Tham Do Thi",
   sourceType: "Facebook",
@@ -27133,7 +27097,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1905,
+  id: 1903,
   title: "THÔNG BÁO ĐIỂM GIAO DỊCH MỚI – VIKKI DIGITAL BANK Kính gửi Quý khách hàng, Ngân hàng số Vikki –...",
   source: "Đào Kim",
   sourceType: "Facebook",
@@ -27151,7 +27115,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1906,
+  id: 1904,
   title: "GỬI TIẾT KIỆM VIKKI – LÃI SUẤT TỐT, AN TÂM TÍCH LŨY! 💰 ✨ Tiền nhàn rỗi đừng để nằm yên, hãy để...",
   source: "Nguyễn Thị KimY",
   sourceType: "Facebook",
@@ -27169,7 +27133,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1907,
+  id: 1905,
   title: "Hôm nay ngân hàng em Thuỷ có lãi suất mới cho tất cả các hình thức gửi: lĩnh lãi đầu kì, cuối...",
   source: "Tran Thi Thu Thuy",
   sourceType: "Facebook Group",
@@ -27187,7 +27151,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1908,
+  id: 1906,
   title: "Series 10 Ngày Trải Nghiệm HDBank Cùng Thảo Đây Phần 2 Cùng đón choè xem những điều thú vị nha...",
   source: "Thảo Đây",
   sourceType: "Facebook",
@@ -27205,7 +27169,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1909,
+  id: 1907,
   title: "Một buổi làm việc thật ý nghĩa với một mong muốn rất giản dị: được kết nối và đồng hành cùng Nhà...",
   source: "Vũ Thị Oanh",
   sourceType: "Facebook",
@@ -27223,7 +27187,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1910,
+  id: 1908,
   title: "LÃI SUẤT TIẾT KIỆM VIKKI BANK TIẾP TỤC CHẠM ĐỈNH MỚI! 🔥🔥🔥 Cô chú, anh chị đang có tiền nhàn...",
   source: "Ha Pham",
   sourceType: "Facebook",
@@ -27241,7 +27205,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1911,
+  id: 1909,
   title: "Vikki Digital Bank Hà Nam - tỉnh Ninh Bình (tỉnh Hà Nam cũ) khoác áo mới đã sẵn sàng chào đón...",
   source: "Minh Nhân Vikki",
   sourceType: "Facebook",
@@ -27259,7 +27223,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1912,
+  id: 1910,
   title: "VIKKI BANK – NƠI KHÔNG GIAN KỂ CÂU CHUYỆN VỀ SỰ ĐỔI MỚI Mỗi đường nét thiết kế, mỗi khu vực làm...",
   source: "Đào Đào",
   sourceType: "Facebook",
@@ -27277,7 +27241,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1913,
+  id: 1911,
   title: "NGÀY MỚI HỨNG KHỞI CÙNG VIKKI BANK] 💜 ☕ Bắt đầu ngày mới năng động cùng Vikki Bank! Dù là...",
   source: "Minh Trang",
   sourceType: "Facebook",
@@ -27295,7 +27259,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1914,
+  id: 1912,
   title: "Xin lãi suất 100tr tech hoặc hdbank 6 tháng lãi bn",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -27313,7 +27277,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1915,
+  id: 1913,
   title: "Chúc mừng Ngân hàng số Vikki Thanh Xuân chính thức khai trương trụ sở mới! Một khởi đầu mới –...",
   source: "Ái Chi Nguyễn",
   sourceType: "Facebook",
@@ -27331,7 +27295,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1916,
+  id: 1914,
   title: "VIKKI BANK – DIỄN TẬP CORE T24] 🔥 Đội ngũ Vikki Bank đã thực hiện buổi diễn tập chuyển đổi hệ...",
   source: "Minh Trang",
   sourceType: "Facebook",
@@ -27349,7 +27313,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1917,
+  id: 1915,
   title: "RỰC RỠ SẮC HOA – BỪNG SÁNG TƯƠNG LAI] ✨🚀 LỄ KHÁNH THÀNH NGÂN HÀNG SỐ VIKKI QUẢNG NINH THÀNH...",
   source: "Thanh Ha Nguyen",
   sourceType: "Facebook",
@@ -27367,7 +27331,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1918,
+  id: 1916,
   title: "Hơn 90% siêu cổ phiếu sớm thoát ra khỏi nền giá và thiết lập đỉnh cao mới trong khi thị trường...",
   source: "Mạnh Cường - Nghệ Thuật Đầu Tư",
   sourceType: "Facebook Group",
@@ -27385,7 +27349,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1919,
+  id: 1917,
   title: "Thông báo về việc di dời PGD Hộ Phòng về PGD Gành Hào từ ngày 05/10/2026. Việc di dời không làm...",
   source: "Nguyễn Thư",
   sourceType: "Facebook",
@@ -27403,7 +27367,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1920,
+  id: 1918,
   title: "Thẻ HD bank VietJet , Mình đã được ngân hàng cấp thẻ tín dụng",
   source: "khôi và cuộc sống hằng ngày",
   sourceType: "YouTube",
@@ -27421,7 +27385,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1921,
+  id: 1919,
   title: "Ngày 6 mình có 120M cần bạn nào tư vấn lãi suất của HD Bank với ạ. Mình gửi online và ở Đà Nẵng...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -27439,7 +27403,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1922,
+  id: 1920,
   title: "Gần 1.500 tỷ đồng được tự doanh rót mạnh vào HDB trong một phiên thị trường giảm điểm – đây là...",
   source: "Titanlabs - Stock AI Agent",
   sourceType: "Facebook",
@@ -27457,7 +27421,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1923,
+  id: 1921,
   title: "HELLO AMERICA – VIKKI DIGITAL BANK CÙNG NHỮNG NHỊP CẦU VƯƠN XA 🌻 Khi hơn 150 doanh nhân và nghệ...",
   source: "Nguyễn Thị Thảo Vy",
   sourceType: "Facebook",
@@ -27475,7 +27439,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1924,
+  id: 1922,
   title: "Khối ngoại bán ròng 37.500 tỷ đồng cổ phiếu ngân hàng từ đầu năm, vượt cả năm 2025 dù định giá...",
   source: "Chuyện Bên Lề",
   sourceType: "Facebook",
@@ -27493,7 +27457,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1925,
+  id: 1923,
   title: "em là sinh viên năm nhất, nộp hồ sơ trên hd saison mà bị rớt. Mọi người biết còn app nào cho vay...",
   source: "@caramel.5203",
   sourceType: "Threads",
@@ -27511,7 +27475,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1926,
+  id: 1924,
   title: "Chúc mừng Lễ khánh thành Ngân hàng số Vikki Thuận Thành 🎉 Một hành trình mới chính thức bắt đầu...",
   source: "Huong Ninh",
   sourceType: "Facebook",
@@ -27529,7 +27493,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1927,
+  id: 1925,
   title: "VIKKI DIGITAL BANK GHI DẤU ẤN TẠI GIẢI THƯỞNG NGÂN HÀNG VIỆT NAM TIÊU BIỂU 2026 💜 Niềm vui lớn...",
   source: "Quốc Bảo",
   sourceType: "Facebook",
@@ -27547,7 +27511,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1928,
+  id: 1926,
   title: "Xin Chúc mừng Quý khách hàng may mắn nhận 0,5 chỉ vàng từ Vikki Digital Bank Chi nhánh Quảng...",
   source: "Tran Thuy Lieu",
   sourceType: "Facebook",
@@ -27565,7 +27529,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1929,
+  id: 1927,
   title: "VIKKI DIGITAL BANK VINH DỰ NHẬN GIẢI THƯỞNG NGÂN HÀNG VIỆT NAM TIÊU BIỂU 2026 💜 Một dấu mốc...",
   source: "Lập Bùi",
   sourceType: "Facebook",
@@ -27583,7 +27547,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1930,
+  id: 1928,
   title: "Phiên giao dịch 2/10 kết thúc ảm đạm, thị trường chứng khoán tiếp tục giảm 0,66%, xuống 1.737,71...",
   source: "Quang Anh",
   sourceType: "Facebook Group",
@@ -27601,7 +27565,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1931,
+  id: 1929,
   title: "Vikki Digital Bank Hưng Yên - tỉnh Hưng Yên. 💜 Không gian giao dịch hiện đại, thân thiện cùng...",
   source: "Le Phong",
   sourceType: "Facebook",
@@ -27619,7 +27583,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1932,
+  id: 1930,
   title: "VIKKI DIGITAL BANK] ĐỒNG LÒNG BỨT PHÁ – CHINH PHỤC MỌI TRẢI NGHIỆM SỐ! 🚀 ✨ Bạn có nhận ra sắc...",
   source: "Vuipmh Bui",
   sourceType: "Facebook",
@@ -27637,7 +27601,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1933,
+  id: 1931,
   title: "Chào tháng 10 – tháng của những khởi đầu đầy năng lượng và hy vọng! 💙 Mong tháng mới sẽ mang...",
   source: "Oanh Phale",
   sourceType: "Facebook",
@@ -27655,7 +27619,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1934,
+  id: 1932,
   title: "Ngày 02/10: VN-Index giảm điểm, giao dịch tự doanh mua ròng 344 tỷ. 🍀Giá trị ròng phân loại...",
   source: "Tầm Nhìn Chứng Khoán",
   sourceType: "Facebook",
@@ -27673,7 +27637,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1935,
+  id: 1933,
   title: "Xin Chúc mừng Quý khách hàng may mắn nhận 0,5 chỉ vàng từ Vikki Digital Bank Chi nhánh Quảng...",
   source: "Thach Chi Do",
   sourceType: "Facebook",
@@ -27691,7 +27655,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1936,
+  id: 1934,
   title: "Svien bên hdsaison với shoppe đi ví trả sau nó cho quét qr cá nhân rút về ấy",
   source: "@nobitanhatrang",
   sourceType: "Threads",
@@ -27709,7 +27673,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1937,
+  id: 1935,
   title: "Hành trình 9 năm không quá dài nhưng đủ để ghi dấu biết bao kỷ niệm, sự nỗ lực và trưởng thành....",
   source: "Béo",
   sourceType: "Facebook",
@@ -27727,7 +27691,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1938,
+  id: 1936,
   title: "TRI ÂN KHÁCH HÀNG THÂN THIẾT CÙNG VIKKI DIGITAL BANK 🌟🌟🌟🌟 ✌️Chúc mừng Quý khách hàng đã trở...",
   source: "Bùi Thị Kim Loan",
   sourceType: "Facebook",
@@ -27745,7 +27709,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1939,
+  id: 1937,
   title: "Xin chúc mừng Vikki Digital Bank vinh dự nhận giải thưởng ngân hàng Việt Nam tiêu biểu năm 2026....",
   source: "@khoanguyen0628",
   sourceType: "Threads",
@@ -27763,7 +27727,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1940,
+  id: 1938,
   title: "Đi nhiều – gặp nhiều – mới thấy cơ hội luôn bắt đầu từ những mối quan hệ 🤝 Một buổi kết nối,...",
   source: "Tu Cam Vo",
   sourceType: "Facebook",
@@ -27781,7 +27745,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1941,
+  id: 1939,
   title: "Chúc mừng Quý Khách hàng thân thương đã may mắn nhận vàng từ chương trình Tiết kiệm Vikki -...",
   source: "Vu Nguyet Tu",
   sourceType: "Facebook",
@@ -27799,7 +27763,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1942,
+  id: 1940,
   title: "Tui đang có cỡ 6xx nhàn rỗi muốn gửi bank nào trên 9% lãi suất, có bank nào ko ạ. Mới tham khảo...",
   source: "@tichadanang1210",
   sourceType: "Threads",
@@ -27817,7 +27781,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1943,
+  id: 1941,
   title: "Kính gửi : Quý khách hàng! PGD Hộ Phòng sẽ chính thức về Gành Hào từ ngày 05/10/2026. Việc di...",
   source: "Trịnh Phan Tấn",
   sourceType: "Facebook",
@@ -27835,7 +27799,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1944,
+  id: 1942,
   title: "Vikki Bank Phối hợp cùng Cục C06 - Bộ Công An cho ra đời một siêu tiện ích dành cho Công dân đó...",
   source: "Vo Yen Trinh",
   sourceType: "Facebook",
@@ -27853,7 +27817,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1945,
+  id: 1943,
   title: "KHÉP LẠI ĐỂ BỨT PHÁ - CHÍNH THỨC GIA NHẬP BẢN ĐỒ CHIẾN BINH VPBANK! 🔥💚 ​Trước khi bắt đầu hành...",
   source: "Ngô Chiến",
   sourceType: "Facebook",
@@ -27871,7 +27835,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1946,
+  id: 1944,
   title: "VN-INDEX GIẢM KHÔNG NHIỀU, NHƯNG CỔ PHIẾU “LAO DỐC”: ĐIỀU GÌ ĐANG THỰC SỰ XẢY RA? Phiên 2/10 là...",
   source: "Nguyễn Việt Trung",
   sourceType: "Facebook",
@@ -27889,7 +27853,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1947,
+  id: 1945,
   title: "LÃI SUẤT TIẾT KIỆM VIKKI BANK TIẾP TỤC CHẠM ĐỈNH MỚI! 🔥 Cô chú, anh chị đang có tiền nhàn rỗi?...",
   source: "Lan Tây",
   sourceType: "Facebook",
@@ -27907,7 +27871,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1948,
+  id: 1946,
   title: "TOP CỔ PHIẾU SỨC MẠNH GIÁ – 02/10/2026 Sắc đỏ lan tràn, một tuần gian nan. Thị trường khép lại...",
   source: "Chứng Khoán Mirae Asset Việt Nam",
   sourceType: "Facebook",
@@ -27925,7 +27889,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1949,
+  id: 1947,
   title: "Bên mình có ai hỗ trợ mở tk hd bank online ko cần nfc ko ạ máy mình đời cũ ko quét...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -27943,7 +27907,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1950,
+  id: 1948,
   title: "Tổng hợp phiên giao dịch cuối tuần] Thị trường trải qua tuần giao dịch khá ảm đạm cả về mặt điểm...",
   source: "Nguyễn Khắc Vương",
   sourceType: "Facebook",
@@ -27961,7 +27925,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1951,
+  id: 1949,
   title: "MỘT GIỌT MÁU CHO ĐI - MỘT CUỘC ĐỜI Ở LẠI ❤️ Mình rất vinh dự và tự hào khi được góp một phần nhỏ...",
   source: "Khánh Thuỷ",
   sourceType: "Facebook",
@@ -27979,7 +27943,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1952,
+  id: 1950,
   title: "Tổng kết tháng 9 rực rỡ 🥰 Giải ngân thành công cho anh trai trảng bom 🎉 Đi team building thì...",
   source: "Trương Huy",
   sourceType: "Facebook",
@@ -27997,7 +27961,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1953,
+  id: 1951,
   title: "VN-INDEX GIẢM PHIÊN THỨ 5 LIÊN TIẾP: ÁP LỰC BÁN LAN RỘNG VN-Index tiếp tục chìm trong sắc đỏ...",
   source: "TechProfit",
   sourceType: "Facebook Group",
@@ -28015,7 +27979,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1954,
+  id: 1952,
   title: "VN-INDEX 02/10/2026: ÁP LỰC BÁN GIA TĂNG, THANH KHOẢN VƯỢT MA20 🔴 TỔNG QUAN: • VN-Index:...",
   source: "Chứng khoán số - Digital Stock",
   sourceType: "Facebook",
@@ -28033,7 +27997,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1955,
+  id: 1953,
   title: "VIKKI BANK CHÍNH THỨC KHAI TRƯƠNG CN HÀ NAM 💜🎉 ✨ MỞ RỘNG KẾT NỐI – NÂNG TẦM TRẢI NGHIỆM – ĐỒNG...",
   source: "Nguyễn Diệu An",
   sourceType: "Facebook",
@@ -28051,7 +28015,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1956,
+  id: 1954,
   title: "Xin lãi suất tiết kiệm HD bank Ngô Thì Nhậm Hà Đông gửi tại quầy 200tr, 6 tháng ạ",
   source: "CuriousGrape1662",
   sourceType: "Facebook Group",
@@ -28069,7 +28033,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1957,
+  id: 1955,
   title: "Một diện mạo mới, một hành trình mới và thêm một “Điểm hẹn Ngân hàng Số” sẵn sàng chào đón khách...",
   source: "Văn Văn",
   sourceType: "Facebook",
@@ -28087,7 +28051,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1958,
+  id: 1956,
   title: "Bước tới một bước, mở ra thêm nhiều điều bất ngờ cùng HD SAISON! ️🎉 Bước tới - Tiền vào - Nhận...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -28105,7 +28069,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1959,
+  id: 1957,
   title: "Có bạn nào bên vikki bank chi nhánh cộng hòa (đối diện cầu vượt cộng hòa) trong này không ta?",
   source: "PatientArugula7872",
   sourceType: "Facebook Group",
@@ -28123,7 +28087,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1960,
+  id: 1958,
   title: "Mình ở hcm , cần gửi sổ 1ty4 , sale nào lãi suất hấp dẫn ko ạ , HDbank",
   source: "BreezyKoala8448",
   sourceType: "Facebook Group",
@@ -28141,7 +28105,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1961,
+  id: 1959,
   title: "Bật mí nhẹ cho tuần tới 👀 Em đã lọc được 3 cổ phiếu khỏe và đang chờ chỉnh để tham gia. Cuối...",
   source: "Nga Candy",
   sourceType: "Facebook",
@@ -28159,7 +28123,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1962,
+  id: 1960,
   title: "NGÂN HÀNG ĐẨY MẠNH HUY ĐỘNG VỐN DÀI HẠN, LÃI SUẤT TRÁI PHIẾU CÓ NƠI CHẠM 10,5%/NĂM Thị trường...",
   source: "CAS - Đồn Kinh Tế",
   sourceType: "Facebook",
@@ -28177,7 +28141,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1963,
+  id: 1961,
   title: "Với Ngân hàng Số Vikki – Tôi đang giữ vững chuỗi thành tích là góp mặt trong danh sách tương tác...",
   source: "Chánh Văn",
   sourceType: "Facebook",
@@ -28195,7 +28159,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1964,
+  id: 1962,
   title: "VIKKI – KHI SỰ SẺ CHIA ĐƯỢC LAN TỎA Có những món quà không thể đo bằng giá trị vật chất, nhưng...",
   source: "Le Minh Tam",
   sourceType: "Facebook",
@@ -28213,7 +28177,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1965,
+  id: 1963,
   title: "Thuyền ta ba đứa lênh đênh, Tôi thì chỉ hướng, hai bên chèo đều. Cổ phiếu hỏi: “Lên hay tèo?”...",
   source: "Trung Nguyễn",
   sourceType: "Facebook",
@@ -28231,7 +28195,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1966,
+  id: 1964,
   title: "HDBank sắp triển khai 2 phương án nâng vốn điều lệ lên hơn 72.000 tỷ đồng Một kế hoạch tăng vốn...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -28249,7 +28213,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1967,
+  id: 1965,
   title: "Gửi Vikki bank có ổn ko các bác? Nghe tên ngân hàng lạ và mới quá nên chưa dám bỏ tiền vào. Các...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -28267,7 +28231,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1968,
+  id: 1966,
   title: "Thông báo về việc di dời PGD Hộ Phòng về PGD Gành Hào từ ngày 05/10/2026. Việc di dời không làm...",
   source: "Huỳnh Minh Trọng",
   sourceType: "Facebook",
@@ -28285,7 +28249,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1969,
+  id: 1967,
   title: "Thông báo về việc di dời PGD Hộ Phòng về PGD Gành Hào từ ngày 05/10/2026. Việc di dời không làm...",
   source: "@huynhminh63815",
   sourceType: "Threads",
@@ -28303,7 +28267,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1970,
+  id: 1968,
   title: "CHẠM NHỊP SỐ - CHỐT QUÀ ĐỈNH MÙA 2: Phiên 6 - Trao lãi suất vàng, tặng giá siêu hời Đầu tháng...",
   source: "Công Khanh",
   sourceType: "Facebook",
@@ -28321,7 +28285,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1971,
+  id: 1969,
   title: "VN-Index mất hơn 19 điểm trong phiên 1/10, STB giảm 5% nhưng thị trường vẫn có nhiều điểm sáng...",
   source: "Chuyện Bên Lề",
   sourceType: "Facebook",
@@ -28339,7 +28303,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1972,
+  id: 1970,
   title: "VIKKI DIGITAL BANK VINH DỰ NHẬN GIẢI THƯỞNG NGÂN HÀNG VIỆT NAM TIÊU BIỂU 2026 💜 Một dấu mốc...",
   source: "MB Trần",
   sourceType: "Facebook",
@@ -28357,7 +28321,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1973,
+  id: 1971,
   title: "Thị trường đa phần các mã giảm. Song HDB một cổ phiếu mình đã nói rất nhiều. Có sự bứt phá mạnh...",
   source: "Đinh Quang Huy",
   sourceType: "Facebook",
@@ -28375,7 +28339,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1974,
+  id: 1972,
   title: "Cần gửi 500-600tr kì hạn 6 tháng, khu vực HCM Bank nào ls trên 9.1 thì cmt giúp m nhé (Mình đang...",
   source: "WholesomeMango991",
   sourceType: "Facebook Group",
@@ -28393,7 +28357,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1975,
+  id: 1973,
   title: "Thiếu tiềng đã có số em chưa , cầm điện thoại nhấc máy lên gọi liền cho em 🤭🤭🤭 HDSaison",
   source: "Trần Thị Thanh Tuyền",
   sourceType: "Facebook",
@@ -28411,7 +28375,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1976,
+  id: 1974,
   title: "LÃI SUẤT CỰC ƯU ĐÃI – ĐẾN VIKKI NGAY THÔI! 🔥 Bạn đang tìm một nơi gửi tiết kiệm vừa an tâm, vừa...",
   source: "Đinh Đỗ Đài Đoan",
   sourceType: "Facebook",
@@ -28429,7 +28393,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1977,
+  id: 1975,
   title: "VAY MUA XE ĐIỆN VINFAST – ƯU ĐÃI TỐT, GIẢI NGÂN NHANH! 👉 HDBank hỗ trợ tư vấn vay mua xe điện...",
   source: "Ngô Thị Tuyết Hường",
   sourceType: "Facebook",
@@ -28447,7 +28411,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1978,
+  id: 1976,
   title: "GỬI TIỀN AN TÂM - TRI ÂN XỨNG TẦM 🎉 Chương trình quà tặng dành riêng cho KHÁCH HÀNG NỮ nhân dịp...",
   source: "Nguyễn Vũ Hoàng Liên",
   sourceType: "Facebook",
@@ -28465,7 +28429,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1979,
+  id: 1977,
   title: "HDBANK “KHỎE CỠ NÀO”? Sắp tăng vốn lên hơn 72.000 tỷ, cổ đông nhận thêm 30% cổ phiếu...",
   source: "Như Hảo",
   sourceType: "Facebook Group",
@@ -28483,7 +28447,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1980,
+  id: 1978,
   title: "T gửi HDbank 6 tháng đã đc 8.8% r",
   source: "@nganha812",
   sourceType: "Threads",
@@ -28501,7 +28465,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1981,
+  id: 1979,
   title: "Sơ đồ các nhà ga thuộc tuyến Metro số 04 (Đông Thạnh - Hiệp Phước) 📍Đơn vị triển khai: Sovico...",
   source: "Bao Nhan",
   sourceType: "Facebook",
@@ -28519,7 +28483,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1982,
+  id: 1980,
   title: "Vikki B không làm chị em ta thất vọng. Đã lên 9.6%/1 năm. KO Điều kiện. Yêu Vikki. Vikki B tiền...",
   source: "EasygoingSeal8765",
   sourceType: "Facebook Group",
@@ -28537,7 +28501,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1983,
+  id: 1981,
   title: "VIKKI BANK KÍNH GỬI QUÝ KHÁCH HÀNG ✅Lãi suất gửi tiết kiệm online lên đến 9.5% Khoản tiền >= 500...",
   source: "@genz_dangthieukpi",
   sourceType: "Threads",
@@ -28555,7 +28519,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1984,
+  id: 1982,
   title: "uy tính nên chọn những ngân hàng mua lại ngân hàng khác ạ, nếu được thuận tiện cho bạn có thể...",
   source: "@kjmmon_",
   sourceType: "Threads",
@@ -28573,7 +28537,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1985,
+  id: 1983,
   title: "Bắt đầu ngày mới bằng một ly nước. Góc chill lý tưởng cho ngày làm việc năng động. Ly nước thanh...",
   source: "Nguyễn Thư",
   sourceType: "Facebook",
@@ -28591,7 +28555,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1986,
+  id: 1984,
   title: "Ngỡ mới hôm qua hoá ra là cả Thanh Xuân ❤️ cotmoc10nam Biết ơn & Trân trọng ! HDSAISON",
   source: "Thùy Dương",
   sourceType: "Facebook",
@@ -28609,7 +28573,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1987,
+  id: 1985,
   title: "Show Khai Trương Ngân Hàng Vikki Thanh Xuân 8h sáng sớm nay. 💰🌸 Đúng kiểu vừa ngủ dậy đã xúc...",
   source: "Kim Huyền Sâm",
   sourceType: "Facebook",
@@ -28627,7 +28591,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1988,
+  id: 1986,
   title: "PURO ĐẢM NHẬN THI CÔNG HOÀN THIỆN NỘI THẤT CHO DỰ ÁN HỘI SỞ HDBANK TẠI SAIGON MARINA IFC 🔹 PURO...",
   source: "PURO Corporation",
   sourceType: "Facebook",
@@ -28645,7 +28609,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1989,
+  id: 1987,
   title: "Rất mong quý Anh Chị gần xa ủng hộ HDBank Phan Đình Phùng",
   source: "Đỗ Văn Minh",
   sourceType: "Facebook",
@@ -28663,7 +28627,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1990,
+  id: 1988,
   title: "TÔI YÊU VIKKI 💖 💕 “Dung ơi! Chị gần tới Ngân hàng em rồi nè”. 🔥 Dạ chị iu, em đang ngồi dưới...",
   source: "Dung Kim",
   sourceType: "Facebook",
@@ -28681,7 +28645,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1991,
+  id: 1989,
   title: "Chào Tháng 10☘️☘️☘️☘️ Em Yến sẵn 500 củ cần giải ngân đến hết tháng ạ ☺️ Em vẫn bán điện thoại,...",
   source: "Hải Yến",
   sourceType: "Facebook",
@@ -28699,7 +28663,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1992,
+  id: 1990,
   title: "KHAI TRƯƠNG VIKKI THUẬN THÀNH – DIỆN MẠO MỚI, HÀNH TRÌNH MỚI! 💙✨ Một dấu mốc thật đặc biệt khi...",
   source: "Nguyen Tho",
   sourceType: "Facebook",
@@ -28717,7 +28681,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1993,
+  id: 1991,
   title: "HDBank gửi online 8.8% nhắn em hỗ trợ nha 0327441730",
   source: "@donhatquyen_",
   sourceType: "Threads",
@@ -28735,7 +28699,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1994,
+  id: 1992,
   title: "Standard Chartered tăng cường kết nối tài chính Việt Nam–Hoa Kỳ Trong khuôn khổ chuyến thăm cấp...",
   source: "Standard Chartered Vietnam",
   sourceType: "Facebook",
@@ -28753,7 +28717,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1995,
+  id: 1993,
   title: "KHAI TRƯƠNG PGD THUẬN THÀNH – VIKKIBANK 🎉 Một ngày thật đặc biệt khi VikkiBank chính thức hiện...",
   source: "Ngọc Thưởng",
   sourceType: "Facebook",
@@ -28771,7 +28735,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1996,
+  id: 1994,
   title: "Sáng (2/10/2026) dự lễ khánh thành ngân hàng số Vikki Digital Bank Thuận Thành ,ngay cạnh cửa...",
   source: "Nguyễn Chiêu",
   sourceType: "Facebook",
@@ -28789,7 +28753,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1997,
+  id: 1995,
   title: "Hành trình biến căn nhà 35 năm tuổi thành 1 trụ sở mới của Vikki đã xong. Chúc mừng Vikki bank...",
   source: "Phan Tâm",
   sourceType: "Facebook",
@@ -28807,7 +28771,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1998,
+  id: 1996,
   title: "VIKKI BANK – NƠI KHÔNG GIAN KỂ CÂU CHUYỆN VỀ SỰ ĐỔI MỚI Mỗi đường nét thiết kế, mỗi khu vực làm...",
   source: "Hoa Nt",
   sourceType: "Facebook",
@@ -28825,7 +28789,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 1999,
+  id: 1997,
   title: "Nếu tiếp tục giảm sàn trong phiên 2/10, PNJ sẽ có 5 phiên giảm sàn liên tiếp, thuộc trường hợp...",
   source: "VNReport",
   sourceType: "Facebook",
@@ -28843,7 +28807,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2000,
+  id: 1998,
   title: "Tháng 10 đến rồi, năng lượng đâu hết rồi ta? 😎🔥 ✨ NĂNG LƯỢNG CỦA THÁNG MỚI ĐÂU RỒI? ✨ Hello...",
   source: "Đinh Đỗ Đài Đoan",
   sourceType: "Facebook",
@@ -28861,7 +28825,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2001,
+  id: 1999,
   title: "TRỜI K LẤY HẾT CỦA AI BAO GIỜ🤣 😅A ẤY CŨNG HỢP TÁC THEO LUÔN 🤣 🥲Nhưng cũng tủi thân khi đứng...",
   source: "Thi Nhân",
   sourceType: "Facebook",
@@ -28879,7 +28843,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2002,
+  id: 2000,
   title: "Đây là lí do em luôn nói muốn chuyển hướng kinh doanh, 15 năm mở nhà sách bán cả năm xong lại...",
   source: "Khánh Huyền Hoàng",
   sourceType: "Facebook",
@@ -28897,7 +28861,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2003,
+  id: 2001,
   title: "Chứng khoán ngày 2/10: VN-Index giảm hơn 11 điểm, nhiều cổ phiếu trụ chịu áp lực bán",
   source: "Báo Nhân Dân",
   sourceType: "Báo chí",
@@ -28910,7 +28874,7 @@ const HDBANK_FEED = [
   excerpt: "Phiên này, các mã đóng góp tích cực cho chỉ số VN-Index tăng 7,99 điểm gồm: VIC, <mark>HDB</mark>, BVH, MWG, VPL, MCH, NAB, ANV, DBC, VHC. Nhóm cổ phiếu chứng khoán phiên này nghiêng về sắc đỏ có mức giảm 2,23%, chủ yếu từ các TCX, VCK, SSI, VPX, VIX, HCM, VCI, VND, MBS, SHS, ORS, FTS BSI, CTS, ABW… Chiều ngược lại, các mã tăng gồm BMS, TCI, HAC, EVS, TVB… Nhóm cổ..."
  },
  {
-  id: 2004,
+  id: 2002,
   title: "HDBANK XIN CẢM ƠN TRIỆU KHÁCH HÀNG 🏆 Danh hiệu “Ngân hàng Bán lẻ tốt nhất châu Á” hôm nay không...",
   source: "Thuần Trung Lê",
   sourceType: "Facebook",
@@ -28928,7 +28892,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2005,
+  id: 2003,
   title: "Vikki bank 6th đầu kỳ có thay đổi không mn, mình gửi 200tr. Ưu tiên bạn nào có quà nha, chứ gửi...",
   source: "Do Phung",
   sourceType: "Facebook Group",
@@ -28946,7 +28910,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2006,
+  id: 2004,
   title: "GREEN MARATHON 2026: CÙNG HDBANK NHÌN LẠI HÀNH TRÌNH NHỮNG BƯỚC CHÂN XANH HÒA NHỊP SỐNG SỐ! ✨...",
   source: "HDBank",
   sourceType: "Facebook Fanpage",
@@ -28964,7 +28928,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2007,
+  id: 2005,
   title: "Từ cao tốc, sân bay đến các dự án PPP quy mô hàng chục nghìn tỷ đồng, cuộc đua rót vốn hạ tầng...",
   source: "Giải Mã Dòng Tiền",
   sourceType: "Facebook",
@@ -28982,7 +28946,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2008,
+  id: 2006,
   title: "BẢN TIN CASHFLOW FOCUS - Ngày 02/10/2026 Cường gửi anh chị trạng thái danh mục theo Hệ thống 5...",
   source: "Cashflow Focus - Đầu tư có kỷ luật",
   sourceType: "Facebook",
@@ -29000,7 +28964,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2009,
+  id: 2007,
   title: "Sà le chính thống HD SAISON ạ Zllll 0377,,026,,909 Nhắn bé ạ",
   source: "Thắm HD Saison",
   sourceType: "Facebook Group",
@@ -29018,7 +28982,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2010,
+  id: 2008,
   title: "Lãi suất tiết kiệm tại HDBank đang ưu đãi 8.8%/năm kỳ hạn 6 tháng. Liên hệ em Thuỷ để được tư...",
   source: "Thủy Đặng",
   sourceType: "Facebook Group",
@@ -29036,7 +29000,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2011,
+  id: 2009,
   title: "Hành trình HDBank Green Marathon 2026 tại Cần Giờ đã khép lại thành công rực rỡ. Sự kiện đọng...",
   source: "Nguyễn Thị Thảo Vy",
   sourceType: "Facebook",
@@ -29054,7 +29018,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2012,
+  id: 2010,
   title: "TIN TỨC CHỨNG KHOÁN NGÀY 02/10/2026 🏦 NHÓM DOANH NGHIỆP ĐÁNG CHÚ Ý 1. MSR – Kế hoạch chi trả...",
   source: "Cộng Đồng Đầu Tư Chứng Khoán TFI Invest",
   sourceType: "Facebook",
@@ -29072,7 +29036,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2013,
+  id: 2011,
   title: "Các bác cho em hỏi lãi suất tiết kiệm HD bank, Sacombank hay VPbank bây giờ là cao nhất ạ",
   source: "SageFox5044",
   sourceType: "Facebook Group",
@@ -29090,7 +29054,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2014,
+  id: 2012,
   title: "Ai cần lh em Linh HDss , em ship lúa kh phi 🌾🌾 , nhận đủ T ✅✅✅ 🍀🍀0337.820.081 🍀🍀",
   source: "Nguyễn Hà Mỹ Linh",
   sourceType: "Facebook Group",
@@ -29108,7 +29072,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2015,
+  id: 2013,
   title: "Chính thức quay lại đường đua trả góp! Sau bao ngày nghỉ ngơi, nay em lại tiếp tục sự nghiệp: tư...",
   source: "Ánh Nguyệt",
   sourceType: "Facebook",
@@ -29126,7 +29090,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2016,
+  id: 2014,
   title: "Đổi mood cho bản thân bằng một chuyến đi, đổi mood cho chiếc xe bằng vài món phụ tùng mới Xe vẫn...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -29144,7 +29108,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2017,
+  id: 2015,
   title: "Trả góp phụ tùng - Ô tô, xe đạp và xe đạp điện– Đăng ký liền tay tại các điểm giới thiệu dịch vụ...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -29162,7 +29126,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2018,
+  id: 2016,
   title: "Hnay 2/10 ngân hàng VIKKI đường 32 Lê Công Thanh Phường Phủ Lý chính thức Khánh Thành ngân hàng...",
   source: "Nguyễn Trọng Bình",
   sourceType: "Facebook",
@@ -29180,7 +29144,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2019,
+  id: 2017,
   title: "THÁNG 10 KHỞI ĐỘNG – LÃI SUẤT VIKKI ĐANG ƯU ĐÃI TÔT NHÉ 👍 Tháng mới lại bắt đầu, em vẫn chạy số...",
   source: "Quynh Chi",
   sourceType: "Facebook",
@@ -29198,7 +29162,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2020,
+  id: 2018,
   title: "Tự hào là một phần của Vikki! Chúc mừng Ngân hàng Số Vikki Thuận Thành chính thức ra mắt thành...",
   source: "Hải Minh Home",
   sourceType: "Facebook",
@@ -29216,7 +29180,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2021,
+  id: 2019,
   title: "𝗘𝗺 𝗛𝗮̀ 𝗩𝗮̂̃𝗻 𝗛𝗼̂̃ 𝗧𝗿𝗼̛̣ 𝗛𝗼̣̂ 𝗞𝗶𝗻𝗵 𝗗𝗼𝗮𝗻𝗵 Đ𝗶𝗲̣̂𝗻 𝗠𝗮́𝘆 𝗧𝗶𝗲̂𝘂...",
   source: "Phương Hà",
   sourceType: "Facebook",
@@ -29234,7 +29198,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2022,
+  id: 2020,
   title: "24/7 Trọn vẹn trải nghiệm cùng Ngân hàng số Vikki! ✨ Từ góc quán Vikkafe chill chill buổi sáng...",
   source: "Van Nguyen Thi Bich",
   sourceType: "Facebook",
@@ -29252,7 +29216,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2023,
+  id: 2021,
   title: "Ngân hàng huy động vốn với lãi suất lên tới 10,5%/năm Một ngân hàng vừa phát hành lô trái phiếu...",
   source: "Trụ Chứng Khoán",
   sourceType: "Facebook Group",
@@ -29270,7 +29234,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2024,
+  id: 2022,
   title: "TIN VẮN ĐẦU PHIÊN 1/10: - Dữ liệu lạm phát thấp hơn dự kiến củng cố quan điểm giữ nguyên lãi...",
   source: "Smart Momentum 2026",
   sourceType: "Facebook Group",
@@ -29288,7 +29252,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2025,
+  id: 2023,
   title: "ĐI NGÂN HÀNG MÀ CỨ NGỠ ĐANG ĐI CÀ PHÊ! Một chút xanh mát 🌿, một ly nước thơm ngon ☕, một không...",
   source: "Thư Lê",
   sourceType: "Facebook",
@@ -29306,7 +29270,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2026,
+  id: 2024,
   title: "Khối ngoại bán ròng hơn 3.300 tỷ, cổ phiếu lũ lượt lao dốc",
   source: "VnEconomy",
   sourceType: "Báo chí",
@@ -29319,7 +29283,7 @@ const HDBANK_FEED = [
   excerpt: "<mark>HDB</mark> cũng có cầu mạnh, thanh khoản tăng 2,4 lần so với phiên sáng. Ngoài VIC và <mark>HDB</mark>, 3 cổ phiếu còn lại tăng không đáng kể và cũng tác động nhỏ tới điểm số."
  },
  {
-  id: 2027,
+  id: 2025,
   title: "Nhận định thị trường ngày 2.10.2026: + VNI hôm qua giảm 19.32 điểm (-1.09%), đóng cửa tại...",
   source: "Phạm Tuấn Realinvest",
   sourceType: "Facebook Group",
@@ -29337,7 +29301,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2028,
+  id: 2026,
   title: "HDBANK PRIORITY: CÙNG NHÌN LẠI NHỮNG KHOẢNH KHẮC ĐÁNG NHỚ \"NGÀY HỘI GIA ĐÌNH 2026\" TẠI TP. HỒ...",
   source: "Kiều Khanh",
   sourceType: "Facebook",
@@ -29355,7 +29319,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2029,
+  id: 2027,
   title: "Ngân hàng số Vikki Thuận Thành chính thức khai trương! 🚀 Chào các anh em! Trải nghiệm ngay...",
   source: "Hải Minh Home",
   sourceType: "Facebook",
@@ -29373,7 +29337,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2030,
+  id: 2028,
   title: "Tại Vikki Digital Bank, mỗi lần ghé ngân hàng không chỉ để giao dịch, mà còn để gặp gỡ, trò...",
   source: "Hình Loan",
   sourceType: "Facebook",
@@ -29391,7 +29355,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2031,
+  id: 2029,
   title: "Anh/Chị có khách mua căn hộ Eco Green cần vay ngân hàng thì gửi em hỗ trợ kiểm tra phương án vay...",
   source: "Đức Huy",
   sourceType: "Facebook Group",
@@ -29409,7 +29373,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2032,
+  id: 2030,
   title: "CÙNG NHÌN LẠI NHỮNG KHOẢNH KHẮC ĐÁNG NHỚ TẠI TP. HỒ CHÍ MINH “Ngày hội Gia đình 2026” tại TP. Hồ...",
   source: "Linh Do",
   sourceType: "Facebook",
@@ -29427,7 +29391,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2033,
+  id: 2031,
   title: "VIKKI BANK BÌNH ĐỊNH - ROADSHOW “TIẾT KIỆM VIKKI - TRÚNG BÓNG VÀNG KÝ” 🚴‍♂️✨ Sáng ngày...",
   source: "Ho Phuong",
   sourceType: "Facebook",
@@ -29445,7 +29409,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2034,
+  id: 2032,
   title: "5 tin cần biết sáng nay (02.10.2026) Tin trong nước: • TP.HCM giao SJC mục tiêu lợi nhuận hơn...",
   source: "Bloomberg Businessweek Vietnam",
   sourceType: "Facebook",
@@ -29463,7 +29427,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2035,
+  id: 2033,
   title: "Giao dịch ngân hàng chưa bao giờ thư thái và \"chill\" đến thế! ☕✨ Đã bao giờ bạn nghĩ đi làm thủ...",
   source: "Tính Ngô",
   sourceType: "Facebook",
@@ -29481,7 +29445,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2036,
+  id: 2034,
   title: "Cà phê một tách sớm mai, hương thơm nhè nhẹ chẳng phai chút nào. Tinh thần phấn chấn biết bao,...",
   source: "Nhựt Huỳnh",
   sourceType: "Facebook",
@@ -29499,7 +29463,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2037,
+  id: 2035,
   title: "THÁNG CỦA NÀNG – TIỀN NHÀN SINH LỜI, AN TÂM TẬN HƯỞNG! Tháng 10 này, hãy tự thưởng cho bản thân...",
   source: "Ha Nguyen Thu",
   sourceType: "Facebook",
@@ -29517,7 +29481,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2038,
+  id: 2036,
   title: "Tiến sĩ Nguyễn Thị Phương Thảo – Tấm Lòng Tận Tâm Đằng Sau Ngân Hàng Số Vikki Nhìn vào bức hình...",
   source: "Tran Thien",
   sourceType: "Facebook",
@@ -29535,7 +29499,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2039,
+  id: 2037,
   title: "Happy birthday bạn nhé, nào cần tư vấn huy động HDBank nhắn mình nha ☺️😘",
   source: "@py.mago",
   sourceType: "Threads",
@@ -29553,7 +29517,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2040,
+  id: 2038,
   title: "Cần gửi tk 500tr tại quầy HDBank, CN gần khu vực Xuân Hoà, Q3, bạn nào làm kv này báo lãi suất +...",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -29571,7 +29535,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2041,
+  id: 2039,
   title: "MỘT NGÀY TỚI CƠ QUAN SỚM… 💙💜 Không gian còn yên ắng, nhưng tinh thần đã sẵn sàng cho một ngày...",
   source: "Nhung Bi",
   sourceType: "Facebook",
@@ -29589,7 +29553,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2042,
+  id: 2040,
   title: "VN-INDEX: RỦI RO NGẮN HẠN GIA TĂNG, CHỜ XUẤT HIỆN PHIÊN HỒI. VN-Index giảm 4 phiên liên tiếp,...",
   source: "Cổ Phiếu Trước Sóng",
   sourceType: "Facebook Group",
@@ -29607,7 +29571,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2043,
+  id: 2041,
   title: "Phiên giao dịch 02/10 - Cắt lỗ mạnh hơn , dòng tiền vẫn đủng đỉnh … ✅ VNINDEX phiên hôm qua tiếp...",
   source: "Chứng Khoán Mỗi Ngày - Red Investment",
   sourceType: "Facebook Group",
@@ -29625,7 +29589,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2044,
+  id: 2042,
   title: "HDBank Nghệ An đồng hành “Tiếp sức đến trường” tại xã Hữu Kiệm Sáng 01/10/2026, HDBank Nghệ An...",
   source: "HDBank Nghệ An",
   sourceType: "Facebook Fanpage",
@@ -29643,7 +29607,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2045,
+  id: 2043,
   title: "TỰ HÀO DẤU ẤN VIKKI TẠI VIETNAM BANKING AWARDS 2026 💜 Một cột mốc đáng nhớ khi Vikki Digital...",
   source: "Đỗ Tấn Đạt",
   sourceType: "Facebook",
@@ -29661,7 +29625,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2046,
+  id: 2044,
   title: "Chỉ số Vnindex đoạn này dễ còn giảm tiếp! Đáng lí ra, Vnindex phải là đại diện cho số đông cổ...",
   source: "Vps Thương",
   sourceType: "Facebook Group",
@@ -29679,7 +29643,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2047,
+  id: 2045,
   title: "Thư mời khai trương trụ sở mới! Hôm nay ngày 02/10/2026 Ngân hàng Số Vikki Đông Hưng tổ chức...",
   source: "Giang Tran",
   sourceType: "Facebook",
@@ -29697,7 +29661,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2048,
+  id: 2046,
   title: "Kết thúc quý cũ và bắt đầu quý cuối năm đầy năng lượng. Hdbank tài trợ vốn kinh doanh, tiêu dùng...",
   source: "Nguyễn Đức Mười",
   sourceType: "Facebook",
@@ -29715,7 +29679,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2049,
+  id: 2047,
   title: "VIKKI – ĐIỂM HẸN NGÂN HÀNG SỐ | CHẠM VÀO TƯƠNG LAI Có những thay đổi bắt đầu chỉ từ một lần...",
   source: "Nguyễn Trung Châu",
   sourceType: "Facebook",
@@ -29733,7 +29697,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2050,
+  id: 2048,
   title: "VINH DANH VIKKI BANK !!!! Một niềm vui lớn khi VikkiONE Connect được vinh danh tại Giải thưởng...",
   source: "Đặng Hoàng Nam",
   sourceType: "Facebook",
@@ -29751,7 +29715,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2051,
+  id: 2049,
   title: "CHÚC MỪNG SINH NHẬT CBNV THÁNG 09/2026 💐 - Tháng 9/ 2026 của Vikki Bank Ninh Thuận khép lại với...",
   source: "Hùng Thái",
   sourceType: "Facebook",
@@ -29769,7 +29733,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2052,
+  id: 2050,
   title: "Khối ngoại xả lớn ở PNJ, đà giảm giá vẫn loang rộng",
   source: "VnEconomy",
   sourceType: "Báo chí",
@@ -29782,7 +29746,7 @@ const HDBANK_FEED = [
   excerpt: "Ngoài PNJ, có TCB khớp 203,8 tỷ đồng, STB khớp 155 tỷ, VPB khớp 143,7 tỷ, <mark>HDB</mark> khớp 127,6 tỷ, giá giảm 1,07%, NVL khớp 103,6 tỷ, giá giảm 1,92%, VND khớp 73 tỷ, giá giảm 1,46%, GEX khớp 70,8 tỷ, giá giảm 2,11%..."
  },
  {
-  id: 2053,
+  id: 2051,
   title: "Cái gì ở Vikki Digital Bank có mà những Ngân hàng số khác không có? ☕ Vikkafé! Tuyệt vời, uống...",
   source: "Vân Nguyễn",
   sourceType: "Facebook",
@@ -29800,7 +29764,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2054,
+  id: 2052,
   title: "Lãi suất ngân hàng hôm nay 2/10/2026: Hai 'ông lớn' cộng thêm tới 1,8 điểm %",
   source: "VietNamNet",
   sourceType: "Báo chí",
@@ -29813,7 +29777,7 @@ const HDBANK_FEED = [
   excerpt: "Lãi suất ngân hàng hôm nay, 2/10/2026, ghi nhận diễn biến đáng chú ý khi Techcombank và VPBank cùng triển khai chương trình cộng thêm lãi suất tiền gửi nhân dịp kỷ niệm ngày thành lập ngân hàng."
  },
  {
-  id: 2055,
+  id: 2053,
   title: "Hai cái tên còn lại trong nhóm tỷ cổ phiếu là HDBank và VPBank 📅 HDBank chốt ngày 12/10 là hạn...",
   source: "@0x.minkwuang",
   sourceType: "Threads",
@@ -29831,7 +29795,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2056,
+  id: 2054,
   title: "NGÀY MỚI HỨNG KHỞI CÙNG VIKKI 💜 Mỗi ngày mới bắt đầu từ những điều thật giản dị: một ly cà phê...",
   source: "Hanh Nguyen",
   sourceType: "Facebook",
@@ -29849,7 +29813,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2057,
+  id: 2055,
   title: "AE cho lời khuyên với! Giờ mình trả hết 9tr HD Saison là hết nợ xấu phải không mọi người? Nghe...",
   source: "Quảng_Ngãi_85",
   sourceType: "Facebook Group",
@@ -29867,7 +29831,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2058,
+  id: 2056,
   title: "NHẬN ĐỊNH THỊ TRƯỜNG NGÀY 2/10/2026: THANH KHOẢN CẠN KIỆT - KHI NÀO THỊ TRƯỜNG CÂN BẰNG? Dear...",
   source: "Hệ thống đầu tư Atagetz",
   sourceType: "Facebook",
@@ -29885,7 +29849,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2059,
+  id: 2057,
   title: "Good people. Great team. Best memories. ✨hdbank enjoy bestmemories❤️",
   source: "@kayasth_prakhar_shrivastav0089",
   sourceType: "Threads",
@@ -29903,7 +29867,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2060,
+  id: 2058,
   title: "HDSAISON hỗ trợ mở rộng khoản vay cho tất cả các khách hàng mới và cũ🎉 👉 𝐕𝐚𝐲 𝟓𝟎𝐭𝐫 :...",
   source: "@tieeuhaanw_5555",
   sourceType: "Threads",
@@ -29921,7 +29885,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2061,
+  id: 2059,
   title: "Mở hàng quý 4 siêu ưnggg🤭🤭🤭 HDBank HDBankPriority",
   source: "Ngoc Phuong Nguyen",
   sourceType: "Facebook",
@@ -29939,7 +29903,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2062,
+  id: 2060,
   title: "tiếp câu chuyện HDBank Cầu Giấy 🎉 Hành trình mới luôn rực rỡ & hoàn thành xuất sắc nhiệm vụ nha...",
   source: "Nguyễn Thùy Dung",
   sourceType: "Facebook",
@@ -29957,7 +29921,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2063,
+  id: 2061,
   title: "PNJ có nguy cơ phải giải trình về tình trạng giá cổ phiếu Kinh doanh Minh Khánh Thứ năm,...",
   source: "Vũ Trịnh",
   sourceType: "Facebook",
@@ -29975,7 +29939,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2064,
+  id: 2062,
   title: "Một dấu ấn đầy tự hào của Vikki! 💜 VikkiONE Connect vinh dự được gọi tên tại Giải thưởng Ngân...",
   source: "Uyên Thi",
   sourceType: "Facebook",
@@ -29993,7 +29957,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2065,
+  id: 2063,
   title: "Mấy ông chê cổ phiếu ngân hàng thế nọ thế kia... thì nên mở rộng góc nhìn ra xem toàn cảnh. Diễn...",
   source: "Long Bùi và Chứng khoán",
   sourceType: "Facebook Group",
@@ -30011,7 +29975,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2066,
+  id: 2064,
   title: "ƯU ĐÃI HẤP DẪN TẠI HDBANK LẬP THẠCH Lãi suất chỉ từ 0,8x%/tháng. 💼 Vay Sản Xuất Kinh Doanh 🌾...",
   source: "Duy Tiến",
   sourceType: "Facebook",
@@ -30029,7 +29993,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2067,
+  id: 2065,
   title: "THƯ MỜI GIAO DỊCH – GỬI TIỀN TẠI VIKKI DIGITAL BANK 🌟 Kính mời Quý khách ghé Ngân hàng số Vikki...",
   source: "Nguyễn Trọng Bình",
   sourceType: "Facebook",
@@ -30047,7 +30011,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2068,
+  id: 2066,
   title: "Có 90 triệu. Xin lãi suất tốt nhất 6,9,12 tháng của ngân hàng HDbank, LPBank",
   source: "Anonymous participant",
   sourceType: "Facebook Group",
@@ -30065,7 +30029,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2069,
+  id: 2067,
   title: "ƯU ĐÃI HẤP DẪN TẠI HDBANK Lãi suất chỉ từ 0,8x%/tháng. 💼 Vay Sản Xuất Kinh Doanh 🌾 Vay Nông...",
   source: "Vũ Ngọc Ánh",
   sourceType: "Facebook",
@@ -30083,7 +30047,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2070,
+  id: 2068,
   title: "May mắn có thể ghé đến bất ngờ, nhưng một tương lai vững vàng luôn bắt đầu từ những lựa chọn hôm...",
   source: "Dong Nguyen",
   sourceType: "Facebook",
@@ -30101,7 +30065,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2071,
+  id: 2069,
   title: "THƯ MỜI KHAI TRƯƠNG] - ĐIỂM HẸN TÀI CHÍNH VIKKI BANK QUẢNG NINH 🎉 ✨ Hành trình kiến tạo những...",
   source: "Cú Vọ",
   sourceType: "Facebook",
@@ -30119,7 +30083,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2072,
+  id: 2070,
   title: "Chúc mừng HDB Cư Kuin hôm nay niềm vui nhân đôi Chúc mừng 2 tân Phó phòng! 😘💕🎉🥂",
   source: "Toc Xu",
   sourceType: "Facebook",
@@ -30137,7 +30101,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2073,
+  id: 2071,
   title: "VN-INDEX MẤT 1.750 ĐIỂM NHƯNG PHẢI TÁCH ẢNH HƯỞNG CỦA VIC KHỎI SỨC KHỎE THẬT CỦA THỊ TRƯỜNG...",
   source: "Chứng Khoán Hạnh Phúc",
   sourceType: "Facebook",
@@ -30155,7 +30119,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2074,
+  id: 2072,
   title: "Gần 350 tỷ đồng bị rút ròng chỉ trong một phiên tại đúng hai mã ngân hàng lớn – khối tự doanh...",
   source: "Titanlabs - Stock AI Agent",
   sourceType: "Facebook",
@@ -30173,7 +30137,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2075,
+  id: 2073,
   title: "Kết thúc một ngày làm việc với ngân hàng HDbank với mong muốn tìm ra được ngân hàng đồng hành và...",
   source: "Nhà Ở Xã Hội Vĩnh Phúc",
   sourceType: "Facebook",
@@ -30191,7 +30155,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2076,
+  id: 2074,
   title: "Chắc HDbank sẽ tuyển nhiều :))",
   source: "@doanlangzzz",
   sourceType: "Threads",
@@ -30209,7 +30173,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2077,
+  id: 2075,
   title: "Welcome to HDBank Cư Kuin ✌️ \"Nhà tụi mình\" vốn đã đông con rồi, nay còn đông zui hơn. Tạm biệt...",
   source: "Nguyễn Vũ Hoàng Liên",
   sourceType: "Facebook",
@@ -30227,7 +30191,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2078,
+  id: 2076,
   title: "HDBank Cam kết Lợi ích cao nhất 👍 TuHaoHDBank",
   source: "Ánh Thu",
   sourceType: "Facebook",
@@ -30245,7 +30209,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2079,
+  id: 2077,
   title: "NGÀY TIẾP KHÁCH – TỐI TỰ ĐÀO TẠO 💚📚 Ban ngày hết mình tiếp khách – xử lý công việc – giải...",
   source: "Ánh Thu",
   sourceType: "Facebook",
@@ -30263,7 +30227,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2080,
+  id: 2078,
   title: "HDBANK XIN CẢM ƠN TRIỆU KHÁCH HÀNG về Danh hiệu “Ngân hàng Bán lẻ tốt nhất châu Á” CTr...",
   source: "Chuong Phan",
   sourceType: "Facebook",
@@ -30281,7 +30245,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2081,
+  id: 2079,
   title: "Sang tới năm thứ bảy yêu thương nhau. Chứng kiến bao nỗ lực cố gắng của Chị mình. Hôm nay các em...",
   source: "Ly Amanda",
   sourceType: "Facebook",
@@ -30299,7 +30263,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2082,
+  id: 2080,
   title: "Tháng mới, thêm một sự tin tưởng mới. Ngày đầu tháng 10, thêm một sổ tiết kiệm 500 triệu – kỳ...",
   source: "Võ Minh Đăng",
   sourceType: "Facebook",
@@ -30317,7 +30281,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2083,
+  id: 2081,
   title: "GÓC LÀM VIỆC TẠI NGÂN HÀNG SỐ VIKKI 💜 Một góc nhỏ xanh mát, ngập sắc hoa – nơi công việc thêm...",
   source: "Huong Ninh",
   sourceType: "Facebook",
@@ -30335,7 +30299,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2084,
+  id: 2082,
   title: "CHÀO THÁNG 10 – THÁNG TÔN VINH PHỤ NỮ VIỆT NAM! 🌷 Tháng của những người phụ nữ bản lĩnh trong...",
   source: "Thanh Hương",
   sourceType: "Facebook",
@@ -30353,7 +30317,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2085,
+  id: 2083,
   title: "Cuộc đời đôi khi phải có Lúc Này ... Lúc Kia.Mà Lúc Kia 1 cái mình đi ăn trứng lộn gấp à 😄 Kể...",
   source: "Tuyền Thanh",
   sourceType: "Facebook",
@@ -30371,7 +30335,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2086,
+  id: 2084,
   title: "VIKKI DIGITAL BANK – DẤU ẤN TẠI GIẢI THƯỞNG NGÂN HÀNG VIỆT NAM TIÊU BIỂU 2026 💜 Một dấu mốc...",
   source: "Hoàng Minh",
   sourceType: "Facebook",
@@ -30389,7 +30353,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2087,
+  id: 2085,
   title: "VIKKI – ĐIỂM HẸN NGÂN HÀNG SỐ, CHẠM CẢM HỨNG – BẬT TƯƠNG LAI! ✨ Một ngày thật rực rỡ cùng Vikki...",
   source: "Đỗ Quang Hưng",
   sourceType: "Facebook",
@@ -30407,7 +30371,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2088,
+  id: 2086,
   title: "DUY NHẤT NGÀY MAI – 02/10, GỬI TIẾT KIỆM VIKKI, NHẬN QUÀ XINH! 💜 Ngày mai, 02/10/2026, Ngân...",
   source: "Hương Thảo",
   sourceType: "Facebook",
@@ -30425,7 +30389,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2089,
+  id: 2087,
   title: "BẢN TIN CHỨNG KHOÁN CUỐI NGÀY 01/10/2026 📈 Tổng quan thị trường - VN‑Index: 1,749.3 điểm, giảm...",
   source: "Chứng khoán Phú Hưng - PHS",
   sourceType: "Facebook",
@@ -30443,7 +30407,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2090,
+  id: 2088,
   title: "Quý IV/2026 bắt đầu bằng một phiên giảm mạnh. VN-Index rung lắc ngay từ những phút đầu tiên. Đến...",
   source: "Nhadautu79",
   sourceType: "Facebook",
@@ -30461,7 +30425,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2091,
+  id: 2089,
   title: "Tại Vikki Digital Bank, tôi học tập mỗi ngày để phục vụ bạn tốt hơn. Chủ động tham gia nâng cấp...",
   source: "Hải Minh Home",
   sourceType: "Facebook",
@@ -30479,7 +30443,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2092,
+  id: 2090,
   title: "CHÚC MỪNG KHÁCH HÀNG VIKKI BANK! 🎉 Tiết kiệm tại Vikki Bank – Trúng Bóng Vàng Kỵ, nhận quà giá...",
   source: "Nguyễn Tuấn",
   sourceType: "Facebook",
@@ -30497,7 +30461,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2093,
+  id: 2091,
   title: "Tổng hợp phiên giao dịch đầu tháng 10/2026] Thị trường chứng khoán Việt Nam mở cửa phiên giao...",
   source: "Nguyễn Khắc Vương",
   sourceType: "Facebook Group",
@@ -30515,7 +30479,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2094,
+  id: 2092,
   title: "Chỉ vì miếng ăn mà cả nhà mất đoàn kết! 🍰 Bước tới - Tiền vào - Nhận ưu đãi tại:...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -30533,7 +30497,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2095,
+  id: 2093,
   title: "THÔNG BÁO (V/v Thay đổi địa điểm kinh doanh Phòng giao dịch Hồng Dân) Kính gửi: Quý Khách hàng...",
   source: "Nguyen Nhan",
   sourceType: "Facebook",
@@ -30551,7 +30515,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2096,
+  id: 2094,
   title: "LẠI THÊM MỘT KHÁCH HÀNG CỦA CN PHÚ YÊN RINH VÀNG VỀ NHÀ CHƯƠNG TRÌNH TIẾT KIỆM VIKKI – TRÚNG...",
   source: "Ngân Hàng Số Vikki - Chi Nhánh Phú Yên",
   sourceType: "Facebook",
@@ -30569,7 +30533,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2097,
+  id: 2095,
   title: "NIỀM VUI TỪ TIẾT KIỆM – MAY MẮN ĐÃ GỌI TÊN KHÁCH HÀNG VIKKI! 🎉 Một khoảnh khắc thật vui khi...",
   source: "Nguyễn Trung Châu",
   sourceType: "Facebook",
@@ -30587,7 +30551,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2098,
+  id: 2096,
   title: "HDBANK PHÁT HÀNH HƠN 1,5 TỶ CỔ PHIẾU TRẢ CỔ TỨC VÀ TĂNG VỐN 📈 Ngân hàng TMCP Phát triển TP.HCM...",
   source: "Hiệp hội Ngân hàng Việt Nam",
   sourceType: "Facebook",
@@ -30605,7 +30569,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2099,
+  id: 2097,
   title: "VIKKIBANK THÁI NGUYÊN – TRAO GIỌT MÁU HỒNG, GỬI TRỌN YÊU THƯƠNG! 🩸 Ngày hội hiến máu của...",
   source: "Huong Nguyen",
   sourceType: "Facebook",
@@ -30623,7 +30587,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2100,
+  id: 2098,
   title: "TOP CÁC GÓI TIÊU DÙNG KHÔNG CẦN GỌI NGƯỜI THANNN CỦA HD SAISON HD SAISON",
   source: "Đặng Thị Dơn",
   sourceType: "Facebook",
@@ -30641,7 +30605,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2101,
+  id: 2099,
   title: "AI ĐANG LƯỚT ĐẾN ĐÂY — 03/10 NHỚ QUAY LẠI! 🔥 LIVE HDBank Lý Thường Kiệt 🎁 Quà đang chờ 💥 Deal...",
   source: "HDBank Lý Thường Kiệt Vũng Tàu",
   sourceType: "Facebook Fanpage",
@@ -30659,7 +30623,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2102,
+  id: 2100,
   title: "Vikki Bank mang tiện ích số đến gần hơn với giảng đường đại học - Cùng Vikki Bank khám phá những...",
   source: "@iam.thzy1812",
   sourceType: "Threads",
@@ -30677,7 +30641,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2103,
+  id: 2101,
   title: "VN-INDEX GIẢM 19 ĐIỂM: CỔ PHIẾU KÊNH TRÊN GIẢM BÙ, NHÓM KÊNH DƯỚI BẮT ĐẦU GIỮ ĐÁY VN-Index kết...",
   source: "TechProfit",
   sourceType: "Facebook Group",
@@ -30695,7 +30659,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2104,
+  id: 2102,
   title: "Đến Vikki để khám phá những tiện ích ngân hàng hiện đại, dịch vụ nhanh chóng và đội ngũ nhân...",
   source: "Minh Thuan Le",
   sourceType: "Facebook",
@@ -30713,7 +30677,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2105,
+  id: 2103,
   title: "LỊCH SỬ SÁP NHẬP SÀN HNX VÀO HOSE — CƠN SỐT DẦU 103 ĐÔ: VN-INDEX 1.768 ĐIỂM SẮP ĐẢO CHIỀU?...",
   source: "Khôi Nguyễn HS - Tư Duy Đầu Tư",
   sourceType: "Facebook",
@@ -30731,7 +30695,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2106,
+  id: 2104,
   title: "HDBank Từ Sơn tài trợ gói VAY ƯU ĐÃI cho khách hàng: 👉 Vay bổ sung vốn kinh doanh 👈 Lãi suất...",
   source: "Linh Linh",
   sourceType: "Facebook",
@@ -30749,7 +30713,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2107,
+  id: 2105,
   title: "11h TRƯA NGÀY 3/10 – CÓ GÌ ĐÓ RẤT “KHÔNG ỔN” TRÊN TIKTOK HDBANK ĐỒNG THÁP 👀 Bạn nghĩ livestream...",
   source: "Nhất Nguyên",
   sourceType: "Facebook",
@@ -30767,7 +30731,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2108,
+  id: 2106,
   title: "LÃI SUẤT NGÂN HÀNG 1/10: GỬI Ở ĐÂU NHẬN 10%/NĂM? Đáng chú ý, mức lãi suất huy động cao nhất hiện...",
   source: "Vietnam Banking News",
   sourceType: "Facebook",
@@ -30785,7 +30749,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2109,
+  id: 2107,
   title: "CUỘC ĐUA TĂNG VỐN NGÂN HÀNG: HÀNG TỶ CỔ PHIẾU ĐỔ BỘ THỊ TRƯỜNG! 🔥 Bốn nhà băng đồng loạt công...",
   source: "Minh Hiếu",
   sourceType: "Facebook",
@@ -30803,7 +30767,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2110,
+  id: 2108,
   title: "HDB chuẩn bị phát hành thêm 1,5 tỷ cổ phiếu Cổ đông HDB sẽ nhận 25% cổ tức + 5% cổ phiếu thưởng,...",
   source: "Nguyễn Đức Thập",
   sourceType: "Facebook",
@@ -30821,7 +30785,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2111,
+  id: 2109,
   title: "HDB chuẩn bị phát hành thêm 1,5 tỷ cổ phiếu Cổ đông HDB sẽ nhận 25% cổ tức + 5% cổ phiếu thưởng,...",
   source: "@nhaphantichvn",
   sourceType: "Threads",
@@ -30839,7 +30803,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2112,
+  id: 2110,
   title: "HDBank chốt quyền nhận cổ tức và cổ phiếu thưởng tổng tỷ lệ 30% HDB",
   source: "Tạp chí Mekong ASEAN",
   sourceType: "Facebook",
@@ -30857,7 +30821,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2113,
+  id: 2111,
   title: "CHÚC MỪNG SINH NHẬT ĐỒNG NGHIỆP THÁNG 10 - ẤM ÁP NHÀ VIKKIBANK NINH THUẬN! 🎉 Hôm nay, tập thể...",
   source: "Hoàng Phạm Vikkibank",
   sourceType: "Facebook",
@@ -30875,7 +30839,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2114,
+  id: 2112,
   title: "Chuyện Nghề Phía Sau Ô Kính: Khi Con Số Cất Lời Văn 🌿🍂 Tôi bước vào HDBank bằng hành trang “kỳ...",
   source: "HDBank Hoàn Kiếm",
   sourceType: "Facebook Fanpage",
@@ -30893,7 +30857,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2115,
+  id: 2113,
   title: "LỄ KHÁNH THÀNH TRỤ SỞ MỚI – VIKKIBANK CN CÀ MAU 🎉 ✨ Ngày 30/09/2026, VikkiBank – Chi nhánh Cà...",
   source: "Tran Thanh Hau",
   sourceType: "Facebook",
@@ -30911,7 +30875,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2116,
+  id: 2114,
   title: "Vikki Digital Bank Ngô Quyền - TP. Hải Phòng khoác áo mới đã sẵn sàng chào đón khách hàng. 💜...",
   source: "Le Phong",
   sourceType: "Facebook",
@@ -30929,7 +30893,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2117,
+  id: 2115,
   title: "Lấy chiếc su xì po qua nhà em đi dạo phố… Hỗ trợ mua xe chả gốp cả nhà ơi, giá cạnh tranh Lãi...",
   source: "Thu Thuỷ",
   sourceType: "Facebook",
@@ -30947,7 +30911,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2118,
+  id: 2116,
   title: "Đã vào học nhưng em vẫn hỗ trợ góp nhiếu như nhà mình cần nha 🌻 Giá xe ưu đãi 🌻 Quà tặng hấp...",
   source: "Nguyễn Thị Kim Phụng",
   sourceType: "Facebook Group",
@@ -30965,7 +30929,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2119,
+  id: 2117,
   title: "Hello tháng 10 ❤️ Đầu tháng cho em “sĩ” chút ạ, khoe cả nhà chút thành tích tham gia Hội thao...",
   source: "Quynhanh Dinh",
   sourceType: "Facebook",
@@ -30983,7 +30947,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2120,
+  id: 2118,
   title: "HDBank chốt chia cổ tức và cổ phiếu thưởng tỷ lệ 30% CHI TIẾT👇",
   source: "Nguyễn Khắc Vương",
   sourceType: "Facebook Group",
@@ -31001,7 +30965,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2121,
+  id: 2119,
   title: "CỔ PHIẾU HDB (HDBANK): GÓC NHÌN KỸ THUẬT I. PHÂN TÍCH KỸ THUẬT: MẪU HÌNH DẠNG VCP Trên khung...",
   source: "Đinh Quang Huy",
   sourceType: "Facebook Group",
@@ -31019,7 +30983,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2122,
+  id: 2120,
   title: "CHÀO THÁNG 10 – THÁNG CỦA PHỤ NỮ 🌷💖 Tháng 10 – tháng để yêu thương, trân trọng và dành những...",
   source: "Phưnz Phạm",
   sourceType: "Facebook",
@@ -31037,7 +31001,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2123,
+  id: 2121,
   title: "SALE CHÍNH THỐNG HD SAISON. ANH CHỊ CÓ NHU CẦU VA.Y NHẮN EM HỖ TRỢ MIENPHI 0913908254",
   source: "HD Saison Ngân",
   sourceType: "Facebook Group",
@@ -31055,7 +31019,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2124,
+  id: 2122,
   title: "Chào ngày mới hứng khởi cùng Vikki, Vikki luôn có mặt đồng hành cùng bạn trên mọi khoảnh khắc...",
   source: "Lan Ha",
   sourceType: "Facebook",
@@ -31073,7 +31037,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2125,
+  id: 2123,
   title: "HELLO THÁNG 10! 💜 🎉Tháng mới, năng lượng mới, khởi đầu mới! ✨ ✌️Cùng Vikki Digital Bank bật...",
   source: "Nguyễn Tống Dũ",
   sourceType: "Facebook",
@@ -31091,7 +31055,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2126,
+  id: 2124,
   title: "bên em vẫn làm trả góp qua HD saison làm trả góp 0 đồng",
   source: "@suongnguyentien",
   sourceType: "Threads",
@@ -31109,7 +31073,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2127,
+  id: 2125,
   title: "Gặp nhau rồi thiệt khó lìa xa, cũng vì vậy mà Ngọc và Tấm mới có cơ hội tám chuyện về quán của...",
   source: "Ngân hàng Số Vikki",
   sourceType: "Facebook Fanpage",
@@ -31127,7 +31091,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2128,
+  id: 2126,
   title: "Vikki Digital Bank chào mừng ngày Quốc tế người cao tuổi 01/10❤️ Vikki Vikkibank...",
   source: "Thuy Le",
   sourceType: "Facebook",
@@ -31145,7 +31109,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2129,
+  id: 2127,
   title: "BỨC THƯ TÌNH của NHÂN VIÊN 18 năm đi qua HDSAISON được làm việc với nhiều thế hệ, có người đến,...",
   source: "Chinh Nguyễn",
   sourceType: "Facebook",
@@ -31163,7 +31127,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2130,
+  id: 2128,
   title: "Vikki bank Thái Nguyên Ly cà phê thơm ngon Quà tặng ngập tràn Lãi suất ưu đãiiiii Cùng dắt tay...",
   source: "@duy.tute",
   sourceType: "Threads",
@@ -31181,7 +31145,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2131,
+  id: 2129,
   title: "Họp giao ban đầu tháng không chỉ là dịp nhìn lại kết quả đã đạt được mà còn là thời điểm tiếp...",
   source: "@dielevan",
   sourceType: "Threads",
@@ -31199,7 +31163,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2132,
+  id: 2130,
   title: "CHÀO MỪNG NGÀY QUỐC TẾ NGƯỜI CAO TUỔI 1/10 ⏳ Có một hành trình mang tên thời gian, nơi những năm...",
   source: "Ngân hàng Số Vikki",
   sourceType: "Facebook Fanpage",
@@ -31217,7 +31181,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2133,
+  id: 2131,
   title: "Đề nghị HDBank xoá ngay tài khoản thanh toán này nhé, tôi đâu có đăng ký mở tài khoản với ngân...",
   source: "Vương DrCuong Ps",
   sourceType: "Facebook",
@@ -31235,7 +31199,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2134,
+  id: 2132,
   title: "Đề nghị HDBank xoá ngay tài khoản thanh toán này nhé, tôi đâu có đăng ký mở tài khoản với ngân...",
   source: "@dr.cuong.plastic_surgeon",
   sourceType: "Threads",
@@ -31253,7 +31217,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2135,
+  id: 2133,
   title: "VikkiBank Chi nhánh Bình Định – Chủ động học tập, sẵn sàng giao dịch trên hệ thống mới! Nhằm...",
   source: "Chí Ân",
   sourceType: "Facebook",
@@ -31271,7 +31235,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2136,
+  id: 2134,
   title: "Tin vui cho khách đây ạ Bắt đầu từ hôm nay 1/10 tại điện thoại Đại Phúc sẽ có nhân viên tài...",
   source: "Phạm Huyền",
   sourceType: "Facebook",
@@ -31289,7 +31253,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2137,
+  id: 2135,
   title: "NGÀY MỚI HỨNG KHỞI CÙNG VIKKI 💜 Ngân hàng số Vikki chào tháng 10. Từ ly Vikkafe buổi sáng,...",
   source: "Nguyễn Thư",
   sourceType: "Facebook",
@@ -31307,7 +31271,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2138,
+  id: 2136,
   title: "TƯNG BỪNG LỄ KHÁNH THÀNH NGÂN HÀNG SỐ VIKKI – CHI NHÁNH CÀ MAU 🎉 Một dấu mốc mới – một hành...",
   source: "Tuyen Duong",
   sourceType: "Facebook",
@@ -31325,7 +31289,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2139,
+  id: 2137,
   title: "anh em cần quẹt thẻ tín dụng lấy tiền mặt qua bên em nhé bên em có máy quẹt thẻ tất cả các ngân...",
   source: "@suongnguyentien",
   sourceType: "Threads",
@@ -31343,7 +31307,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2140,
+  id: 2138,
   title: "HD SAISON Hỗ trợ các gói tiêu dùng Liên hệ em ngay để kiêm tra hạn mức miễn phí : 0932.037.286 (...",
   source: "Vay Vốn Ngân Hàng Trà Vinh",
   sourceType: "Facebook",
@@ -31361,7 +31325,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2141,
+  id: 2139,
   title: "TÔN VINH MỘT NỬA YÊU THƯƠNG – NHẬN QUÀ SANG CÙNG HDBANK LONG BÌNH! Tháng 10 này, hãy để HDBank...",
   source: "Kimpha Lê",
   sourceType: "Facebook",
@@ -31379,7 +31343,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2142,
+  id: 2140,
   title: "Tháng mới, khởi đầu mới! 🌸 Chúc cho mọi việc trong tháng này đều thật suôn sẻ, thuận lợi và...",
   source: "Tiến Nguyễn",
   sourceType: "Facebook",
@@ -31397,7 +31361,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2143,
+  id: 2141,
   title: "HDBANK XIN CẢM ƠN TRIỆU KHÁCH HÀNG 🥰HDBankActivationDay HD028723",
   source: "Ngocthong Pham",
   sourceType: "Facebook",
@@ -31415,7 +31379,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2144,
+  id: 2142,
   title: "Sẵn sàng cùng Ngân hàng số Vikki Cà Mau quockieuevent tochucsukienquockieu tochucsukiencamau...",
   source: "QUỐC KIỀU EVENT",
   sourceType: "Facebook",
@@ -31433,7 +31397,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2145,
+  id: 2143,
   title: "HDBank chốt ngày phát hành 1,5 tỷ cổ phiếu để tăng vốn: Mỗi cổ đông cầm 100 cổ sắp được “tặng”...",
   source: "Nguyen Xuan Tung",
   sourceType: "Facebook Group",
@@ -31451,7 +31415,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2146,
+  id: 2144,
   title: "HDB chốt chia cổ tức và cổ phiếu thưởng tổng tỷ lệ 30% — cổ đông sắp “nhận quà lớn”?",
   source: "Quỳnh Hoa",
   sourceType: "Facebook Group",
@@ -31469,7 +31433,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2147,
+  id: 2145,
   title: "Các cổ phiếu nóng được phân tích trong báo cáo của Phòng Tư vấn Vietstock gồm: BID, BSR, BVH,...",
   source: "Vietstock",
   sourceType: "Facebook",
@@ -31487,7 +31451,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2148,
+  id: 2146,
   title: "HELLO AMERICA – VIKKI DIGITAL BANK CÙNG NHỮNG NHỊP CẦU VƯƠN XA 🗽✨ Giữa những ngày New York trở...",
   source: "Tham Tran",
   sourceType: "Facebook",
@@ -31505,7 +31469,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2149,
+  id: 2147,
   title: "NÓNG: HDBank chốt chia cổ tức và cổ phiếu thưởng tỷ lệ 30%👇",
   source: "Chứng khoán F88",
   sourceType: "Facebook Group",
@@ -31523,7 +31487,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2150,
+  id: 2148,
   title: "Hôm nay tự hào về mình một chút… có được không ạ? Từ BVH – GVR – FRT đến PLX – PVS – HDB 🌸 Mỗi...",
   source: "Nga Candy",
   sourceType: "Facebook",
@@ -31541,7 +31505,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2151,
+  id: 2149,
   title: "HDBank ra thẻ tín dụng onl dựa trên 1 trong các hình thức sau: (1) khách đã có thẻ tín dụng từ...",
   source: "Ha Phuong Hdb",
   sourceType: "Facebook Group",
@@ -31559,7 +31523,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2152,
+  id: 2150,
   title: "HDB tung “combo” 30% cổ tức và cổ phiếu thưởng - cổ đông sắp có thêm hàng về tài khoản",
   source: "Quỳnh Hoa",
   sourceType: "Facebook Group",
@@ -31577,7 +31541,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2153,
+  id: 2151,
   title: "KHỞI ĐẦU THÁNG MỚI – LAN TỎA YÊU THƯƠNG CÙNG VIKKI BANK 🩸💙 Bắt đầu tháng 10 bằng sự cho đi tại...",
   source: "Ngân Hạnh",
   sourceType: "Facebook",
@@ -31595,7 +31559,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2154,
+  id: 2152,
   title: "Vikki Digital Bank Luỹ Bán Bích - TP.HCM khoác áo mới đã sẵn sàng chào đón khách hàng 📍 Ghé...",
   source: "Le Hoang",
   sourceType: "Facebook",
@@ -31613,7 +31577,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2155,
+  id: 2153,
   title: "2016 – 2026. Mười năm- một hành trình sẻ chia. ❤️ Ngày ấy là những chuyến đi mang yêu thương đến...",
   source: "Nguyễn Mạnh Hà",
   sourceType: "Facebook",
@@ -31631,7 +31595,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2156,
+  id: 2154,
   title: "TRAO HỌC BỔNG – TIẾP THÊM ĐỘNG LỰC CHO SINH VIÊN CÓ HOÀN CẢNH KHÓ KHĂN Trong chương trình Chào...",
   source: "Khoa Quản Trị Kinh Tế Quốc Tế LHU",
   sourceType: "Facebook",
@@ -31649,7 +31613,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2157,
+  id: 2155,
   title: "Ngày 12/10/2026 là ngày đăng ký cuối cùng để HDBank (HDB) chốt danh sách cổ đông nhận cổ tức năm...",
   source: "Đan Linh - Admin Cổ Phiếu Dẫn Sóng",
   sourceType: "Facebook",
@@ -31667,7 +31631,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2158,
+  id: 2156,
   title: "Đầu tháng mới Khách canvay 💸 nhắn em nha ☎️0333.248.985 Diễm HDSAISON",
   source: "Diễm Lê",
   sourceType: "Facebook Group",
@@ -31685,7 +31649,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2159,
+  id: 2157,
   title: "HDB chốt phương thức tăng vốn (30%) và thông báo ngày đăng ký cuối cùng là 12/10/2026--> Đà tăng...",
   source: "Làm Giàu Từ Chứng Khoán- How to Make Money In Stock -William O'Neil",
   sourceType: "Facebook",
@@ -31703,7 +31667,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2160,
+  id: 2158,
   title: "Chứng khoán ngày 1/10: VN-Index giảm sâu, cổ phiếu bất động sản và ngân hàng chịu áp lực bán",
   source: "Báo Nhân Dân",
   sourceType: "Báo chí",
@@ -31716,7 +31680,7 @@ const HDBANK_FEED = [
   excerpt: "Phiên này, các mã đóng góp tích cực cho chỉ số VN-Index tăng 3,01 điểm gồm: TCB, MSN, <mark>HDB</mark>, PLX, VBB, HAG, HVN, SAB, LPS, NVL. Nhóm cổ phiếu chứng khoán phiên này nghiêng về sắc đỏ có mức giảm 0,84%, chủ yếu từ các TCX, VCK, VPX, VIX, HCM, VND, DSE, FTS, BSI, CTS, TVS, AGR, VDS, BMS… Chiều ngược lại, các mã tăng gồm SSI, VCI, SHS, ORS, DSC, BVS… Nhóm cổ..."
  },
  {
-  id: 2161,
+  id: 2159,
   title: "Báo cáo phân tích nhanh xu hướng dòng tiền các nhóm ngành và danh sách cổ phiếu dẫn dắt cập nhật...",
   source: "Gom Tin News",
   sourceType: "Facebook Group",
@@ -31734,7 +31698,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2162,
+  id: 2160,
   title: "Mưa đã có ô ☀️ Nắng đã có dù 💰 Còn tiền nhàn rỗi… đã có Vikki! 😎 Mưa nắng cuộc đời cứ để thời...",
   source: "Duy Đạt Vikki",
   sourceType: "Facebook",
@@ -31752,7 +31716,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2163,
+  id: 2161,
   title: "Blog chứng khoán: Dòng tiền đủng đỉnh đợi",
   source: "VnEconomy",
   sourceType: "Báo chí",
@@ -31765,7 +31729,7 @@ const HDBANK_FEED = [
   excerpt: "Ví dụ hôm nay cũng hơn chục cổ phiếu tăng giá tốt và có dòng tiền khá, thậm chí giao dịch trên trăm tỷ đồng thanh khoản như TCB, MSN, <mark>HDB</mark>, PLX, NVL, HAG nhưng ngay cả mức thanh khoản này đứng cạnh tổng thanh khoản thì cũng chỉ là số ít."
  },
  {
-  id: 2164,
+  id: 2162,
   title: "Một ngày đồng hành cùng bà con tại Dự án Khu công nghiệp Vĩnh Thạnh. Khi khoản tiền bồi thường...",
   source: "Huyền Trân",
   sourceType: "Facebook",
@@ -31783,7 +31747,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2165,
+  id: 2163,
   title: "HDB - Siêu cổ phiếu sẽ dẫn dắt dòng Bank Múc giá 26-27 có cháo ăn",
   source: "Chứng khoán F88",
   sourceType: "Facebook Group",
@@ -31801,7 +31765,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2166,
+  id: 2164,
   title: "Chúc mừng Ngân hàng số Vikki chi nhánh Cà Mau, chính thức đi vào hoạt động 👏👏 🌈🌈 mở rộng...",
   source: "Hongnhungbcm Dao",
   sourceType: "Facebook",
@@ -31819,7 +31783,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2167,
+  id: 2165,
   title: "GỬI TIỀN AN TÂM – TRI ÂN XỨNG TẦM 🌸 💝 Chào mừng Ngày Phụ nữ Việt Nam 20/10 Tháng 10 này,...",
   source: "Anh Salmon",
   sourceType: "Facebook",
@@ -31837,7 +31801,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2168,
+  id: 2166,
   title: "CHÀO THÁNG 10 – BẬT NĂNG LƯỢNG, ĐÓN ĐIỀU RỰC RỠ! ✨ Tháng 10 gõ cửa, mang theo những ngày thu dịu...",
   source: "Tran Hong Hanh",
   sourceType: "Facebook",
@@ -31855,7 +31819,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2169,
+  id: 2167,
   title: "Chủ tiệm cà phê muốn săn ngay máy pha công nghệ mới để những ly espresso chuẩn vị? Hay chủ shop...",
   source: "HD SAISON (Threads)",
   sourceType: "Threads",
@@ -31873,7 +31837,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2170,
+  id: 2168,
   title: "Vikki Cà Mau – một hành trình mới chính thức bắt đầu! Ngày 30/9, Chi nhánh Vikki Bank Cà Mau...",
   source: "Trang Thien",
   sourceType: "Facebook",
@@ -31891,7 +31855,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2171,
+  id: 2169,
   title: "HDBank chốt chia cổ tức và cổ phiếu thưởng tỷ lệ 30% Ngân hàng TMCP Phát triển TP.HCM (HDBank,...",
   source: "Trụ Chứng Khoán",
   sourceType: "Facebook",
@@ -31909,7 +31873,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2172,
+  id: 2170,
   title: "NGÀY MỚI HỨNG KHỞI CÙNG VIKKI 💜 Từ ly Vikkafe buổi sáng, những kế hoạch chi tiêu tương lai đến...",
   source: "Ngân hàng Số Vikki",
   sourceType: "Facebook Fanpage",
@@ -31927,7 +31891,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2173,
+  id: 2171,
   title: "TIN NHANH CHỨNG KHOÁN 01/10/2026 ➡️ DOANH NGHIỆP 𝗣𝗩𝗦/𝗦𝗛𝗦 và nhóm cổ phiếu niêm yết HNX:...",
   source: "Bàn Tròn Đầu Tư",
   sourceType: "Facebook",
@@ -31945,7 +31909,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2174,
+  id: 2172,
   title: "HELLO OCTOBER – CHÀO THÁNG MỚI, ĐÓN NĂNG LƯỢNG MỚI! 🍂 Tháng 10 đến rồi! Chúc anh chị em Banker...",
   source: "Bùi Thị Kim Loan",
   sourceType: "Facebook",
@@ -31963,7 +31927,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2175,
+  id: 2173,
   title: "Khách ơi đến với em điiii e hứa là không cười khách nữa đâu ạ ... Vikki bank Thái Nguyênnnnn...",
   source: "@duy.tute",
   sourceType: "Threads",
@@ -31981,7 +31945,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2176,
+  id: 2174,
   title: "THÁNG 10 GÕ CỬA – CÙNG VIKKI ĐÓN QUÝ CUỐI NĂM ✨ Tháng 10 đến, mang theo những ngày cuối cùng của...",
   source: "Thu Vân Nguyễn",
   sourceType: "Facebook",
@@ -31999,7 +31963,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2177,
+  id: 2175,
   title: "Điểm hẹn Ngân hàng Số, điểm hẹn những kết nối và cảm hứng. Mỗi lần ghé Vikki không chỉ để giao...",
   source: "Anh Thơ",
   sourceType: "Facebook",
@@ -32017,7 +31981,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2178,
+  id: 2176,
   title: "Mỗi buổi học là một lần nạp thêm năng lượng! Không chỉ có kiến thức mới, những buổi đào tạo tại...",
   source: "Đỗ Tấn Đạt",
   sourceType: "Facebook",
@@ -32035,7 +31999,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2179,
+  id: 2177,
   title: "Công ty chứng khoán dự báo tăng trưởng tín dụng tại HDBank vượt trung bình ngành! 👇👇👇",
   source: "VnFinance.vn",
   sourceType: "Facebook",
@@ -32053,7 +32017,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2180,
+  id: 2178,
   title: "THÁNG CỦA NÀNG – TIỀN NHÀN SINH LỜI CÙNG VIKKI DIGITAL BANK! 🌸 Tháng 10 này, gửi trọn yêu...",
   source: "Coi Voi",
   sourceType: "Facebook",
@@ -32071,7 +32035,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2181,
+  id: 2179,
   title: "Ba Huân bị ngân hàng siết tài sản, ông Lê Thái Sâm trở lại hãng bay đang chỉ có 1 chiếc máy bay,...",
   source: "Võ Thuận",
   sourceType: "Facebook",
@@ -32089,7 +32053,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2182,
+  id: 2180,
   title: "KHÔNG CHỈ LÀ NƠI GIAO DỊCH TÀI CHÍNH, MÀ CÒN LÀ MỘT ĐIỂM HẸN HẠNH PHÚC ✨ Tại Vikki Digital Bank,...",
   source: "Tran Toan",
   sourceType: "Facebook",
@@ -32107,7 +32071,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2183,
+  id: 2181,
   title: "Áp lực bán tăng mạnh, VN-Index thủng ngưỡng 1750 điểm",
   source: "VnEconomy",
   sourceType: "Báo chí",
@@ -32120,7 +32084,7 @@ const HDBANK_FEED = [
   excerpt: "MSN, <mark>HDB</mark>, PLX, NVL, HAG, VTP, DCL vẫn là các cổ phiếu xuất hiện từ sáng. Khối này mua tốt SBT với +170,7 tỷ đồng, VHM +61,3 tỷ, <mark>HDB</mark> +61 tỷ, PLX +51,2 tỷ, MSN +50,6 tỷ."
  },
  {
-  id: 2184,
+  id: 2182,
   title: "THÁNG 10 GÕ CỬA – BẠN ĐÃ DÀNH GÌ CHO CHÍNH MÌNH? 💕 💄 Một món quà mình yêu thích? 🍰 Một bữa ăn...",
   source: "Nguyễn Linh",
   sourceType: "Facebook",
@@ -32138,7 +32102,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2185,
+  id: 2183,
   title: "Đầu tháng vô vàn ưu đã từ HD SAISON. ​Giải Pháp Tài Chính Bứt Phá: Vay HD SAISON Lãi Suất Ưu Đãi...",
   source: "Đào Hiếu",
   sourceType: "Facebook",
@@ -32156,7 +32120,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2186,
+  id: 2184,
   title: "KHÔNG CHỈ LÀ NƠI GIAO DỊCH, MÀ CÒN LÀ ĐIỂM HẸN CỦA NHỮNG KẾT NỐI ✨ Đến với Vikki Digital Bank...",
   source: "Nguyễn Đức Thắng",
   sourceType: "Facebook",
@@ -32174,7 +32138,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2187,
+  id: 2185,
   title: "Nhìn thế mà không phải thế🤭 🌼Còn có nhiều điều khác, cái ta nhìn thấy chưa chắc đã là sự thật...",
   source: "Ngọc Xanh",
   sourceType: "Facebook",
@@ -32192,7 +32156,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2188,
+  id: 2186,
   title: "GỬI TIẾT KIỆM 20/10 – TRI ÂN PHỤ NỮ VIỆT NAM Nhân dịp 20/10, HDBank gửi tặng những món quà thiết...",
   source: "Tâm Tố",
   sourceType: "Facebook",
@@ -32210,7 +32174,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2189,
+  id: 2187,
   title: "Vikki Bank mang tiện ích số đến gần hơn với giảng đường đại học - Cùng Vikki Bank khám phá những...",
   source: "Nguyễn Thư",
   sourceType: "Facebook",
@@ -32228,7 +32192,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2190,
+  id: 2188,
   title: "Ngân hàng số Vikki xây dựng một không gian trải nghiệm thân thiện, nơi khách hàng có thể vừa...",
   source: "Duong Luu",
   sourceType: "Facebook",
@@ -32246,7 +32210,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2191,
+  id: 2189,
   title: "TP.HCM: Từ trung tâm kinh tế đến bệ phóng doanh nghiệp Việt vươn ra toàn cầu",
   source: "Báo Xây dựng",
   sourceType: "Báo chí",
@@ -32259,7 +32223,7 @@ const HDBANK_FEED = [
   excerpt: "Từ nền tảng <mark>HDBank</mark>, Vietjet Air và bất động sản với thương hiệu Phú Long, tập đoàn mở rộng sang năng lượng, quản lý tài sản và đầu tư, qua đó kết nối doanh nghiệp Việt Nam với các dòng vốn, thị trường và đối tác quốc tế."
  },
  {
-  id: 2192,
+  id: 2190,
   title: "HÀ NỘI ƠI, HẸN NHAU SAU 2 NGÀY NỮA NHÉ! 💙 Chỉ còn 2 ngày nữa, Ngày hội Gia đình 2026 sẽ chính...",
   source: "HDBank Priority",
   sourceType: "Facebook Fanpage",
@@ -32277,7 +32241,7 @@ const HDBANK_FEED = [
   }
  },
  {
-  id: 2193,
+  id: 2191,
   title: "Giả danh giáo xứ, lừa hàng nghìn người góp tiền xây nhà thờ rồi chiếm đoạt",
   source: "VietNamNet",
   sourceType: "Báo chí",
@@ -32290,7 +32254,7 @@ const HDBANK_FEED = [
   excerpt: "Để phục vụ công tác điều tra, xử lý vụ án và bảo đảm quyền, lợi ích hợp pháp của những người bị hại, cơ quan công an đề nghị các cá nhân, tổ chức từng chuyển tiền ủng hộ vào tài khoản 0110699914 (<mark>Vikki Bank</mark>), chủ tài khoản Tran Thanh Truc; tài khoản 1802281018635 (Agribank), chủ tài khoản Dang Van Dau; hoặc từng giao dịch, liên hệ qua số điện thoại..."
  },
  {
-  id: 2194,
+  id: 2192,
   title: "Lãi suất ngân hàng hôm nay 1/10/2026: Ai được hưởng lãi suất 10%/năm?",
   source: "VietNamNet",
   sourceType: "Báo chí",
