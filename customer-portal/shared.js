@@ -118,6 +118,9 @@ if (typeof HDBANK_FEED !== 'undefined') {
   hd.totalMentions = hd.monthMentions = HDBANK_FEED.length;
 }
 
+// Ẩn TikTok: loại toàn bộ tin TikTok khỏi feed (số liệu, chart, danh sách)
+for (let i = FEED.length - 1; i >= 0; i--) if (FEED[i].sourceType === 'TikTok') FEED.splice(i, 1);
+
 // ============ Helpers ============
 function getSourceTypeIcon(type) {
   const s = 'width:16px;height:16px;vertical-align:middle;flex-shrink:0;';

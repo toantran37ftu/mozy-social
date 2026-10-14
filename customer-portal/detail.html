@@ -205,10 +205,9 @@
       const socialTotal = socialFeed.length;
       const fbCount = socialFeed.filter(f => f.sourceType === 'Facebook' || f.sourceType === 'Facebook Fanpage' || f.sourceType === 'Facebook Group').length;
       const threadsCount = socialFeed.filter(f => f.sourceType === 'Threads').length;
-      const ttCount = socialFeed.filter(f => f.sourceType === 'TikTok').length;
       const ytCount = socialFeed.filter(f => f.sourceType === 'YouTube').length;
       const zaloCount = socialFeed.filter(f => f.sourceType === 'Zalo').length;
-      const socialMax = Math.max(fbCount, threadsCount, ttCount, ytCount, zaloCount, 1);
+      const socialMax = Math.max(fbCount, threadsCount, ytCount, zaloCount, 1);
 
       const mentionPress = pressCount;
       const mentionPost = Math.round(socialTotal * 0.75);
@@ -250,7 +249,7 @@
                 <button class="seg-btn ${state.channelTab === 'press' ? 'active' : ''}" onclick="setChannel('press')">Báo chí</button>
                 <button class="seg-btn ${state.channelTab === 'social' ? 'active' : ''}" onclick="setChannel('social')">Mạng xã hội</button>
                 <div style="display:flex;gap:6px;margin-left:8px;${state.channelTab === 'social' ? '' : 'display:none !important;'}">
-                  ${['all', 'Facebook', 'Threads', 'TikTok', 'YouTube', 'Zalo'].map(s => `<span class="sub-chip ${state.socialSub === s ? 'active' : ''}" onclick="setSubFilter('${s}')">${s === 'all' ? 'Tất cả' : s}</span>`).join('')}
+                  ${['all', 'Facebook', 'Threads', 'YouTube', 'Zalo'].map(s => `<span class="sub-chip ${state.socialSub === s ? 'active' : ''}" onclick="setSubFilter('${s}')">${s === 'all' ? 'Tất cả' : s}</span>`).join('')}
                 </div>
               </div>
               <div style="display:flex;align-items:center;gap:0;">
@@ -291,9 +290,9 @@
               <div class="breakdown-card">
                 <h3>&#127760; Bài trên Mạng xã hội</h3>
                 <div style="font-size:32px;font-weight:700;color:var(--gray-900);margin-bottom:12px;">${formatNumber(socialTotal)}</div>
-                ${['Facebook', 'Threads', 'TikTok', 'YouTube', 'Zalo'].map((ch, i) => {
-                  const count = [fbCount, threadsCount, ttCount, ytCount, zaloCount][i];
-                  const colors = ['#3B82F6', '#000', '#000', '#EF4444', '#2563EB'];
+                ${['Facebook', 'Threads', 'YouTube', 'Zalo'].map((ch, i) => {
+                  const count = [fbCount, threadsCount, ytCount, zaloCount][i];
+                  const colors = ['#3B82F6', '#000', '#EF4444', '#2563EB'];
                   return `<div class="breakdown-bar"><span class="bar-name">${ch}</span><div class="bar-track"><div class="bar-fill" style="width:${Math.round(count / socialMax * 100)}%;background:${colors[i]};"></div></div><span class="bar-val">${count}</span></div>`;
                 }).join('')}
               </div>
